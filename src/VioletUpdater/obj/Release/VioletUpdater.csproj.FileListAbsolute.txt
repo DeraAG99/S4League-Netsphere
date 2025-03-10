@@ -1,0 +1,6 @@
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\bin\Release\SelfUpdate.exe.config
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\bin\Release\SelfUpdate.exe
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\bin\Release\SelfUpdate.pdb
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\VioletUpdater.csprojAssemblyReference.cache
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\SelfUpdate.exe
+C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\SelfUpdate.pdb
