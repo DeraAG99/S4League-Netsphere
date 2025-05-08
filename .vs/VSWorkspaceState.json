@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Violet.Network",
+    "\\src\\Violet.Network\\Message",
+    "\\src\\Violet.Network\\Message\\Club"
+  ],
+  "SelectedNode": "\\src\\Violet.Network\\Message\\Club\\ClubMessageFactory.cs",
+  "PreviewInSolutionExplorer": false
+}

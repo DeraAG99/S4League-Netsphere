@@ -4,3 +4,10 @@ C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\bin\Release\SelfUpdate.pdb
 C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\VioletUpdater.csprojAssemblyReference.cache
 C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\SelfUpdate.exe
 C:\Users\Kora\Desktop\s4emu\src\VioletUpdater\obj\Release\SelfUpdate.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\bin\Release\SelfUpdate.exe.config
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\bin\Release\SelfUpdate.exe
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\bin\Release\SelfUpdate.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Release\VioletUpdater.csproj.AssemblyReference.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Release\VioletUpdater.csproj.CoreCompileInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Release\SelfUpdate.exe
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Release\SelfUpdate.pdb

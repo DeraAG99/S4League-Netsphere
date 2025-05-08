@@ -230,3 +230,32 @@ C:\Users\Kora\Desktop\s4emu\src\AuthServer\obj\Latest_Release\netcoreapp2.0\Auth
 C:\Users\Kora\Desktop\s4emu\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.CopyComplete
 C:\Users\Kora\Desktop\s4emu\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.dll
 C:\Users\Kora\Desktop\s4emu\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\miniLzo_x64.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\miniLzo_x86.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\liblzo.so
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.deps.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.runtimeconfig.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.ServiceModel.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\ProudNetSrc.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.Database.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.Network.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\SharpLzo.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\AuthServer.ServiceModel.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.Database.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.Network.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\Violet.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\bin\Latest_Release\netcoreapp2.0\ProudNetSrc.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.AssemblyReference.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.sourcelink.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.Up2Date
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.genruntimeconfig.cache

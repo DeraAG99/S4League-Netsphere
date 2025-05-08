@@ -315,7 +315,7 @@ namespace NeoNetsphere.Network.Services
             });
         }
 
-        public static async Task<bool> IsNickAvailableAsync(string nickname)
+    public static async Task<bool> IsNickAvailableAsync(string nickname)
     {
       var minLength = Config.Instance.Game.NickRestrictions.MinLength;
       var maxLength = Config.Instance.Game.NickRestrictions.MaxLength;

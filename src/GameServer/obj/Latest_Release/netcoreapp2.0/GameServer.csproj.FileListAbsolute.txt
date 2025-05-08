@@ -75,3 +75,11 @@ C:\Users\Kora\Desktop\last try\src\GameServer\obj\Latest_Release\netcoreapp2.0\G
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.csproj.CopyComplete
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.dll
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.csproj.AssemblyReference.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.AssemblyInfoInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.AssemblyInfo.cs
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.csproj.CoreCompileInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.sourcelink.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\Latest_Release\netcoreapp2.0\GameServer.pdb

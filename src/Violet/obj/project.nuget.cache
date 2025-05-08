@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uSH2Ko5y6DI=",
+  "success": true,
+  "projectFilePath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apl20\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\apl20\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

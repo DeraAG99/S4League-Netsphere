@@ -1225,14 +1225,13 @@
           "BlubLib.Serialization": "5.0.0",
           "ProudNetSrc": "1.0.0",
           "System.Numerics.Vectors": "4.5.0",
-          "Violet": "1.0.0",
-          "SharpLzo": "1.0.0.0"
+          "Violet": "1.0.0"
         },
         "runtime": {
           "Violet.Network.dll": {}
         }
       },
-      "SharpLzo.Reference/1.0.0.0": {
+      "SharpLzo/1.0.0.0": {
         "runtime": {
           "SharpLzo.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -2064,7 +2063,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SharpLzo.Reference/1.0.0.0": {
+    "SharpLzo/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

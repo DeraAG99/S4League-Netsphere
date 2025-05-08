@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\violet.network\\message\\club\\clubmessagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|solutionrelative:src\\violet.network\\message\\club\\clubmessagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\violet.network\\message\\club\\s2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|solutionrelative:src\\violet.network\\message\\club\\s2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\violet.network\\message\\game\\gamemessagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|solutionrelative:src\\violet.network\\message\\game\\gamemessagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\network\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\network\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\playeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\playeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\network\\gameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\network\\gameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\network\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\network\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\violet.network\\message\\game\\s2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF5CCD-1DAA-4F77-A6A6-4EA2135D1624}|src\\Violet.Network\\Violet.Network.csproj|solutionrelative:src\\violet.network\\message\\game\\s2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|d:\\dera\\project\\season 10 server(eu 1332)\\s4league-emu-1332-master\\src\\gameserver\\network\\services\\generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F3C5C-8596-4B4E-BC8B-965F3175CAD2}|src\\GameServer\\GameServer.csproj|solutionrelative:src\\gameserver\\network\\services\\generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S2C.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Club\\S2C.cs",
+              "RelativeDocumentMoniker": "src\\Violet.Network\\Message\\Club\\S2C.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Club\\S2C.cs",
+              "RelativeToolTip": "src\\Violet.Network\\Message\\Club\\S2C.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAIwKcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:22:44.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\Network\\Services\\ClubService.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\ClubService.cs",
+              "RelativeToolTip": "src\\GameServer\\Network\\Services\\ClubService.cs",
+              "ViewState": "AQIAAAoCAAAAAAAAAAAMwBsCAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:19:50.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClubMessageFactory.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Club\\ClubMessageFactory.cs",
+              "RelativeDocumentMoniker": "src\\Violet.Network\\Message\\Club\\ClubMessageFactory.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Club\\ClubMessageFactory.cs",
+              "RelativeToolTip": "src\\Violet.Network\\Message\\Club\\ClubMessageFactory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAApwCIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:58:22.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameServer.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\GameServer.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\Network\\GameServer.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\GameServer.cs",
+              "RelativeToolTip": "src\\GameServer\\Network\\GameServer.cs",
+              "ViewState": "AQIAAMEBAAAAAAAAAAAowLgBAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:31:46.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterManager.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\CharacterManager.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\CharacterManager.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\CharacterManager.cs",
+              "RelativeToolTip": "src\\GameServer\\CharacterManager.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAcwEQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:30:20.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerItem.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\PlayerItem.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\PlayerItem.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\PlayerItem.cs",
+              "RelativeToolTip": "src\\GameServer\\PlayerItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:18:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\Network\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\GameServer\\Network\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwMsBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:53:43.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "S2C.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Game\\S2C.cs",
+              "RelativeDocumentMoniker": "src\\Violet.Network\\Message\\Game\\S2C.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Game\\S2C.cs",
+              "RelativeToolTip": "src\\Violet.Network\\Message\\Game\\S2C.cs",
+              "ViewState": "AQIAAFEEAAAAAAAAAAApwFYEAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:10:26.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameMessageFactory.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Game\\GameMessageFactory.cs",
+              "RelativeDocumentMoniker": "src\\Violet.Network\\Message\\Game\\GameMessageFactory.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Message\\Game\\GameMessageFactory.cs",
+              "RelativeToolTip": "src\\Violet.Network\\Message\\Game\\GameMessageFactory.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAMwFoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:59:03.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GeneralService.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\GeneralService.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\Network\\Services\\GeneralService.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Network\\Services\\GeneralService.cs",
+              "RelativeToolTip": "src\\GameServer\\Network\\Services\\GeneralService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwEIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:39:03.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Inventory.cs",
+              "RelativeDocumentMoniker": "src\\GameServer\\Inventory.cs",
+              "ToolTip": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\Inventory.cs",
+              "RelativeToolTip": "src\\GameServer\\Inventory.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAAA1wPoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:30:45.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -135,7 +135,7 @@ namespace NeoNetsphere
 
         case ItemPeriodType.Days:
           {
-            var left = PurchaseDate.AddDays(DaysLeft) - DateTime.Now;
+            var left = PurchaseDate.AddDays(DaysLeft) - DateTimeOffset.UtcNow;
             if (left.Seconds > 0)
               return (long)left.TotalSeconds;
           }

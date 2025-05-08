@@ -1,24 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kora\\Desktop\\s4emu\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {}
+    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kora\\Desktop\\s4emu\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
+    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
+        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
         "projectName": "AuthServer.ServiceModel",
-        "projectPath": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
-        "packagesPath": "C:\\Users\\Kora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\AuthServer.ServiceModel\\obj\\",
+        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
+        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
+        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kora\\Desktop\\s4emu\\NuGet.Config",
-          "C:\\Users\\Kora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
+          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +23,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Kora\\Desktop\\s4emu\\LocalPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
-                "projectPath": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\ProudNetSrc.csproj"
+              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj"
               }
             }
           }
@@ -42,10 +41,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "BlubLib.DotNetty.SimpleRmi": {
               "target": "Package",
@@ -68,29 +73,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\ProudNetSrc.csproj",
+        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj",
         "projectName": "ProudNetSrc",
-        "projectPath": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\ProudNetSrc.csproj",
-        "packagesPath": "C:\\Users\\Kora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kora\\Desktop\\s4emu\\src\\ProudNetSrc\\obj\\",
+        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj",
+        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
+        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kora\\Desktop\\s4emu\\NuGet.Config",
-          "C:\\Users\\Kora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
+          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,11 +101,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Kora\\Desktop\\s4emu\\LocalPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -110,10 +115,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "BlubLib": {
               "target": "Package",
@@ -164,11 +175,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

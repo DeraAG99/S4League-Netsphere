@@ -158,7 +158,9 @@ namespace NeoNetsphere.Network.Message.Club
     [BlubMember(1, typeof(ArrayWithIntPrefixSerializer))]
     public ulong Unk2 { get; set; }
 
-
+    public ClubAdminGradeChangeAckMessage()
+    {
+    }
 
     public ClubAdminGradeChangeAckMessage(int unk1, ulong unk2)
     {
