@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -8,6 +10,7 @@ using ExpressMapper.Extensions;
 using NeoNetsphere.Network.Data.Game;
 using NeoNetsphere.Network.Message.Game;
 using NeoNetsphere.Resource;
+using NeoNetsphere.Shop;
 using ProudNetSrc.Handlers;
 using Serilog;
 using Serilog.Core;
@@ -236,7 +239,7 @@ namespace NeoNetsphere.Network.Services
                                PeriodType = reward.PeriodType,
                                Period = reward.Period,
                                PEN = reward.PEN,
-                               Effect = reward.Effects.FirstOrDefault(),
+                               Effect = reward.Effects.Select(effect => new ItemEffectDto { Effect = effect }).ToArray(),
                                Color = (byte)reward.Color
                            }).ToArray();
 
@@ -245,17 +248,25 @@ namespace NeoNetsphere.Network.Services
                 if (it.RewardType == CapsuleRewardType.PEN)
                 {
                     plr.PEN += it.PEN;
+                    continue;
                 }
                 else
                 {
-                    
+
+                    var effects = it.Effect != null
+        ? it.Effect.Select(e => new EffectNumber(e)).ToArray()
+        : Array.Empty<EffectNumber>();
                     if (it.PeriodType == ItemPeriodType.Units)
                     {
-                        session.Player.Inventory.Create(it.ItemNumber, 3, it.Color, new EffectNumber[] { it.Effect }, it.Period);
+                        session.Player.Inventory.Create(it.ItemNumber, 3, it.Color, it.Effect, it.Period);
+                    }
+                    else if(it.PeriodType == ItemPeriodType.Days)
+                    {
+                        session.Player.Inventory.Create(it, it.Effect?.Select(e => new EffectNumber(e)).ToArray() ?? Array.Empty<EffectNumber>());
                     }
                     else
                     {
-                        session.Player.Inventory.Create(it.ItemNumber, 1, it.Color, new EffectNumber[] { it.Effect }, it.Period);
+                        session.Player.Inventory.Create(it.ItemNumber, 1, it.Color, it.Effect?.Select(e => new EffectNumber(e)).ToArray() ?? Array.Empty<EffectNumber>(), it.Period);
                     }
                 }
             }

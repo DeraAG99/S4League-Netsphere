@@ -35,7 +35,7 @@ namespace NeoNetsphere.Network.Data.Game
 
     [BlubMember(6)] public byte Color { get; set; }
 
-    [BlubMember(7)] public uint Effect { get; set; }
+    [BlubMember(7)] public ItemEffectDto[] Effect { get; set; }
 
     [BlubMember(8)] public byte Unk2 { get; set; }
   }

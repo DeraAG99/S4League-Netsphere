@@ -75,3 +75,32 @@ C:\Users\Kora\Desktop\last try\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.CopyComplete
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.dll
 C:\Users\Kora\Desktop\last try\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\miniLzo_x64.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\miniLzo_x86.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\liblzo.so
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.deps.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.runtimeconfig.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.runtimeconfig.dev.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\AuthServer.ServiceModel.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\ProudNetSrc.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\SharpLzo.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Database.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Network.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\AuthServer.ServiceModel.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Database.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Network.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\ProudNetSrc.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.AssemblyReference.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.AssemblyInfoInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.AssemblyInfo.cs
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.CoreCompileInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.sourcelink.json
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.Up2Date
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.dll
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.genruntimeconfig.cache

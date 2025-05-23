@@ -1,0 +1,6 @@
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.AssemblyReference.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\Backup\src\AuthServer\obj\Latest_Release\netcoreapp2.0\AuthServer.sourcelink.json

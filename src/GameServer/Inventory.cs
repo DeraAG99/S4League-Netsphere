@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using BlubLib.Collections.Concurrent;
@@ -127,9 +128,25 @@ namespace NeoNetsphere
       var priceType = shopItemInfo.PriceGroup.PriceType;
       var periodType = shopItemInfo.PriceGroup.Prices.FirstOrDefault().PeriodType;
       var periodNr = shopItemInfo.PriceGroup.Prices.FirstOrDefault().Period;
-      return Create(itemNumber, priceType, periodType, periodNr, color, itemEffects.ToArray(), count);
+      return Create(itemNumber, priceType, periodType, periodNr, color, effects, count);
     }
-
+    /// <summary>
+    ///     Creates a new item
+    /// </summary>
+    /// <exception cref="ArgumentException"></exception>
+    public PlayerItem Create(CapsuleRewardDto rewardDto, EffectNumber[] effects)
+    {
+       if (rewardDto.RewardType == CapsuleRewardType.PEN)
+       {
+           // Return null karena PEN bukan item
+           return null;
+       }
+      var shop = GameServer.Instance.ResourceCache.GetShop();
+      var shopItemInfo = shop.GetItemInfo(rewardDto.ItemNumber, rewardDto.PriceType);
+      ushort period = rewardDto.Period > ushort.MaxValue ? ushort.MaxValue : (ushort)rewardDto.Period;
+      var price = shopItemInfo.PriceGroup.GetPrice(rewardDto.PeriodType, period);
+      return Create(rewardDto.ItemNumber, rewardDto.PriceType, rewardDto.PeriodType, period, rewardDto.Color, effects, 0);
+    }
     /// <summary>
     ///     Creates a new item
     /// </summary>
