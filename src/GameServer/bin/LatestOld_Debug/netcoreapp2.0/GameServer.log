@@ -720,3 +720,111 @@
    at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 812
    at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 759
    at NeoNetsphere.Program.Main() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 164
+2025-05-24 15:39:33.910 +07:00 [INF] ============================================
+2025-05-24 15:39:33.939 +07:00 [INF] Initializing GameServer build
+2025-05-24 15:39:33.940 +07:00 [INF] New IDS
+2025-05-24 15:39:33.941 +07:00 [INF] Latest S4
+2025-05-24 15:39:33.942 +07:00 [INF] ============================================
+2025-05-24 15:39:33.943 +07:00 [INF] Initializing Database
+2025-05-24 15:39:33.950 +07:00 [INF] Initializing...
+2025-05-24 15:39:34.347 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user ''@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 812
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 759
+   at NeoNetsphere.Program.Main() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 164
+2025-05-24 15:40:09.456 +07:00 [INF] ============================================
+2025-05-24 15:40:09.486 +07:00 [INF] Initializing GameServer build
+2025-05-24 15:40:09.486 +07:00 [INF] New IDS
+2025-05-24 15:40:09.487 +07:00 [INF] Latest S4
+2025-05-24 15:40:09.488 +07:00 [INF] ============================================
+2025-05-24 15:40:09.488 +07:00 [INF] Initializing Database
+2025-05-24 15:40:09.495 +07:00 [INF] Initializing...
+2025-05-24 15:40:10.020 +07:00 [INF] Initializing...
+2025-05-24 15:40:10.024 +07:00 [INF] Starting Server
+2025-05-24 15:40:10.025 +07:00 [INF] ____________________________________________
+2025-05-24 15:40:10.026 +07:00 [INF] ____________________________________________
+2025-05-24 15:40:10.027 +07:00 [INF] ============================================
+2025-05-24 15:40:10.028 +07:00 [INF] Starting Serverinstances and ResourceCache..
+2025-05-24 15:40:10.494 +07:00 [INF] Caching: Channels
+2025-05-24 15:40:10.495 +07:00 [INF] Caching...
+2025-05-24 15:40:10.517 +07:00 [INF] Caching: Clubs
+2025-05-24 15:40:10.518 +07:00 [INF] Caching...
+2025-05-24 15:40:10.615 +07:00 [INF] Starting - tcp=127.0.0.1:28004 udp=null udp-port=null
+2025-05-24 15:40:10.733 +07:00 [ERR] Unable to start server - tcp=127.0.0.1:28004 udp=null udp-port=null
+System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)
+   at BlubLib.Threading.Tasks.TaskExtensions.WaitEx[TResult](Task`1 this)
+   at ProudNetSrc.ProudServer.Listen(IPEndPoint tcpListener, IPAddress udpAddress, Int32[] udpListenerPorts) in D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\ProudServer.cs:line 111
+2025-05-24 15:40:15.810 +07:00 [ERR] System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)
+   at BlubLib.Threading.Tasks.TaskExtensions.WaitEx[TResult](Task`1 this)
+   at ProudNetSrc.ProudServer.Listen(IPEndPoint tcpListener, IPAddress udpAddress, Int32[] udpListenerPorts) in D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\ProudServer.cs:line 111
+--- End of stack trace from previous location where exception was thrown ---
+   at BlubLib.ExceptionExtensions.Rethrow(Exception this)
+   at ProudNetSrc.ProudServer.Listen(IPEndPoint tcpListener, IPAddress udpAddress, Int32[] udpListenerPorts) in D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\ProudServer.cs:line 156
+   at NeoNetsphere.Program.Main() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 195
+2025-05-24 15:40:25.484 +07:00 [INF] ============================================
+2025-05-24 15:40:25.514 +07:00 [INF] Initializing GameServer build
+2025-05-24 15:40:25.516 +07:00 [INF] New IDS
+2025-05-24 15:40:25.516 +07:00 [INF] Latest S4
+2025-05-24 15:40:25.517 +07:00 [INF] ============================================
+2025-05-24 15:40:25.518 +07:00 [INF] Initializing Database
+2025-05-24 15:40:25.525 +07:00 [INF] Initializing...
+2025-05-24 15:40:26.043 +07:00 [INF] Initializing...
+2025-05-24 15:40:26.047 +07:00 [INF] Starting Server
+2025-05-24 15:40:26.048 +07:00 [INF] ____________________________________________
+2025-05-24 15:40:26.048 +07:00 [INF] ____________________________________________
+2025-05-24 15:40:26.049 +07:00 [INF] ============================================
+2025-05-24 15:40:26.050 +07:00 [INF] Starting Serverinstances and ResourceCache..
+2025-05-24 15:40:26.514 +07:00 [INF] Caching: Channels
+2025-05-24 15:40:26.515 +07:00 [INF] Caching...
+2025-05-24 15:40:26.536 +07:00 [INF] Caching: Clubs
+2025-05-24 15:40:26.537 +07:00 [INF] Caching...
+2025-05-24 15:40:26.634 +07:00 [INF] Starting - tcp=127.0.0.1:28004 udp=null udp-port=null
+2025-05-24 15:40:26.754 +07:00 [INF] Starting - tcp=127.0.0.1:28005 udp=127.0.0.1 udp-port=null
+2025-05-24 15:40:26.755 +07:00 [INF] Starting - tcp=127.0.0.1:28003 udp=null udp-port=null
+2025-05-24 15:40:26.758 +07:00 [INF] Caching: Effects
+2025-05-24 15:40:26.759 +07:00 [INF] Caching...
+2025-05-24 15:40:26.809 +07:00 [INF] Caching: Items
+2025-05-24 15:40:26.811 +07:00 [INF] Caching...
+2025-05-24 15:40:27.108 +07:00 [INF] Caching: DefaultItems
+2025-05-24 15:40:27.110 +07:00 [INF] Caching...
+2025-05-24 15:40:27.124 +07:00 [INF] Caching: Shop
+2025-05-24 15:40:27.125 +07:00 [INF] Caching...
+2025-05-24 15:40:27.297 +07:00 [INF] Caching: Experience
+2025-05-24 15:40:27.298 +07:00 [INF] Caching...
+2025-05-24 15:40:27.308 +07:00 [INF] Caching: Maps
+2025-05-24 15:40:27.310 +07:00 [INF] Caching...
+2025-05-24 15:40:27.331 +07:00 [INF] Caching: GameTempos
+2025-05-24 15:40:27.332 +07:00 [INF] Caching...
+2025-05-24 15:40:27.372 +07:00 [INF] Caching: Capsules
+2025-05-24 15:40:27.374 +07:00 [INF] Caching...
+2025-05-24 15:40:27.507 +07:00 [INF] Starting Web Api
+2025-05-24 15:40:27.509 +07:00 [INF] Serverinstances successfully started, ready for connections!
+2025-05-24 15:40:27.510 +07:00 [INF] ____________________________________________________________
+2025-05-24 15:40:29.546 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2025-05-24 15:40:30.357 +07:00 [INF] Closing...
