@@ -5,3 +5,10 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpd
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Debug\VioletUpdater.csproj.CoreCompileInputs.cache
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Debug\SelfUpdate.exe
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\VioletUpdater\obj\Debug\SelfUpdate.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\bin\Debug\SelfUpdate.exe.config
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\bin\Debug\SelfUpdate.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\bin\Debug\SelfUpdate.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Debug\VioletUpdater.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Debug\VioletUpdater.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Debug\SelfUpdate.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Debug\SelfUpdate.pdb

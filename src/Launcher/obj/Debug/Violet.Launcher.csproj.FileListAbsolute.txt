@@ -1,0 +1,15 @@
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Debug\Violet.exe.config
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Debug\Violet.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Debug\Violet.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.Launcher.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\MainWindow.g.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\App.g.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet_MarkupCompile.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet_MarkupCompile.lref
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\MainWindow.baml
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.g.resources
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.Launcher.csproj.GenerateResource.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.Launcher.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Debug\Violet.pdb

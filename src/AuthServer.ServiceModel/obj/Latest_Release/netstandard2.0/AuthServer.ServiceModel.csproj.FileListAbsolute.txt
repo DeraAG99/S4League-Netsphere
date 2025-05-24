@@ -118,3 +118,17 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServe
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServ.BAC6B421.Up2Date
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.dll
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\bin\Latest_Release\netstandard2.0\AuthServer.ServiceModel.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\bin\Latest_Release\netstandard2.0\AuthServer.ServiceModel.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\bin\Latest_Release\netstandard2.0\AuthServer.ServiceModel.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\bin\Latest_Release\netstandard2.0\ProudNetSrc.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\bin\Latest_Release\netstandard2.0\ProudNetSrc.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServ.BAC6B421.Up2Date
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\AuthServer.ServiceModel\obj\Latest_Release\netstandard2.0\AuthServer.ServiceModel.pdb

@@ -134,7 +134,7 @@ namespace NeoNetsphere
     ///     Creates a new item
     /// </summary>
     /// <exception cref="ArgumentException"></exception>
-    public PlayerItem Create(CapsuleRewardDto rewardDto, EffectNumber[] effects)
+    public PlayerItem Create(CapsuleRewardDto rewardDto)
     {
        if (rewardDto.RewardType == CapsuleRewardType.PEN)
        {
@@ -145,7 +145,12 @@ namespace NeoNetsphere
       var shopItemInfo = shop.GetItemInfo(rewardDto.ItemNumber, rewardDto.PriceType);
       ushort period = rewardDto.Period > ushort.MaxValue ? ushort.MaxValue : (ushort)rewardDto.Period;
       var price = shopItemInfo.PriceGroup.GetPrice(rewardDto.PeriodType, period);
-      return Create(rewardDto.ItemNumber, rewardDto.PriceType, rewardDto.PeriodType, period, rewardDto.Color, effects, 0);
+      var itemEffects = new List<EffectNumber>();
+      foreach (var effect in shopItemInfo.EffectGroup.Effects)
+      {
+          itemEffects.Add(effect.Effect);
+      }
+      return Create(rewardDto.ItemNumber, rewardDto.PriceType, rewardDto.PeriodType, period, rewardDto.Color, itemEffects.ToArray(), 0);
     }
     /// <summary>
     ///     Creates a new item

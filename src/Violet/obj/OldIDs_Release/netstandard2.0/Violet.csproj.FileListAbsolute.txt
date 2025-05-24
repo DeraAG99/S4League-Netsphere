@@ -1,0 +1,11 @@
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\bin\OldIDs_Release\netstandard2.0\Violet.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\bin\OldIDs_Release\netstandard2.0\Violet.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\bin\OldIDs_Release\netstandard2.0\Violet.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet\obj\OldIDs_Release\netstandard2.0\Violet.pdb

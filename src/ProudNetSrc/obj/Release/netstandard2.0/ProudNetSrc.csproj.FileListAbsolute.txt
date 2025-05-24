@@ -88,3 +88,14 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\ProudNetS
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.sourcelink.json
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.dll
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\bin\Release\netstandard2.0\ProudNetSrc.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\bin\Release\netstandard2.0\ProudNetSrc.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\bin\Release\netstandard2.0\ProudNetSrc.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\ProudNetSrc\obj\Release\netstandard2.0\ProudNetSrc.pdb

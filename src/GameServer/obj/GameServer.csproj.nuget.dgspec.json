@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\GameServer.csproj": {}
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj": {}
   },
   "projects": {
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
         "projectName": "AuthServer.ServiceModel",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,16 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj"
               }
             }
           }
@@ -46,7 +49,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -78,22 +82,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\GameServer.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj": {
       "version": "2.1.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\GameServer.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
         "projectName": "GameServer",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\GameServer.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\GameServer\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\GameServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,28 +109,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.0": {
             "targetAlias": "netcoreapp2.0",
             "projectReferences": {
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj"
               },
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj"
               },
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\Violet.Database.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\Violet.Database.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj"
               },
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Violet.Network.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Violet.Network.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj"
               },
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj"
               }
             }
           }
@@ -136,7 +143,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -200,22 +208,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj",
         "projectName": "ProudNetSrc",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,8 +235,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -242,7 +253,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -302,22 +314,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\Violet.Database.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\Violet.Database.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj",
         "projectName": "Violet.Database",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\Violet.Database.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Database\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Database\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -325,8 +341,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -344,7 +359,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -376,22 +392,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Violet.Network.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Violet.Network.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj",
         "projectName": "Violet.Network",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\Violet.Network.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet.Network\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet.Network\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -399,19 +419,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\ProudNetSrc\\ProudNetSrc.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj"
               },
-              "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj": {
-                "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj"
+              "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj": {
+                "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj"
               }
             }
           }
@@ -425,7 +444,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -461,22 +481,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj": {
+    "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj",
+        "projectUniqueName": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj",
         "projectName": "Violet",
-        "projectPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\Violet.csproj",
-        "packagesPath": "C:\\Users\\apl20\\.nuget\\packages\\",
-        "outputPath": "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\src\\Violet\\obj\\",
+        "projectPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\Violet.csproj",
+        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\src\\Violet\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\NuGet.Config",
-          "C:\\Users\\apl20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\NuGet.Config",
+          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -484,8 +508,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Dera\\Project\\Season 10 Server(EU 1332)\\S4League-Emu-1332-master\\LocalPackages": {},
+          "D:\\Project\\S4League Netsphere\\S4League-Netsphere\\LocalPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -503,7 +526,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -527,7 +551,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

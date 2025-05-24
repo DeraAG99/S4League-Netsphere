@@ -105,3 +105,23 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Ne
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.pdb
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Network\bin\Latest_Release\netstandard2.0\ProudNetSrc.pdb
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.N.2093AC4B.Up2Date
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\miniLzo_x64.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\miniLzo_x86.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\liblzo.so
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.Network.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.Network.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.Network.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\ProudNetSrc.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\SharpLzo.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\Violet.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\bin\Latest_Release\netstandard2.0\ProudNetSrc.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.N.2093AC4B.Up2Date
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Network\obj\Latest_Release\netstandard2.0\Violet.Network.pdb

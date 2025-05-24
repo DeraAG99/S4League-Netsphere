@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Latest_Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2018.2.42.38")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5564eb52b1521197464f5bdbeffecdb54af620a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98b99c08a11305be9258853c1f8407edd2fa3302")]
 [assembly: System.Reflection.AssemblyProductAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2018.2.42.38")]

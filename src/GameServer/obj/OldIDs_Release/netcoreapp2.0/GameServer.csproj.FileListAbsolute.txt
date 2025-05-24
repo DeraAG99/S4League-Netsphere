@@ -1,0 +1,6 @@
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\obj\OldIDs_Release\netcoreapp2.0\GameServer.sourcelink.json

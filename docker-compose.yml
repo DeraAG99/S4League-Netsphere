@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  s4lauth:
+    container_name: s4lauth
+    image: dera99/s4lauth:latest
+    ports:
+      - "28001:28001"
+      - "28002:28002"
+      - "27000:27000"
+    networks:
+      - s4lnetwork
+    volumes:
+      - /home/dera.abdul/s4league/config/AuthServer.hjson:/app/data/AuthServer.hjson
+    tty: true # Allocate a pseudo-TTY
+    stdin_open: true # Keep stdin open even if not attached
+
+  s4lgame:
+    container_name: s4lgame
+    image: dera99/s4lgame:latest
+    ports:
+      - "28003:28003"
+      - "28004:28004"
+      - "28005:28005"
+      - "45000:45000"
+    networks:
+      - s4lnetwork
+    volumes:
+      - /home/dera.abdul/s4league/config/GameServer.hjson:/app/data/GameServer.hjson
+    depends_on:
+      - s4lauth
+    tty: true
+    stdin_open: true
+
+networks:
+  s4lnetwork:
+    external: true

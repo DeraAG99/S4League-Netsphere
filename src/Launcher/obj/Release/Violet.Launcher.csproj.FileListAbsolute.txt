@@ -68,3 +68,18 @@ C:\Users\Kora\Desktop\s4emu\src\Launcher\obj\Release\Launcher.Properties.Resourc
 C:\Users\Kora\Desktop\s4emu\src\Launcher\obj\Release\Violet.Launcher.csproj.GenerateResource.cache
 C:\Users\Kora\Desktop\s4emu\src\Launcher\obj\Release\Violet.exe
 C:\Users\Kora\Desktop\s4emu\src\Launcher\obj\Release\Violet.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Release\Violet.exe.config
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Release\Violet.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\bin\Release\Violet.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.Launcher.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\MainWindow.g.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\App.g.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet_MarkupCompile.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet_MarkupCompile.lref
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\MainWindow.baml
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.g.resources
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Launcher.Properties.Resources.resources
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.Launcher.csproj.GenerateResource.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.Launcher.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.exe
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Launcher\obj\Release\Violet.pdb

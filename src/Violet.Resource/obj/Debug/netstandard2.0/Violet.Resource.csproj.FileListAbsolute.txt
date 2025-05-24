@@ -14,3 +14,19 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Re
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.R.022075EF.Up2Date
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.dll
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\miniLzo_x64.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\miniLzo_x86.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\liblzo.so
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\Violet.Resource.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\Violet.Resource.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\Violet.Resource.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\bin\Debug\netstandard2.0\SharpLzo.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.R.022075EF.Up2Date
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Resource\obj\Debug\netstandard2.0\Violet.Resource.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("OldIDs_Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2018.2.43.278")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+5564eb52b1521197464f5bdbeffecdb54af620a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+98b99c08a11305be9258853c1f8407edd2fa3302")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2018.2.43.278")]

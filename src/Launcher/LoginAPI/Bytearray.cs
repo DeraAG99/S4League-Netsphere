@@ -127,7 +127,7 @@ namespace TestServer_Launcher.LoginAPI
                                     {
                                         info = info.Replace("<region>", "");
                                         info = info.Replace("</region>", "");
-                                        if (info == "S4Violet362")
+                                        if (info == "S4Netsphere")
                                         {
                                             var sendmsg = new CCMessage();
                                             sendmsg.Write(Constants.LoginWindow.GetUsername());

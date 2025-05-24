@@ -285,28 +285,28 @@ namespace Launcher
             }
 
           //   Reset();
-            if (Stats("http://84.200.24.69/updatelistviolet.txt").Length == 0)
-            {
+            //if (Stats("http://84.200.24.69/updatelistviolet.txt").Length == 0)
+            //{
                 ButtonState = 1;
                 dbgtx.Content = "Ready for Login";
                 Reset();
 
-            }
-            else
-            {
-                dbgtx.Content = "Patching";
-            }
+            //}
+            //else
+            //{
+            //    dbgtx.Content = "Patching";
+            //}
 
-            SelfUpdate();
+            //SelfUpdate();
 
-            loginstats.Content = "Login status : " + Stats("http://84.200.24.69/Loginserver.txt");
-            serverstats.Content = "Server status:  " + Stats("http://84.200.24.69/Gameserver.txt");
-            Online.Content = "Player count : " + Stats("http://84.200.24.69/playercountviolet.txt");
+            //loginstats.Content = "Login status : " + Stats("http://84.200.24.69/Loginserver.txt");
+            //serverstats.Content = "Server status:  " + Stats("http://84.200.24.69/Gameserver.txt");
+            //Online.Content = "Player count : " + Stats("http://84.200.24.69/playercountviolet.txt");
 
-            client.DownloadProgressChanged += client_ProgressChanged;
-            client.DownloadFileCompleted += client_DownloadCompleted;
+            //client.DownloadProgressChanged += client_ProgressChanged;
+            //client.DownloadFileCompleted += client_DownloadCompleted;
 
-            LoadNotice();
+            //LoadNotice();
 
             Properties.Settings.Default.Reload();
 

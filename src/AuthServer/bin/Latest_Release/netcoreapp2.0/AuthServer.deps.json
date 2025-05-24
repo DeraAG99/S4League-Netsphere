@@ -1186,7 +1186,10 @@
           "ProudNetSrc": "1.0.0"
         },
         "runtime": {
-          "AuthServer.ServiceModel.dll": {}
+          "AuthServer.ServiceModel.dll": {
+            "assemblyVersion": "2018.2.42.24",
+            "fileVersion": "2018.2.42.24"
+          }
         }
       },
       "ProudNetSrc/1.0.0": {
@@ -1202,12 +1205,18 @@
           "System.Text.Encoding.CodePages": "4.5.0"
         },
         "runtime": {
-          "ProudNetSrc.dll": {}
+          "ProudNetSrc.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Violet/1.0.0": {
         "runtime": {
-          "Violet.dll": {}
+          "Violet.dll": {
+            "assemblyVersion": "2018.2.42.21",
+            "fileVersion": "2018.2.42.21"
+          }
         }
       },
       "Violet.Database/1.0.0": {
@@ -1216,7 +1225,10 @@
           "Dapper.FastCrud": "2.5.0.39"
         },
         "runtime": {
-          "Violet.Database.dll": {}
+          "Violet.Database.dll": {
+            "assemblyVersion": "2018.2.42.18",
+            "fileVersion": "2018.2.42.18"
+          }
         }
       },
       "Violet.Network/1.0.0": {
@@ -1228,7 +1240,10 @@
           "Violet": "1.0.0"
         },
         "runtime": {
-          "Violet.Network.dll": {}
+          "Violet.Network.dll": {
+            "assemblyVersion": "2018.2.42.38",
+            "fileVersion": "2018.2.42.38"
+          }
         }
       },
       "SharpLzo/1.0.0.0": {

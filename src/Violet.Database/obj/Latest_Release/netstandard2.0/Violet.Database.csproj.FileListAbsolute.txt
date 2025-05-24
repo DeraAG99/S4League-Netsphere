@@ -51,3 +51,14 @@ D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Da
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.sourcelink.json
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
 D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.AssemblyReference.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.sourcelink.json
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
+D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb

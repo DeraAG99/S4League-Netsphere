@@ -239,7 +239,7 @@ namespace NeoNetsphere.Network.Services
                                PeriodType = reward.PeriodType,
                                Period = reward.Period,
                                PEN = reward.PEN,
-                               Effect = reward.Effects.Select(effect => new ItemEffectDto { Effect = effect }).ToArray(),
+                               Effect = reward.Effects.FirstOrDefault(),
                                Color = (byte)reward.Color
                            }).ToArray();
 
@@ -252,21 +252,17 @@ namespace NeoNetsphere.Network.Services
                 }
                 else
                 {
-
-                    var effects = it.Effect != null
-        ? it.Effect.Select(e => new EffectNumber(e)).ToArray()
-        : Array.Empty<EffectNumber>();
                     if (it.PeriodType == ItemPeriodType.Units)
                     {
-                        session.Player.Inventory.Create(it.ItemNumber, 3, it.Color, it.Effect, it.Period);
+                        session.Player.Inventory.Create(it.ItemNumber, 3, it.Color, new EffectNumber[] { it.Effect }, it.Period);
                     }
                     else if(it.PeriodType == ItemPeriodType.Days)
                     {
-                        session.Player.Inventory.Create(it, it.Effect?.Select(e => new EffectNumber(e)).ToArray() ?? Array.Empty<EffectNumber>());
+                        session.Player.Inventory.Create(it);
                     }
                     else
                     {
-                        session.Player.Inventory.Create(it.ItemNumber, 1, it.Color, it.Effect?.Select(e => new EffectNumber(e)).ToArray() ?? Array.Empty<EffectNumber>(), it.Period);
+                        session.Player.Inventory.Create(it.ItemNumber, 1, it.Color, new EffectNumber[] { it.Effect }, it.Period);
                     }
                 }
             }

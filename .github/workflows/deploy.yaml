@@ -1,0 +1,48 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Build and push Docker images
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/s4lauth:latest ./src/AuthServer/bin/Latest_Release/netcoreapp2.0/publish/
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/s4lgame:latest ./src/GameServer/bin/LatestOld_Debug/netcoreapp2.0/
+          docker push ${{ secrets.DOCKER_USERNAME }}/s4lauth:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/s4lgame:latest
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Pulling and Deploying Images
+        run: |
+          rsync -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" docker-compose.yml ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:/home/dera.abdul/s4league/config/docker-compose.yml
+
+          ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} << EOF
+
+          docker stop s4lauth || true
+          docker rm s4lauth || true
+          docker stop s4lgame || true
+          docker rm s4lgame || true
+
+          docker pull ${{ secrets.DOCKER_USERNAME }}/s4lauth:latest
+          docker pull ${{ secrets.DOCKER_USERNAME }}/s4lgame:latest
+
+          # Run Docker Compose
+          cd /home/dera.abdul/s4league/config
+          docker-compose up -d
+          EOF

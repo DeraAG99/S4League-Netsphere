@@ -950,12 +950,18 @@
           "System.Text.Encoding.CodePages": "4.5.0"
         },
         "runtime": {
-          "ProudNetSrc.dll": {}
+          "ProudNetSrc.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Violet/1.0.0": {
         "runtime": {
-          "Violet.dll": {}
+          "Violet.dll": {
+            "assemblyVersion": "2018.2.42.21",
+            "fileVersion": "2018.2.42.21"
+          }
         }
       },
       "SharpLzo/1.0.0.0": {
