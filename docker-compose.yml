@@ -27,6 +27,7 @@ services:
       - s4lnetwork
     volumes:
       - /home/dera.abdul/s4league/config/GameServer.hjson:/app/data/GameServer.hjson
+      - /home/dera.abdul/s4league/config/data/:/app/data/data/
     depends_on:
       - s4lauth
     tty: true

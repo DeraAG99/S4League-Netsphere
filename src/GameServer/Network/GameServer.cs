@@ -406,7 +406,7 @@ namespace NeoNetsphere.Network
           .Member(dest => dest.Id, src => Config.Instance.Id)
           .Member(dest => dest.Name,
               src =>
-                  $"S4Violet")
+                  Config.Instance.Name)
           .Member(dest => dest.PlayerLimit, src => Config.Instance.PlayerLimit)
           .Member(dest => dest.PlayerOnline, src => src.Sessions.Count)
           .Member(dest => dest.EndPoint,

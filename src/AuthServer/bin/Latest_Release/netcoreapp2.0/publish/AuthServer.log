@@ -1,0 +1,396 @@
+2025-05-24 15:59:41.427 +07:00 [INF] Initializing...
+2025-05-24 15:59:41.860 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user ''@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2025-05-24 16:00:00.908 +07:00 [INF] Initializing...
+2025-05-24 16:00:01.226 +07:00 [INF] Created random api_key: key-683451170
+2025-05-24 16:00:01.442 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user ''@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2025-05-24 16:01:49.698 +07:00 [INF] Initializing...
+2025-05-24 16:01:50.250 +07:00 [INF] Starting Server
+2025-05-24 16:01:50.255 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:01:50.256 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:01:50.257 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:01:50.258 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:01:50.258 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:01:50.259 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:01:50.260 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:01:50.260 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:01:50.261 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:01:50.262 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:01:50.262 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:01:50.263 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:01:50.431 +07:00 [INF] Ready for connections!
+2025-05-24 16:01:50.432 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:04:11.899 +07:00 [INF] Initializing...
+2025-05-24 16:04:12.480 +07:00 [INF] Starting Server
+2025-05-24 16:04:12.482 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:04:47.841 +07:00 [INF] Initializing...
+2025-05-24 16:04:48.416 +07:00 [INF] Starting Server
+2025-05-24 16:04:48.417 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:04:55.441 +07:00 [INF] Initializing...
+2025-05-24 16:04:56.018 +07:00 [INF] Starting Server
+2025-05-24 16:04:56.020 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:05:45.878 +07:00 [INF] Initializing...
+2025-05-24 16:05:46.435 +07:00 [INF] Starting Server
+2025-05-24 16:05:46.437 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:05:58.195 +07:00 [INF] Initializing...
+2025-05-24 16:05:58.718 +07:00 [INF] Starting Server
+2025-05-24 16:05:58.731 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:05:58.738 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:05:58.750 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:05:58.762 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:05:58.770 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:05:58.771 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:05:58.772 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:05:58.784 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:05:58.791 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:05:58.793 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:05:58.794 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:05:58.796 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:05:58.954 +07:00 [INF] Ready for connections!
+2025-05-24 16:05:58.955 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:06:26.072 +07:00 [INF] Initializing...
+2025-05-24 16:06:26.609 +07:00 [INF] Starting Server
+2025-05-24 16:06:26.610 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:07:15.711 +07:00 [INF] Initializing...
+2025-05-24 16:07:16.302 +07:00 [INF] Starting Server
+2025-05-24 16:07:16.304 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:07:51.216 +07:00 [INF] Initializing...
+2025-05-24 16:07:51.755 +07:00 [INF] Starting Server
+2025-05-24 16:07:51.757 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:07:58.972 +07:00 [INF] Initializing...
+2025-05-24 16:07:59.516 +07:00 [INF] Starting Server
+2025-05-24 16:07:59.517 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 108
+2025-05-24 16:08:11.935 +07:00 [INF] Initializing...
+2025-05-24 16:08:12.468 +07:00 [INF] Starting Server
+2025-05-24 16:08:12.473 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:08:12.473 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:08:12.474 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:08:12.475 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:08:12.475 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:08:12.476 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:08:12.477 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:08:12.478 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:08:12.478 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:08:12.479 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:08:12.480 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:08:12.480 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:08:12.645 +07:00 [INF] Ready for connections!
+2025-05-24 16:08:12.646 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:08:40.000 +07:00 [INF] Added server with valid apikey: S4Violet(1)
+2025-05-24 16:08:57.949 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:52328
+2025-05-24 16:08:58.105 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:09:21.483 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:09:21.527 +07:00 [INF] Login success for masterblad1
+2025-05-24 16:10:26.116 +07:00 [INF] Removed server S4Violet(1)
+2025-05-24 16:10:42.162 +07:00 [INF] Added server with valid apikey: S4Violet(1)
+2025-05-24 16:10:51.528 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:53676
+2025-05-24 16:10:51.555 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:11:13.731 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:11:13.733 +07:00 [INF] Login success for masterblad1
+2025-05-24 16:23:41.692 +07:00 [INF] Initializing...
+2025-05-24 16:23:42.235 +07:00 [INF] Starting Server
+2025-05-24 16:23:42.240 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:23:42.241 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:23:42.242 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:23:42.243 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:23:42.244 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:23:42.245 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:23:42.246 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:23:42.247 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:23:42.248 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:23:42.249 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:23:42.250 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:23:42.251 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:23:42.413 +07:00 [INF] Ready for connections!
+2025-05-24 16:23:42.414 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:24:10.675 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:62981
+2025-05-24 16:24:10.829 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:24:10.834 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:62979
+2025-05-24 16:24:10.863 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:24:36.394 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:24:36.429 +07:00 [INF] Login success for masterblad1
+2025-05-24 16:24:49.129 +07:00 [INF] Initializing...
+2025-05-24 16:24:49.726 +07:00 [INF] Starting Server
+2025-05-24 16:24:49.732 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:24:49.733 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:24:49.734 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:24:49.736 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:24:49.737 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:24:49.738 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:24:49.739 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:24:49.740 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:24:49.741 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:24:49.742 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:24:49.743 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:24:49.744 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:24:49.914 +07:00 [INF] Ready for connections!
+2025-05-24 16:24:49.915 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:24:51.833 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2025-05-24 16:25:00.546 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:63574
+2025-05-24 16:25:00.700 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:26:06.068 +07:00 [INF] Initializing...
+2025-05-24 16:26:06.645 +07:00 [INF] Starting Server
+2025-05-24 16:26:06.651 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:26:06.652 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:26:06.653 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:26:06.654 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:26:06.655 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:26:06.656 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:26:06.657 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:26:06.658 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:26:06.659 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:26:06.660 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:26:06.661 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:26:06.663 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:26:06.836 +07:00 [INF] Ready for connections!
+2025-05-24 16:26:06.837 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:26:07.799 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:26:07.924 +07:00 [INF] Login success for masterblad1
+2025-05-24 16:26:08.636 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 16:46:55.775 +07:00 [INF] Initializing...
+2025-05-24 16:46:56.341 +07:00 [INF] Starting Server
+2025-05-24 16:46:56.347 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:46:56.348 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:46:56.349 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:46:56.350 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:46:56.351 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:46:56.352 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:46:56.353 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:46:56.354 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:46:56.355 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:46:56.356 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:46:56.357 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:46:56.357 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:46:56.528 +07:00 [INF] Ready for connections!
+2025-05-24 16:46:56.529 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:46:57.952 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 16:47:10.100 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:63258
+2025-05-24 16:47:10.258 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:47:56.777 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:47:56.814 +07:00 [INF] Login success for masterblad1
+2025-05-24 16:52:53.127 +07:00 [INF] Initializing...
+2025-05-24 16:52:53.750 +07:00 [INF] Starting Server
+2025-05-24 16:52:53.755 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 16:52:53.757 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 16:52:53.758 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 16:52:53.759 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 16:52:53.760 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 16:52:53.761 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 16:52:53.762 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 16:52:53.763 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 16:52:53.764 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 16:52:53.765 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 16:52:53.766 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 16:52:53.767 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 16:52:53.933 +07:00 [INF] Ready for connections!
+2025-05-24 16:52:53.934 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 16:52:55.870 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 16:53:03.019 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:51512
+2025-05-24 16:53:03.181 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 16:54:05.106 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 16:54:05.142 +07:00 [INF] Login success for masterblad1
+2025-05-24 18:07:17.294 +07:00 [INF] Initializing...
+2025-05-24 18:07:19.835 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2025-05-24 18:07:26.116 +07:00 [INF] Initializing...
+2025-05-24 18:07:28.543 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2025-05-24 18:08:57.370 +07:00 [INF] Initializing...
+2025-05-24 18:08:57.912 +07:00 [INF] Starting Server
+2025-05-24 18:08:57.917 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 18:08:57.919 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 18:08:57.920 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 18:08:57.922 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 18:08:57.923 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 18:08:57.924 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 18:08:57.925 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 18:08:57.926 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 18:08:57.927 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 18:08:57.928 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 18:08:57.929 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 18:08:57.930 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 18:08:58.131 +07:00 [INF] Ready for connections!
+2025-05-24 18:08:58.133 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 18:08:59.594 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 18:09:10.940 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:56493
+2025-05-24 18:09:11.097 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 18:09:11.104 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:56492
+2025-05-24 18:09:11.131 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 18:09:34.431 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 18:09:34.467 +07:00 [INF] Login success for masterblad1
+2025-05-24 18:14:26.616 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:56624
+2025-05-24 18:14:26.673 +07:00 [INF] Authentication success for masterblad2
+2025-05-24 18:14:47.437 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 18:14:47.438 +07:00 [INF] Login success for masterblad2
+2025-05-24 18:49:11.902 +07:00 [INF] Removed server Netsphere(1)
+2025-05-24 18:49:20.681 +07:00 [INF] Initializing...
+2025-05-24 18:49:21.223 +07:00 [INF] Starting Server
+2025-05-24 18:49:21.229 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 18:49:21.230 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 18:49:21.231 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 18:49:21.231 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 18:49:21.233 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 18:49:21.234 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 18:49:21.234 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 18:49:21.235 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 18:49:21.236 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 18:49:21.237 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 18:49:21.238 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 18:49:21.239 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 18:49:21.410 +07:00 [INF] Ready for connections!
+2025-05-24 18:49:21.411 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 18:49:22.738 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 18:49:31.396 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:61524
+2025-05-24 18:49:31.556 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 18:49:56.850 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 18:49:56.887 +07:00 [INF] Login success for masterblad1
+2025-05-24 18:54:27.584 +07:00 [INF] Session login from 127.0.0.1
+2025-05-24 18:54:27.587 +07:00 [INF] Login success for masterblad1
+2025-05-24 18:54:36.229 +07:00 [INF] Initializing...
+2025-05-24 18:54:36.828 +07:00 [INF] Starting Server
+2025-05-24 18:54:36.833 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2025-05-24 18:54:36.834 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2025-05-24 18:54:36.835 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2025-05-24 18:54:36.836 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2025-05-24 18:54:36.837 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2025-05-24 18:54:36.838 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2025-05-24 18:54:36.839 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2025-05-24 18:54:36.840 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2025-05-24 18:54:36.841 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2025-05-24 18:54:36.842 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2025-05-24 18:54:36.843 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2025-05-24 18:54:36.844 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2025-05-24 18:54:37.025 +07:00 [INF] Ready for connections!
+2025-05-24 18:54:37.026 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2025-05-24 18:54:38.943 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2025-05-24 18:54:44.342 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:65146
+2025-05-24 18:54:44.503 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 18:55:09.004 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:65434
+2025-05-24 18:55:09.035 +07:00 [INF] Authentication success for masterblad1
+2025-05-24 18:55:33.044 +07:00 [INF] Login from 127.0.0.1
+2025-05-24 18:55:33.080 +07:00 [INF] Login success for masterblad1
+2025-05-24 19:02:43.583 +07:00 [INF] Session login from 127.0.0.1
+2025-05-24 19:02:43.586 +07:00 [INF] Login success for masterblad1

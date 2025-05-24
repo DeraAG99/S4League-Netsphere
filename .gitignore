@@ -1,1 +1,3 @@
 .vs/
+./src/AuthServer/bin/Latest_Release/netcoreapp2.0/publish/AuthServer.hjson
+./src/GameServer/bin/LatestOld_Debug/netcoreapp2.0/GameServer.hjson
