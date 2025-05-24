@@ -1,0 +1,698 @@
+2024-06-01 22:45:51.081 +07:00 [INF] ============================================
+2024-06-01 22:45:51.112 +07:00 [INF] Initializing GameServer build
+2024-06-01 22:45:51.114 +07:00 [INF] New IDS
+2024-06-01 22:45:51.115 +07:00 [INF] Latest S4
+2024-06-01 22:45:51.116 +07:00 [INF] ============================================
+2024-06-01 22:45:51.118 +07:00 [INF] Initializing Database
+2024-06-01 22:45:51.124 +07:00 [INF] Initializing...
+2024-06-01 22:45:53.578 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 163
+2024-06-01 23:04:46.642 +07:00 [INF] ============================================
+2024-06-01 23:04:46.680 +07:00 [INF] Initializing GameServer build
+2024-06-01 23:04:46.681 +07:00 [INF] New IDS
+2024-06-01 23:04:46.682 +07:00 [INF] Latest S4
+2024-06-01 23:04:46.683 +07:00 [INF] ============================================
+2024-06-01 23:04:46.684 +07:00 [INF] Initializing Database
+2024-06-01 23:04:46.697 +07:00 [INF] Initializing...
+2024-06-01 23:04:49.266 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 163
+2024-06-01 23:05:00.162 +07:00 [INF] ============================================
+2024-06-01 23:05:00.206 +07:00 [INF] Initializing GameServer build
+2024-06-01 23:05:00.207 +07:00 [INF] New IDS
+2024-06-01 23:05:00.208 +07:00 [INF] Latest S4
+2024-06-01 23:05:00.210 +07:00 [INF] ============================================
+2024-06-01 23:05:00.211 +07:00 [INF] Initializing Database
+2024-06-01 23:05:00.216 +07:00 [INF] Initializing...
+2024-06-01 23:05:02.724 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Project\S4League-Emu-1332-master\src\GameServer\Program.cs:line 163
+2024-06-01 23:05:39.835 +07:00 [INF] ============================================
+2024-06-01 23:05:39.869 +07:00 [INF] Initializing GameServer build
+2024-06-01 23:05:39.870 +07:00 [INF] New IDS
+2024-06-01 23:05:39.872 +07:00 [INF] Latest S4
+2024-06-01 23:05:39.873 +07:00 [INF] ============================================
+2024-06-01 23:05:39.874 +07:00 [INF] Initializing Database
+2024-06-01 23:05:39.880 +07:00 [INF] Initializing...
+2024-06-01 23:05:40.957 +07:00 [INF] Initializing...
+2024-06-01 23:05:41.082 +07:00 [INF] Starting Server
+2024-06-01 23:05:41.085 +07:00 [INF] ____________________________________________
+2024-06-01 23:05:41.088 +07:00 [INF] ____________________________________________
+2024-06-01 23:05:41.090 +07:00 [INF] ============================================
+2024-06-01 23:05:41.093 +07:00 [INF] Starting Serverinstances and ResourceCache..
+2024-06-01 23:05:42.074 +07:00 [INF] Caching: Channels
+2024-06-01 23:05:42.076 +07:00 [INF] Caching...
+2024-06-01 23:05:42.182 +07:00 [INF] Caching: Clubs
+2024-06-01 23:05:42.183 +07:00 [INF] Caching...
+2024-06-01 23:05:42.636 +07:00 [INF] Caching: Effects
+2024-06-01 23:05:42.638 +07:00 [INF] Caching...
+2024-06-01 23:05:42.723 +07:00 [INF] Caching: Items
+2024-06-01 23:05:42.725 +07:00 [INF] Caching...
+2024-06-01 23:05:42.918 +07:00 [INF] Caching: DefaultItems
+2024-06-01 23:05:42.920 +07:00 [INF] Caching...
+2024-06-01 23:05:42.939 +07:00 [INF] Caching: Shop
+2024-06-01 23:05:42.941 +07:00 [INF] Caching...
+2024-06-01 23:05:43.393 +07:00 [INF] Caching: Experience
+2024-06-01 23:05:43.395 +07:00 [INF] Caching...
+2024-06-01 23:05:43.408 +07:00 [INF] Caching: Maps
+2024-06-01 23:05:43.410 +07:00 [INF] Caching...
+2024-06-01 23:05:43.437 +07:00 [INF] Caching: GameTempos
+2024-06-01 23:05:43.439 +07:00 [INF] Caching...
+2024-06-01 23:05:43.482 +07:00 [INF] Caching: Capsules
+2024-06-01 23:05:43.483 +07:00 [INF] Caching...
+2024-06-01 23:05:43.604 +07:00 [INF] Starting Web Api
+2024-06-01 23:05:43.608 +07:00 [INF] Serverinstances successfully started, ready for connections!
+2024-06-01 23:05:43.609 +07:00 [INF] ____________________________________________________________
+2024-06-01 23:05:45.670 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:05:50.437 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:05:55.228 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:00.052 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:04.858 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:09.637 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:14.465 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:19.247 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:24.040 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:28.841 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:33.665 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:38.443 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:43.244 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:48.042 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:52.838 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:06:57.640 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:02.450 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:07.243 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:12.052 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:16.865 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:21.676 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:26.471 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:31.285 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:36.081 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:40.886 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:45.676 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:50.495 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:07:55.283 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:00.104 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:04.882 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:09.684 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:14.467 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:19.295 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:24.087 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:28.884 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:33.686 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:38.517 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:43.310 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:48.085 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:52.900 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:08:57.698 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:02.485 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:07.282 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:12.063 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:16.866 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:21.663 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:26.450 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:31.268 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:36.053 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:40.884 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:45.702 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:50.497 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:09:55.289 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:00.079 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:04.884 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:09.666 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:14.489 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:19.293 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:24.082 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:28.896 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:33.683 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:38.488 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:43.298 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:48.078 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:52.856 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:10:57.650 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:02.459 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:07.280 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:12.087 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:16.858 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:21.702 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:26.476 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:31.307 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:36.094 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:40.887 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:45.682 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:50.508 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:11:55.309 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:00.093 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:04.898 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:09.689 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:14.489 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:19.277 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:24.108 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:28.912 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:33.706 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:38.508 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:43.295 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:48.122 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:52.909 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:12:57.669 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:02.518 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:07.332 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:12.104 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:16.889 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:21.700 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:26.523 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:31.287 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:36.136 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:40.921 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:45.729 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:50.532 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:13:55.294 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:00.125 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:04.914 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:09.720 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:14.511 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:19.357 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:24.135 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:28.940 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:33.770 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:38.544 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:43.373 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:48.177 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:52.962 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:14:57.771 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:02.540 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:07.346 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:12.150 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:16.960 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:21.732 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:26.541 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:31.346 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:36.157 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:40.954 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:45.747 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:50.560 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:15:55.380 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:00.169 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:04.968 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:09.768 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:14.541 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:19.364 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:24.156 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:28.940 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:33.755 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:38.561 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:43.346 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:48.181 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:52.960 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:16:57.784 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:02.577 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:07.372 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:12.187 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:16.994 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:21.781 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:26.596 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:31.413 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:36.196 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:41.010 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:45.807 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:50.607 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:17:55.387 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:00.218 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:05.014 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:09.795 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:14.615 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:19.433 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:24.214 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:28.995 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:33.832 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:38.601 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:43.417 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:48.238 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:53.040 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:18:57.806 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:02.644 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:07.413 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:12.254 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:17.028 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:21.811 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:26.647 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:31.424 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:36.220 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:41.036 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:45.802 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:50.637 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:19:55.436 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:00.263 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:05.040 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:09.857 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:14.644 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:19.449 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:24.279 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:29.066 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:33.868 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:38.658 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:43.472 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:48.253 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:53.057 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:20:57.843 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:02.666 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:07.478 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:12.275 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:17.090 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:21.882 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:26.712 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:31.487 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:36.282 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:41.105 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:45.907 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:50.677 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:21:55.495 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:00.323 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:05.115 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:09.924 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:14.730 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:19.548 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:24.332 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:29.134 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:33.925 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:38.752 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:43.559 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:48.369 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:53.176 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:22:57.961 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:02.771 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:07.572 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:12.389 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:17.191 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:21.997 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:26.777 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:31.583 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:36.388 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:41.187 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:45.975 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:50.797 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:23:55.577 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:00.389 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:05.187 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:09.973 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:14.790 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:19.604 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:24.365 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:29.179 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:33.985 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:38.786 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:43.594 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:48.394 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:53.169 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:24:57.985 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:02.796 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:07.576 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:12.389 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:17.164 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:21.962 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:26.768 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:31.542 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:36.350 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:41.168 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:45.972 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:50.779 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:25:55.555 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:00.384 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:05.163 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:09.993 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:14.795 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:19.586 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:24.354 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:29.174 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:33.960 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:38.744 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:43.585 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:48.381 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:53.172 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:26:57.970 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:02.776 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:07.589 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:12.395 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:17.180 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:21.992 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:26.800 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:31.594 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:36.373 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:41.180 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:45.992 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:50.795 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:27:55.590 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:00.375 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:05.170 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:09.996 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:14.800 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:19.604 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:24.384 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:29.180 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:33.977 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:38.777 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:43.573 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:48.380 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:53.190 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:28:57.976 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:02.788 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:07.577 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:12.385 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:17.178 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:21.986 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:26.785 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:31.603 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:36.394 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:41.177 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:45.998 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:50.797 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:29:55.598 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:00.386 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:05.204 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:10.021 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:14.809 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:19.620 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:24.409 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:29.213 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:34.008 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:38.793 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:43.607 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:48.396 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:53.213 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:30:58.016 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:02.813 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:07.582 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:12.376 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:17.185 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:21.991 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:26.763 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:31.571 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:36.360 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:41.165 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:45.966 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:50.770 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:31:55.562 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:00.354 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:05.163 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:09.957 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:14.781 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:19.592 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:24.371 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:29.178 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:33.979 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:38.787 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:43.576 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:48.382 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:53.190 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:32:57.973 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:02.793 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:07.582 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:12.406 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:17.197 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:22.027 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:26.787 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:31.615 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:36.388 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:41.199 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:45.992 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:50.801 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:33:55.599 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:00.389 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:05.208 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:09.994 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:14.806 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:19.618 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:24.384 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:29.189 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:33.995 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:38.794 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:43.597 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:48.390 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:53.194 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:34:57.995 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:02.792 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:07.577 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:12.382 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:17.189 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:21.991 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:26.785 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:31.595 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:36.383 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:41.190 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:45.989 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:50.819 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:35:55.581 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:00.388 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:05.173 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:09.989 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:14.769 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:19.589 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:24.379 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:29.170 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:33.977 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:38.788 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:43.578 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:48.388 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:53.182 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:36:57.988 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:02.789 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:07.566 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:12.378 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:17.178 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:21.978 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:26.792 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:31.592 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:36.416 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2024-06-01 23:37:41.175 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2025-05-08 10:05:18.857 +07:00 [INF] ============================================
+2025-05-08 10:05:18.883 +07:00 [INF] Initializing GameServer build
+2025-05-08 10:05:18.884 +07:00 [INF] New IDS
+2025-05-08 10:05:18.885 +07:00 [INF] Latest S4
+2025-05-08 10:05:18.886 +07:00 [INF] ============================================
+2025-05-08 10:05:18.887 +07:00 [INF] Initializing Database
+2025-05-08 10:05:18.894 +07:00 [INF] Initializing...
+2025-05-08 10:05:21.353 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it 127.0.0.1:3306) ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 163
+2025-05-08 10:06:36.106 +07:00 [INF] ============================================
+2025-05-08 10:06:36.133 +07:00 [INF] Initializing GameServer build
+2025-05-08 10:06:36.135 +07:00 [INF] New IDS
+2025-05-08 10:06:36.135 +07:00 [INF] Latest S4
+2025-05-08 10:06:36.136 +07:00 [INF] ============================================
+2025-05-08 10:06:36.137 +07:00 [INF] Initializing Database
+2025-05-08 10:06:36.145 +07:00 [INF] Initializing...
+2025-05-08 10:06:36.594 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '156.67.219.144' for user 'root' using method 'mysql_native_password' failed with message: Unknown database 'S4L' ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'S4L'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\GameServer\Program.cs:line 163
+2025-05-08 10:07:09.160 +07:00 [INF] ============================================
+2025-05-08 10:07:09.184 +07:00 [INF] Initializing GameServer build
+2025-05-08 10:07:09.186 +07:00 [INF] New IDS
+2025-05-08 10:07:09.186 +07:00 [INF] Latest S4
+2025-05-08 10:07:09.187 +07:00 [INF] ============================================
+2025-05-08 10:07:09.188 +07:00 [INF] Initializing Database
+2025-05-08 10:07:09.196 +07:00 [INF] Initializing...
+2025-05-08 10:07:10.026 +07:00 [INF] Initializing...
+2025-05-08 10:07:10.120 +07:00 [INF] Starting Server
+2025-05-08 10:07:10.123 +07:00 [INF] ____________________________________________
+2025-05-08 10:07:10.124 +07:00 [INF] ____________________________________________
+2025-05-08 10:07:10.125 +07:00 [INF] ============================================
+2025-05-08 10:07:10.126 +07:00 [INF] Starting Serverinstances and ResourceCache..
+2025-05-08 10:07:10.616 +07:00 [INF] Caching: Channels
+2025-05-08 10:07:10.617 +07:00 [INF] Caching...
+2025-05-08 10:07:10.688 +07:00 [INF] Caching: Clubs
+2025-05-08 10:07:10.691 +07:00 [INF] Caching...
+2025-05-08 10:07:10.983 +07:00 [INF] Caching: Effects
+2025-05-08 10:07:10.985 +07:00 [INF] Caching...
+2025-05-08 10:07:11.064 +07:00 [INF] Caching: Items
+2025-05-08 10:07:11.067 +07:00 [INF] Caching...
+2025-05-08 10:07:11.179 +07:00 [INF] Caching: DefaultItems
+2025-05-08 10:07:11.180 +07:00 [INF] Caching...
+2025-05-08 10:07:11.190 +07:00 [INF] Caching: Shop
+2025-05-08 10:07:11.192 +07:00 [INF] Caching...
+2025-05-08 10:07:11.492 +07:00 [INF] Caching: Experience
+2025-05-08 10:07:11.494 +07:00 [INF] Caching...
+2025-05-08 10:07:11.502 +07:00 [INF] Caching: Maps
+2025-05-08 10:07:11.503 +07:00 [INF] Caching...
+2025-05-08 10:07:11.518 +07:00 [INF] Caching: GameTempos
+2025-05-08 10:07:11.521 +07:00 [INF] Caching...
+2025-05-08 10:07:11.550 +07:00 [INF] Caching: Capsules
+2025-05-08 10:07:11.553 +07:00 [INF] Caching...
+2025-05-08 10:07:11.605 +07:00 [INF] Starting Web Api
+2025-05-08 10:07:11.623 +07:00 [INF] Serverinstances successfully started, ready for connections!
+2025-05-08 10:07:11.625 +07:00 [INF] ____________________________________________________________
+2025-05-08 10:07:11.643 +07:00 [INF] Connected to authserver
