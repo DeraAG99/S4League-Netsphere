@@ -696,3 +696,27 @@
 2025-05-08 10:07:11.623 +07:00 [INF] Serverinstances successfully started, ready for connections!
 2025-05-08 10:07:11.625 +07:00 [INF] ____________________________________________________________
 2025-05-08 10:07:11.643 +07:00 [INF] Connected to authserver
+2025-05-24 15:35:30.257 +07:00 [INF] ============================================
+2025-05-24 15:35:30.287 +07:00 [INF] Initializing GameServer build
+2025-05-24 15:35:30.288 +07:00 [INF] New IDS
+2025-05-24 15:35:30.289 +07:00 [INF] Latest S4
+2025-05-24 15:35:30.290 +07:00 [INF] ============================================
+2025-05-24 15:35:30.291 +07:00 [INF] Initializing Database
+2025-05-24 15:35:30.533 +07:00 [INF] Initializing...
+2025-05-24 15:35:31.561 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user ''@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 812
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 759
+   at NeoNetsphere.Program.Main() in D:\Project\S4League Netsphere\S4League-Netsphere\src\GameServer\Program.cs:line 164
