@@ -252,18 +252,7 @@ namespace NeoNetsphere.Network.Services
                 }
                 else
                 {
-                    if (it.PeriodType == ItemPeriodType.Units)
-                    {
-                        session.Player.Inventory.Create(it.ItemNumber, 3, it.Color, new EffectNumber[] { it.Effect }, it.Period);
-                    }
-                    else if(it.PeriodType == ItemPeriodType.Days)
-                    {
-                        session.Player.Inventory.Create(it);
-                    }
-                    else
-                    {
-                        session.Player.Inventory.Create(it.ItemNumber, 1, it.Color, new EffectNumber[] { it.Effect }, it.Period);
-                    }
+                    session.Player.Inventory.Create(it);
                 }
             }
             session.SendAsync(new ItemUseCapsuleAckMessage(Rewards, 3));

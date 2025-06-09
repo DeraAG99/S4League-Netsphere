@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Violet.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Latest_Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2018.2.42.18")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42fd379e16cd07e850317f777e6df577df0c0f15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622a30b7151374e830e3ce51eede2a6eac751264")]
 [assembly: System.Reflection.AssemblyProductAttribute("Violet.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Violet.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2018.2.42.18")]

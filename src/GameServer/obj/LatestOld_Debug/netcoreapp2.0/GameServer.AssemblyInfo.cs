@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("LatestOld_Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2018.2.43.278")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+42fd379e16cd07e850317f777e6df577df0c0f15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+622a30b7151374e830e3ce51eede2a6eac751264")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2018.2.43.278")]
