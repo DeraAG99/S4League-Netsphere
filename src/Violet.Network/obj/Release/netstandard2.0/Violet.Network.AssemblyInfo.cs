@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2018.2.42.38")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98b99c08a11305be9258853c1f8407edd2fa3302")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5512df633eea095def5006cbdab1a79cfa9e977b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Violet.Network")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2018.2.42.38")]

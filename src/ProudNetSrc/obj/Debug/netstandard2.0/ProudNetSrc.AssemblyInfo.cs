@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProudNetSrc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622a30b7151374e830e3ce51eede2a6eac751264")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5512df633eea095def5006cbdab1a79cfa9e977b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProudNetSrc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProudNetSrc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
