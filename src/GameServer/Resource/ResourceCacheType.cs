@@ -12,6 +12,7 @@ namespace NeoNetsphere.Resource
     Maps,
     GameTempo,
     ItemRewards,
-    Capsules
+    Capsules,
+    RandomShop
   }
 }

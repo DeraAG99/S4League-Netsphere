@@ -53,6 +53,9 @@ namespace NeoNetsphere.Resource
 
       Logger.Information("Caching: Capsules");
       GetItemRewards();
+
+      Logger.Information("Caching: RandomShop");
+      GetRandomShop();
     }
 
     public IReadOnlyList<ChannelDto> GetChannels()
@@ -244,6 +247,20 @@ namespace NeoNetsphere.Resource
 
       return value;
     }
+    public IReadOnlyList<RandomShopPool> GetRandomShop()
+    {
+      var value = _cache.Get<IReadOnlyList<RandomShopPool>>(ResourceCacheType.RandomShop);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+
+        value = _loader.LoadRandomShop().ToList();
+        _cache.Set(ResourceCacheType.RandomShop, value);
+      }
+
+      return value;
+    }
+
     public void Clear()
     {
       Logger.Information("Clearing cache");

@@ -84,8 +84,11 @@ namespace NeoNetsphere.Game
       teams = teams.Where(t => t.Count == min).ToArray();
 
       // get teams with least score
-      min = teams.Min(t => t.Score);
-      teams = teams.Where(t => t.Score == min).ToArray();
+      if (teams.Length > 0)
+      {
+        min = teams.Min(t => t.Score);
+        teams = teams.Where(t => t.Score == min).ToArray();
+      }
 
       var team = teams[0];
 

@@ -113,17 +113,21 @@
 
     internal Task SendUdpIfAvailableAsync(ICoreMessage message)
     {
-      var log = Logger?.ForContext("MessageType", message.GetType().Name);
       if (_disposed || !IsConnected)
         return Task.CompletedTask;
 
       if (UdpEnabled)
       {
-        //log?.Verbose("Sending core message {MessageType} using udp");
-        return UdpSocket.SendAsync(message, UdpEndPoint);
+        try
+        {
+          return UdpSocket.SendAsync(message, UdpEndPoint);
+        }
+        catch
+        {
+          return SendAsync(message);
+        }
       }
 
-      //log?.Verbose("Sending core message {MessageType} using tcp");
       return SendAsync(message);
     }
 

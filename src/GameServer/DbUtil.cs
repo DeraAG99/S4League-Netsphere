@@ -259,7 +259,7 @@ namespace NeoNetsphere
       {
         try
         {
-          db.InsertAsync(entityToInsert, statementOptions);
+          db.Insert(entityToInsert, statementOptions);
         }
         catch (Exception e)
         {

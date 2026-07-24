@@ -1292,5 +1292,44 @@ namespace NeoNetsphere.Resource
     }
 
     #endregion
+
+    #region RandomShop
+
+    public IEnumerable<RandomShopPool> LoadRandomShop()
+    {
+      var dto = Deserialize<RandomShopResourceDto>("xml/RandomShop.xml");
+      if (dto?.Pools == null)
+        yield break;
+
+      foreach (var poolDto in dto.Pools)
+      {
+        var pool = new RandomShopPool
+        {
+          Id = poolDto.Id,
+          PriceType = (ItemPriceType)poolDto.PriceType,
+          Price = poolDto.Price
+        };
+
+        if (poolDto.Items != null)
+        {
+          foreach (var itemDto in poolDto.Items)
+          {
+            pool.Items.Add(new RandomShopItem
+            {
+              ItemNumber = itemDto.ItemNumber,
+              PeriodType = (ItemPeriodType)itemDto.PeriodType,
+              Period = (ushort)itemDto.Period,
+              Effect = itemDto.Effect,
+              Color = itemDto.Color,
+              Rate = itemDto.Rate
+            });
+          }
+        }
+
+        yield return pool;
+      }
+    }
+
+    #endregion
   }
 }

@@ -384,6 +384,13 @@ namespace NeoNetsphere
                             $"[Inventory.Save] Used fallback price for ItemId={item.Id} Period={item.Period}, fallback to Period={price.Period}");
                 }
 
+                if (price == null)
+                {
+                    Log.Error(
+                        $"[Inventory.Save] No price found for ItemId={item.Id}, ItemNumber={item.ItemNumber.Id} PeriodType={item.PeriodType} Period={item.Period}, skipping save");
+                    continue;
+                }
+
 
                 var dto = new PlayerItemDto
                 {

@@ -37,7 +37,7 @@ namespace NeoNetsphere.Network.Services
 
           case ActorState.Ghost:
             if (plr.RoomInfo.State == PlayerState.Dead)
-              plr.RoomInfo.State = PlayerState.Dead;
+              plr.RoomInfo.State = PlayerState.Spectating;
             break;
 
           case ActorState.Respawn:

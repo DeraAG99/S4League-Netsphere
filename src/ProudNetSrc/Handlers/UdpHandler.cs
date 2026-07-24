@@ -31,6 +31,46 @@
       try
       {
         var session = _server.SessionsByUdpId.GetValueOrDefault(message.SessionId);
+        if (session != null && !session.UdpEndPoint.Equals(message.EndPoint))
+        {
+          session = _server.Sessions.Values.FirstOrDefault(
+              s => s.UdpSessionId == message.SessionId &&
+                   s.UdpEndPoint != null &&
+                   s.UdpEndPoint.Equals(message.EndPoint));
+
+          if (session == null)
+          {
+            if (message.Content.GetByte(0) != (byte)ProudCoreOpCode.ServerHolepunch)
+            {
+              log?.Warning("SessionId collision and not a holepunch, discarding");
+              return;
+            }
+
+            var holepunch = (ServerHolepunchMessage)CoreMessageDecoder.Decode(message.Content);
+            session = _server.Sessions.Values.FirstOrDefault(
+                x => x.HolepunchMagicNumber.Equals(holepunch.MagicNumber));
+
+            if (session == null)
+            {
+              log?.Warning("Invalid holepunch magic number");
+              return;
+            }
+
+            if (session.UdpSocket != _socket)
+            {
+              log?.Warning("Client is sending to the wrong udp socket");
+              return;
+            }
+
+            session.UdpSessionId = message.SessionId;
+            session.UdpEndPoint = message.EndPoint;
+            _server.SessionsByUdpId[session.UdpSessionId] = session;
+
+            session.SendUdpAsync(new ServerHolepunchAckMessage(session.HolepunchMagicNumber, session.UdpEndPoint));
+            return;
+          }
+        }
+
         if (session == null)
         {
           if (message.Content.GetByte(0) != (byte)ProudCoreOpCode.ServerHolepunch)

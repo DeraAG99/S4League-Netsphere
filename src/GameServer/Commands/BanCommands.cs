@@ -53,7 +53,7 @@ namespace NeoNetsphere.Commands
         foreach (var accountBan in account.Bans)
         {
           accountBan.Duration = 0;
-          DbUtil.UpdateAsync(db, accountBan);
+          await DbUtil.UpdateAsync(db, accountBan);
         }
 
         await DbUtil.UpdateAsync(db, account);

@@ -145,11 +145,17 @@
                             .Where($"{nameof(AccountDto.Nickname):C} = @Nickname")
                             .WithParameters(new { Nickname = args[0] }))).FirstOrDefault();
 
+                        if (accountDto == null)
+                        {
+                            plr.SendConsoleMessage(S4Color.Red + "Unknown player");
+                            return false;
+                        }
+
                         var playerDto = (await DbUtil.FindAsync<PlayerDto>(db, statement => statement
                             .Where($"{nameof(PlayerDto.Id):C} = @Id")
                             .WithParameters(new { Id = accountDto.Id }))).FirstOrDefault();
 
-                        if (accountDto == null || playerDto == null)
+                        if (playerDto == null)
                         {
                             plr.SendConsoleMessage(S4Color.Red + "Unknown player");
                             return false;
@@ -215,11 +221,17 @@
                 .Where($"{nameof(AccountDto.Nickname):C} = @Nickname")
                 .WithParameters(new { Nickname = args[0] }))).FirstOrDefault();
 
+            if (accountDto == null)
+            {
+              plr.SendConsoleMessage(S4Color.Red + "Unknown player");
+              return false;
+            }
+
             var playerDto = (await DbUtil.FindAsync<PlayerDto>(db, statement => statement
                 .Where($"{nameof(PlayerDto.Id):C} = @Id")
                 .WithParameters(new { Id = accountDto.Id }))).FirstOrDefault();
 
-            if (accountDto == null || playerDto == null)
+            if (playerDto == null)
             {
               plr.SendConsoleMessage(S4Color.Red + "Unknown player");
               return false;
@@ -365,9 +377,8 @@
               DbUtil.Update(db, account);
 
               var player = GameServer.Instance.PlayerManager.Get((ulong)account.Id);
-              player?.Session?.SendAsync(new ItemUseChangeNickAckMessage { Result = 0 });
               player?.Session?.SendAsync(
-                  new ServerResultAckMessage(ServerResult.CreateNicknameSuccess));
+                  new ServerResultAckMessage(ServerResult.ServerError));
             }
             else
             {

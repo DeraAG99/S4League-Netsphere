@@ -43,8 +43,11 @@ namespace NeoNetsphere.Network.Services
             var ipInfo = new IpInfo2();
             try
             {
-                var info = new WebClient().DownloadString("http://ip-api.com/json/" + session.RemoteEndPoint.Address);
-                ipInfo = JsonConvert.DeserializeObject<IpInfo2>(info);
+                using (var wc = new WebClient())
+                {
+                    var info = wc.DownloadString("http://ip-api.com/json/" + session.RemoteEndPoint.Address);
+                    ipInfo = JsonConvert.DeserializeObject<IpInfo2>(info);
+                }
                 if (string.IsNullOrWhiteSpace(ipInfo.countryCode) || string.IsNullOrEmpty(ipInfo.countryCode))
                 {
                     ipInfo.countryCode = "UNK";

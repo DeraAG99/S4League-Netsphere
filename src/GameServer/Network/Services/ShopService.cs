@@ -9,6 +9,7 @@ using BlubLib.IO;
 using ExpressMapper.Extensions;
 using NeoNetsphere.Network.Data.Game;
 using NeoNetsphere.Network.Message.Game;
+using NeoNetsphere.Resource;
 using ProudNetSrc;
 using ProudNetSrc.Handlers;
 using Serilog;
@@ -122,12 +123,120 @@ namespace NeoNetsphere.Network.Services
     }
 
     [MessageHandler(typeof(RandomShopUpdateCheckReqMessage))]
-    public void RandomShopUpdateCheckHandler(GameSession session, RandomShopUpdateCheckReqMessage message)
+    public async Task RandomShopUpdateCheckHandler(GameSession session, RandomShopUpdateCheckReqMessage message)
     {
-      // var version = DateTimeOffset.UtcNow.ToString("yyyyMMddHHmmss");
-      // session.SendAsync(new RandomShopUpdateCheckAckMessage(version));
-      // session.SendAsync(new RandomShopUpdateInfoAckMessage(0, Array.Empty<byte>(), 0, 0, version));
-      // Todo
+      var version = DateTimeOffset.UtcNow.ToString("yyyyMMddHHmmss");
+
+      await session.SendAsync(new RandomShopUpdateCheckAckMessage(version));
+
+      var pools = GameServer.Instance.ResourceCache.GetRandomShop();
+
+      var allItems = pools.SelectMany(p => p.Items).ToList();
+
+      byte[] data;
+      using (var w = new BinaryWriter(new MemoryStream()))
+      {
+        w.Write(allItems.Count);
+        foreach (var item in allItems)
+        {
+          w.Write(item.ItemNumber);
+          w.Write((uint)item.PeriodType);
+          w.Write(item.Period);
+          w.Write(item.Effect);
+          w.Write(item.Color);
+          w.Write(item.Rate);
+        }
+
+        w.Write(pools.Count);
+        foreach (var pool in pools)
+        {
+          w.Write(pool.Id);
+          w.WriteEnum(pool.PriceType);
+          w.Write(pool.Price);
+          w.Write(pool.Items.Count);
+        }
+
+        data = ((MemoryStream)w.BaseStream).ToArray();
+      }
+
+      await session.SendAsync(new RandomShopUpdateInfoAckMessage(0, data, 0, 0, version));
+    }
+
+    [MessageHandler(typeof(RandomShopRollingStartReqMessage))]
+    public async Task RandomShopRollingStartHandler(GameSession session, RandomShopRollingStartReqMessage message)
+    {
+      try
+      {
+        var plr = session.Player;
+        var pools = GameServer.Instance.ResourceCache.GetRandomShop();
+
+        if (pools.Count == 0)
+        {
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          return;
+        }
+
+        var poolIndex = message.Unk % pools.Count;
+        var pool = pools[poolIndex];
+
+        if (plr.PEN < pool.Price && pool.PriceType == ItemPriceType.PEN ||
+            plr.AP < pool.Price && pool.PriceType == ItemPriceType.AP)
+        {
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          return;
+        }
+
+        switch (pool.PriceType)
+        {
+          case ItemPriceType.PEN:
+            plr.PEN -= pool.Price;
+            break;
+          case ItemPriceType.AP:
+            plr.AP -= pool.Price;
+            break;
+        }
+
+        var rolledItem = pool.Roll();
+
+        var itemEffects = new List<EffectNumber> { (EffectNumber)rolledItem.Effect };
+        var period = rolledItem.PeriodType == ItemPeriodType.None ? (ushort)0 : rolledItem.Period;
+        var priceInfo = GameServer.Instance.ResourceCache.GetShop().GetItemInfo(rolledItem.ItemNumber, pool.PriceType);
+
+        if (priceInfo == null)
+        {
+          Logger.ForAccount(session).Error("RandomShop: No shop entry for {item}", rolledItem.ItemNumber);
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          return;
+        }
+
+        var price = priceInfo.PriceGroup.GetPrice(rolledItem.PeriodType, period);
+        if (price == null)
+        {
+          Logger.ForAccount(session).Error("RandomShop: No price for {item} periodType={pt} period={p}",
+              rolledItem.ItemNumber, rolledItem.PeriodType, period);
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          return;
+        }
+
+        var plrItem = plr.Inventory.Create(priceInfo, price, rolledItem.Color,
+            itemEffects.ToArray(),
+            (uint)(price.PeriodType == ItemPeriodType.Units ? price.Period : 0));
+
+        await session.SendAsync(new RandomShopRollingStartAckMessage
+        {
+          Unk1 = 0,
+          Unk2 = new[] { (int)(uint)rolledItem.ItemNumber }
+        });
+        await session.SendAsync(new MoneyRefreshCashInfoAckMessage(plr.PEN, plr.AP));
+
+        Logger.ForAccount(session).Information("RandomShop: Rolled {item} from pool {pool}",
+            rolledItem.ItemNumber, pool.Id);
+      }
+      catch (Exception ex)
+      {
+        Logger.Error(ex, "RandomShop: Error in RollingStart");
+        await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+      }
     }
 
     [MessageHandler(typeof(CollectBookItemRegistReqMessage))]

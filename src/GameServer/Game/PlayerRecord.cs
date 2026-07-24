@@ -25,8 +25,7 @@ namespace NeoNetsphere.Game
     {
       bonusPen = 0;
       var exp = GetExpGain(out var bonus);
-      if (bonus > exp) return (uint)(exp + bonus / 2);
-      return (uint)(exp - bonus / 2);
+      return (uint)(exp + bonus / 2);
     }
 
     public virtual int GetExpGain(out int bonusExp)

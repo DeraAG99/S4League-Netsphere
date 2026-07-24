@@ -62,7 +62,7 @@ namespace NeoNetsphere.Commands
         return true;
       }
 
-      var isclanservice = args[0].ToLower() == "kick" && args[0].ToLower() == "invite";
+      var isclanservice = args[0].ToLower() == "kick" || args[0].ToLower() == "invite";
 
       if (args.Length < 2)
       {

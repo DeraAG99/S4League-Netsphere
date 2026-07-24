@@ -3,6 +3,7 @@
   using System;
   using System.Collections.Generic;
   using System.IO;
+  using System.Threading;
   using System.Threading.Tasks;
   using BlubLib.IO;
   using Dapper.FastCrud;
@@ -93,6 +94,7 @@
     // ReSharper disable once InconsistentNaming
     private static readonly ILogger Logger = Log.ForContext(Constants.SourceContextPropertyName, "GamePlayerMgr");
 
+    private int _disposed;
     private uint _ap;
     private uint _coins1;
     private uint _coins2;
@@ -670,7 +672,7 @@
 
     private DateTimeOffset _lastOnTime = DateTimeOffset.Now;
 
-    public bool Disposed { get; private set; }
+    public bool Disposed => Interlocked.CompareExchange(ref _disposed, 1, 1) == 1;
 
     public TimeSpan OnTimeDelta
     {
@@ -821,7 +823,7 @@
 
     public void Dispose()
     {
-      if (Disposed || Session == null)
+      if (Interlocked.CompareExchange(ref _disposed, 1, 0) == 1 || Session == null)
         return;
 
       GameServer.Instance?.PlayerManager?.Remove(this);
@@ -855,7 +857,6 @@
       Room = null;
       RoomInfo = null;
       BE = null;
-      Disposed = true;
     }
 
     ~Player()
