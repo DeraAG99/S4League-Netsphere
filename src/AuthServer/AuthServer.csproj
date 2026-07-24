@@ -29,7 +29,7 @@
     <PackageReference Include="BlubLib.DotNetty.SimpleRmi" Version="5.1.0" />
     <PackageReference Include="Hjson" Version="3.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="MySql.Data" Version="8.0.12" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
     <PackageReference Include="Microsoft.Data.SQLite" Version="2.1.0" />
     <PackageReference Include="Serilog" Version="2.7.1" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
