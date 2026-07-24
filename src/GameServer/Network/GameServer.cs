@@ -208,6 +208,7 @@ namespace NeoNetsphere.Network
                     .RegisterRule<ChannelLeaveReqMessage>(MustBeLoggedIn, MustBeInChannel)
                     .RegisterRule<ItemBuyItemReqMessage>(MustBeLoggedIn)
                     .RegisterRule<RandomShopRollingStartReqMessage>(MustBeLoggedIn)
+                    .RegisterRule<CardGambleReqMessage>(MustBeLoggedIn)
                     .RegisterRule<ItemUseItemReqMessage>(MustBeLoggedIn)
                     .RegisterRule<ItemRepairItemReqMessage>(MustBeLoggedIn)
                     .RegisterRule<ItemRefundItemReqMessage>(MustBeLoggedIn)

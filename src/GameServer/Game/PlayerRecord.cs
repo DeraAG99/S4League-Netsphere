@@ -2,8 +2,10 @@
 using System.IO;
 using System.Linq;
 using NeoNetsphere;
+using NeoNetsphere.Network;
+using NeoNetsphere.Resource;
 
-// ReSharper disable once Checknamespace 
+// ReSharper disable once Checknamespace
 namespace NeoNetsphere.Game
 {
   internal abstract class PlayerRecord
@@ -24,67 +26,142 @@ namespace NeoNetsphere.Game
     public virtual uint GetPenGain(out uint bonusPen)
     {
       bonusPen = 0;
-      var exp = GetExpGain(out var bonus);
-      return (uint)(exp + bonus / 2);
+      var pointBonus = GameServer.Instance.ResourceCache.GetPointBonus();
+      var plrLevel = Player.Level;
+
+      PointBonusEntry penConfig = null;
+      switch (Player.Room.GameRuleManager.GameRule.GameRule)
+      {
+        case GameRule.Touchdown:
+        case GameRule.PassTouchdown:
+        case GameRule.SemiTouchdown:
+          penConfig = pointBonus.Touchdown;
+          break;
+        case GameRule.Deathmatch:
+          penConfig = pointBonus.Deathmatch;
+          break;
+        case GameRule.Survival:
+          penConfig = pointBonus.Survival;
+          break;
+        case GameRule.Captain:
+          penConfig = pointBonus.Captain;
+          break;
+        case GameRule.Chaser:
+          penConfig = pointBonus.Chaser;
+          break;
+        case GameRule.BattleRoyal:
+          penConfig = pointBonus.BattleRoyal;
+          break;
+        case GameRule.SnowballFight:
+          penConfig = pointBonus.SnowballFight;
+          break;
+        case GameRule.Arcade:
+          penConfig = pointBonus.Arcade;
+          break;
+        case GameRule.Horde:
+          penConfig = pointBonus.Horde;
+          break;
+        case GameRule.Siege:
+          penConfig = pointBonus.Siege;
+          break;
+      }
+
+      if (penConfig == null || !penConfig.IsValid)
+      {
+        // Fallback: derive PEN from EXP
+        var exp = GetExpGain(out var _);
+        return (uint)Math.Max(0, exp);
+      }
+
+      var plrs = Player.Room.TeamManager.Players
+          .Where(plr => plr.RoomInfo.State == PlayerState.Waiting &&
+                        plr.RoomInfo.Mode == PlayerGameMode.Normal)
+          .ToArray();
+
+      var place = 1;
+      foreach (var plr in plrs.OrderByDescending(plr => plr.RoomInfo.Stats.TotalScore))
+      {
+        if (plr == Player)
+          break;
+        place++;
+        if (place > 3)
+          break;
+      }
+
+      var rankingBonus = 0f;
+      switch (place)
+      {
+        case 1:
+          rankingBonus = 1.0f;
+          break;
+        case 2:
+          rankingBonus = 0.7f;
+          break;
+        case 3:
+          rankingBonus = 0.4f;
+          break;
+      }
+
+      var pen = TotalScore * penConfig.RankingFactor +
+                plrs.Length * penConfig.PlayerCountFactor +
+                Player.RoomInfo.PlayTime.TotalMinutes * penConfig.PointPerMin;
+
+      // Apply ranking bonus
+      pen *= (1.0f + rankingBonus);
+
+      // Apply level bonus
+      foreach (var levelBonus in pointBonus.LevelBonuses)
+      {
+        if (plrLevel >= levelBonus.Min && plrLevel <= levelBonus.Max)
+        {
+          pen += levelBonus.PenBonus;
+          break;
+        }
+      }
+
+      return (uint)Math.Max(1, pen);
     }
 
     public virtual int GetExpGain(out int bonusExp)
     {
-      var place = 1;
-      ExperienceRates expRates = null;
-      var game = Config.Instance.Game;
       bonusExp = 0;
+      var expBonus = GameServer.Instance.ResourceCache.GetExperienceBonus();
 
+      ExperienceBonusEntry expConfig = null;
       switch (Player.Room.GameRuleManager.GameRule.GameRule)
       {
-        case GameRule.Arcade:
-          break;
-        case GameRule.Arena:
-          break;
-        case GameRule.BattleRoyal:
-          expRates = game.BRExpRates;
-          break;
-        case GameRule.Captain:
-          expRates = game.CaptainExpRates;
-          break;
-        case GameRule.Challenge:
-          break;
-        case GameRule.Chaser:
-          expRates = game.ChaserExpRates;
-          break;
-        case GameRule.CombatTrainingDM:
-          break;
-        case GameRule.CombatTrainingTD:
+        case GameRule.Touchdown:
+        case GameRule.PassTouchdown:
+        case GameRule.SemiTouchdown:
+          expConfig = expBonus.Touchdown;
           break;
         case GameRule.Deathmatch:
-          expRates = game.DeathmatchExpRates;
-          break;
-        case GameRule.Horde:
-          break;
-        case GameRule.PassTouchdown:
-          expRates = game.TouchdownExpRates;
-          break;
-        case GameRule.Practice:
-          break;
-        case GameRule.SemiTouchdown:
-          break;
-        case GameRule.Siege:
-          break;
-        case GameRule.SnowballFight:
-          expRates = game.DeathmatchExpRates;
+          expConfig = expBonus.Deathmatch;
           break;
         case GameRule.Survival:
+          expConfig = expBonus.Survival;
           break;
-        case GameRule.Touchdown:
-          expRates = game.TouchdownExpRates;
+        case GameRule.Captain:
+          expConfig = expBonus.Captain;
           break;
-        case GameRule.Tutorial:
+        case GameRule.Chaser:
+          expConfig = expBonus.Chaser;
           break;
-        case GameRule.Warfare:
+        case GameRule.BattleRoyal:
+          expConfig = expBonus.BattleRoyal;
+          break;
+        case GameRule.SnowballFight:
+          expConfig = expBonus.SnowballFight;
+          break;
+        case GameRule.Horde:
+          expConfig = expBonus.Horde;
+          break;
+        case GameRule.Siege:
+          expConfig = expBonus.Seize;
           break;
       }
 
-      if (expRates == null)
+      if (expConfig == null || !expConfig.IsValid)
         return 0;
 
       var plrs = Player.Room.TeamManager.Players
@@ -92,11 +169,11 @@ namespace NeoNetsphere.Game
                         plr.RoomInfo.Mode == PlayerGameMode.Normal)
           .ToArray();
 
+      var place = 1;
       foreach (var plr in plrs.OrderByDescending(plr => plr.RoomInfo.Stats.TotalScore))
       {
         if (plr == Player)
           break;
-
         place++;
         if (place > 3)
           break;
@@ -106,27 +183,25 @@ namespace NeoNetsphere.Game
       switch (place)
       {
         case 1:
-          rankingBonus += expRates.FirstPlaceBonus / 100.0f;
+          rankingBonus += expConfig.RankingFactor;
           break;
-
         case 2:
-          rankingBonus += expRates.SecondPlaceBonus / 100.0f;
+          rankingBonus += expConfig.RankingFactor * 0.6f;
           break;
-
         case 3:
-          rankingBonus += expRates.ThirdPlaceBonus / 100.0f;
+          rankingBonus += expConfig.RankingFactor * 0.3f;
           break;
       }
 
-      var timeExp = expRates.ExpPerMin * Player.RoomInfo.PlayTime.Minutes;
-      var playersExp = plrs.Length * expRates.PlayerCountFactor;
-      var scoreExp = expRates.ExpPerMin * TotalScore;
+      var timeExp = expConfig.ConstantExpPerMin * Player.RoomInfo.PlayTime.TotalMinutes;
+      var variableExp = expConfig.VariableExpPerMin * Player.RoomInfo.PlayTime.TotalMinutes;
+      var playersExp = plrs.Length * expConfig.PlayerCountFactor;
+      var scoreExp = variableExp > 0 ? TotalScore * (variableExp / 100.0f) : 0;
 
       var expGained = (timeExp + playersExp + scoreExp) * rankingBonus;
 
-      bonusExp = (int)expGained /* * Player.GetExpRate()*/;
-
-      return (int)Math.Round(bonusExp * 0.01);
+      bonusExp = (int)expGained;
+      return (int)Math.Round(expGained);
     }
 
     public virtual void Reset()

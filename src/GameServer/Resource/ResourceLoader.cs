@@ -1331,5 +1331,1358 @@ namespace NeoNetsphere.Resource
     }
 
     #endregion
+
+    #region CardSystem
+
+    public CardSystemInfo LoadCardSystem()
+    {
+      var dto = Deserialize<CardSystemResourceDto>("xml/_eu_card_system_info.x7");
+      if (dto == null)
+        return new CardSystemInfo { Active = false };
+
+      var info = new CardSystemInfo
+      {
+        Active = dto.active,
+        CurrentSeason = dto.CurrentSeason?.num ?? 2
+      };
+
+      if (dto.Formula != null)
+      {
+        info.Formula = new CardFormula
+        {
+          PlayLimitTime = dto.Formula.play_limit_time,
+          PlayLimitMinCount = dto.Formula.play_limit_min_count,
+          PlayDefaultTime = dto.Formula.play_default_time,
+          PlayDefaultCount = dto.Formula.play_default_count,
+          GamblePen = dto.Formula.gamble_pen,
+          GambleLimitMinCount = dto.Formula.gamble_limit_min_count,
+          CompleteCardCount = dto.Formula.complete_card_count
+        };
+      }
+
+      if (dto.Seasons != null)
+      {
+        foreach (var seasonDto in dto.Seasons)
+        {
+          var season = new CardSeasonInfo
+          {
+            Num = seasonDto.num,
+            BuyCapsule = seasonDto.buy_capsule,
+            ShopId = seasonDto.shop_id
+          };
+
+          if (seasonDto.Cards != null)
+          {
+            foreach (var cardDto in seasonDto.Cards)
+            {
+              season.Cards.Add(new CardEntry
+              {
+                Num = cardDto.num,
+                ItemId = (ItemNumber)cardDto.item_id,
+                ShopId = cardDto.shop_id,
+                PeriodType = ParsePeriodType(cardDto.period_type),
+                PeriodValue = cardDto.period_value,
+                Color = cardDto.color,
+                EffectId = cardDto.effect_id,
+                Grade = cardDto.grade,
+                PlayProb = cardDto.play_prob,
+                TryProb = cardDto.try_prob
+              });
+            }
+          }
+
+          if (seasonDto.Reward != null)
+          {
+            season.Reward = new CardReward
+            {
+              ItemId = (ItemNumber)seasonDto.Reward.item_id,
+              ShopId = seasonDto.Reward.shop_id,
+              PeriodType = ParsePeriodType(seasonDto.Reward.period_type),
+              PeriodValue = seasonDto.Reward.period_value,
+              Color = seasonDto.Reward.color,
+              EffectId = seasonDto.Reward.effect_id
+            };
+          }
+
+          info.Seasons.Add(season);
+        }
+      }
+
+      return info;
+    }
+
+    private static ItemPeriodType ParsePeriodType(string periodType)
+    {
+      if (string.IsNullOrEmpty(periodType))
+        return ItemPeriodType.None;
+      if (periodType == "USECNT")
+        return ItemPeriodType.Units;
+      if (periodType == "USEDAY")
+        return ItemPeriodType.Days;
+      if (periodType == "USEHR")
+        return ItemPeriodType.Hours;
+      return ItemPeriodType.None;
+    }
+
+    #endregion
+
+    #region ExperienceBonus
+
+    public ExperienceBonusConfig LoadExperienceBonus()
+    {
+      var dto = Deserialize<ExperienceBonusDto>("xml/experience_bonus.x7");
+      if (dto == null)
+        return new ExperienceBonusConfig();
+
+      var config = new ExperienceBonusConfig();
+
+      if (dto.Football != null)
+        config.Touchdown = MapExpBonus(dto.Football);
+      if (dto.DeathMatch != null)
+        config.Deathmatch = MapExpBonus(dto.DeathMatch);
+      if (dto.Survival != null)
+        config.Survival = MapExpBonus(dto.Survival);
+      if (dto.Captain != null)
+        config.Captain = MapExpBonus(dto.Captain);
+      if (dto.Seize != null)
+        config.Seize = MapExpBonus(dto.Seize);
+      if (dto.Horde != null)
+        config.Horde = MapExpBonus(dto.Horde);
+      if (dto.Slaughter != null)
+        config.Slaughter = MapExpBonus(dto.Slaughter);
+      if (dto.FreeForAll != null)
+        config.FreeForAll = MapExpBonus(dto.FreeForAll);
+      // Map survival to chaser/battleroyal as fallback
+      config.Chaser = config.Survival;
+      config.BattleRoyal = config.Survival;
+      config.SnowballFight = config.Deathmatch;
+
+      return config;
+    }
+
+    private static ExperienceBonusEntry MapExpBonus(ExperienceBonusModeDto dto)
+    {
+      return new ExperienceBonusEntry
+      {
+        RankingFactor = dto.ranking_factor,
+        PlayerCountFactor = dto.player_count_factor,
+        VariableExpPerMin = dto.variable_exp_per_min,
+        ConstantExpPerMin = dto.constant_exp_per_min,
+        DamageRanking1stPoint = dto.damageranking_1st_point,
+        DamageRanking2ndPoint = dto.damageranking_2nd_point,
+        DamageRanking3rdPoint = dto.damageranking_3rd_point,
+        IsValid = dto.variable_exp_per_min > 0 || dto.constant_exp_per_min > 0
+      };
+    }
+
+    #endregion
+
+    #region PointBonus
+
+    public PointBonusConfig LoadPointBonus()
+    {
+      var dto = Deserialize<PointBonusDto>("xml/point_bonus.x7");
+      if (dto == null)
+        return new PointBonusConfig();
+
+      var config = new PointBonusConfig();
+
+      if (dto.Football != null)
+        config.Touchdown = MapPointBonus(dto.Football);
+      if (dto.DeathMatch != null)
+        config.Deathmatch = MapPointBonus(dto.DeathMatch);
+      if (dto.Survival != null)
+        config.Survival = MapPointBonus(dto.Survival);
+      if (dto.Captain != null)
+        config.Captain = MapPointBonus(dto.Captain);
+      if (dto.Arcade != null)
+      {
+        config.Arcade = new PointBonusEntry
+        {
+          PointPerMin = dto.Arcade.point_per_min,
+          IsValid = dto.Arcade.point_per_min > 0
+        };
+      }
+      config.Chaser = config.Survival;
+      config.BattleRoyal = config.Survival;
+      config.SnowballFight = config.Deathmatch;
+      config.Horde = config.Survival;
+
+      if (dto.LevelBonuses != null)
+      {
+        foreach (var levelDto in dto.LevelBonuses)
+        {
+          config.LevelBonuses.Add(new PointBonusLevelEntry
+          {
+            Min = levelDto.min,
+            Max = levelDto.max,
+            PenBonus = levelDto.pen_bonus
+          });
+        }
+      }
+
+      return config;
+    }
+
+    private static PointBonusEntry MapPointBonus(PointBonusModeDto dto)
+    {
+      return new PointBonusEntry
+      {
+        RankingFactor = dto.ranking_factor,
+        PlayerCountFactor = dto.player_count_factor,
+        PointPerMin = dto.point_per_min,
+        IsValid = dto.point_per_min > 0
+      };
+    }
+
+    #endregion
+
+    #region MasterExperience
+
+    public MasterExperience LoadMasterExperience()
+    {
+      var dto = Deserialize<MasterExperienceDto>("xml/master_experience.x7");
+      if (dto?.Entries == null)
+        return new MasterExperience { MaxLevel = 50, Entries = System.Array.Empty<MasterExperienceEntry>() };
+
+      var entries = new MasterExperienceEntry[dto.Entries.Length];
+      for (var i = 0; i < dto.Entries.Length; i++)
+      {
+        entries[i] = new MasterExperienceEntry
+        {
+          Level = i,
+          Require = (uint)dto.Entries[i].require,
+          Accumulate = (uint)dto.Entries[i].accumulate
+        };
+      }
+
+      return new MasterExperience
+      {
+        MaxLevel = dto.maxLevel,
+        Entries = entries
+      };
+    }
+
+    #endregion
+
+    #region BurningTime
+
+    public BurningTimeInfo LoadBurningTime()
+    {
+      var dto = Deserialize<BurningTimeDto>("xml/burning_time.x7");
+      return MapBurningTime(dto);
+    }
+
+    public BurningTimeInfo LoadBurningTimePve()
+    {
+      var dto = Deserialize<BurningTimeDto>("xml/burning_time_pve.x7");
+      return MapBurningTime(dto);
+    }
+
+    private static BurningTimeInfo MapBurningTime(BurningTimeDto dto)
+    {
+      var dict = new Dictionary<uint, IReadOnlyList<BurningTimeEntry>>();
+      if (dto?.Modes == null)
+        return new BurningTimeInfo { Entries = dict };
+
+      foreach (var mode in dto.Modes)
+      {
+        if (!dict.ContainsKey(mode.mode))
+          dict[mode.mode] = new List<BurningTimeEntry>();
+
+        var list = (List<BurningTimeEntry>)dict[mode.mode];
+        list.Add(new BurningTimeEntry
+        {
+          Mode = mode.mode,
+          LevelMin = mode.Condition?.ca_lv_min ?? 0,
+          LevelMax = mode.Condition?.ca_lv_max ?? 0,
+          Point = mode.Condition?.point ?? 0,
+          BurningTime = mode.Condition?.burning_time ?? 0,
+          MultiAp = mode.Status?.multi_ap ?? 1.0f,
+          PlusAs = mode.Status?.plus_as ?? 0,
+          AvHp = mode.Status?.av_hp ?? 100,
+          MultiDp = mode.Status?.multi_dp ?? 0,
+          AvSp = mode.Status?.av_sp ?? 100
+        });
+      }
+
+      return new BurningTimeInfo { Entries = dict };
+    }
+
+    #endregion
+
+    #region EquipLimit
+
+    public EquipLimitInfo LoadEquipLimit()
+    {
+      var dto = Deserialize<EquipLimitDto>("xml/equip_limit.x7");
+      var entries = new Dictionary<int, EquipLimitEntry>();
+      if (dto?.Preset?.Entries == null)
+        return new EquipLimitInfo { Entries = entries };
+
+      foreach (var entryDto in dto.Preset.Entries)
+      {
+        var allowedItems = new HashSet<uint>();
+        if (entryDto.Items != null)
+          foreach (var item in entryDto.Items)
+            allowedItems.Add(item.Item_Id);
+
+        entries[entryDto.id] = new EquipLimitEntry
+        {
+          Id = entryDto.id,
+          StringKey = entryDto.string_key,
+          AllowedItems = allowedItems
+        };
+      }
+
+      return new EquipLimitInfo { Entries = entries };
+    }
+
+    #endregion
+
+    #region RoomOption
+
+    public RoomOptionInfo LoadRoomOption()
+    {
+      var dto = Deserialize<RoomOptionDto>("xml/room_option.x7");
+      if (dto == null)
+        return new RoomOptionInfo { RewardConditionTime = 60, Modes = new List<RoomOptionModeEntry>(), ModeRewards = new List<RoomOptionRewardEntry>() };
+
+      var modes = new List<RoomOptionModeEntry>();
+      if (dto.ModeType?.Modes != null)
+      {
+        foreach (var modeDto in dto.ModeType.Modes)
+        {
+          modes.Add(new RoomOptionModeEntry
+          {
+            ModeId = modeDto.mode_id,
+            Probability = modeDto.prob,
+            ScoreLimit = modeDto.score,
+            TimeLimit = modeDto.time,
+            LimitPlayer = modeDto.limit_player,
+            SpectatorCount = modeDto.spectator_count,
+            LimitPlayTime = modeDto.limit_play_time
+          });
+        }
+      }
+
+      var rewards = new List<RoomOptionRewardEntry>();
+      if (dto.ModeRewards != null)
+      {
+        foreach (var rewardDto in dto.ModeRewards)
+        {
+          var requitals = new List<RoomOptionRequitalEntry>();
+          if (rewardDto.Requitals != null)
+          {
+            foreach (var reqDto in rewardDto.Requitals)
+            {
+              requitals.Add(new RoomOptionRequitalEntry
+              {
+                Key = reqDto.key,
+                GiftType = reqDto.gift_type,
+                ItemKey = reqDto.item_key,
+                ShopId = reqDto.shop_id,
+                PeriodType = reqDto.period_type,
+                Period = reqDto.period,
+                Color = reqDto.color,
+                EffectId = reqDto.effect_id,
+                Probability = reqDto.prob
+              });
+            }
+          }
+
+          rewards.Add(new RoomOptionRewardEntry
+          {
+            MinPlayer = rewardDto.min_player,
+            Requitals = requitals
+          });
+        }
+      }
+
+      return new RoomOptionInfo
+      {
+        RewardConditionTime = dto.reward_condition_time,
+        Modes = modes,
+        ModeRewards = rewards
+      };
+    }
+
+    #endregion
+
+    #region EnchantData
+
+    public EnchantInfo LoadEnchantData()
+    {
+      var dto = Deserialize<EnchantDataDto>("xml/enchant_data.x7");
+      if (dto == null)
+        return new EnchantInfo();
+
+      var masteryNeeds = new Dictionary<string, IReadOnlyList<EnchantMasteryNeed>>();
+      if (dto.MasteryTable?.Entries != null)
+      {
+        var groups = new Dictionary<string, List<EnchantMasteryNeed>>();
+        foreach (var entry in dto.MasteryTable.Entries)
+        {
+          if (!groups.ContainsKey(entry.item_type))
+            groups[entry.item_type] = new List<EnchantMasteryNeed>();
+          groups[entry.item_type].Add(new EnchantMasteryNeed
+          {
+            ItemType = entry.item_type,
+            EnchantCount = entry.enchant_cnt,
+            Durability = entry.durability,
+            Period = entry.period
+          });
+        }
+        foreach (var kvp in groups)
+          masteryNeeds[kvp.Key] = kvp.Value;
+      }
+
+      var prices = new Dictionary<string, IReadOnlyList<EnchantPrice>>();
+      if (dto.PriceTable?.Entries != null)
+      {
+        var groups = new Dictionary<string, List<EnchantPrice>>();
+        foreach (var entry in dto.PriceTable.Entries)
+        {
+          if (!groups.ContainsKey(entry.item_type))
+            groups[entry.item_type] = new List<EnchantPrice>();
+          groups[entry.item_type].Add(new EnchantPrice
+          {
+            ItemType = entry.item_type,
+            EnchantCount = entry.enchant_cnt,
+            Price = entry.enchant_price
+          });
+        }
+        foreach (var kvp in groups)
+          prices[kvp.Key] = kvp.Value;
+      }
+
+      return new EnchantInfo
+      {
+        MasteryPerMin = dto.Config?.Data?.mastery_per_min ?? 20,
+        BonusProb = dto.Config?.Data?.bonus_prob ?? 500000,
+        ProbUnit = dto.Config?.Data?.prob_unit ?? 10000000,
+        NoticeEnchantCount = dto.Config?.Data?.notice_enchant_cnt ?? 15,
+        MasteryNeeds = masteryNeeds,
+        Prices = prices
+      };
+    }
+
+    #endregion
+
+    #region EnchantList
+
+    public IReadOnlyList<EnchantEffect> LoadEnchantList()
+    {
+      var dto = Deserialize<EnchantListDto>("xml/enchant_list.x7");
+      if (dto?.Entries == null)
+        return new List<EnchantEffect>();
+
+      var result = new List<EnchantEffect>();
+      foreach (var entry in dto.Entries)
+      {
+        result.Add(new EnchantEffect
+        {
+          MainType = entry.main_type,
+          Upper = entry.upper,
+          Lower = entry.lower,
+          EffectType = entry.EFFECT_TYPE,
+          EffectCondition = entry.EFFECT_CONDITION,
+          EffectLevel = entry.effect_level,
+          SelectProbability = entry.select_prob,
+          EffectKey = entry.effect_key,
+          ValueMin = entry.Value_Min,
+          ValueMax = entry.Value_max,
+          RateMin = entry.Rate_min,
+          RateMax = entry.Rate_Max,
+          ValueTime = entry.Value_time,
+          Position = entry.POSITION
+        });
+      }
+
+      return result;
+    }
+
+    #endregion
+
+    #region EnchantExtractKey
+
+    public IReadOnlyDictionary<uint, int> LoadEnchantExtractKey()
+    {
+      var dto = Deserialize<EnchantExtractKeyDto>("xml/enchant_extractkey.x7");
+      if (dto?.Entries == null)
+        return new Dictionary<uint, int>();
+
+      var result = new Dictionary<uint, int>();
+      foreach (var entry in dto.Entries)
+        result[entry.key] = entry.extracting_key;
+
+      return result;
+    }
+
+    #endregion
+
+    #region EsperEnchantPrice
+
+    public IReadOnlyList<EsperEnchantPriceEntry> LoadEsperEnchantPrice()
+    {
+      var dto = Deserialize<EsperEnchantPriceDto>("xml/esper_enchant_price.x7");
+      if (dto?.Entries == null)
+        return new List<EsperEnchantPriceEntry>();
+
+      var result = new List<EsperEnchantPriceEntry>();
+      foreach (var entry in dto.Entries)
+      {
+        result.Add(new EsperEnchantPriceEntry
+        {
+          Index = entry.INDEX,
+          Price = entry.PRICE,
+          SuccessProbability = entry.SUCCESS_PROB,
+          FailKeep = entry.FAIL_KEEP,
+          FailDown = entry.FAIL_DOWN,
+          FailDestruction = entry.FAIL_DESTRUCTION
+        });
+      }
+
+      return result;
+    }
+
+    #endregion
+
+    #region ItemGrade
+
+    public ItemGradeInfo LoadItemGrade()
+    {
+      var dto = Deserialize<ItemGradeDto>("xml/item_grade.x7");
+      var dict = new Dictionary<uint, string>();
+      if (dto?.Mode?.Conditions != null)
+      {
+        foreach (var condition in dto.Mode.Conditions)
+          dict[condition.effect_id] = condition.item_grade;
+      }
+
+      return new ItemGradeInfo { EffectToGrade = dict };
+    }
+
+    #endregion
+
+    #region CombineElement
+
+    public CombineElementInfo LoadCombineElement()
+    {
+      var dto = Deserialize<CombineElementDto>("xml/combine_element_info.x7");
+      if (dto?.Values == null)
+        return new CombineElementInfo { Entries = new List<CombineElementEntry>() };
+
+      var entries = new List<CombineElementEntry>();
+      foreach (var value in dto.Values)
+      {
+        entries.Add(new CombineElementEntry
+        {
+          ItemKey = value.item_key,
+          UiSlot = value.ui_slot,
+          Use = value.use == "on"
+        });
+      }
+
+      return new CombineElementInfo { Entries = entries };
+    }
+
+    #endregion
+
+    #region DecompositionElement
+
+    public DecompositionElementInfo LoadDecompositionElement()
+    {
+      var dto = Deserialize<DecompositionElementDto>("xml/decomposition_element_info.x7");
+      if (dto?.Values == null)
+        return new DecompositionElementInfo { Entries = new List<DecompositionElementEntry>() };
+
+      var entries = new List<DecompositionElementEntry>();
+      foreach (var value in dto.Values)
+      {
+        entries.Add(new DecompositionElementEntry
+        {
+          ItemKey = value.item_key,
+          UiSlot = value.ui_slot
+        });
+      }
+
+      return new DecompositionElementInfo { Entries = entries };
+    }
+
+    #endregion
+
+    #region SeizeModeNewInfo
+
+    public SeizeModeInfo LoadSeizeModeNewInfo()
+    {
+      var dto = Deserialize<SeizeModeNewInfoDto>("xml/seize_mode_newinfo.x7");
+      if (dto?.Foothold == null)
+        return new SeizeModeInfo();
+
+      var f = dto.Foothold;
+      return new SeizeModeInfo
+      {
+        Gauge = f.Base?.gauge ?? 30000,
+        GaugeUpDelay = f.Base?.gauge_up_delay ?? 1000,
+        CoreFootholder = f.Base?.core_footholder ?? 3000,
+        AssistFootholder = f.Base?.assist_footholder ?? 1000,
+        ResetOnLeaveOrDeath = f.Base?.reset ?? true,
+        PointPerCapture = f.Score?.point ?? 5,
+        AssistPointPerCapture = f.Score?.assist_point ?? 1,
+        UpkeepEnabled = f.Upkeep?.actived ?? true,
+        UpkeepDelay = f.Upkeep?.delay ?? 60000,
+        UpkeepScore = f.Upkeep?.score ?? 10,
+        TimeBonusEnabled = f.TimeBonus?.actived ?? true,
+        TimeBonusDelay = f.TimeBonus?.delay ?? 60000,
+        TimeBonusDefault = f.TimeBonus?.default_bonus ?? 0,
+        TimeBonusAdd = f.TimeBonus?.add_bonus ?? 5,
+        TimeBonusAddLimit = f.TimeBonus?.add_bonus_limit ?? 15
+      };
+    }
+
+    #endregion
+
+    #region StadiumInfo
+
+    public StadiumInfo LoadStadiumInfo()
+    {
+      var dto = Deserialize<StadiumInfoDto>("xml/stadium_info.x7");
+      if (dto?.MapInfos == null)
+        return new StadiumInfo { MapInfos = new List<StadiumMapInfo>() };
+
+      var mapInfos = new List<StadiumMapInfo>();
+      foreach (var mapDto in dto.MapInfos)
+      {
+        var blastInfos = new List<StadiumBlastInfo>();
+        if (mapDto.BlastInfos != null)
+        {
+          foreach (var blastDto in mapDto.BlastInfos)
+          {
+            blastInfos.Add(new StadiumBlastInfo
+            {
+              Index = blastDto.INDEX,
+              Name = blastDto.NAME,
+              DefaultHp = blastDto.DEFAULT_HP,
+              Min = blastDto.MIN,
+              Max = blastDto.MAX,
+              IncHp = blastDto.INC_HP,
+              UsePoint = blastDto.USE_POINT
+            });
+          }
+        }
+
+        mapInfos.Add(new StadiumMapInfo
+        {
+          MapId = mapDto.MAPID,
+          Mode = mapDto.MODE,
+          BlastInfos = blastInfos
+        });
+      }
+
+      return new StadiumInfo { MapInfos = mapInfos };
+    }
+
+    #endregion
+
+    #region DecompositionInfo
+
+    public DecompositionInfo LoadDecompositionInfo()
+    {
+      var dto = Deserialize<DecompositionInfoDto>("xml/_eu_decomposition_info.x7");
+      if (dto == null)
+        return new DecompositionInfo();
+
+      var methods = new List<DecompositionMethod>();
+      if (dto.method != null)
+      {
+        foreach (var methodDto in dto.method)
+        {
+          var components = new List<DecompositionComponent>();
+          if (methodDto.component != null)
+          {
+            foreach (var compDto in methodDto.component)
+            {
+              components.Add(new DecompositionComponent
+              {
+                Condition = compDto.condition,
+                ItemKey = compDto.item_key,
+                ShopId = compDto.shop_id,
+                PeriodType = compDto.period_type,
+                Period = compDto.period,
+                Color = compDto.color,
+                EffectId = compDto.effect_id
+              });
+            }
+          }
+
+          methods.Add(new DecompositionMethod
+          {
+            PeriodType = methodDto.period_type,
+            EffectMinCount = methodDto.effect_min_cnt,
+            EffectMaxCount = methodDto.effect_max_cnt,
+            Use = methodDto.use == "on",
+            Bonus = methodDto.bonus == "on",
+            Components = components
+          });
+        }
+      }
+
+      var bonuses = new List<DecompositionBonus>();
+      if (dto.bonus_data?.bonus != null)
+      {
+        foreach (var bonusDto in dto.bonus_data.bonus)
+        {
+          bonuses.Add(new DecompositionBonus
+          {
+            PeriodMultipleValue = bonusDto.period_multiple_value,
+            ItemMainType = bonusDto.item_main_type,
+            ItemSubType = bonusDto.item_sub_type
+          });
+        }
+      }
+
+      var prohibited = new List<uint>();
+      if (dto.prohibition?.data != null)
+      {
+        foreach (var dataDto in dto.prohibition.data)
+          prohibited.Add(dataDto.item_key);
+      }
+
+      return new DecompositionInfo
+      {
+        PenPrice = dto.pen_price,
+        MinHours = dto.min_hours,
+        MinDays = dto.min_days,
+        Methods = methods,
+        Bonuses = bonuses,
+        ProhibitedItems = prohibited
+      };
+    }
+
+    #endregion
+
+    #region CombinationInfo
+
+    public CombinationInfo LoadCombinationInfo()
+    {
+      var dto = Deserialize<CombinationInfoDto>("xml/_eu_combination_info.x7");
+      if (dto == null)
+        return new CombinationInfo();
+
+      CombinationItem MapItemArgon(CombinationInfoArgonComponentDto d)
+      {
+        if (d == null) return null;
+        return new CombinationItem
+        {
+          ItemKey = d.item_key,
+          ShopId = d.shop_id,
+          PeriodType = d.period_type,
+          Period = d.period,
+          Color = d.color,
+          EffectId = d.effect_id
+        };
+      }
+
+      CombinationItem MapItemKrypton(CombinationInfoKryptonComponentDto d)
+      {
+        if (d == null) return null;
+        return new CombinationItem
+        {
+          ItemKey = d.item_key,
+          ShopId = d.shop_id,
+          PeriodType = d.period_type,
+          Period = d.period,
+          Color = d.color,
+          EffectId = d.effect_id
+        };
+      }
+
+      var components = new List<CombinationComponent>();
+      if (dto.component != null)
+      {
+        foreach (var compDto in dto.component)
+        {
+          components.Add(new CombinationComponent
+          {
+            ItemKey = compDto.item_key,
+            ShopId = compDto.shop_id,
+            PeriodType = compDto.period_type,
+            Period = compDto.period,
+            Color = compDto.color,
+            EffectId = compDto.effect_id,
+            MinUseCount = compDto.min_use_cnt,
+            MaxUseCount = compDto.max_use_cnt
+          });
+        }
+      }
+
+      CombinationEnchantOption enchantOption = null;
+      if (dto.enchant_option != null)
+      {
+        var eo = dto.enchant_option;
+        enchantOption = new CombinationEnchantOption
+        {
+          EnchantItemKey = eo.enchant_item_key,
+          EnchantShopId = eo.enchant_shop_id,
+          EnchantPeriodType = eo.enchant_period_type,
+          EnchantPeriod = eo.enchant_period,
+          ProtectItemKey = eo.protect_item_key,
+          ProtectShopId = eo.protect_shop_id,
+          ProtectPeriodType = eo.protect_period_type,
+          ProtectPeriod = eo.protect_period
+        };
+      }
+
+      return new CombinationInfo
+      {
+        PenPrice = dto.pen_price,
+        MinHours = dto.min_hours,
+        MinDays = dto.min_days,
+        ArgonComponent = MapItemArgon(dto.argon_component),
+        KryptonComponent = MapItemKrypton(dto.krypton_component),
+        EnchantOption = enchantOption,
+        OvercountMaxLevel = dto.overcount_weight?.max_level ?? 0,
+        OvercountWeightMax = dto.overcount_weight?.weight_max ?? 0,
+        Components = components
+      };
+    }
+
+    #endregion
+
+    #region MissionInfo
+
+    public MissionInfo LoadMissionInfo()
+    {
+      var dto = Deserialize<MissionInfoDto>("xml/mission.x7");
+      if (dto == null)
+        return new MissionInfo();
+
+      var config = dto.mission_config;
+      var pvpMissions = new List<MissionEntry>();
+      var pveMissions = new List<MissionEntry>();
+
+      if (dto.daily_pvp_mission != null)
+      {
+        foreach (var mDto in dto.daily_pvp_mission)
+          pvpMissions.Add(MapMissionEntry(mDto));
+      }
+
+      if (dto.daily_pve_mission != null)
+      {
+        foreach (var mDto in dto.daily_pve_mission)
+          pveMissions.Add(MapMissionEntry(mDto));
+      }
+
+      return new MissionInfo
+      {
+        MissionCheckInterval = config?.mission_check_interval ?? 60,
+        MaxMissionCount = config?.max_mission_count ?? 3,
+        MissionRewardMailExpireDays = config?.mission_reward_mail_expire_days ?? 7,
+        DailyPvpMissionCount = config?.daily_pvp_mission_count ?? 3,
+        DailyPveMissionCount = config?.daily_pve_mission_count ?? 3,
+        DailyMissionRewardMailExpireDays = config?.daily_mission_reward_mail_expire_days ?? 7,
+        DailyPvpMissions = pvpMissions,
+        DailyPveMissions = pveMissions
+      };
+    }
+
+    private static MissionEntry MapMissionEntry(MissionInfoDailyPvpMissionDto dto)
+    {
+      var conditions = new List<MissionCondition>();
+      if (dto.mission_condition != null)
+      {
+        foreach (var cDto in dto.mission_condition)
+        {
+          conditions.Add(new MissionCondition
+          {
+            ConditionType = cDto.condition_type,
+            ConditionValue = cDto.condition_value,
+            MapId = cDto.map_id,
+            GameType = cDto.game_type
+          });
+        }
+      }
+
+      var rewards = new List<MissionReward>();
+      if (dto.mission_reward != null)
+      {
+        foreach (var rDto in dto.mission_reward)
+        {
+          rewards.Add(new MissionReward
+          {
+            RewardType = rDto.reward_type,
+            RewardValue = rDto.reward_value,
+            ItemKey = rDto.item_key,
+            ShopId = rDto.shop_id,
+            PeriodType = rDto.period_type,
+            Period = rDto.period,
+            Color = rDto.color,
+            EffectId = rDto.effect_id
+          });
+        }
+      }
+
+      return new MissionEntry
+      {
+        Id = dto.id,
+        NameKey = dto.name_key,
+        Conditions = conditions,
+        Rewards = rewards
+      };
+    }
+
+    private static MissionEntry MapMissionEntry(MissionInfoDailyPveMissionDto dto)
+    {
+      var conditions = new List<MissionCondition>();
+      if (dto.mission_condition != null)
+      {
+        foreach (var cDto in dto.mission_condition)
+        {
+          conditions.Add(new MissionCondition
+          {
+            ConditionType = cDto.condition_type,
+            ConditionValue = cDto.condition_value,
+            MapId = cDto.map_id,
+            GameType = cDto.game_type
+          });
+        }
+      }
+
+      var rewards = new List<MissionReward>();
+      if (dto.mission_reward != null)
+      {
+        foreach (var rDto in dto.mission_reward)
+        {
+          rewards.Add(new MissionReward
+          {
+            RewardType = rDto.reward_type,
+            RewardValue = rDto.reward_value,
+            ItemKey = rDto.item_key,
+            ShopId = rDto.shop_id,
+            PeriodType = rDto.period_type,
+            Period = rDto.period,
+            Color = rDto.color,
+            EffectId = rDto.effect_id
+          });
+        }
+      }
+
+      return new MissionEntry
+      {
+        Id = dto.id,
+        NameKey = dto.name_key,
+        Conditions = conditions,
+        Rewards = rewards
+      };
+    }
+
+    #endregion
+
+    #region ArcadeReward
+
+    public ArcadeRewardInfo LoadArcadeRewardInfo()
+    {
+      var dto = Deserialize<ArcadeRewardInfoDto>("xml/arcade_reward.x7");
+      if (dto == null)
+        return new ArcadeRewardInfo();
+
+      var grades = new List<ArcadeRewardGrade>();
+      if (dto.arcade_reward_grade != null)
+      {
+        foreach (var gDto in dto.arcade_reward_grade)
+        {
+          grades.Add(new ArcadeRewardGrade
+          {
+            Grade = gDto.grade,
+            NameKey = gDto.name_key,
+            MinScore = gDto.min_score,
+            MaxScore = gDto.max_score
+          });
+        }
+      }
+
+      var items = new List<ArcadeRewardItem>();
+      if (dto.arcade_reward_item != null)
+      {
+        foreach (var iDto in dto.arcade_reward_item)
+        {
+          items.Add(new ArcadeRewardItem
+          {
+            MapId = iDto.map_id,
+            Difficulty = iDto.difficulty,
+            Grade = iDto.grade,
+            Category = iDto.category,
+            SubCategory = iDto.sub_category,
+            ItemNumber = iDto.item_number,
+            ProductNumber = iDto.product_number,
+            Probability = iDto.probability,
+            MinScore = iDto.min_score,
+            MaxScore = iDto.max_score
+          });
+        }
+      }
+
+      return new ArcadeRewardInfo { Grades = grades, Items = items };
+    }
+
+    #endregion
+
+    #region ArcadeItem
+
+    public ArcadeItemInfo LoadArcadeItemInfo()
+    {
+      var dto = Deserialize<ArcadeItemInfoDto>("xml/arcade_item.x7");
+      if (dto?.arcade_item_effect == null)
+        return new ArcadeItemInfo { Effects = new Dictionary<uint, ArcadeItemEffect>() };
+
+      var effects = new Dictionary<uint, ArcadeItemEffect>();
+      foreach (var eDto in dto.arcade_item_effect)
+      {
+        effects[eDto.item_key] = new ArcadeItemEffect
+        {
+          ItemKey = eDto.item_key,
+          EffectType = eDto.effect_type,
+          EffectValue = eDto.effect_value,
+          EffectRate = eDto.effect_rate,
+          EffectTime = eDto.effect_time,
+          CooldownTime = eDto.cooldown_time,
+          MaxStack = eDto.max_stack
+        };
+      }
+
+      return new ArcadeItemInfo { Effects = effects };
+    }
+
+    #endregion
+
+    #region ChallengeArcade
+
+    public ChallengeArcadeInfo LoadChallengeArcadeInfo()
+    {
+      var dto = Deserialize<ChallengeArcadeListDto>("xml/challenge_arcade_list.x7");
+      if (dto?.list_setting == null)
+        return new ChallengeArcadeInfo { Entries = new List<ChallengeArcadeEntry>() };
+
+      var entries = new List<ChallengeArcadeEntry>();
+      foreach (var sDto in dto.list_setting)
+      {
+        entries.Add(new ChallengeArcadeEntry
+        {
+          Id = sDto.id,
+          NameKey = sDto.name_key,
+          MapId = sDto.map_id,
+          Difficulty = sDto.difficulty,
+          ConditionType = sDto.condition?.condition_type ?? 0,
+          ConditionValue = sDto.condition?.condition_value ?? 0,
+          ExpReward = sDto.reward?.exp ?? 0,
+          PenReward = sDto.reward?.pen ?? 0,
+          ItemKey = sDto.reward?.item_key ?? 0,
+          ShopId = sDto.reward?.shop_id ?? 0,
+          PeriodType = sDto.reward?.period_type,
+          Period = sDto.reward?.period ?? 0,
+          Color = sDto.reward?.color ?? 0,
+          EffectId = sDto.reward?.effect_id ?? 0
+        });
+      }
+
+      return new ChallengeArcadeInfo { Entries = entries };
+    }
+
+    #endregion
+
+    #region TaskList
+
+    public TaskListInfo LoadTaskListInfo()
+    {
+      var dto = Deserialize<TaskListInfoDto>("xml/_eu_task_list.x7");
+      if (dto == null)
+        return new TaskListInfo();
+
+      return new TaskListInfo
+      {
+        CompulsoryTasks = MapCompulsoryTaskList(dto.compulsory_task),
+        WeeklyTasks = MapWeeklyTaskList(dto.weekly_task),
+        OptionalTasks = MapOptionalTaskList(dto.optional_task)
+      };
+    }
+
+    private static IReadOnlyList<TaskEntry> MapBaseTaskSettings(TaskListInfoBaseSettingDto[] settings)
+    {
+      if (settings == null)
+        return new List<TaskEntry>();
+
+      var entries = new List<TaskEntry>();
+      foreach (var bsDto in settings)
+      {
+        var levelSettings = new List<TaskLevelSetting>();
+        if (bsDto.level_setting != null)
+        {
+          foreach (var lsDto in bsDto.level_setting)
+          {
+            levelSettings.Add(new TaskLevelSetting
+            {
+              Id = lsDto.id,
+              Level = lsDto.level,
+              ChanceValue = lsDto.chance_value,
+              AddChanceValue = lsDto.add_chance_value,
+              AddChanceLimitLevel = lsDto.add_chan_limit_lv,
+              GamePlayTimeSeconds = lsDto.complet_condition?.game_play_ts?.value ?? 0,
+              GoalOfMatch = lsDto.complet_condition?.goal_of_match?.value ?? 0,
+              Repetition = lsDto.complet_condition?.repetetion?.value ?? 0,
+              CheckerType = lsDto.complet_condition?.checker_type?.value,
+              CheckerData = lsDto.complet_condition?.checker_type?.data,
+              PenReward = lsDto.reward?.pen?.value ?? 0,
+              ExPenReward = lsDto.reward?.ex_pen?.value ?? 0
+            });
+          }
+        }
+
+        entries.Add(new TaskEntry
+        {
+          NameKey = bsDto.name_key,
+          ModeType = bsDto.mode_type,
+          Category = bsDto.category,
+          Name = bsDto.name,
+          LevelSettings = levelSettings
+        });
+      }
+
+      return entries;
+    }
+
+    private static IReadOnlyList<TaskEntry> MapCompulsoryTaskList(TaskListInfoCompulsoryTaskDto dto)
+    {
+      return MapBaseTaskSettings(dto?.base_setting);
+    }
+
+    private static IReadOnlyList<TaskEntry> MapWeeklyTaskList(TaskListInfoWeeklyTaskDto dto)
+    {
+      return MapBaseTaskSettings(dto?.base_setting);
+    }
+
+    private static IReadOnlyList<TaskEntry> MapOptionalTaskList(TaskListInfoOptionalTaskDto dto)
+    {
+      return MapBaseTaskSettings(dto?.base_setting);
+    }
+
+    #endregion
+
+    #region PromotionInfo
+
+    public PromotionInfo LoadPromotionInfo()
+    {
+      var dto = Deserialize<PromotionInfoDto>("xml/_eu_promotion_info.x7");
+      if (dto == null)
+        return new PromotionInfo();
+
+      var eventInfos = new List<PromotionEventInfo>();
+      if (dto.event_system?.event_info != null)
+      {
+        foreach (var eDto in dto.event_system.event_info)
+        {
+          eventInfos.Add(new PromotionEventInfo
+          {
+            EventType = eDto.event_type,
+            Active = eDto.active,
+            EventTitle = eDto.event_title,
+            RewardType = eDto.reward_type,
+            MinPlayer = eDto.min_player,
+            MinTime = eDto.min_time,
+            ChannelId = eDto.channel_id,
+            MapId = eDto.map_id,
+            GameMode = eDto.game_mode,
+            MinScore = eDto.min_score,
+            GiftType = eDto.gift_type,
+            ItemKey = eDto.item_key,
+            ShopId = eDto.shop_id,
+            PeriodType = eDto.period_type,
+            Period = eDto.period,
+            Color = eDto.color,
+            EffectId = eDto.effect_id,
+            Probability = eDto.prob,
+            RewardItemLimitCount = eDto.reward_item_limit_cnt
+          });
+        }
+      }
+
+      var attendance = new List<PromotionAttendanceDay>();
+      if (dto.daily_attendance?.daily_item_info != null)
+      {
+        foreach (var aDto in dto.daily_attendance.daily_item_info)
+        {
+          attendance.Add(new PromotionAttendanceDay
+          {
+            ItemIndex = aDto.item_index,
+            UserType = aDto.user_type,
+            Year = aDto.year,
+            Week = aDto.week,
+            DayOfWeek = aDto.day_of_week,
+            ItemKey = aDto.item_key,
+            ShopId = aDto.shop_id,
+            PeriodType = aDto.period_type,
+            Period = aDto.period,
+            Color = aDto.color,
+            EffectId = aDto.effect_id
+          });
+        }
+      }
+
+      var dailyGiftRequitals = MapRequitals(dto.daily_gift?.requital);
+      var dailyPlayTimeRequitals = MapRequitals(dto.daily_play_time?.requital);
+
+      return new PromotionInfo
+      {
+        RouletteActive = dto.roulette_machine?.active ?? false,
+        RouletteUseItemKey = dto.roulette_machine?.use_item_key ?? 0,
+        RouletteUseItemCount = dto.roulette_machine?.use_item_cnt ?? 0,
+        EventInfos = eventInfos,
+        AttendanceDays = attendance,
+        DailyGiftActive = dto.daily_gift?.active ?? false,
+        DailyGiftRequitals = dailyGiftRequitals,
+        DailyPlayTimeActive = dto.daily_play_time?.active ?? false,
+        DailyPlayTimeRequitals = dailyPlayTimeRequitals
+      };
+    }
+
+    private static IReadOnlyList<PromotionRequital> MapRequitals(PromotionInfoRequitalDto[] dtos)
+    {
+      if (dtos == null)
+        return new List<PromotionRequital>();
+
+      var result = new List<PromotionRequital>();
+      foreach (var dto in dtos)
+      {
+        result.Add(new PromotionRequital
+        {
+          Key = dto.key,
+          GiftType = dto.gift_type,
+          GiftValue = dto.gift_value,
+          ItemKey = dto.item_key,
+          ShopId = dto.shop_id,
+          PeriodType = dto.period_type,
+          Period = dto.period,
+          Color = dto.color,
+          EffectId = dto.effect_id,
+          Probability = dto.prob
+        });
+      }
+
+      return result;
+    }
+
+    #endregion
+
+    #region MakeCharacterInfo
+
+    public MakeCharacterInfo LoadMakeCharacterInfo()
+    {
+      var dto = Deserialize<MakeCharacterInfoDto>("xml/_eu_make_character_info.x7");
+      if (dto?.character == null)
+        return new MakeCharacterInfo();
+
+      var ch = dto.character;
+
+      MakeCharacterCostume MapCostume(MakeCharacterInfoCostumeGenderDto d)
+      {
+        if (d == null) return null;
+        return new MakeCharacterCostume
+        {
+          HairItemId = d.hair?.itemid ?? 0,
+          HairVariation = d.hair?.variation ?? 0,
+          FaceItemId = d.face?.itemid ?? 0,
+          FaceVariation = d.face?.variation ?? 0,
+          CoatItemId = d.coat?.itemid ?? 0,
+          CoatVariation = d.coat?.variation ?? 0,
+          PantsItemId = d.pants?.itemid ?? 0,
+          PantsVariation = d.pants?.variation ?? 0,
+          GlovesItemId = d.gloves?.itemid ?? 0,
+          GlovesVariation = d.gloves?.variation ?? 0,
+          ShoesItemId = d.shoes?.itemid ?? 0,
+          ShoesVariation = d.shoes?.variation ?? 0
+        };
+      }
+
+      var defaultGender = new MakeCharacterGender();
+      if (ch.@default?.costume != null)
+      {
+        defaultGender.MaleCostume = MapCostume(ch.@default.costume.male);
+        defaultGender.FemaleCostume = MapCostume(ch.@default.costume.female);
+      }
+
+      var weapons = new List<MakeCharacterWeapon>();
+      if (ch.weapons?.weapon != null)
+      {
+        foreach (var wDto in ch.weapons.weapon)
+        {
+          weapons.Add(new MakeCharacterWeapon
+          {
+            ItemId = wDto.itemid,
+            ShopId = wDto.shopid,
+            PeriodType = wDto.periodtype,
+            Period = wDto.period,
+            Color = wDto.color,
+            EffectId = wDto.effectid,
+            Slot = wDto.slot,
+            Equip = wDto.equip
+          });
+        }
+      }
+
+      var skills = new List<MakeCharacterSkill>();
+      if (ch.skills?.skill != null)
+      {
+        foreach (var sDto in ch.skills.skill)
+        {
+          skills.Add(new MakeCharacterSkill
+          {
+            ItemId = sDto.itemid,
+            ShopId = sDto.shopid,
+            PeriodType = sDto.periodtype,
+            Period = sDto.period,
+            Color = sDto.color,
+            EffectId = sDto.effectid,
+            Equip = sDto.equip
+          });
+        }
+      }
+
+      return new MakeCharacterInfo
+      {
+        MaleCostumes = new List<MakeCharacterItem>(),
+        FemaleCostumes = new List<MakeCharacterItem>(),
+        Weapons = weapons,
+        Skills = skills,
+        DefaultGender = defaultGender
+      };
+    }
+
+    #endregion
+
+    #region SupportItem
+
+    public SupportItemInfo LoadSupportItemInfo()
+    {
+      var dto = Deserialize<SupportItemInfoDto>("xml/support_item.x7");
+      if (dto?.item == null)
+        return new SupportItemInfo { Items = new List<SupportItemEntry>() };
+
+      var items = new List<SupportItemEntry>();
+      foreach (var iDto in dto.item)
+      {
+        items.Add(new SupportItemEntry
+        {
+          Category = iDto.category,
+          SubCategory = iDto.sub_category,
+          Number = iDto.number,
+          Product = iDto.product,
+          Slot = iDto.slot
+        });
+      }
+
+      return new SupportItemInfo { Items = items };
+    }
+
+    #endregion
   }
 }

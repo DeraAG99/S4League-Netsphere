@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using BlubLib;
 using BlubLib.DotNetty.Handlers.MessageHandling;
 using BlubLib.IO;
+using Dapper.FastCrud;
 using ExpressMapper.Extensions;
+using NeoNetsphere.Database.Game;
 using NeoNetsphere.Network.Data.Game;
 using NeoNetsphere.Network.Message.Game;
 using NeoNetsphere.Resource;
@@ -243,6 +245,153 @@ namespace NeoNetsphere.Network.Services
     public void CollectBookItemRegistReq(GameSession session, CollectBookItemRegistReqMessage message)
     {
       // Todo
+    }
+
+    [MessageHandler(typeof(CardGambleReqMessage))]
+    public async Task CardGambleHandler(GameSession session, CardGambleReqMessage message)
+    {
+      try
+      {
+        var plr = session.Player;
+        var cardSystem = GameServer.Instance.ResourceCache.GetCardSystem();
+
+        if (!cardSystem.Active)
+        {
+          await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+          return;
+        }
+
+        var season = cardSystem.Seasons.FirstOrDefault(s => s.Num == cardSystem.CurrentSeason);
+        if (season == null || season.Cards.Count == 0)
+        {
+          await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+          return;
+        }
+
+        // Deduct gamble PEN cost if configured
+        if (cardSystem.Formula.GamblePen > 0)
+        {
+          if (plr.PEN < (uint)cardSystem.Formula.GamblePen)
+          {
+            await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+            return;
+          }
+          plr.PEN -= (uint)cardSystem.Formula.GamblePen;
+        }
+
+        // Pick random card based on try_prob weights
+        var totalTryProb = season.Cards.Sum(c => c.TryProb);
+        if (totalTryProb <= 0)
+        {
+          await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+          return;
+        }
+
+        var roll = new Random().Next(0, totalTryProb);
+        CardEntry selectedCard = null;
+        var cumulative = 0;
+        foreach (var card in season.Cards)
+        {
+          cumulative += card.TryProb;
+          if (roll < cumulative)
+          {
+            selectedCard = card;
+            break;
+          }
+        }
+        selectedCard = selectedCard ?? season.Cards[season.Cards.Count - 1];
+
+        // Create the card item in inventory
+        var shop = GameServer.Instance.ResourceCache.GetShop();
+        var shopItemInfo = shop.GetItemInfo(selectedCard.ItemId, ItemPriceType.PEN);
+        if (shopItemInfo == null)
+        {
+          Logger.ForAccount(session).Error("CardGamble: No shop entry for card {card}", selectedCard.ItemId);
+          await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+          return;
+        }
+
+        var price = shopItemInfo.PriceGroup.GetPrice(ItemPeriodType.Units, 1);
+        if (price == null)
+        {
+          Logger.ForAccount(session).Error("CardGamble: No price for card {card}", selectedCard.ItemId);
+          await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+          return;
+        }
+
+        var plrItem = plr.Inventory.Create(shopItemInfo, price, selectedCard.Color,
+            new[] { (EffectNumber)selectedCard.EffectId }, 1);
+
+        await session.SendAsync(new CardGambleAckMessage
+        {
+          Unk1 = 0,
+          ShopItem = new NeoNetsphere.Network.Data.Game.ShopItemDto
+          {
+            ItemNumber = selectedCard.ItemId,
+            PriceType = ItemPriceType.PEN,
+            PeriodType = ItemPeriodType.Units,
+            Period = 1,
+            Color = selectedCard.Color,
+            Effect = selectedCard.EffectId
+          }
+        });
+
+        if (cardSystem.Formula.GamblePen > 0)
+          await session.SendAsync(new MoneyRefreshCashInfoAckMessage(plr.PEN, plr.AP));
+
+        Logger.ForAccount(session).Information("CardGamble: Got card {card} ({name})",
+            selectedCard.ItemId, selectedCard.ItemId);
+
+        // Check if all cards collected — auto-reward
+        if (season.Reward != null)
+        {
+          var hasAllCards = season.Cards.All(c =>
+              plr.Inventory.Any(i => i.ItemNumber == c.ItemId && i.Count > 0));
+
+          if (hasAllCards)
+          {
+            // Check if reward already claimed this season
+            using (var db = GameDatabase.Open())
+            {
+              var existing = DbUtil.Find<PlayerCardCollectionDto>(db, statement => statement
+                  .Where($"{nameof(PlayerCardCollectionDto.PlayerId):C} = @{nameof(plr.Account.Id)}")
+                  .WithParameters(new { plr.Account.Id }))
+                  .FirstOrDefault();
+
+              if (existing == null)
+              {
+                // First completion — give reward and record it
+                var rewardShopItem = shop.GetItemInfo(season.Reward.ItemId, ItemPriceType.PEN);
+                if (rewardShopItem != null)
+                {
+                  var rewardPrice = rewardShopItem.PriceGroup.GetPrice(season.Reward.PeriodType,
+                      (ushort)season.Reward.PeriodValue);
+                  if (rewardPrice != null)
+                  {
+                    plr.Inventory.Create(rewardShopItem, rewardPrice, season.Reward.Color,
+                        new[] { (EffectNumber)season.Reward.EffectId },
+                        (uint)(rewardPrice.PeriodType == ItemPeriodType.Units ? rewardPrice.Period : 0));
+                  }
+                }
+
+                DbUtil.Insert(db, new PlayerCardCollectionDto
+                {
+                  PlayerId = (int)plr.Account.Id,
+                  Season = cardSystem.CurrentSeason,
+                  RewardClaimed = true
+                });
+
+                Logger.ForAccount(session).Information("CardGamble: Completed card collection! Reward given.");
+              }
+            }
+          }
+        }
+      }
+      catch (Exception ex)
+      {
+        Logger.Error(ex, "CardGamble: Error");
+        await session.SendAsync(new CardGambleAckMessage { Unk1 = 1 });
+      }
     }
 
     [MessageHandler(typeof(ItemBuyItemReqMessage))]

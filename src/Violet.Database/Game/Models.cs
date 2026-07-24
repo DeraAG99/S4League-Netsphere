@@ -21,6 +21,8 @@ namespace NeoNetsphere.Database.Game
     public int TotalMatches { get; set; }
     public int TotalWins { get; set; }
     public int TotalLosses { get; set; }
+    public byte MasterLevel { get; set; }
+    public uint MasterExperience { get; set; }
 
     public IList<PlayerCharacterDto> Characters { get; set; } = new List<PlayerCharacterDto>();
     public IList<PlayerDenyDto> Ignores { get; set; } = new List<PlayerDenyDto>();
@@ -34,6 +36,7 @@ namespace NeoNetsphere.Database.Game
     public IList<PlayerChaserDto> ChaserInfo { get; set; } = new List<PlayerChaserDto>();
     public IList<PlayerBattleRoyalDto> BattleRoyalInfo { get; set; } = new List<PlayerBattleRoyalDto>();
     public IList<PlayerCaptainDto> CaptainInfo { get; set; } = new List<PlayerCaptainDto>();
+    public IList<PlayerCardCollectionDto> CardCollections { get; set; } = new List<PlayerCardCollectionDto>();
   }
 
   [Table("player_friends")]
@@ -398,5 +401,20 @@ namespace NeoNetsphere.Database.Game
     public int State { get; set; }
 
     public int Rank { get; set; }
+  }
+
+  [Table("player_cardcollections")]
+  public class PlayerCardCollectionDto
+  {
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+
+    [ForeignKey(nameof(Player))] public int PlayerId { get; set; }
+
+    public PlayerDto Player { get; set; }
+
+    public int Season { get; set; }
+    public bool RewardClaimed { get; set; }
   }
 }

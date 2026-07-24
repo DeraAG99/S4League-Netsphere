@@ -105,6 +105,8 @@
     private uint _totallosses;
     private uint _totalwins;
     private byte _tutorialState;
+    private byte _masterLevel;
+    private uint _masterExperience;
 
     public bool LoggedIn = false;
     public StatsManager stats;
@@ -126,6 +128,8 @@
       TotalMatches = (uint)dto.TotalMatches;
       _totallosses = (uint)dto.TotalLosses;
       _totalwins = (uint)dto.TotalWins;
+      _masterLevel = dto.MasterLevel;
+      _masterExperience = dto.MasterExperience;
       stats = new StatsManager(this, dto);
 
       Settings = new PlayerSettingManager(this, dto);
@@ -169,9 +173,42 @@
       }
       else
       {
-        // We cant earn exp when we reached max level
+        // At max level — overflow EXP goes to master level
         if (expInfo.ExperienceToNextLevel == 0 || Level >= Config.Instance.Game.MaxLevel)
+        {
+          if (amount <= 0)
+            return false;
+
+          var masterTable = GameServer.Instance.ResourceCache.GetMasterExperience();
+          if (MasterLevel >= masterTable.MaxLevel)
+            return false;
+
+          MasterExperience += (uint)amount;
+
+          var masterLeveled = false;
+          while (MasterLevel < masterTable.MaxLevel)
+          {
+            var nextIdx = MasterLevel + 1;
+            if (nextIdx >= masterTable.Entries.Length)
+              break;
+
+            var required = masterTable.Entries[nextIdx].Require;
+            if (required == 0 || MasterExperience < required)
+              break;
+
+            MasterLevel = (byte)nextIdx;
+            masterLeveled = true;
+
+            Logger.ForAccount(this)
+                .Information("Master leveled up to {0}", MasterLevel);
+          }
+
+          SendAsync(new ExpRefreshInfoAckMessage(TotalExperience));
+          if (masterLeveled)
+            SendAsync(new PlayerAccountInfoAckMessage(this.Map<Player, PlayerAccountInfoDto>()));
+
           return false;
+        }
 
         TotalExperience += (uint)amount;
 
@@ -586,7 +623,9 @@
             CurrentCharacterSlot = CharacterManager.CurrentSlot,
             TotalMatches = (int)(TotalWins + TotalLosses),
             TotalLosses = (int)TotalLosses,
-            TotalWins = (int)TotalWins
+            TotalWins = (int)TotalWins,
+            MasterLevel = MasterLevel,
+            MasterExperience = MasterExperience
           };
 
           DbUtil.Update(db, dto);
@@ -729,6 +768,30 @@
         if (_totalExperience == value)
           return;
         _totalExperience = value;
+        NeedsToSave = true;
+      }
+    }
+
+    public byte MasterLevel
+    {
+      get => _masterLevel;
+      set
+      {
+        if (_masterLevel == value)
+          return;
+        _masterLevel = value;
+        NeedsToSave = true;
+      }
+    }
+
+    public uint MasterExperience
+    {
+      get => _masterExperience;
+      set
+      {
+        if (_masterExperience == value)
+          return;
+        _masterExperience = value;
         NeedsToSave = true;
       }
     }

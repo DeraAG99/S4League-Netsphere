@@ -220,6 +220,8 @@ CREATE TABLE `players` (
   `TotalMatches` int(11) unsigned NOT NULL DEFAULT '0',
   `TotalWins` int(11) unsigned NOT NULL DEFAULT '0',
   `TotalLosses` int(11) unsigned NOT NULL DEFAULT '0',
+  `MasterLevel` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `MasterExperience` int(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -487,6 +489,23 @@ CREATE TABLE `player_settings` (
 
 -- ----------------------------
 -- Records of player_settings
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `player_cardcollections`
+-- ----------------------------
+DROP TABLE IF EXISTS `player_cardcollections`;
+CREATE TABLE `player_cardcollections` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `PlayerId` int(11) NOT NULL,
+  `Season` int(11) NOT NULL DEFAULT '2',
+  `RewardClaimed` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`Id`),
+  KEY `PlayerId` (`PlayerId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of player_cardcollections
 -- ----------------------------
 
 -- ----------------------------

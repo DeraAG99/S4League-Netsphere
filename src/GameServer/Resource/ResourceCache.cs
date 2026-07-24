@@ -56,6 +56,87 @@ namespace NeoNetsphere.Resource
 
       Logger.Information("Caching: RandomShop");
       GetRandomShop();
+
+      Logger.Information("Caching: CardSystem");
+      GetCardSystem();
+
+      Logger.Information("Caching: ExperienceBonus");
+      GetExperienceBonus();
+
+      Logger.Information("Caching: PointBonus");
+      GetPointBonus();
+
+      Logger.Information("Caching: MasterExperience");
+      GetMasterExperience();
+
+      Logger.Information("Caching: BurningTime");
+      GetBurningTime();
+
+      Logger.Information("Caching: BurningTimePve");
+      GetBurningTimePve();
+
+      Logger.Information("Caching: EquipLimit");
+      GetEquipLimit();
+
+      Logger.Information("Caching: RoomOption");
+      GetRoomOption();
+
+      Logger.Information("Caching: EnchantData");
+      GetEnchantData();
+
+      Logger.Information("Caching: EnchantList");
+      GetEnchantList();
+
+      Logger.Information("Caching: EnchantExtractKey");
+      GetEnchantExtractKey();
+
+      Logger.Information("Caching: EsperEnchantPrice");
+      GetEsperEnchantPrice();
+
+      Logger.Information("Caching: ItemGrade");
+      GetItemGrade();
+
+      Logger.Information("Caching: CombineElement");
+      GetCombineElement();
+
+      Logger.Information("Caching: DecompositionElement");
+      GetDecompositionElement();
+
+      Logger.Information("Caching: SeizeModeNewInfo");
+      GetSeizeModeNewInfo();
+
+      Logger.Information("Caching: StadiumInfo");
+      GetStadiumInfo();
+
+      Logger.Information("Caching: DecompositionInfo");
+      GetDecompositionInfo();
+
+      Logger.Information("Caching: CombinationInfo");
+      GetCombinationInfo();
+
+      Logger.Information("Caching: MissionInfo");
+      GetMissionInfo();
+
+      Logger.Information("Caching: ArcadeRewardInfo");
+      GetArcadeRewardInfo();
+
+      Logger.Information("Caching: ArcadeItemInfo");
+      GetArcadeItemInfo();
+
+      Logger.Information("Caching: ChallengeArcadeInfo");
+      GetChallengeArcadeInfo();
+
+      Logger.Information("Caching: TaskListInfo");
+      GetTaskListInfo();
+
+      Logger.Information("Caching: PromotionInfo");
+      GetPromotionInfo();
+
+      Logger.Information("Caching: MakeCharacterInfo");
+      GetMakeCharacterInfo();
+
+      Logger.Information("Caching: SupportItemInfo");
+      GetSupportItemInfo();
     }
 
     public IReadOnlyList<ChannelDto> GetChannels()
@@ -256,6 +337,361 @@ namespace NeoNetsphere.Resource
 
         value = _loader.LoadRandomShop().ToList();
         _cache.Set(ResourceCacheType.RandomShop, value);
+      }
+
+      return value;
+    }
+
+    public CardSystemInfo GetCardSystem()
+    {
+      var value = _cache.Get<CardSystemInfo>(ResourceCacheType.CardSystem);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+
+        value = _loader.LoadCardSystem();
+        _cache.Set(ResourceCacheType.CardSystem, value);
+      }
+
+      return value;
+    }
+
+    public ExperienceBonusConfig GetExperienceBonus()
+    {
+      var value = _cache.Get<ExperienceBonusConfig>(ResourceCacheType.ExperienceBonus);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+
+        value = _loader.LoadExperienceBonus();
+        _cache.Set(ResourceCacheType.ExperienceBonus, value);
+      }
+
+      return value;
+    }
+
+    public PointBonusConfig GetPointBonus()
+    {
+      var value = _cache.Get<PointBonusConfig>(ResourceCacheType.PointBonus);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+
+        value = _loader.LoadPointBonus();
+        _cache.Set(ResourceCacheType.PointBonus, value);
+      }
+
+      return value;
+    }
+
+    public MasterExperience GetMasterExperience()
+    {
+      var value = _cache.Get<MasterExperience>(ResourceCacheType.MasterExperience);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+
+        value = _loader.LoadMasterExperience();
+        _cache.Set(ResourceCacheType.MasterExperience, value);
+      }
+
+      return value;
+    }
+
+    public BurningTimeInfo GetBurningTime()
+    {
+      var value = _cache.Get<BurningTimeInfo>(ResourceCacheType.BurningTime);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadBurningTime();
+        _cache.Set(ResourceCacheType.BurningTime, value);
+      }
+
+      return value;
+    }
+
+    public BurningTimeInfo GetBurningTimePve()
+    {
+      var value = _cache.Get<BurningTimeInfo>(ResourceCacheType.BurningTimePve);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadBurningTimePve();
+        _cache.Set(ResourceCacheType.BurningTimePve, value);
+      }
+
+      return value;
+    }
+
+    public EquipLimitInfo GetEquipLimit()
+    {
+      var value = _cache.Get<EquipLimitInfo>(ResourceCacheType.EquipLimit);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadEquipLimit();
+        _cache.Set(ResourceCacheType.EquipLimit, value);
+      }
+
+      return value;
+    }
+
+    public RoomOptionInfo GetRoomOption()
+    {
+      var value = _cache.Get<RoomOptionInfo>(ResourceCacheType.RoomOption);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadRoomOption();
+        _cache.Set(ResourceCacheType.RoomOption, value);
+      }
+
+      return value;
+    }
+
+    public EnchantInfo GetEnchantData()
+    {
+      var value = _cache.Get<EnchantInfo>(ResourceCacheType.EnchantData);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadEnchantData();
+        _cache.Set(ResourceCacheType.EnchantData, value);
+      }
+
+      return value;
+    }
+
+    public IReadOnlyList<EnchantEffect> GetEnchantList()
+    {
+      var value = _cache.Get<IReadOnlyList<EnchantEffect>>(ResourceCacheType.EnchantList);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadEnchantList();
+        _cache.Set(ResourceCacheType.EnchantList, value);
+      }
+
+      return value;
+    }
+
+    public IReadOnlyDictionary<uint, int> GetEnchantExtractKey()
+    {
+      var value = _cache.Get<IReadOnlyDictionary<uint, int>>(ResourceCacheType.EnchantExtractKey);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadEnchantExtractKey();
+        _cache.Set(ResourceCacheType.EnchantExtractKey, value);
+      }
+
+      return value;
+    }
+
+    public IReadOnlyList<EsperEnchantPriceEntry> GetEsperEnchantPrice()
+    {
+      var value = _cache.Get<IReadOnlyList<EsperEnchantPriceEntry>>(ResourceCacheType.EsperEnchantPrice);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadEsperEnchantPrice();
+        _cache.Set(ResourceCacheType.EsperEnchantPrice, value);
+      }
+
+      return value;
+    }
+
+    public ItemGradeInfo GetItemGrade()
+    {
+      var value = _cache.Get<ItemGradeInfo>(ResourceCacheType.ItemGrade);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadItemGrade();
+        _cache.Set(ResourceCacheType.ItemGrade, value);
+      }
+
+      return value;
+    }
+
+    public CombineElementInfo GetCombineElement()
+    {
+      var value = _cache.Get<CombineElementInfo>(ResourceCacheType.CombineElement);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadCombineElement();
+        _cache.Set(ResourceCacheType.CombineElement, value);
+      }
+
+      return value;
+    }
+
+    public DecompositionElementInfo GetDecompositionElement()
+    {
+      var value = _cache.Get<DecompositionElementInfo>(ResourceCacheType.DecompositionElement);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadDecompositionElement();
+        _cache.Set(ResourceCacheType.DecompositionElement, value);
+      }
+
+      return value;
+    }
+
+    public SeizeModeInfo GetSeizeModeNewInfo()
+    {
+      var value = _cache.Get<SeizeModeInfo>(ResourceCacheType.SeizeModeNewInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadSeizeModeNewInfo();
+        _cache.Set(ResourceCacheType.SeizeModeNewInfo, value);
+      }
+
+      return value;
+    }
+
+    public StadiumInfo GetStadiumInfo()
+    {
+      var value = _cache.Get<StadiumInfo>(ResourceCacheType.StadiumInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadStadiumInfo();
+        _cache.Set(ResourceCacheType.StadiumInfo, value);
+      }
+
+      return value;
+    }
+
+    public DecompositionInfo GetDecompositionInfo()
+    {
+      var value = _cache.Get<DecompositionInfo>(ResourceCacheType.DecompositionInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadDecompositionInfo();
+        _cache.Set(ResourceCacheType.DecompositionInfo, value);
+      }
+
+      return value;
+    }
+
+    public CombinationInfo GetCombinationInfo()
+    {
+      var value = _cache.Get<CombinationInfo>(ResourceCacheType.CombinationInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadCombinationInfo();
+        _cache.Set(ResourceCacheType.CombinationInfo, value);
+      }
+
+      return value;
+    }
+
+    public MissionInfo GetMissionInfo()
+    {
+      var value = _cache.Get<MissionInfo>(ResourceCacheType.MissionInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadMissionInfo();
+        _cache.Set(ResourceCacheType.MissionInfo, value);
+      }
+
+      return value;
+    }
+
+    public ArcadeRewardInfo GetArcadeRewardInfo()
+    {
+      var value = _cache.Get<ArcadeRewardInfo>(ResourceCacheType.ArcadeRewardInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadArcadeRewardInfo();
+        _cache.Set(ResourceCacheType.ArcadeRewardInfo, value);
+      }
+
+      return value;
+    }
+
+    public ArcadeItemInfo GetArcadeItemInfo()
+    {
+      var value = _cache.Get<ArcadeItemInfo>(ResourceCacheType.ArcadeItemInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadArcadeItemInfo();
+        _cache.Set(ResourceCacheType.ArcadeItemInfo, value);
+      }
+
+      return value;
+    }
+
+    public ChallengeArcadeInfo GetChallengeArcadeInfo()
+    {
+      var value = _cache.Get<ChallengeArcadeInfo>(ResourceCacheType.ChallengeArcadeInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadChallengeArcadeInfo();
+        _cache.Set(ResourceCacheType.ChallengeArcadeInfo, value);
+      }
+
+      return value;
+    }
+
+    public TaskListInfo GetTaskListInfo()
+    {
+      var value = _cache.Get<TaskListInfo>(ResourceCacheType.TaskListInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadTaskListInfo();
+        _cache.Set(ResourceCacheType.TaskListInfo, value);
+      }
+
+      return value;
+    }
+
+    public PromotionInfo GetPromotionInfo()
+    {
+      var value = _cache.Get<PromotionInfo>(ResourceCacheType.PromotionInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadPromotionInfo();
+        _cache.Set(ResourceCacheType.PromotionInfo, value);
+      }
+
+      return value;
+    }
+
+    public MakeCharacterInfo GetMakeCharacterInfo()
+    {
+      var value = _cache.Get<MakeCharacterInfo>(ResourceCacheType.MakeCharacterInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadMakeCharacterInfo();
+        _cache.Set(ResourceCacheType.MakeCharacterInfo, value);
+      }
+
+      return value;
+    }
+
+    public SupportItemInfo GetSupportItemInfo()
+    {
+      var value = _cache.Get<SupportItemInfo>(ResourceCacheType.SupportItemInfo);
+      if (value == null)
+      {
+        Logger.Information("Caching...");
+        value = _loader.LoadSupportItemInfo();
+        _cache.Set(ResourceCacheType.SupportItemInfo, value);
       }
 
       return value;
