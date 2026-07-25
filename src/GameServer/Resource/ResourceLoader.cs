@@ -1644,7 +1644,8 @@ namespace NeoNetsphere.Resource
 
     public RoomOptionInfo LoadRoomOption()
     {
-      var dto = Deserialize<RoomOptionDto>("xml/room_option.x7");
+      var root = Deserialize<RoomOptionRootDto>("xml/room_option.x7");
+      var dto = root?.Mode;
       if (dto == null)
         return new RoomOptionInfo { RewardConditionTime = 60, Modes = new List<RoomOptionModeEntry>(), ModeRewards = new List<RoomOptionRewardEntry>() };
 

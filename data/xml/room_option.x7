@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- PVP 랜덤 모드 정보 reward_condition_time 값은 초 단위 -->
+<room_option>
 <random_room_mode  reward_condition_time="60">
 	<!-- PVP 랜덤 활성화 정보 Prob는 백분율-->
 	<mode_type>
@@ -30,3 +31,4 @@
 		<requital key="2" gift_type="item" item_key="4031163" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" Item_string_key = "" prob="0"/>
 	</map_reward>
 </random_room_map>
+</room_option>

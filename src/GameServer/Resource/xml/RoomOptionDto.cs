@@ -3,7 +3,13 @@ using System.Xml.Serialization;
 namespace NeoNetsphere.Resource.xml
 {
   [XmlType(AnonymousType = true)]
-  [XmlRoot(Namespace = "", ElementName = "random_room_mode")]
+  [XmlRoot(Namespace = "", ElementName = "room_option")]
+  public class RoomOptionRootDto
+  {
+    [XmlElement("random_room_mode")] public RoomOptionDto Mode { get; set; }
+  }
+
+  [XmlType(AnonymousType = true)]
   public class RoomOptionDto
   {
     [XmlAttribute] public int reward_condition_time { get; set; }
