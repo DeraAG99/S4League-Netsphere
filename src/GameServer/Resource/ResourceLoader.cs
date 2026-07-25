@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 using BlubLib.Configuration;
 using NeoNetsphere.Network;
@@ -194,12 +195,16 @@ namespace NeoNetsphere.Resource
 
     #endregion
 
+    private static readonly Regex XmlCommentRegex = new Regex(@"<!--[\s\S]*?-->", RegexOptions.Compiled);
+
     private T Deserialize<T>(string fileName)
     {
       var serializer = new XmlSerializer(typeof(T));
 
       var path = Path.Combine(ResourcePath, fileName.Replace('/', Path.DirectorySeparatorChar));
-      using (var r = new StreamReader(path))
+      var content = File.ReadAllText(path);
+      content = XmlCommentRegex.Replace(content, "");
+      using (var r = new StringReader(content))
       {
         return (T)serializer.Deserialize(r);
       }
