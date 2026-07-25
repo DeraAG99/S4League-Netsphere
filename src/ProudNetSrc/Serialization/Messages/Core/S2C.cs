@@ -6,7 +6,6 @@ using System.Security.Cryptography;
 using BlubLib.Serialization;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using ProudNetSrc.Serialization.Serializers;
 
@@ -45,7 +44,8 @@ namespace ProudNetSrc.Serialization.Messages.Core
       [MethodImpl(MethodImplOptions.AggressiveInlining)]
       public void Serialize(BinaryWriter writer, NotifyServerConnectionHintMessage value)
       {
-        var pubKeyStruct = new RsaPublicKeyStructure(new BigInteger(1, value.PublicKey.Modulus), new BigInteger(1, value.PublicKey.Exponent));
+        var pubKey = DotNetUtilities.GetRsaPublicKey(value.PublicKey);
+        var pubKeyStruct = new RsaPublicKeyStructure(pubKey.Modulus, pubKey.Exponent);
         var encodedKey = pubKeyStruct.GetDerEncoded();
         BlubLib.Serialization.Serializer.Serialize(writer, value.Config);
         writer.WriteStruct(encodedKey);
