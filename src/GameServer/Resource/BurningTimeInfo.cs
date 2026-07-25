@@ -23,7 +23,7 @@ namespace NeoNetsphere.Resource
     public int Point { get; set; }
     public int BurningTime { get; set; }
     public float MultiAp { get; set; }
-    public int PlusAs { get; set; }
+    public float PlusAs { get; set; }
     public int AvHp { get; set; }
     public float MultiDp { get; set; }
     public int AvSp { get; set; }

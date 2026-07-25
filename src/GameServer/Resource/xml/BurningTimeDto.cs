@@ -31,7 +31,7 @@ namespace NeoNetsphere.Resource.xml
   public class BurningTimeStatusDto
   {
     [XmlAttribute] public float multi_ap { get; set; }
-    [XmlAttribute] public int plus_as { get; set; }
+    [XmlAttribute] public float plus_as { get; set; }
     [XmlAttribute] public string us { get; set; }
     [XmlAttribute] public int av_hp { get; set; }
     [XmlAttribute] public float multi_dp { get; set; }
