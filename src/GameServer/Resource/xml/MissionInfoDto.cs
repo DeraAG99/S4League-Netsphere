@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 namespace NeoNetsphere.Resource.xml
 {
   [XmlType(AnonymousType = true)]
-  [XmlRoot(Namespace = "", IsNullable = false, ElementName = "mission")]
+  [XmlRoot(Namespace = "", IsNullable = false, ElementName = "mission_info")]
   public class MissionInfoDto
   {
     [XmlElement("mission_config")] public MissionInfoMissionConfigDto mission_config { get; set; }
