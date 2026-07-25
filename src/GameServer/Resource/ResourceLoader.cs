@@ -196,7 +196,7 @@ namespace NeoNetsphere.Resource
     #endregion
 
     private static readonly Regex XmlCommentRegex = new Regex(@"<!--[\s\S]*?-->", RegexOptions.Compiled);
-    private static readonly Regex MissingSpaceRegex = new Regex(@"""[^""]*"")([a-zA-Z_])", RegexOptions.Compiled);
+    private static readonly Regex MissingSpaceRegex = new Regex(@"(""[^""]*"")([a-zA-Z_])", RegexOptions.Compiled);
 
     private T Deserialize<T>(string fileName)
     {
