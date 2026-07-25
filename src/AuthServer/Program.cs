@@ -214,7 +214,7 @@ namespace NeoNetsphere
       {
         case DatabaseEngine.MySQL:
           s_connectionString =
-              $"SslMode=none;Server={config.Auth.Host};Port={config.Auth.Port};Database={config.Auth.Database};Uid={config.Auth.Username};Pwd={config.Auth.Password};Pooling=true;";
+              $"SslMode=none;Server={config.Auth.Host};Port={config.Auth.Port};Database={config.Auth.Database};Uid={config.Auth.Username};Pwd={config.Auth.Password};Pooling=true;charset=utf8mb4;";
           OrmConfiguration.DefaultDialect = SqlDialect.MySql;
 
           using (var con = Open())

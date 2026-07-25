@@ -755,7 +755,7 @@ namespace NeoNetsphere
       {
         case DatabaseEngine.MySQL:
           _sConnectionString =
-              $"SslMode=none;Server={config.Auth.Host};Port={config.Auth.Port};Database={config.Auth.Database};Uid={config.Auth.Username};Pwd={config.Auth.Password};Pooling=true;";
+              $"SslMode=none;Server={config.Auth.Host};Port={config.Auth.Port};Database={config.Auth.Database};Uid={config.Auth.Username};Pwd={config.Auth.Password};Pooling=true;charset=utf8mb4;";
           OrmConfiguration.DefaultDialect = SqlDialect.MySql;
 
           using (var con = Open())
@@ -830,7 +830,7 @@ namespace NeoNetsphere
       {
         case DatabaseEngine.MySQL:
           _sConnectionString =
-              $"SslMode=none;Server={config.Game.Host};Port={config.Game.Port};Database={config.Game.Database};Uid={config.Game.Username};Pwd={config.Game.Password};Pooling=true;";
+              $"SslMode=none;Server={config.Game.Host};Port={config.Game.Port};Database={config.Game.Database};Uid={config.Game.Username};Pwd={config.Game.Password};Pooling=true;charset=utf8mb4;";
           OrmConfiguration.DefaultDialect = SqlDialect.MySql;
 
           using (var con = Open())
