@@ -196,13 +196,24 @@ namespace NeoNetsphere.Resource
     #endregion
 
     private static readonly Regex XmlCommentRegex = new Regex(@"<!--[\s\S]*?-->", RegexOptions.Compiled);
-    private static readonly Regex MissingSpaceRegex = new Regex(@"(""[^""]*"")([a-zA-Z_])", RegexOptions.Compiled);
+    private static readonly Regex MissingSpaceRegex = new Regex(@"""[^""]*"")([a-zA-Z_])", RegexOptions.Compiled);
 
     private T Deserialize<T>(string fileName)
     {
       var serializer = new XmlSerializer(typeof(T));
 
       var path = Path.Combine(ResourcePath, fileName.Replace('/', Path.DirectorySeparatorChar));
+      using (var r = new StreamReader(path))
+      {
+        try
+        {
+          return (T)serializer.Deserialize(r);
+        }
+        catch (InvalidOperationException)
+        {
+        }
+      }
+
       var content = File.ReadAllText(path);
       content = XmlCommentRegex.Replace(content, "");
       content = MissingSpaceRegex.Replace(content, "$1 $2");
