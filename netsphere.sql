@@ -30,6 +30,8 @@ CREATE TABLE `accounts` (
   `newToken` text,
   `LoginToken` text,
   `LastLogin` text,
+  `IsConnect` tinyint(1) NOT NULL DEFAULT '0',
+  `IsServer` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Username` (`Username`),
   UNIQUE KEY `Nickname` (`Nickname`)
@@ -46,7 +48,7 @@ DROP TABLE IF EXISTS `auth_history`;
 CREATE TABLE `auth_history` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
   `AccountId` int(11) NOT NULL,
-  `Date` bigint(20) NOT NULL DEFAULT '0',
+  `Date` text,
   `Hwid` text,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
