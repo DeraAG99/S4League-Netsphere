@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 namespace NeoNetsphere.Resource.xml
 {
   [XmlType(AnonymousType = true)]
-  [XmlRoot(Namespace = "", IsNullable = false, ElementName = "challenge_arcade_list")]
+  [XmlRoot(Namespace = "", IsNullable = false, ElementName = "mission_arcade")]
   public class ChallengeArcadeListDto
   {
     [XmlElement("list_setting")] public ChallengeArcadeListSettingDto[] list_setting { get; set; }
