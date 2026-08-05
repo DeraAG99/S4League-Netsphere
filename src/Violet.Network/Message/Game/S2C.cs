@@ -1318,7 +1318,7 @@ namespace NeoNetsphere.Network.Message.Game
     [BlubMember(0)] public int Unk1 { get; set; }
 
     [BlubMember(1, typeof(ArrayWithIntPrefixSerializer))]
-    public int[] Unk2 { get; set; }
+    public RandomShopItemDto[] Unk2 { get; set; }
   }
 
   [BlubContract]

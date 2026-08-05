@@ -175,7 +175,7 @@ namespace NeoNetsphere.Network.Services
 
         if (pools.Count == 0)
         {
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
           return;
         }
 
@@ -185,7 +185,7 @@ namespace NeoNetsphere.Network.Services
         if (plr.PEN < pool.Price && pool.PriceType == ItemPriceType.PEN ||
             plr.AP < pool.Price && pool.PriceType == ItemPriceType.AP)
         {
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
           return;
         }
 
@@ -208,7 +208,7 @@ namespace NeoNetsphere.Network.Services
         if (priceInfo == null)
         {
           Logger.ForAccount(session).Error("RandomShop: No shop entry for {item}", rolledItem.ItemNumber);
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
           return;
         }
 
@@ -217,7 +217,7 @@ namespace NeoNetsphere.Network.Services
         {
           Logger.ForAccount(session).Error("RandomShop: No price for {item} periodType={pt} period={p}",
               rolledItem.ItemNumber, rolledItem.PeriodType, period);
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
           return;
         }
 
@@ -228,7 +228,18 @@ namespace NeoNetsphere.Network.Services
         await session.SendAsync(new RandomShopRollingStartAckMessage
         {
           Unk1 = 0,
-          Unk2 = new[] { (int)(uint)rolledItem.ItemNumber }
+          Unk2 = new[]
+          {
+            new RandomShopItemDto
+            {
+              Unk1 = (uint)rolledItem.ItemNumber,
+              Unk2 = (uint)rolledItem.PeriodType,
+              Unk3 = rolledItem.Period,
+              Unk4 = rolledItem.Effect,
+              Unk5 = rolledItem.Color,
+              Unk6 = 0
+            }
+          }
         });
         await session.SendAsync(new MoneyRefreshCashInfoAckMessage(plr.PEN, plr.AP));
 
@@ -238,7 +249,7 @@ namespace NeoNetsphere.Network.Services
       catch (Exception ex)
       {
         Logger.Error(ex, "RandomShop: Error in RollingStart");
-        await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<int>() });
+        await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
       }
     }
 
