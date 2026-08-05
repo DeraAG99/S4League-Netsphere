@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<string_table>
+	<string key="ATTACK_MESSAGE_LIST">
+		<kor value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.찬스야! 공격!!{N}2.본진을 막아!{N}3.나이스 플레이!{N}4.고마워!{N}5.미안해~{N}6.볼을 리셋해!{N}7.회복해줘!{N}8.저격을 막아줘!{N}9.내가 갈게!{N}0.취소" />
+		<ger value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Das ist die Chance! Angriff!{N}2.Verteidigt unsere Basis!{N}3.Super! Wir sind die Besten!{N}4.Danke!{N}5.Tut mir leid!{N}6.Holt den Ball zurück!!{N}7.Ich brauche Rückendeckung!{N}8.Beschützt den Sniper!{N}9.Ich werde gehen!!{N}0.Abbrechen" />
+		<eng value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.This is the chance! Attack!{N}2.Defend the headcourters!{N}3.Nice play!{N}4.Thank you!{N}5.Sorry~{N}6.Reset the ball!!{N}7.I need recovery!{N}8.Defend the sniper!{N}9.I will go!{N}0.Cancel" />
+		<fre value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.C&apos;est notre chance ! À l&apos;attaque !{N}2.Défendez le quartier général !{N}3.Bien joué !{N}4.Merci !{N}5.SDésolé~{N}6.Reset la balle !!{N}7.J&apos;ai besoin d&apos;assistance !{N}8.Défendez le sniper !{N}9.J&apos;y vais !{N}0.Annuler" />
+		<spa value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Esta es la oportunidad! A atacar!{N}2.Defiende las bases!{N}3.Buen juego!{N}4.Gracias!{N}5.Lo siento~{N}6.Restablece el balón!!{N}7.Necesito recuperarme!{N}8.Defiende al francotirador!{N}9.Yo voy!{N}0.Cancelar" />
+		<ita value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Attacca!{N}2.Difendi la meta!{N}3.Ottimo!{N}4.Grazie!{N}5.Scusa!{N}6.Ball reset!!{N}7.Devo recuperare!{N}8.Difendi!{N}9.Vado!{N}0.Annulla" />
+		<rus value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Это наш шанс! В атаку!{N}2.Защищайте базу!{N}3.Отличная игра!{N}4.Спасибо!{N}5.Извините~{N}6.Сбросьте мяч!!{N}7.Мне нужна помощь!!{N}8.Защищайте снайпера!{N}9.Я сделаю это!{N}0.Отмена" />
+		<ame value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.This is the chance! Attack!{N}2.Defend the headcourters!{N}3.Nice play!{N}4.Thank you!{N}5.Sorry~{N}6.Reset the ball!!{N}7.I need recovery!{N}8.Defend the sniper!{N}9.I will go!{N}0.Cancel" />
+		<tur value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. İşte fırsat! Saldır!!{N}2. Merkezi savun!{N}3. Güzel oyun!{N}4. Teşekkürler!{N}5. Üzgünüm! {N}6. Topu sıfırla{N}7. İyileştir beni!{N}8. Koru beni!{N}9. Gidiyorum!{N}0. İptal." />
+		<cns value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.This is the chance! Attack!{N}2.Defend the headcourters!{N}3.Nice play!{N}4.Thank you!{N}5.Sorry~{N}6.Reset the ball!!{N}7.I need recovery!{N}8.Defend the sniper!{N}9.I will go!{N}0.Cancel" />
+		<tha value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.นี่เป็นโอกาสของเราแล้ว! โจมตี!{N}2.ป้องกันจุดบัญชาการ!{N}3.เล่นได้สวย!{N}4.ขอบคุณมาก!{N}5.ขอโทษนะ~{N}6.พาบอลกลับมา!!{N}7.ใครก็ได้ช่วยเพิ่มเลือดให้หน่อย!{N}8.ป้องกันมือ sniper!{N}9.เดี๋ยวไปเอง!{N}0.ยกเลิก" />
+		<twn value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.機會來了！！進攻！{N}2.防禦本壘！{N}3.幹的好！{N}4.謝謝你！{N}5.抱歉~{N}6.將球重置！{N}7.我需要補血！{N}8.保護狙擊手！{N}9.我去！{N}0.取消！" />
+		<jap value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.今がチャンス！攻撃！{N}2.自陣を守って！{N}3.ナイスプレイ！{N}4.ありがとう！{N}5.ごめん、ごめん！{N}6.ボールをリセットしよう！{N}7.回復お願い！{N}8.狙撃を防いで！{N}9.私が行く！{N}0.キャンセル" />
+		<idn />
+	</string>
+	<string key="DEFENSE_MESSAGE_LIST">
+		<kor value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.인사{N}2.야호!{N}3.좌절{N}4.때리기{N}5.비웃기{N}6.울기{N}7.가위!{N}8.바위!{N}9.보!{N}0.취소" />
+		<ger value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Grüßen{N}2.Sieg{N}3.Wut{N}4.Hit{N}5.Lachen{N}6.Weinen{N}7.Schere!{N}8.Stein!{N}9.Papier!{N}0.Abbrechen" />
+		<eng value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Greet{N}2.Win{N}3.Upset{N}4.Hit{N}5.Lol{N}6.Cry{N}7.Scissors!{N}8.Rock!{N}9.Papers!{N}0.Cancel" />
+		<fre value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Salutation{N}2.Victoire{N}3.Contrarié{N}4.Touché{N}5.Mort de rire{N}6.Pleurer{N}7.Ciseaux !{N}8.Pierre !{N}9.Papier !{N}0.Annuler" />
+		<spa value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Saludo{N}2.Victoria{N}3.Molesto{N}4.Golpear{N}5.Lol{N}6.Llorar{N}7.Tijeras!{N}8.Piedra!{N}9.Papel!{N}0.Cancelar" />
+		<ita value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Saluto{N}2.Vittoria{N}3.Triste{N}4.Hit{N}5.Lol{N}6.Piangi{N}7.Forbici!{N}8.Sasso!{N}9.Carta!{N}0.Annulla" />
+		<rus value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Приветствие{N}2.Победа{N}3.Злость{N}4.Удар{N}5.Смех{N}6.Расстройство{N}7.Ножницы!{N}8.Камень!{N}9.Бумага!{N}0.Отмена" />
+		<ame value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Greet{N}2.Win{N}3.Upset{N}4.Hit{N}5.Lol{N}6.Cry{N}7.Scissors!{N}8.Rock!{N}9.Papers!{N}0.Cancel" />
+		<tur value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. Selam.{N}2. Oley!{N}3. Yıkım. {N}4. Vur{N}5. Alay et.{N}6. Ağla.{N}7. Makas!{N}8. Taş!{N}9. Kağıt!{N}0. İptal." />
+		<cns value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Greet{N}2.Win{N}3.Upset{N}4.Hit{N}5.Lol{N}6.Cry{N}7.Scissors!{N}8.Rock!{N}9.Papers!{N}0.Cancel" />
+		<tha value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.สวัสดี{N}2.ชนะแล้ว{N}3.โมโหจริงๆ{N}4.เต็มเป้าเลย{N}5.555+{N}6.ร้องไห้ดีกว่า{N}7.กรรไกร!{N}8.หิน!{N}9.กระดาษ!{N}0.ยกเลิก" />
+		<twn value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.你好{N}2.勝利{N}3.挫折{N}4.打{N}5.嘲笑{N}6.哭泣{N}7.剪刀！{N}8.石頭！{N}9.布！{N}0.取消" />
+		<jap value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.挨拶{N}2.勝利{N}3.挫折{N}4.殴る{N}5.冷やかす{N}6.泣く{N}7.チョキ！{N}8.グー！{N}9.パー！{N}0.キャンセル" />
+		<idn value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Beri salam{N}2.Menang{N}3.Marah{N}4.Serang{N}5.Lol{N}6.Menangis{N}7.Gunting!{N}8.Batu!{N}9.Kertas!{N}0.Batal" />
+	</string>
+	<string key="DEFENSE_MODE_MESSAGE_LIST">
+		<kor value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.밀리고 있어~ 도와줘!{N}2.베이스가 위험해!{N}3.고마워!{N}4.미안해~{N}5.내가 갈게!{N}0.취소" />
+		<ger value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Wir werden angegriffen! Hilfe!{N}2.Die Basis ist in Gefahr!{N}3.Danke!{N}4.Sorry!{N}5.Ich komme!{N}0.Abbruch" />
+		<eng value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.Under attack! Please help!{N}2.The base is in danger!{N}3.Thank you!{N}4.Sorry!{N}5.I&apos;m coming!{N}0.Cancel" />
+		<fre value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. On est attaqué ! À l&apos;aide !{N}2. La base est en danger !{N}3. Merci !{N}4. Désolé !{N}5. J&apos;arrive !{N}0. Annuler" />
+		<spa value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1.¡Bajo ataque! ¡Ayuda!{N}2.¡La base está en peligro!{N}3.¡Gracias!{N}4.¡Lo siento!{N}5.¡Ya voy!{N}0.Cancelar" />
+		<ita value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. Mi attaccano! Aiuto!{N}2. La base è in pericolo!{N}3. Grazie!{N}4. Scusa!{N}5. Arrivo!{N}0. Annulla" />
+		<rus value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. Под атакой! Нужна помощь!{N}2. База в опасности!{N}3. Спасибо!{N}4. Простите!{N}5. Помощь уже в пути!{N}0. Отменить" />
+		<ame />
+		<tur value="{F-2002_12}{S-S}{M-200,20}{CB-238,129,192,255}{N}1. Kaybediyoruz. Yardım et! {N}2. Üs tehlikede!{N}3. Teşekkürler!{N}4. Üzgünüm!{N}5. Gidiyorum! {N}0. İptal" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+	<string key="ATTACK_MESAGE1">
+		<kor value="/t 찬스야! 공격!!" />
+		<ger value="/t Das ist die Chance! Angriff!" />
+		<eng value="/t This is our chance! Attack!" />
+		<fre value="/t C&apos;est notre chance ! À l&apos;attaque !" />
+		<spa value="/t Esta es la oportunidad! A atacar!" />
+		<ita value="/t Attacca!" />
+		<rus value="/t Это наш шанс! В атаку!" />
+		<ame value="/t This is our chance! Attack!" />
+		<tur value="/t İşte fırsat! Saldır!!" />
+		<cns value="/t This is our chance! Attack!" />
+		<tha value="/t นี่เป็นโอกาสของเราแล้ว! โจมตี!" />
+		<twn value="/t 機會來了！！進攻！" />
+		<jap value="/t 今がチャンス！攻撃！" />
+		<idn value="/t Inilah saatnya! Serang!" />
+	</string>
+	<string key="ATTACK_MESAGE2">
+		<kor value="/t 본진을 막아야해!" />
+		<ger value="/t Verteidigt unsere Basis!" />
+		<eng value="/t Defend the headquarters!" />
+		<fre value="/t Défendez le quartier général !" />
+		<spa value="/t Defiende las bases!" />
+		<ita value="/t Difendi la meta!" />
+		<rus value="/t Защищайте базу!" />
+		<ame value="/t Defend the headquarters!" />
+		<tur value="/t Merkezi savun!" />
+		<cns value="/t Defend the headquarters!" />
+		<tha value="/t ป้องกันจุดบัญชาการ!" />
+		<twn value="/t 防禦本壘！" />
+		<jap value="/t 自陣を守って！" />
+		<idn value="/t Pertahankan markas!" />
+	</string>
+	<string key="ATTACK_MESAGE3">
+		<kor value="/t 나이스! 우리팀 최고!!" />
+		<ger value="/t Super! Wir sind die Besten!" />
+		<eng value="/t Nice! Our team rocks!" />
+		<fre value="/t Super ! Notre team est la meileure !" />
+		<spa value="/t Bien! Nuestro equipo manda!" />
+		<ita value="/t Siamo i migliori!" />
+		<rus value="/t Отлично! Наша команда рулит!" />
+		<ame value="/t Nice! Our team rocks!" />
+		<tur value="/t Güzel! Takımımız on numara!" />
+		<cns value="/t Nice! Our team rocks!" />
+		<tha value="/t สุดยอดไปเลย! ทีมเราเจ๋งที่สุด!" />
+		<twn value="/t 幹的好！" />
+		<jap value="/t ナイスプレイ！最高！" />
+		<idn value="/t Bagus! Kerja sama yang bagus!" />
+	</string>
+	<string key="ATTACK_MESAGE4">
+		<kor value="/t 고마워~!" />
+		<ger value="/t Danke!" />
+		<eng value="/t Thank you!" />
+		<fre value="/t Thank you !" />
+		<spa value="/t Gracias!" />
+		<ita value="/t Grazie!" />
+		<rus value="/t Спасибо!" />
+		<ame value="/t Thank you!" />
+		<tur value="/t Teşekkürler!" />
+		<cns value="/t Thank you!" />
+		<tha value="/t ขอบคุณมากจ้า!" />
+		<twn value="/t 謝謝你！" />
+		<jap value="/t ありがとう！" />
+		<idn value="/t Terima kasih!" />
+	</string>
+	<string key="ATTACK_MESAGE5">
+		<kor value="/t 미안미안~" />
+		<ger value="/t Tut mir leid!" />
+		<eng value="/t So sorry!" />
+		<fre value="/t Vraiment désolé !" />
+		<spa value="/t Lo siento mucho!" />
+		<ita value="/t Scusa!" />
+		<rus value="/t Извините!" />
+		<ame value="/t So sorry!" />
+		<tur value="/t Çok üzgünüm!" />
+		<cns value="/t So sorry!" />
+		<tha value="/t ขอโทษมากๆเลยนะ!" />
+		<twn value="/t 抱歉~" />
+		<jap value="/t ごめん、ごめん！" />
+		<idn value="/t Maaf!" />
+	</string>
+	<string key="ATTACK_MESAGE6">
+		<kor value="/t 볼을 리셋해!" />
+		<ger value="/t Holt den Ball zurück!" />
+		<eng value="/t Reset the ball!" />
+		<fre value="/t Reset la balle !" />
+		<spa value="/t Restablece el balón!" />
+		<ita value="/t Ball reset!" />
+		<rus value="/t Сбросьте мяч!!" />
+		<ame value="/t Reset the ball!" />
+		<tur value="/t Topu sıfırla!" />
+		<cns value="/t Reset the ball!" />
+		<tha value="/t พาบอลกลับมา!" />
+		<twn value="/t 將球重置！" />
+		<jap value="/t ボールをリセットしよう！" />
+		<idn value="/t Reset Bola!" />
+	</string>
+	<string key="ATTACK_MESAGE7">
+		<kor value="/t 회복이 필요해!" />
+		<ger value="/t Ich brauche Rückendeckung!" />
+		<eng value="/t I need recovery!" />
+		<fre value="/t J&apos;ai besoin de support !" />
+		<spa value="/t Necesito recuperarme!" />
+		<ita value="/t Devo recuperare!" />
+		<rus value="/t Мне нужна помощь!" />
+		<ame value="/t I need recovery!" />
+		<tur value="/t İyileştir beni!" />
+		<cns value="/t I need recovery!" />
+		<tha value="/t ใครก็ได้ช่วยเพิ่มเลือดให้หน่อย!" />
+		<twn value="/t 我需要補血！" />
+		<jap value="/t 回復お願い！" />
+		<idn value="/t Aku butuh penyembuhan!" />
+	</string>
+	<string key="ATTACK_MESAGE8">
+		<kor value="/t 저격을 막아줘!" />
+		<ger value="/t Beschützt den Sniper!" />
+		<eng value="/t Defend the sniper!" />
+		<fre value="/t Défendez le sniper !" />
+		<spa value="/t Defiende al francotirador!" />
+		<ita value="/t Difendi!" />
+		<rus value="/t Защищайте снайпера!" />
+		<ame value="/t Defend the sniper!" />
+		<tur value="/t Koru beni!" />
+		<cns value="/t Defend the sniper!" />
+		<tha value="/t ป้องกันมือ sniper!" />
+		<twn value="/t 保護狙擊手！" />
+		<jap value="/t 狙撃を防いで！" />
+		<idn value="/t Pertahankan sniper!" />
+	</string>
+	<string key="ATTACK_MESAGE9">
+		<kor value="/t 내가 갈게!" />
+		<ger value="/t Ich werde gehen!" />
+		<eng value="/t I will go!" />
+		<fre value="/t J&apos;y vais !" />
+		<spa value="/t Yo voy!" />
+		<ita value="/t Vado!" />
+		<rus value="/t Я сделаю это!" />
+		<ame value="/t I will go!" />
+		<tur value="/t Gidiyorum!" />
+		<cns value="/t I will go!" />
+		<tha value="/t เดี๋ยวไปเอง!" />
+		<twn value="/t 我去！" />
+		<jap value="/t 私が行く！" />
+		<idn value="/t I will go!" />
+	</string>
+	<string key="DEFENSE_MESAGE1">
+		<kor value="/안녕" />
+		<ger value="/hi" />
+		<eng value="/hi" />
+		<fre value="/hi" />
+		<spa value="/hi" />
+		<ita value="/hi" />
+		<rus value="/hi" />
+		<ame value="/hi" />
+		<tur value="/selam" />
+		<cns value="/hi" />
+		<tha value="/hi" />
+		<twn value="/你好" />
+		<jap value="/挨拶" />
+		<idn value="/hi" />
+	</string>
+	<string key="DEFENSE_MESAGE2">
+		<kor value="/승리" />
+		<ger value="/Win" />
+		<eng value="/Win" />
+		<fre value="/Win" />
+		<spa value="/Win" />
+		<ita value="/Win" />
+		<rus value="/Win" />
+		<ame value="/Win" />
+		<tur value="/Zafer" />
+		<cns value="/Win" />
+		<tha value="/win" />
+		<twn value="/勝利" />
+		<jap value="/勝利" />
+		<idn value="/Win" />
+	</string>
+	<string key="DEFENSE_MESAGE3">
+		<kor value="/좌절" />
+		<ger value="/frustration" />
+		<eng value="/frustration" />
+		<fre value="/frustration" />
+		<spa value="/frustration" />
+		<ita value="/frustration" />
+		<rus value="/frustration" />
+		<ame value="/frustration" />
+		<tur value="/Yıkım" />
+		<cns value="/frustration" />
+		<tha value="/frustration" />
+		<twn value="/挫折" />
+		<jap value="/挫折" />
+		<idn value="/frustration" />
+	</string>
+	<string key="DEFENSE_MESAGE4">
+		<kor value="/퍽" />
+		<ger value="/hit" />
+		<eng value="/hit" />
+		<fre value="/hit" />
+		<spa value="/hit" />
+		<ita value="/hit" />
+		<rus value="/hit" />
+		<ame value="/hit" />
+		<tur value="/vur" />
+		<cns value="/hit" />
+		<tha value="/hit" />
+		<twn value="/打" />
+		<jap value="/殴る" />
+		<idn value="/hit" />
+	</string>
+	<string key="DEFENSE_MESAGE5">
+		<kor value="/ㅋㅋ" />
+		<ger value="/ridicule" />
+		<eng value="/ridicule" />
+		<fre value="/ridicule" />
+		<spa value="/ridicule" />
+		<ita value="/ridicule" />
+		<rus value="/ridicule" />
+		<ame value="/ridicule" />
+		<tur value="/alay et" />
+		<cns value="/ridicule" />
+		<tha value="/ridicule" />
+		<twn value="/呵呵" />
+		<jap value="/笑う" />
+		<idn value="/ridicule" />
+	</string>
+	<string key="DEFENSE_MESAGE6">
+		<kor value="/울기" />
+		<ger value="/cry" />
+		<eng value="/cry" />
+		<fre value="/cry" />
+		<spa value="/cry" />
+		<ita value="/cry" />
+		<rus value="/cry" />
+		<ame value="/cry" />
+		<tur value="/ağla" />
+		<cns value="/cry" />
+		<tha value="/cry" />
+		<twn value="/哭泣" />
+		<jap value="/泣く" />
+		<idn value="/cry" />
+	</string>
+	<string key="DEFENSE_MESAGE7">
+		<kor value="/가위" />
+		<ger value="/scissors" />
+		<eng value="/scissors" />
+		<fre value="/scissors" />
+		<spa value="/scissors" />
+		<ita value="/scissors" />
+		<rus value="/scissors" />
+		<ame value="/scissors" />
+		<tur value="/Makas" />
+		<cns value="/scissors" />
+		<tha value="/scissors" />
+		<twn value="/剪刀" />
+		<jap value="/チョキ" />
+		<idn value="/scissors" />
+	</string>
+	<string key="DEFENSE_MESAGE8">
+		<kor value="/바위" />
+		<ger value="/rock" />
+		<eng value="/rock" />
+		<fre value="/rock" />
+		<spa value="/rock" />
+		<ita value="/rock" />
+		<rus value="/rock" />
+		<ame value="/rock" />
+		<tur value="/taş" />
+		<cns value="/rock" />
+		<tha value="/rock" />
+		<twn value="/石頭" />
+		<jap value="/グー" />
+		<idn value="/rock" />
+	</string>
+	<string key="DEFENSE_MESAGE9">
+		<kor value="/보" />
+		<ger value="/paper" />
+		<eng value="/paper" />
+		<fre value="/paper" />
+		<spa value="/paper" />
+		<ita value="/paper" />
+		<rus value="/paper" />
+		<ame value="/paper" />
+		<tur value="/kağıt" />
+		<cns value="/paper" />
+		<tha value="/paper" />
+		<twn value="/布" />
+		<jap value="/パー" />
+		<idn value="/paper" />
+	</string>
+	<string key="DEFENSE_MODE_MESAGE1">
+		<kor value="/t 밀리고 있어~ 도와줘!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<ame />
+		<tur value="/t Kaybediyoruz. Yardım et!" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+	<string key="DEFENSE_MODE_MESAGE2">
+		<kor value="/t 베이스가 위험해!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<ame />
+		<tur value="/t Üs tehlikede!" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+	<string key="DEFENSE_MODE_MESAGE3">
+		<kor value="/t 고마워!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<ame />
+		<tur value="/t Teşekkürler!" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+	<string key="DEFENSE_MODE_MESAGE4">
+		<kor value="/t 미안해!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<ame />
+		<tur value="/t Üzgünüm!" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+	<string key="DEFENSE_MODE_MESAGE5">
+		<kor value="/t 내가 갈께!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<ame />
+		<tur value="/t Gidiyorum!" />
+		<cns />
+		<tha />
+		<twn />
+		<jap />
+		<idn />
+	</string>
+</string_table>

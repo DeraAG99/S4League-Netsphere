@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<conquest_text>
+	<conquest id="1">
+		<kor value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}체스 몬스터로부터 큐브를 사수하라!" />
+		<ger value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Verteidige den Cube vor den Schachmonstern!" />
+		<eng value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Defend the cube from the chess monsters!" />
+		<fre value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Défendez le cube des pièces d&apos;échec malfaisantes !" />
+		<spa value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}¡Defiende el cubo de los monstruos del ajedrez!" />
+		<ita value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Difendi il cubo dagli scacchi!" />
+		<rus value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Защитите куб от шахматных монстров!" />
+		<ame value="" />
+		<tha value="" />
+		<twn value="" />
+		<jap value="" />
+		<idn value="" />
+		<tur value="{F-2002_15}{A-C}{S-S}{CB-255,255,0,255}Defend the cube from the chess monsters!" />
+	</conquest>
+</conquest_text>

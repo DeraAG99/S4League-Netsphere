@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>wtfblub</Authors>
+        <PackageId>BlubLib.Serialization</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Sigil" Version="4.7.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BlubLib\BlubLib.csproj"/>
+    </ItemGroup>
+    <Import Project="..\version.targets"/>
+</Project>

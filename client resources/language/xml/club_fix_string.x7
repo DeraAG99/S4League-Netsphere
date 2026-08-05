@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<club_common_string>
+	<master_delegate_info>
+		<master_delegate type="week" value="4" />
+		<master_delegate type="week" value="5" />
+		<master_delegate type="week" value="6" />
+		<master_delegate type="week" value="7" />
+		<master_delegate type="week" value="8" />
+		<master_delegate type="week" value="9" />
+		<master_delegate type="week" value="10" />
+		<master_delegate type="week" value="11" />
+		<master_delegate type="week" value="12" />
+	</master_delegate_info>
+	<master_transfer_clause>
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_1" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_2" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_3" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_4" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_5" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_6" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_7" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_8" />
+		<master_transfer text_key="CLUB_MASTER_TRANSFER_9" />
+	</master_transfer_clause>
+	<club_message_list>
+		<club_message text_key="CLUB_MSG_CREATE_GREETING1" parameter_count="0" />
+		<club_message text_key="CLUB_MSG_CREATE_GREETING2" parameter_count="4" />
+		<club_message text_key="CLUB_MSG_INVITED" parameter_count="1" />
+		<club_message text_key="CLUB_MSG_JOIN_SUGGEST_RECEIVED" parameter_count="2" />
+		<club_message text_key="CLUB_MSG_INVITATION_ANSWER" parameter_count="2" />
+		<club_message text_key="CLUB_MSG_JOIN_SUGGEST_ANSWERED" parameter_count="3" />
+		<club_message text_key="CLUB_MSG_APPLICANT_EXISTS" parameter_count="0" />
+		<club_message text_key="CLUB_MSG_JOIN_REQUEST_RECEIVED" parameter_count="1" />
+		<club_message text_key="CLUB_MSG_JOIN_REQUEST_ANSWERED" parameter_count="2" />
+		<club_message text_key="CLUB_MSG_JOIN_REQUEST_EXECUTED" parameter_count="2" />
+		<club_message text_key="CLUB_MSG_CHANGED_MEMBER_GRADE" parameter_count="0" />
+		<club_message text_key="CLUB_MSG_CHANGED_MEMBER_GRADE_PARAMETERED" parameter_count="3" />
+		<club_message text_key="CLUB_MSG_WITHDRAW_EXISTS" parameter_count="0" />
+		<club_message text_key="CLUB_MSG_COMMON_ACTION_MSG_PARAMETERED" parameter_count="3" />
+		<club_message text_key="CLUB_MSG_CLUB_CLOSED_PARAMETERED" parameter_count="1" />
+		<club_message text_key="CLUB_MSG_CLUB_CLOSED_PARAMETERED2" parameter_count="2" />
+	</club_message_list>
+	<club_chat_list>
+		<club_chat text_key="CLUB_CHAT_COMMON_ACTION_PARAMETERED" parameter_count="2" />
+		<club_chat text_key="CLUB_CHAT_MEMBER_LEVEL_UP_PARAMETERED" parameter_count="2" />
+		<club_chat text_key="CLUB_CHAT_MEMBER_ACQUIRED_ITEM_PARAMETERED" parameter_count="2" />
+		<club_chat text_key="CLUB_CHAT_CLUB_GRADE_CHANGED_PARAMETERED" parameter_count="1" />
+	</club_chat_list>
+	<club_news_list>
+		<club_news text_key="CLUB_NEWS_ALL_MARK" parameter_count="0" />
+		<club_news text_key="CLUB_NEWS_ALL_CHANGEINFO" parameter_count="0" />
+		<club_news text_key="CLUB_NEWS_ACCUMULATED_RANK_UPDATED_PARAMETERED" parameter_count="2" />
+		<club_news text_key="CLUB_NEWS_GRADE_CHANGED_PARAMETERED" parameter_count="2" />
+	</club_news_list>
+	<club_deside_list>
+		<club_deside text_key="CLUB_COMMON_ACCEPT" />
+		<club_deside text_key="CLUB_COMMON_REJECT" />
+	</club_deside_list>
+	<club_grade_list>
+		<club_grade text_key="CLUB_GENERAL_GRADE_MASTER" />
+		<club_grade text_key="CLUB_GENERAL_GRADE_SMASTER" />
+		<club_grade text_key="CLUB_GENERAL_GRADE_STEP" />
+		<club_grade text_key="CLUB_GENERAL_GRADE_REGULAR" />
+		<club_grade text_key="CLUB_GENERAL_GRADE_NORMAL" />
+		<club_grade text_key="CLUB_GENERAL_GRADE_LIMITED" />
+	</club_grade_list>
+	<club_outtype_list>
+		<club_outtype text_key="CLUB_GENERAL_DROP_NORMAL" />
+		<club_outtype text_key="CLUB_GENERAL_DROP_FORCIBLE" />
+		<club_outtype text_key="CLUB_GENERAL_DROP_ETERNAL" />
+	</club_outtype_list>
+	<club_log_list>
+		<club_log text_key="CLUB_LOG_IN" />
+		<club_log text_key="CLUB_LOG_OUT" />
+	</club_log_list>
+	<club_member_action_list>
+		<member_action_type text_key="ACTION_DROP" />
+		<member_action_type text_key="ACTION_JOIN" />
+	</club_member_action_list>
+	<club_type_list>
+		<club_type text_key="REGULAR_CLUB" />
+		<club_type text_key="NON_REGULAR_CLUB" />
+	</club_type_list>
+</club_common_string>

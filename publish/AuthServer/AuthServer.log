@@ -1,0 +1,244 @@
+2026-07-25 09:09:34.173 +07:00 [INF] Initializing...
+2026-07-25 09:09:35.047 +07:00 [INF] Starting Server
+2026-07-25 09:09:35.049 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 108
+2026-07-25 09:09:48.597 +07:00 [INF] Initializing...
+2026-07-25 09:09:49.042 +07:00 [INF] Starting Server
+2026-07-25 09:09:49.058 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 09:09:49.068 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 09:09:49.084 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 09:09:49.100 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 09:09:49.111 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 09:09:49.120 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 09:09:49.121 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 09:09:49.130 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 09:09:49.135 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 09:09:49.136 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 09:09:49.137 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 09:09:49.138 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 09:09:49.501 +07:00 [INF] Ready for connections!
+2026-07-25 09:09:49.502 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 09:36:30.863 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 09:37:30.481 +07:00 [INF] Removed server Netsphere(1)
+2026-07-25 09:39:10.054 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 09:45:56.416 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:64037
+2026-07-25 09:45:56.516 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'IsConnect' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.BatchSelect(IDbConnection connection, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 297
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:46:45.832 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:57696
+2026-07-25 09:46:45.835 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'IsServer' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.BatchSelect(IDbConnection connection, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 297
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:46:46.530 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:57697
+2026-07-25 09:46:46.533 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'IsServer' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.BatchSelect(IDbConnection connection, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 297
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:46:46.723 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:57698
+2026-07-25 09:46:46.725 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'IsServer' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.BatchSelect(IDbConnection connection, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 297
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:46:46.899 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:57699
+2026-07-25 09:46:46.901 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'IsServer' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.BatchSelect(IDbConnection connection, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 297
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:47:07.609 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:57702
+2026-07-25 09:47:07.675 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Data truncated for column 'Date' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.Insert(IDbConnection connection, TEntity entity, AggregatedSqlStatementOptions`1 statementOptions) in D:\a\1\s\Dapper.FastCrud\SqlStatements\GenericSqlStatements.cs:line 70
+   at NeoNetsphere.LoginAPI.LoginServerHandler.LoginAsync(IChannelHandlerContext context, String username, String password, String hwid, String test)
+2026-07-25 09:51:58.464 +07:00 [INF] Closing...
+2026-07-25 09:57:49.965 +07:00 [INF] Initializing...
+2026-07-25 09:57:50.313 +07:00 [INF] Starting Server
+2026-07-25 09:57:50.314 +07:00 [ERR] UnhandledException
+System.Exception: XBN folder is missing!
+   at NeoNetsphere.Program.Main()
+2026-07-25 09:58:09.386 +07:00 [INF] Initializing...
+2026-07-25 09:58:09.729 +07:00 [INF] Starting Server
+2026-07-25 09:58:09.738 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 09:58:09.746 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 09:58:09.755 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 09:58:09.765 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 09:58:09.771 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 09:58:09.772 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 09:58:09.778 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 09:58:09.788 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 09:58:09.794 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 09:58:09.795 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 09:58:09.796 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 09:58:09.802 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 09:58:09.879 +07:00 [INF] Ready for connections!
+2026-07-25 09:58:09.880 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 09:58:12.628 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 10:34:19.091 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:60014
+2026-07-25 10:34:19.194 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 10:35:35.789 +07:00 [INF] Removed server Netsphere(1)
+2026-07-25 10:35:38.106 +07:00 [INF] Closing...
+2026-07-25 10:36:01.423 +07:00 [INF] Initializing...
+2026-07-25 10:36:01.752 +07:00 [INF] Starting Server
+2026-07-25 10:36:01.756 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 10:36:01.756 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 10:36:01.757 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 10:36:01.757 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 10:36:01.758 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 10:36:01.758 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 10:36:01.758 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 10:36:01.759 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 10:36:01.759 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 10:36:01.759 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 10:36:01.760 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 10:36:01.760 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 10:36:01.834 +07:00 [INF] Ready for connections!
+2026-07-25 10:36:01.835 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 10:36:04.614 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 10:36:18.532 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:55802
+2026-07-25 10:36:18.642 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 10:36:48.791 +07:00 [ERR] Unhandled server exception
+DotNetty.Codecs.EncoderException: Exception of type 'DotNetty.Codecs.EncoderException' was thrown. ---> System.TypeLoadException: Could not load type 'Org.BouncyCastle.Security.DotNetUtilities' from assembly 'BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=null'.
+   at ProudNetSrc.Serialization.Messages.Core.NotifyServerConnectionHintMessage.Serializer.Serialize(BinaryWriter writer, NotifyServerConnectionHintMessage value)
+   at BlubLib.Serialization.Serializer.Serialize(BinaryWriter writer, Object value)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(ICoreMessage message, IByteBuffer buffer)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(IChannelHandlerContext context, ICoreMessage message, List`1 output)
+   at DotNetty.Codecs.MessageToMessageEncoder`1.WriteAsync(IChannelHandlerContext ctx, Object msg)
+   --- End of inner exception stack trace ---
+   at ProudNetSrc.DotnettyExtentions.WriteAndFlushAsyncEx(IChannelHandlerContext ctx, Object message)
+2026-07-25 10:56:18.298 +07:00 [INF] Initializing...
+2026-07-25 10:56:19.161 +07:00 [INF] Starting Server
+2026-07-25 10:56:19.170 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 10:56:19.175 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 10:56:19.183 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 10:56:19.191 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 10:56:19.196 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 10:56:19.201 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 10:56:19.203 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 10:56:19.211 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 10:56:19.216 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 10:56:19.221 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 10:56:19.222 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 10:56:19.227 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 10:56:19.554 +07:00 [INF] Ready for connections!
+2026-07-25 10:56:19.554 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 10:56:22.085 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 11:24:04.777 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:62108
+2026-07-25 11:24:04.882 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 11:24:57.965 +07:00 [ERR] Unhandled server exception
+DotNetty.Codecs.EncoderException: Exception of type 'DotNetty.Codecs.EncoderException' was thrown. ---> System.TypeLoadException: Could not load type 'Org.BouncyCastle.Security.DotNetUtilities' from assembly 'BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=null'.
+   at ProudNetSrc.Serialization.Messages.Core.NotifyServerConnectionHintMessage.Serializer.Serialize(BinaryWriter writer, NotifyServerConnectionHintMessage value)
+   at BlubLib.Serialization.Serializer.Serialize(BinaryWriter writer, Object value)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(ICoreMessage message, IByteBuffer buffer)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(IChannelHandlerContext context, ICoreMessage message, List`1 output)
+   at DotNetty.Codecs.MessageToMessageEncoder`1.WriteAsync(IChannelHandlerContext ctx, Object msg)
+   --- End of inner exception stack trace ---
+   at ProudNetSrc.DotnettyExtentions.WriteAndFlushAsyncEx(IChannelHandlerContext ctx, Object message)
+2026-07-25 11:26:35.450 +07:00 [INF] Initializing...
+2026-07-25 11:26:35.789 +07:00 [INF] Starting Server
+2026-07-25 11:26:35.792 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 11:26:35.793 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 11:26:35.793 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 11:26:35.794 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 11:26:35.795 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 11:26:35.795 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 11:26:35.796 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 11:26:35.796 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 11:26:35.796 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 11:26:35.797 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 11:26:35.797 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 11:26:35.798 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 11:26:35.875 +07:00 [INF] Ready for connections!
+2026-07-25 11:26:35.876 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 11:26:36.495 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 11:28:57.992 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:60141
+2026-07-25 11:28:58.083 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 11:29:25.818 +07:00 [ERR] Unhandled server exception
+DotNetty.Codecs.EncoderException: Exception of type 'DotNetty.Codecs.EncoderException' was thrown. ---> System.TypeLoadException: Could not load type 'Org.BouncyCastle.Security.DotNetUtilities' from assembly 'BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=null'.
+   at ProudNetSrc.Serialization.Messages.Core.NotifyServerConnectionHintMessage.Serializer.Serialize(BinaryWriter writer, NotifyServerConnectionHintMessage value)
+   at BlubLib.Serialization.Serializer.Serialize(BinaryWriter writer, Object value)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(ICoreMessage message, IByteBuffer buffer)
+   at ProudNetSrc.Codecs.CoreMessageEncoder.Encode(IChannelHandlerContext context, ICoreMessage message, List`1 output)
+   at DotNetty.Codecs.MessageToMessageEncoder`1.WriteAsync(IChannelHandlerContext ctx, Object msg)
+   --- End of inner exception stack trace ---
+   at ProudNetSrc.DotnettyExtentions.WriteAndFlushAsyncEx(IChannelHandlerContext ctx, Object message)
+2026-07-25 11:38:14.561 +07:00 [INF] Initializing...
+2026-07-25 11:38:14.892 +07:00 [INF] Starting Server
+2026-07-25 11:38:14.901 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 11:38:14.906 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 11:38:14.913 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 11:38:14.920 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 11:38:14.924 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 11:38:14.925 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 11:38:14.930 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 11:38:14.938 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 11:38:14.942 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 11:38:14.943 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 11:38:14.944 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 11:38:14.949 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 11:38:15.089 +07:00 [INF] Ready for connections!
+2026-07-25 11:38:15.089 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 11:39:01.120 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-07-25 11:39:17.079 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:51506
+2026-07-25 11:39:17.169 +07:00 [INF] Authentication success for masterblad1

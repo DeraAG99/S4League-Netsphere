@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ban_reason_text>
+	<reason>
+		<kor value="핵 및 불법 프로그램" />
+		<ger value="Hack-  Bot-Programm" />
+		<eng value="Hack  Bot Program" />
+		<fre value="Hack ou logiciel BOT" />
+		<spa value="Programa Hack  Bot" />
+		<ita value="Hack o bot" />
+		<rus value="Исп. сторонних программ" />
+		<ame value="Hack  Bot Program" />
+		<cns value="Hack  Bot Program" />
+		<tha value="Hack  Bot Program" />
+		<twn value="外掛及非法程式" />
+		<jap value="不正ツール使用" />
+		<tur value="Hack  Bot Program" />
+	</reason>
+	<reason>
+		<kor value="욕설 및 비방" />
+		<ger value="Schlechtes Benehmen" />
+		<eng value="Bad Manner" />
+		<fre value="Mauvaises manières" />
+		<spa value="Mala Conducta" />
+		<ita value="Maleducazione" />
+		<rus value="Плохие манеры" />
+		<ame value="Bad Manner" />
+		<cns value="Bad Manner" />
+		<tha value="Bad Manner" />
+		<twn value="謾罵及毀謗" />
+		<jap value="誹謗中傷、侮辱行為" />
+		<tur value="Bad Manner" />
+	</reason>
+	<reason>
+		<kor value="버그 플레이" />
+		<ger value="Ausnutzen eines Bugs" />
+		<eng value="Bug Abusing" />
+		<fre value="Utilisation de bug" />
+		<spa value="Abuso de Bug" />
+		<ita value="Abuso di bug" />
+		<rus value="Исп. Багов" />
+		<ame value="Bug Abusing" />
+		<cns value="Bug Abusing" />
+		<tha value="Bug Abusing" />
+		<twn value="利用Bug進行" />
+		<jap value="バグ悪用" />
+		<tur value="Bug Abusing" />
+	</reason>
+	<reason>
+		<kor value="장시간 미 플레이" />
+		<ger value="AFK" />
+		<eng value="AFK" />
+		<fre value="Absent" />
+		<spa value="AFK" />
+		<ita value="AFK" />
+		<rus value="АФК" />
+		<ame value="AFK" />
+		<cns value="AFK" />
+		<tha value="AFK" />
+		<twn value="長時間未進行" />
+		<jap value="長時間ゲーム放置" />
+		<tur value="AFK" />
+	</reason>
+	<reason>
+		<kor value="기타" />
+		<ger value="Etc" />
+		<eng value="Etc" />
+		<fre value="Etc" />
+		<spa value="Etc" />
+		<ita value="ECC." />
+		<rus value="Другое" />
+		<ame value="Etc" />
+		<cns value="Etc" />
+		<tha value="Etc" />
+		<twn value="其他" />
+		<jap value="その他" />
+		<tur value="Etc" />
+	</reason>
+</ban_reason_text>

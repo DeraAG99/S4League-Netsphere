@@ -18,3 +18,10 @@ D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Release\V
 D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Release\VioletUpdater.csproj.CoreCompileInputs.cache
 D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Release\SelfUpdate.exe
 D:\Project\S4League Netsphere\S4League-Netsphere\src\VioletUpdater\obj\Release\SelfUpdate.pdb
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\bin\Release\SelfUpdate.exe.config
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\bin\Release\SelfUpdate.exe
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\bin\Release\SelfUpdate.pdb
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\obj\Release\VioletUpdater.csproj.AssemblyReference.cache
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\obj\Release\VioletUpdater.csproj.CoreCompileInputs.cache
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\obj\Release\SelfUpdate.exe
+D:\Dera\Project\S4League-Netsphere\src\VioletUpdater\obj\Release\SelfUpdate.pdb

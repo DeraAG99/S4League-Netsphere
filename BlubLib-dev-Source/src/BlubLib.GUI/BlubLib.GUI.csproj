@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net461</TargetFramework>
+        <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>wtfblub</Authors>
+        <PackageId>BlubLib.GUI</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System.Windows.Forms"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Update="Components\BorderExtender.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Components\VistaMenu.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\CreditBox.cs">
+            <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Update="Controls\CreditBox.Designer.cs">
+            <SubType>UserControl</SubType>
+            <DependentUpon>CreditBox.cs</DependentUpon>
+        </Compile>
+        <Compile Update="Controls\Extended\CheckBoxEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\ComboBoxEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\LabelEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\LinkLabelEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\ListViewEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\PanelEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\ProgressBarEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\TextBoxEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Extended\TreeViewEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\SearchBox.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\Separator.cs">
+            <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Update="Controls\SeparatorLabel.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="Controls\View.cs">
+            <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Update="Controls\ViewHost.cs">
+            <SubType>Component</SubType>
+        </Compile>
+        <Compile Update="FolderBrowserDialogEx.cs">
+            <SubType>Component</SubType>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+        <!--
+        <EmbeddedResource Include="Controls\CreditBox.resx">
+            <DependentUpon>CreditBox.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        -->
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\*"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BlubLib.WinAPI\BlubLib.WinAPI.csproj"/>
+        <ProjectReference Include="..\BlubLib\BlubLib.csproj"/>
+    </ItemGroup>
+    <Import Project="..\version.targets"/>
+</Project>

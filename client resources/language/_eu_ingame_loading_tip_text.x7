@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<string_table>
+	<string key="common_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}아군의 킬을 도와주면 어시스트 점수 1점을 획득합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Unterstütze dein Team. Für einen Assist erhältst du 1 Punkt." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to support your team, you will get 1 point for Assist point." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Aidez votre équipe et obtenez un point d&apos;assistance." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta darle soporte a tu equipo, obtendrás 1 punto por la Asistencia." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Cerca di supportare la tua squadra: avrai 1 Assist Point." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Попробуйте помочь вашей команде, вы получите 1 очко за помощь." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir müttefikin bir öldürme puanı almasına yardımcı olma karşılığında 1 asist puanı alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若幫助我軍擊殺，即可獲得助攻分數1分。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามช่วยเหลือทีม คุณจะได้รับ 1 คะแนน จากคะแนนช่วยเหลือ" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}味方のキルを手伝ったら、アシストスコアを1点獲得できます。" />
+	</string>
+	<string key="common_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}리스폰 중 코인을 사용하여 버프 아이템을 사용해보세요." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Nutze beim Respawnen das Coin Buff System." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to use Coin Buff System at Re-spawn time." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Utilisez le système Coin Buff au lieu du re-spawn classique." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta usar el Coin Buff System cuando estés en el  Re-spawn." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Prova a usare il Coin Buff System alla rinascita." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Попробуйте использовать Систему Баффов, во время ожидания возрождения." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Yeniden doğma sırasında bir altın kullanarak buff eşyasını kullanmayı dene." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}重生時，可試著利用C幣來使用Buff道具。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามใช้ระบบ Coinf Buff เวลารอเกิดใหม่" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}復活時、コインを使用しバフアイテムを使ってみて下さい。" />
+	</string>
+	<string key="common_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}PC방에서 접속하시면 PEN 20% 경험치 20% 콤비포인트 12%의 추가 혜택이 있습니다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Oyun esnasında ustalık puanlarını (UP) donanımına harcayabilirsin!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ゲームをプレイすると、装着している装備の熟練度(MP)がたまります。" />
+	</string>
+	<string key="common_4">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}루키1- 수퍼루키18을 달성할 때마다 각각 5000펜을 지급합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Steigere dein Level. Bei bestimmten Leveln bekommst du eine Belohnung." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to level up, you will get the reward at certain level." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Augmentez de niveau et vous obtiendrez peut-être une récompense." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta subir de nivel, obtendrás recompensas a ciertos niveles." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Aumenta il tuo livello, sarai ricompensato." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}За каждый новый уровень вы получите вознаграждения." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1. seviye Çaylaklıktan 18. seviye Süper Çaylaklığa kadar 5000 PEN dağıtılacak." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}新手1- 每達成超級新手18時，各個可獲得5000 P幣。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามเลื่อน level คุณจะได้รับรางวัลทุกการเลื่อน level" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}一定ランクを達成する度に、プレゼントがもらえます。" />
+	</string>
+	<string key="common_5">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}루키5가 되면 두 번째 캐릭터를 생성할 수 있습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ab Rookie 5 kannst du einen Zweitcharakter erstellen." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}You can create the secondary character at Rookie 5." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Vous pouvez créer un 2ème personnage de niveau Rookie 5." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Puedes crear tu segundo personaje en el nivel Rookie 5." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Puoi creare il personaggio secondario al livello Rookie 5." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Вы можете создать второго персонажа на 5 уровне." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}İkinci karakter, 5. Seviye Çaylaklığa ulaştıktan sonra oluşturulabilir." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}成為新手5之後，可創立第二個角色。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}คุณสามารถสร้างตัวละครตัวที่สองได้เมื่อ level Rookie 5." />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}「ルーキー5」ランクになると、2キャラクター目を作成できます。" />
+	</string>
+	<string key="common_6">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}게임 플레이를 하면 장착 장비에 숙련도(MP)가 채워집니다!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Oyun esnasında ustalık puanlarını (UP) donanımına harcayabilirsin!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ゲームをプレイすると、装着している装備の熟練度(MP)がたまります。" />
+	</string>
+	<string key="common_7">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}장비에 인챈트를 하여 특별한 효력을 부여해 보세요!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ekipmanlarını büyüleyerek özel etkiler edin!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}装備をエンチャントし、特別な効果を付与しましょう！" />
+	</string>
+	<string key="common_8">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}장비의 인챈트를 하게되면 해당 장비의 숙련도(MP)는 소진 됩니다. 게임 플레이로 숙련도 게이지를 모아 봅시다!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Büyüden sonra seçili eşyanın MP&apos;si tükenir. UP, oyun içinde yeniden kazanılabilir." />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}エンチャントすると、装備にたまっていた熟練度(MP)は消費されます。ゲームをプレイし、熟練度ゲージをためましょう。" />
+	</string>
+	<string key="common_9">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}에스퍼 칩을 이용하여 장비를 강화해 봅시다!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}eSper fişi kullanarak donanımını geliştir!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ESPチップを利用し、装備を強化しましょう。" />
+	</string>
+	<string key="common_10">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}인챈트를 통해 장비의 효력을 업그레이드 해보세요" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir ekipmanının etkisini büyüyle geliştir." />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}エンチャントで、装備をアップグレードしましょう。" />
+	</string>
+	<string key="sword_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}마우스 오른쪽 키를 누르면 필살기 술이!!!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Spezialattacke mit Rechtsklick!!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Special attack with Right Click !!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}lancez votre attaque spéciale en cliquant sur le bouton droit !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Realiza el Ataque Especial con el Click Derecho !!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Clicca col tasto destro per l&apos;attacco speciale!!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Правая кнопка мыши - Специальная атака!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Özel beceri için sağ tıkla!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}點擊滑鼠右鍵來使用必殺技！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}โจมตีแบบพิเศษด้วยการคลิกขวา !!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}右クリックで必殺技を使おう！！！" />
+	</string>
+	<string key="sword_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}마우스 오른쪽 키를 누르면 필살기 술이!!!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Spezialattacke mit Rechtsklick!!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Special attack with Right Click !!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}lancez votre attaque spéciale en cliquant sur le bouton droit !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Realiza el Ataque Especial con el Click Derecho !!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Clicca col tasto destro per l&apos;attacco speciale!!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Правая кнопка мыши - Специальная атака!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Özel beceri için sağ tıkla!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}點擊滑鼠右鍵來使用必殺技！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}โจมตีแบบพิเศษด้วยการคลิกขวา !!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}右クリックで必殺技を使おう！！！" />
+	</string>
+	<string key="sword_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}마우스 오른쪽 키를 누르면 필살기 술이!!!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Spezialattacke mit Rechtsklick!!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Special attack with Right Click !!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}lancez votre attaque spéciale en cliquant sur le bouton droit !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Realiza el Ataque Especial con el Click Derecho !!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Clicca col tasto destro per l&apos;attacco speciale!!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Правая кнопка мыши - Специальная атака!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Özel beceri için sağ tıkla!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}點擊滑鼠右鍵來使用必殺技！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}โจมตีแบบพิเศษด้วยการคลิกขวา !!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}右クリックで必殺技を使おう！！！" />
+	</string>
+	<string key="pra_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}연습모드에서 맵과 무기에 대해 공부해 봅시다!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Denke an den Practice Mode. Du kannst deine Waffen auf einer Map ausprobieren." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Don’t forget Practice Mode. You will practice your weapons in the map." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}N&apos;oubliez pas le mode Entrainement. Essayez vos armes sur la map de votre choix." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}No olvides el Modo de Practica. Practicarás con tus armas en el mapa." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Non dimenticare il Practice Mode. Potrai provare le armi nella mappa." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Не забудьте о Режиме Практики." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Haritayı ve silahları antrenman modunda dene." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}在練習模式中研究一下地圖及武器吧！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}อย่าลืม Pratice Mode คุณจะได้ทดลองใช้อาวุธในแผนที่" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}練習モードでマップと武器の特性について学ぼう。" />
+	</string>
+	<string key="pra_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}센트리건의 뒤쪽으로 공격하면 센트리건을 쉽게 제압 할수 있습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Die Sentry Gun greift dich von hinten an!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Get approached the behind of Sentry Gun!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Approchez vous de du fusil automatique par derrière !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Acercate por detrás de la Sentry Gun!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Avvicinati da dietro alla Sentry Gun!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Подходите к Sentry Gun сзади." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Sentry Gun, arkadan saldırılarak kolayca kontrol edilebilir." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若從後方攻擊步哨防禦槍，則可比較容易壓制步哨防禦槍。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}เข้าประชิด Sentry Gun จากด้านหลัง!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}セントリーガンは、後ろから攻撃すると簡単に倒せます。" />
+	</string>
+	<string key="pra_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}제한시간 내 목표 센트리건을 제압해 봅시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Zerstöre alle Sentry Guns!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Destroy all Sentry Gun !" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Détruisez tous les fusils automatiques !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Destruye todas las Sentry Gun !" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Distruggi tutte le Sentry Gun!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Уничтожьте все Sentry Gun!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Zaman limiti. Hedef. Sentry Gun&apos;ı yok et." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}在限制時間內，壓制步哨防禦槍。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ทำลาย Sentry Gun ให้สิ้นซาก" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}制限時間以内にセントリーガンを倒してみましょう。" />
+	</string>
+	<string key="dm_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}데스매치가 처음이신 분들은 같은 팀 플레이어와 함께 다녀보세요." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bleib bei deinem Team! Geh nicht allein los." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Hang around with your team ! Don’t be alone." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Soyez toujours en groupe, ne restez jamais seul." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Anda siempre con tu equipo! No andes solo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Rimani in squadra! Non stare da solo." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Будьте поблизости с вашей командой! Не будьте одни." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ölüm Maçında yeniysen takım arkadaşlarını takip etmeyi dene." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若是第一次體驗生死模式，則建議與同隊的玩家一同進行。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}จงอยู่กับทีมเอาไว้อย่าอยู่คนเดียว" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}初めて「デスマッチ」に参加する方は、同じチームのプレイヤーの動きをよく観察しよう。" />
+	</string>
+	<string key="dm_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}같은 팀원의 킬을 돕게 되면 어시스트 점수를 얻게 됩니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Hilf deinem Team, den Feind zu töten." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Assist your team to kill the enemy." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Aidez votre équipe à traquer l&apos;ennemi." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ayuda a tu equipo para eliminar el enemigo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Supporta la tua squadra per uccidere il nemico." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Помогайте вашей команде убивая врагов." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir müttefikin bir öldürme puanı almasına yardımcı olma karşılığında asist puanı alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若幫助同隊員擊殺，則可獲得助攻分數。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ช่วยทีมของคุณกำจัดศัตรูซะ" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}味方チームのキルを手伝ったら、アシストスコアを得られます。" />
+	</string>
+	<string key="dm_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}스킬을 활용하여 공격하면 공격 효과가 2배!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Vergiss deine Skills nicht!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Don’t forget to use the Skill." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}N&apos;oubliez pas d&apos;utiliser vos compétences." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}No olvides utilizar el Skill." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Non dimenticare di usare le skill." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Не забывайте использовать Умения." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir beceri kullanıldığında, saldırının etkisi ikiye katlanır!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若使用技能來攻擊，則會有兩倍的攻擊效果！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}อย่าลืมใช้ skill ละ" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}特殊能力を利用して、攻撃してみましょう。" />
+	</string>
+	<string key="dm_4">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}설치무기를 사용하여 공격해 보세요! 공격 효과가 2배!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Benutze nicht nur Nahkampf- und Schusswaffen, sondern auch Spezialwaffen." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to use the special weapons, not only melee and shooting weapon." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Utilisez les armes spéciales, pas seulement les armes de mêlée et les armes à feu." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta usar las armas especiales, no solamente melee y armas de disparo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Usa anche le armi speciali, non solo le melee o le shooting." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Попробуйте использовать специальное оружие." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Sabit silahları dene! Saldırının etkisi ikiye katlanır!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}使用裝置武器來進行攻擊！將會得到兩倍的效果！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามใช้อาวุธพิเศษ นอกจากอาวุธประชิดและอาวุธระยะไกล" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}近接武器や発射武器以外にも様々な特殊武器が存在します。" />
+	</string>
+	<string key="td_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}펌비를 획득하면 SP가 줄어드니 SP를 잘 확인해 가면서 플레이해봅시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Teile dir deine SP gut ein." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Manage your SP gauge." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Gérez votre jauge de SP" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Maneja tu SP con medida." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Fai attenzione alla barra SP." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Распоряжайтесь SP с умом." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Fumbi almak SP&apos;yi azaltır, bu yüzden oyun boyunca SP&apos;yi dikkatli kullan." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若獲得Fumbi，則SP會降低，請邊確認SP的量，邊進行遊戲。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}จัดการวัดค่า SP" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ファンビを獲得するとSPが減ります。SPゲージの管理を忘れずに！" />
+	</string>
+	<string key="td_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}펌비를 획득하고 적을 제압하면 오펜스 점수를 받습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bewege dich offensiv auf den Feind zu!!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Aggressive to move forward to the enemy!!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Soyez agressif, l&apos;attaque est la meilleure défense !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Se agresivo al moverte hacia el enemigo!!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Vai all&apos;attacco!!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Агрессивно наступайте на врага!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Fumbi alındığında ve rakibe hakim olunduğunda hücum puanı alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}獲得Fumbi，並壓制敵人時，可獲得攻擊分數。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}เข้าโจมตีอย่างดุดันศัตรูที่อยู่ข้างหน้า!!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ファンビを持っている状態で相手を倒したら、オフェンススコアを得られます。" />
+	</string>
+	<string key="td_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}설치무기를 골대에 설치하여 적으로부터 골대를 보호해 봅시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Beschütze deinen Goal Post. Verteidige ihn!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Protect your goal post. Defense it!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Protégez votre but. Défendez-le !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Proteje tu portería. Defiendela!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Difendi la tua meta!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}защищайте ваши ворота!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Kaleyi düşmanlardan korumak için kalenin önüne sabit bir silah kur." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}把裝置武器安裝在球門來保護球門。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ป้องกันแท่น Goal ป้องกันมันซะ!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}設置武器を設置し、ゴールポストを守りましょう。" />
+	</string>
+	<string key="td_4">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}저격무기를 사용하여 적 진영에 있는 적 플레이어를 공격해 봅시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Benutze Präzisionswaffen, um aus großer Entfernung anzugreifen." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to use the snipe weapon to attack in distance." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Essayez d&apos;utiliser le fusil sniper pour attaquer à distance." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta usar el arma de Francotirador para atacar a distancia." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Usa le sniping weapon per attaccare da lontano." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Попробуйте снайперское оружие, что бы атаковать с расстояния." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Düşmanlara düşman bölgesinde pusu kurmayı dene." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}使用狙擊武器來攻擊位於敵軍陣營的敵人。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามใช้อาวุธส่องไกลเพื่อกำจัดศัตรูในระยะไกล" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}狙撃武器を使用し、相手プレイヤーを狙いうちましょう。" />
+	</string>
+	<string key="ac_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}몬스터를 제압하면 랜덤으로 버프 아이템이 생성됩니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Wenn du die Monster tötest, bekommst du Buff Items." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}You will get some buff item when you kill the monster." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Vous obtenez des items de buffs lorsque vous tuez un monstre." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Obtendrás algunos buff items cuando elimines el monstruo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Uccidendo un mostro avrai dei buff." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Вы можете получить разные бонусы убивая монстров." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir canavar öldürüldüğünde, rastgele buff eşyası oluşur." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}壓制怪物的話，將會隨機產生Buff道具。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}คุณจะได้รับ item บางอย่างเพื่อหลังจากที่กำจัดมอนสเตอร์" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}モンスターを倒したら、稀に有利な効果を得られるアイテムを落とします。" />
+	</string>
+	<string key="ac_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}몬스터에게 제압당하면 코인을 사용하여 부활해 보세요." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Nutze den Coin Buff, um sofort zu respawnen." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to use the coin buff for instance re-spawn." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Utilisez le système coin buff pour réapparaitre instantanément." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta usar el coin buff cuando estés en el re-spawn." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Usa il Coin Buff per istanze alla rinascita." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Используйте Систему Баффов для мгновенного возрождения." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bir canavar tarafından öldürüldüğünde, dirilmek için bir altın kullan." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若被怪物壓制，可使用C幣來復活。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามใช้ระบบ Coinf Buff เวลารอเกิดใหม่" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}モンスターに倒されたらコインを使って復活しましょう。" />
+	</string>
+	<string key="ac_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}힐러와 공격수 등의 포지션을 나누어서 팀플레이를 해봅시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Kooperiere mit deinem Team." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Cooperate with your team." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Travaillez en équipe." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Coopera con tu equipo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Collabora con la tua squadra." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Действуйте сообща с вашей командой." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ortaya bir takım oyunu koymak için pozisyonları şifacılardan hücuma doğru sırala." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}區分治癒者與攻擊手等的守備位置後進行隊伍比賽。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ร่วมด้วยช่วยกันเป็นทีมดีที่สุด" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}アタッカー(攻撃役)、ヒーラー(回復役）など、それぞれの役割を決めてみましょう。" />
+	</string>
+	<string key="ch_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}타겟이 된 적을 처치하면 2배의 점수를 받습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Für das Töten eines Zielfeindes bekommst du den doppelten Bonus." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Double Bonus for killing the targeted enemy." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bonus doublé pour la cible désignée est tuée." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Doble Bonus por eliminar el objetivo enemigo." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bonus doppio per aver ucciso il nemico selezionato." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Двойные очки за убийство отмеченного игрока." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Hedeflenen bir düşman öldürüldüğünde, iki kat puan alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}變成目標的狀態下擊敗敵人時，可獲得兩倍分數。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bonus สองชั้นสำหรับการกำจัดศัตรูเป้าหมาย." />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ターゲットになった相手を倒したら、2倍のスコアを獲得できます。" />
+	</string>
+	<string key="ch_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}체이서모드에서 데미지랭킹을 획득하면 추가 경험치를 얻습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Zusätzliche EXP für das Damage Ranking im Chaser Mode!!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Extra EXP for Damage Ranking in Chaser Mode!!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}EXP bonus pour celui qui fait le plus de dégât en tant que Chaser !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Extra EXP por Ranking de Daño en el Chaser Mode!!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}EXP extra per i danni in Chaser Mode!!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Дополнительный опыт за Рейтинг Урона в Режиме Chaser!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Takipçi Modunda Hasar Sıralamasına girildiğinde, ekstra EXP alınır!!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}在追擊者模式中獲得傷害排名的話，可獲得追加經驗值。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Exp พิเศษเมื่อสะสมค่า Damage ใน Chaser Mode!!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}チェーサーモードで、最もダメージを与えたプレイヤーには、追加経験値が与えられます。" />
+	</string>
+	<string key="ch_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}일반 유저는 체이서를 일정이상 공격하면 점수를 얻습니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Greife den Chaser an und bekomme Punkte dafür." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Get the point to attack the Chaser." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Pour obtenir un point, attaquez le Chaser." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Obtén puntos por atacar el Chaser." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Attacca il Chaser." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Получайте очки за нанесению урона Чейзеру." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Düzenli bir kullanıcı, Takipçiye saldırma karşılığında belli bir puana kadar puan alır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}一般玩家是攻擊指定程度以上的追擊者時，即可獲得分數。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ได้รับคะแนนเมื่อโจมตี Chaser." />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}チェーサーにならなかった一般プレイヤーは、チェーサーに一定以上ダメージを与えることで、スコアを獲得できます。" />
+	</string>
+	<string key="br_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}일등 유저를 제압해 보세요. 일등 유저를 제압시 5점을 득점합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Finde und töte den Erstplatzierten. Das bringt dir 5 Punkte ein." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Find and kill the 1st Ranker, you will get 5 points." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Tuez le premier joueur au classement et gagnez 5 points." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Encuentra y elimina el jugador ranquedo 1ro, obtendrás 5 puntos." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Trova e uccidi il primo classificato per ottenere 5 punti." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Найдите и убейте Лидера, вы получите 5 очков." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}5 puan almak için 1. sıradaki kullanıcıyı öldür." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}試著壓制第一名玩家吧，若成功壓制第一名玩家，即可獲得5分。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามกำจัดอันดับที่ 1 ให้ได้คุณจะได้รับ 5 คะแนน" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}一位のプレイヤーを倒したら、5点獲得できます。" />
+	</string>
+	<string key="br_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}일등 유저는 모든 플레이어에게 위치가 노출됩니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Alle wissen, wo der Erstplatzierte ist." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Everyone knows where 1st Ranker is." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Tout le monde peut voir la position du jouer en tête du classement." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Todo el mundo sabe donde está el 1er Lugar." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Tutti sanno dov&apos;è il primo classificato." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Все знаю где Лидер." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1. sıradaki kullanıcının pozisyonu herkese gösterilir." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}第一名玩家的位置會顯示給所有的玩家。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} ทุกคนรู้ว่าผู้เล่นอันดับที่ 1 อยู่ที่ไหน" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}一位のプレイヤーは、他のプレイヤーたちに居場所がばれてしまいます。" />
+	</string>
+	<string key="br_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}싸움이 난 곳의 뒤를 공격해 보세요!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Greife den Feind von hinten an." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to attack the enemy from the behind." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Essayez d&apos;attaquer l&apos;ennemi par derrière." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta atacar el enemigo por detrás." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Attacca il nemico da dietro." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Атакуйте врага сзади." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Savaş olan yere arkadan saldır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}攻擊發生戰鬥過的地方的後方！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามโจมตีศัตรูจากด้านหลัง" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}相手の背後を狙いましょう！" />
+	</string>
+	<string key="cp_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}캡틴상태가 제압당하게 되면 일반 상태로 리스폰 됩니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Der Captain wird als normaler Spieler respawnt." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Captain will be re-spawned as a normal player." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Le Capitaine réapparait comme un joueur normal." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}El Capitán revivirá como un jugador normal." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Il Captain rinascerà come giocatore normale." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}После смерти Капитан становится обычным игроком." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Mağlup edilen Kaptan, normal durumda yeniden doğar." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若是在隊長狀態下被壓制，則會重生為一般狀態。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Captain จะเกิดใหม่เป็นผู้เล่นธรรมดาอีกครั้ง" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}キャプテンは、相手に倒されると復活する際、通常の状態に戻ってしまいます。" />
+	</string>
+	<string key="cp_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}상대 팀 캡틴의 위치가 화면에 표시되니 표시를 따라 달려가 봅시다!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Schau auf die Karte und finde den feindlichen Captain." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Check the map, and find where the enemy captain is." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Regardez bien votre map pour voir ou se cache le Capitaine ennemi." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Chequea el mapa y observa donde se encuentra el capitan." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Controlla la mappa per trovare il Captain." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Смотрите на карту, что бы узнать где Капитан." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Takım kaptanının ekranda işaret ettiği düşmanın peşinden git." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}對方隊伍的隊長位置會顯示在畫面中，跟著顯示去追擊吧！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Check the map, and find where the enemy captain is." />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}相手キャプテンの位置はマップに表示されます。" />
+	</string>
+	<string key="cp_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}마인드 에너지를 사용하여 캡틴의 체력을 보호합시다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Verteidige deinen Captain mit dem Mind Control Skill." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try to use Mind Control Skill for defense your captain." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Utilisez la compétence Mind Control pour défendre votre Capitaine." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Intenta usar el Skill de Control Mental para defender tu capitán." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Usa la skill Mind Control per difendere il tuo Captain." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Используйте Умения для защиты Капитана." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Mind Energy kullanarak kaptanın HP&apos;sini koru." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}使用心靈醫療來保護隊長的體力吧。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามใช้ Mind Control Skill เพื่อป้องกัน Captain ของคุณ." />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}マインドエネルギーを使用し、キャプテンの体力を回復しましょう。" />
+	</string>
+	<string key="sz_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}캐릭터 하단 실선 이펙트는 메인 점령자를 의미합니다. 점령을 성공하면 5점을 획득합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Fange so viele Cores ein, wie du kannst." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Try your best to capture the core as many as you can." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Faites de votre mieux pour capturer la base ennemie le plus souvent possible." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Has tu mejor esfuerzo en capturar los objetivos la mayor cantidad de veces que puedas." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Cerca di acquisire più Core possibili." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Захватите как можно больше Ядер." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Karakterin altındaki çizgili etki, ana yakalayıcıyı gösterir. Başarılı bir yakalama gerçekleştirildiğinde 5 puan alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}角色下方的實線特效是表示主要佔領者，若成功佔領，可獲得5點。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}พยายามยึดหลักให้ได้มากที่สุดเท่าที่จะทำได้" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}占領キャラクターには特別なエフェクトが付きます。占領に成功すると5点獲得できます。" />
+	</string>
+	<string key="sz_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}캐릭터 하단의 점선 이펙트는 어시스트 점령자를 의미합니다. 점령 성공 시 1점을 획득합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Für das Fangen des Cores erhältst du Capture Points." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} If you capture the core, then you will get capture points." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Si vous capturez la base, vous obtenez les points de capture." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Si capturas los objetivos, obtendrás puntos de Captura." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Acquisendo il Core, ottieni Capture Point." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} При захвате Ядра, вы получаете очки." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Karakterin altındaki noktalı çizgi etkisi, yardımcı yakalayıcıyı gösterir. Başarılı bir yakalama gerçekleştirildiğinde 1 puan alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}角色下方的點線特效是表示助攻佔領者，若成功佔領，可獲得1點。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} เมื่อคุณยึดหลักได้แล้วคุณจะได้ คะแนนจากการยึด" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}占領をアシストしたキャラクターには特別なエフェクトが付きます。" />
+	</string>
+	<string key="sz_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}깃발 모양의 아이템 획득 시 1점을 획득합니다." />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1 Punkt für ein Flag Item." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1 point for Flag Item." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1 point pour l&apos;item Flag." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1 punto por Item de Bandera." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}1 punto per Flag Item." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Одно Очко за предмет." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Bayrağa benzeyen eşya ele geçirildiğinde 1 puan alınır." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}獲得旗幟模樣的道具時，即可獲得1分。" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} 1 คะแนนสำหรับ Flag item" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}旗アイテムを獲得すると1点獲得できます。" />
+	</string>
+	<string key="sz_4">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}리스폰 후 거점을 향해 달려가 보세요!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Eile auf das Schlachtfeld!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Run to the battle field!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Courrez lorsque vous êtes dans l&apos;arène !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Corre al campo de batalla!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Corri nel campo di battaglia!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Бегите на поле боя!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Yeniden doğduktan sonra üsse koş!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}重生後，請往據點跑過去！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} ไปลุยกันได้แล้ว!" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}復活したら、とりあえず拠点を目指しましょう！" />
+	</string>
+	<string key="sz_5">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}스킬을 활용하여 공격하면 공격 효과가 2배" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Es gibt viele verschiedene Skills. Finde den passenden für dich!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Various Skills are available, find your best one." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Plusieurs compétences sont disponibles. A vous de trouver celle qui vous convient le mieux." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Varios Skills están disponibles, encuentra el mejor para ti." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ci sono diverse skill, trova la migliore." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Доступны различные умения, найдите лучший для себя." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Beceriler kullanılarak saldırılar iki kat daha etkili hale getirilebilir." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}若使用技能來攻擊，則會有兩倍的攻擊效果" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Skill ต่างๆพร้อมแล้วเลือกที่เหมาะกับคุณที่สุด" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}特殊能力をフル活用しましょう。" />
+	</string>
+	<string key="sz_6">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}설치 무기/거치 무기 등을 활용하여 공격해봅시다! 공격 효과가 2배!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Es gibt viele verschiedene Waffen. Finde die passende für dich!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Various weapons are available, find your best one.!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Plusieurs armes sont disponibles. A vous de trouver celle qui vous convient le mieux." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} Varias armas están disponibles, encuentra la mejor para ti.!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Ci sono diverse armi, trova quella che ti si addice!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Доступны различные оружия, найдите лучшее для себя." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Kurmalı / sabit silahı kullanmayı dene! Saldırılar iki kat daha etkili olur!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}利用裝置武器/設置武器來進行攻擊！將會有兩倍的攻擊效果！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255} อาวุธต่างๆพร้อมแล้ว เลือกที่เหมาะกับคุณที่สุด" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}色んな武器を活用し、戦略を立ててプレイしましょう。" />
+	</string>
+	<string key="sz_7">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}투척무기를 거점을 향해 던져 보세요!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Wirf die Bomben so weit weg wie du kannst!" />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Throw the bombs to core as far as you can!" />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Lancez vos bombes le plus loin possible vers la base ennemie !" />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Lanza bombas a los centros de objetivos de tan lejos como puedas!" />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Getta le bombe il più lontano possibile!" />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Кидайте бомбы так далеко, на сколько сможете!" />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Hedefe fırlatmalı bir silah fırlat." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}把投擲武器往據點方向投擲！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}ขว้างระเบิดไปที่หลักไกลที่สุดที่จะทำได้" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}拠点に爆発武器を投げるのもいい戦略です！" />
+	</string>
+	<string key="sz_8">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}힐을 통해서도 팀 점수에 기여할 수 있습니다! 적극 활용하세요!" />
+		<ger value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Du bekommst Punkte, wenn du andere heilst.." />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}You can get some point by healing." />
+		<fre value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Vous obtenez des points lorsque vous soignez un allié." />
+		<spa value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Puedes obtener puntos por curar." />
+		<ita value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Puoi ottenere punti curando." />
+		<rus value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Вы можете получить очки за лечения." />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}İyileştirme, takım puanına da katkı yapar! Bunu agresif bir şekilde kullan!" />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}亦可透過治癒來貢獻隊伍分數！請多加利用！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}คุณได้คะแนนจากการเพิ่มพลัง" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}味方への回復もチームスコアに反映されます。" />
+	</string>
+	<string key="tu_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}튜토리얼을 통해 S4리그의 플레이 방법을 배워 봅시다~!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Şimdi eğitim aracılığıyla S4 League&apos;in nasıl oynandığını öğrenelim." />
+		<twn value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}透過新手教學來學習S4 League的玩法！" />
+		<tha value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}เริ่มการเรียนรู้ S4 league ผ่าน Tutorial mode" />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}チュートリアルで操作方法を習いましょう。" />
+	</string>
+	<string key="ma_1">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}S4리그의 세계관이 궁금하시면 아케이드 모드로 오세요!" />
+		<ger />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Play the Arcade Mode and learn more about the world of S4 League!" />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}S4 League dünyasını merak ediyorsan gel ve Arcade Mode&apos;u dene!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}S4リーグのシナリオが気になりますか？アーケードモードへようこそ！" />
+	</string>
+	<string key="ma_2">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}조작법, 무기/스킬 훈련을 좀 더 하고 싶으시다구요? 아케이드 모드에서 AI와의 전투를 통해 보다 쉽게 훈련할 수 있습니다." />
+		<ger />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Want to practice controls, weapons, and skills a bit more? You can easily train by fighting against the AI in Arcade Mode!" />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Kontrolleri, silahları ve becerileri biraz daha mı denemek istiyorsun? Arcade Mode&apos;da yapay zekaya karşı savaşarak kendini kolayca geliştirebilirsin!" />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}操作、武器/スキルの練習をしたい方はこちらへ！アーケードモードではAIとの戦闘を通じて練習できます。" />
+	</string>
+	<string key="ma_3">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}남보다 더 빠르게, 미션 아케이드에서 당신의 도전을 무한대로 펼쳐보세요." />
+		<ger />
+		<eng value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Play the Mission Arcade Mode to progress faster than other players!" />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}Mission Arcade&apos;de diğer oyuncuları mağlup et." />
+		<twn />
+		<tha />
+		<jap value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}誰よりも速く！ミッションアーケードであなたのチャレンジ精神が無限大の領域に飛び込む！" />
+	</string>
+	<string key="cq_1">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-1. S4공간은 전 세계적으로 최고의 인기를 누리면서 점점 더 넷 영역을 넓혀가지만……일부에게만 알려진 문제를 품고 있다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_2">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-2. “바이러스”. 유저의 일부 데이터를 일방적으로 파괴하는 알 수 없는 AI가 아카데미 시설 및 각 트레이닝 룸에서 발생을 하고 있는 것이다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_3">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-3. 초 다국적 기업 – “더 월드”는 알 수 없는 언어를 사용하는 바이러스와 소통해서 그것들이 왜 발생했는지? 목적이 무엇인지 확인 하기 위해서 새로운 AI 시스템 - ALICE 프로젝트를 진행한다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_4">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-4. 시스템 개발에 난항을 겪는 도중 그 동안 발생한 AI 코드와 블레이드 리그에서 수집한 유저 데이터의 조합으로 인해 새로운 코드가 나오는 것을 확인, 이를 통해 ALICE 프로젝트가 무사히 완료된다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_5">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-5. 하지만 ALICE 프로젝트는 기대와는 달리 기본적인 어휘만을 구사하는 일반적인 유저 트레이닝 시스템으로밖에 완성되지 못했다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_6">
+		<kor value="{W}{F-2002_12}{A-L}{S-O}{CB-255,255,255,255}1-6. 한편 S4리거들 사이에서 앨리스에게 특정 키워드를 입력하면 그 동안 접할 수 없었던 영역에 갈 수 있다는 소문이 퍼지게 암암리에 퍼지게 되는데……" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_7">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}혼자서 클리어가 힘들다면 다른 유저들과 함께 도전해 보세요!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_8">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}전 스테이지의 모든 몬스터 파괴 시 게임을 클리어합니다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_9">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}베이스가 파괴되거나 모든 플레이어가 전멸 시 패배합니다." />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_10">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}효율적인 게임 클리어를 위해 각자 포지션을 정해 게임을 플레이 해 보세요!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+	<string key="cq_11">
+		<kor value="{W}{F-2002_12}{A-C}{S-O}{CB-255,255,255,255}파티 플레이 중에 사망 시 다른 플레이를 응원해 주세요! 여러분의 응원으로 해당 스테이지 클리어 시 사망했던 모든 유저가 부활해요!" />
+		<ger />
+		<eng />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+		<twn />
+		<tha />
+		<jap />
+	</string>
+</string_table>

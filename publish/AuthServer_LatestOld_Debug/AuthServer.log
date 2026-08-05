@@ -1,0 +1,154 @@
+2026-08-05 17:35:36.178 +07:00 [INF] Initializing...
+2026-08-05 17:35:36.751 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'dera-' using method 'sha256_password' failed with message: Access denied for user 'dera-'@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'dera-'@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 101
+2026-08-05 17:36:28.445 +07:00 [INF] Initializing...
+2026-08-05 17:36:28.899 +07:00 [INF] Starting Server
+2026-08-05 17:36:28.909 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-05 17:36:28.913 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-05 17:36:28.921 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-05 17:36:28.928 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-05 17:36:28.932 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-05 17:36:28.936 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-05 17:36:28.941 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-05 17:36:28.948 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-05 17:36:28.954 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-05 17:36:28.962 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-05 17:36:28.968 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-05 17:36:28.973 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-05 17:36:29.315 +07:00 [INF] Ready for connections!
+2026-08-05 17:36:29.315 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-05 17:37:30.727 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 17:58:03.618 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:54506
+2026-08-05 17:58:03.766 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 17:58:58.894 +07:00 [INF] Initializing...
+2026-08-05 17:58:59.235 +07:00 [INF] Starting Server
+2026-08-05 17:58:59.238 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-05 17:58:59.238 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-05 17:58:59.239 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-05 17:58:59.240 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-05 17:58:59.240 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-05 17:58:59.240 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-05 17:58:59.241 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-05 17:58:59.241 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-05 17:58:59.243 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-05 17:58:59.244 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-05 17:58:59.244 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-05 17:58:59.245 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-05 17:58:59.321 +07:00 [INF] Ready for connections!
+2026-08-05 17:58:59.321 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-05 17:59:01.807 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 17:59:07.844 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 17:59:07.936 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:06:29.420 +07:00 [INF] Removed server Netsphere(1)
+2026-08-05 18:07:26.540 +07:00 [INF] Session login from 127.0.0.1
+2026-08-05 18:07:26.542 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:07:36.378 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 18:07:56.767 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:64152
+2026-08-05 18:07:56.793 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:08:16.927 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 18:08:16.929 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:16:06.807 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:55385
+2026-08-05 18:16:06.823 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:16:22.362 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 18:16:22.363 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:18:03.983 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:52748
+2026-08-05 18:18:03.999 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:18:18.557 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 18:18:18.558 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:36:01.458 +07:00 [INF] Removed server Netsphere(1)
+2026-08-05 18:36:05.856 +07:00 [INF] Closing...
+2026-08-05 18:50:04.992 +07:00 [INF] Initializing...
+2026-08-05 18:50:05.315 +07:00 [INF] Starting Server
+2026-08-05 18:50:05.319 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-05 18:50:05.319 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-05 18:50:05.320 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-05 18:50:05.320 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-05 18:50:05.321 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-05 18:50:05.321 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-05 18:50:05.321 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-05 18:50:05.322 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-05 18:50:05.322 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-05 18:50:05.322 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-05 18:50:05.323 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-05 18:50:05.323 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-05 18:50:05.324 +07:00 [INF] Cached xbnfile: XBN//RandomShop.xbn
+2026-08-05 18:50:05.401 +07:00 [INF] Ready for connections!
+2026-08-05 18:50:05.402 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-05 18:50:12.728 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 18:50:25.971 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:52026
+2026-08-05 18:50:26.063 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:50:43.404 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 18:50:43.426 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:52:20.734 +07:00 [INF] Removed server Netsphere(1)
+2026-08-05 18:52:22.880 +07:00 [INF] Closing...
+2026-08-05 18:54:39.031 +07:00 [INF] Initializing...
+2026-08-05 18:54:39.373 +07:00 [INF] Starting Server
+2026-08-05 18:54:39.376 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-05 18:54:39.377 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-05 18:54:39.377 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-05 18:54:39.378 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-05 18:54:39.378 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-05 18:54:39.379 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-05 18:54:39.379 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-05 18:54:39.379 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-05 18:54:39.380 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-05 18:54:39.380 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-05 18:54:39.381 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-05 18:54:39.381 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-05 18:54:39.382 +07:00 [INF] Cached xbnfile: XBN//RandomShop.xbn
+2026-08-05 18:54:39.460 +07:00 [INF] Ready for connections!
+2026-08-05 18:54:39.461 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-05 18:54:44.719 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 18:54:54.937 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:53074
+2026-08-05 18:54:55.029 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:55:08.786 +07:00 [INF] Session login from 127.0.0.1
+2026-08-05 18:55:08.818 +07:00 [ERR] Wrong session login for 127.0.0.1
+2026-08-05 18:55:29.994 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:53078
+2026-08-05 18:55:30.011 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 18:55:48.405 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 18:55:48.409 +07:00 [INF] Login success for masterblad1
+2026-08-05 18:57:11.887 +07:00 [INF] Removed server Netsphere(1)
+2026-08-05 18:57:14.024 +07:00 [INF] Closing...
+2026-08-05 19:01:32.971 +07:00 [INF] Initializing...
+2026-08-05 19:01:33.295 +07:00 [INF] Starting Server
+2026-08-05 19:01:33.298 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-05 19:01:33.299 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-05 19:01:33.299 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-05 19:01:33.300 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-05 19:01:33.300 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-05 19:01:33.300 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-05 19:01:33.301 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-05 19:01:33.301 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-05 19:01:33.301 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-05 19:01:33.302 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-05 19:01:33.302 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-05 19:01:33.302 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-05 19:01:33.302 +07:00 [INF] Cached xbnfile: XBN//RandomShop.xbn
+2026-08-05 19:01:33.378 +07:00 [INF] Ready for connections!
+2026-08-05 19:01:33.379 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-05 19:01:33.875 +07:00 [INF] Added server with valid apikey: Netsphere(1)
+2026-08-05 19:01:48.721 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:51291
+2026-08-05 19:01:48.812 +07:00 [INF] Authentication success for masterblad1
+2026-08-05 19:02:07.166 +07:00 [INF] Login from 127.0.0.1
+2026-08-05 19:02:07.189 +07:00 [INF] Login success for masterblad1
+2026-08-05 19:04:20.137 +07:00 [INF] Removed server Netsphere(1)
+2026-08-05 19:04:22.002 +07:00 [INF] Session login from 127.0.0.1
+2026-08-05 19:04:22.004 +07:00 [INF] Login success for masterblad1
+2026-08-05 19:04:27.304 +07:00 [INF] Closing...

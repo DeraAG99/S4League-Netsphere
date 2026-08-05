@@ -1,0 +1,126 @@
+2026-07-25 12:29:40.185 +07:00 [INF] Initializing...
+2026-07-25 12:29:40.410 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'dera-' using method 'mysql_native_password' failed with message: Access denied for user 'dera-'@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'dera-'@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\S4League-Netsphere\src\AuthServer\Program.cs:line 101
+2026-07-25 12:30:24.205 +07:00 [INF] Initializing...
+2026-07-25 12:30:24.350 +07:00 [INF] Created random api_key: key-1321081866
+2026-07-25 12:30:24.543 +07:00 [INF] Starting Server
+2026-07-25 12:30:24.551 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 12:30:24.556 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 12:30:24.562 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 12:30:24.569 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 12:30:24.573 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 12:30:24.574 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 12:30:24.577 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 12:30:24.587 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 12:30:24.592 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 12:30:24.596 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 12:30:24.597 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 12:30:24.602 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 12:30:24.726 +07:00 [INF] Ready for connections!
+2026-07-25 12:30:24.727 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 12:30:25.109 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:29.691 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:34.492 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:39.288 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:44.084 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:48.892 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:53.699 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:30:58.496 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:31:03.297 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:31:08.091 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:31:12.884 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:31:17.688 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:31:20.347 +07:00 [INF] Closing...
+2026-07-25 12:31:22.561 +07:00 [INF] Refused server request: NeoNetsphere(1) - invalid apikey!
+2026-07-25 12:33:00.160 +07:00 [INF] Initializing...
+2026-07-25 12:33:00.479 +07:00 [INF] Starting Server
+2026-07-25 12:33:00.483 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 12:33:00.483 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 12:33:00.484 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 12:33:00.484 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 12:33:00.484 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 12:33:00.485 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 12:33:00.485 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 12:33:00.485 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 12:33:00.486 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 12:33:00.486 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 12:33:00.486 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 12:33:00.487 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 12:33:00.558 +07:00 [INF] Ready for connections!
+2026-07-25 12:33:00.559 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 12:34:22.819 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-07-25 12:34:49.802 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:49766
+2026-07-25 12:34:49.891 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 12:36:09.223 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-07-25 12:37:48.019 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-07-25 12:38:19.751 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:64785
+2026-07-25 12:38:19.768 +07:00 [INF] Authentication success for masterblad1
+2026-08-04 12:58:04.203 +07:00 [INF] Initializing...
+2026-08-04 12:58:04.628 +07:00 [INF] Starting Server
+2026-08-04 12:58:04.637 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-04 12:58:04.647 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-04 12:58:04.656 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-04 12:58:04.664 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-04 12:58:04.669 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-04 12:58:04.670 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-04 12:58:04.671 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-04 12:58:04.680 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-04 12:58:04.685 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-04 12:58:04.686 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-04 12:58:04.687 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-04 12:58:04.692 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-04 12:58:04.859 +07:00 [INF] Ready for connections!
+2026-08-04 12:58:04.860 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-04 13:20:05.179 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-08-04 13:26:28.400 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-08-04 13:47:17.579 +07:00 [INF] Initializing...
+2026-08-04 13:47:17.910 +07:00 [INF] Starting Server
+2026-08-04 13:47:17.914 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-08-04 13:47:17.914 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-08-04 13:47:17.915 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-08-04 13:47:17.915 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-08-04 13:47:17.915 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-08-04 13:47:17.916 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-08-04 13:47:17.916 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-08-04 13:47:17.916 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-08-04 13:47:17.917 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-08-04 13:47:17.917 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-08-04 13:47:17.918 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-08-04 13:47:17.918 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-08-04 13:47:17.992 +07:00 [INF] Ready for connections!
+2026-08-04 13:47:17.992 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-08-04 13:47:28.720 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:64732
+2026-08-04 13:47:28.859 +07:00 [INF] Authentication success for masterblad1
+2026-08-04 13:51:01.325 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-08-04 14:04:50.366 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-08-04 14:04:53.117 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-08-04 14:06:43.926 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:49841
+2026-08-04 14:06:43.945 +07:00 [INF] Authentication success for masterblad1
+2026-08-04 14:38:08.132 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:64553
+2026-08-04 14:38:08.179 +07:00 [INF] Authentication success for masterbla1
+2026-08-04 14:39:01.728 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-08-04 14:39:04.773 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-08-04 17:57:02.661 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:50913
+2026-08-04 17:57:02.680 +07:00 [INF] Authentication success for masterblad1
+2026-08-04 17:58:40.570 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-08-04 17:58:43.794 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-08-04 18:01:07.690 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:59176
+2026-08-04 18:01:07.708 +07:00 [INF] Authentication success for masterblad1
+2026-08-04 18:05:36.857 +07:00 [INF] Removed server NeoNetsphere(1)
+2026-08-04 18:05:41.018 +07:00 [INF] Closing...

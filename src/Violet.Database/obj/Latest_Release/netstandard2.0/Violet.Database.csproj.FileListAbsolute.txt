@@ -1,64 +1,11 @@
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csprojAssemblyReference.cache
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Projects\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csprojAssemblyReference.cache
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Projects\Backup\violet 1332+ userinfo\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\last try\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csprojAssemblyReference.cache
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csprojAssemblyReference.cache
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\s4emu\src\NeoNetsphere.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-C:\Users\Kora\Desktop\s4emu\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csprojAssemblyReference.cache
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.AssemblyReference.cache
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.GeneratedMSBuildEditorConfig.editorconfig
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.sourcelink.json
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Dera\Project\Season 10 Server(EU 1332)\S4League-Emu-1332-master\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.AssemblyReference.cache
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.sourcelink.json
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
-D:\Project\S4League Netsphere\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.deps.json
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.dll
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\Latest_Release\netstandard2.0\Violet.Database.pdb
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.AssemblyReference.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.AssemblyInfo.cs
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.sourcelink.json
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.dll
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\Latest_Release\netstandard2.0\Violet.Database.pdb

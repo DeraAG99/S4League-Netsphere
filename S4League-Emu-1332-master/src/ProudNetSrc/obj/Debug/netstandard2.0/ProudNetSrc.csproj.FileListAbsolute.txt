@@ -1,0 +1,25 @@
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.deps.json
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.dll
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.pdb
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfoInputs.cache
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfo.cs
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.dll
+C:\Users\rober\Desktop\SourceCode\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.pdb
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.deps.json
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.dll
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.pdb
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.csproj.CoreCompileInputs.cache
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfoInputs.cache
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfo.cs
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.dll
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.pdb
+D:\Projects\Netspherepirates\Neonetspherepirates Old Dotnetty 1332-4\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.csprojAssemblyReference.cache
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.deps.json
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.dll
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\bin\Debug\netstandard2.0\ProudNetSrc.pdb
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.csprojAssemblyReference.cache
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfoInputs.cache
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.AssemblyInfo.cs
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.dll
+C:\Users\Kora\Desktop\last try\src\ProudNetSrc\obj\Debug\netstandard2.0\ProudNetSrc.pdb

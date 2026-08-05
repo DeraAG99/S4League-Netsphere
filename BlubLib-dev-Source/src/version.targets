@@ -1,0 +1,11 @@
+<Project InitialTargets="SetGitVersion">
+    <Target Name="SetGitVersion" DependsOnTargets="GitVersion">
+        <PropertyGroup>
+            <AssemblyVersion>$(GitSemVerMajor).$(GitSemVerMinor).$(GitSemVerPatch)</AssemblyVersion>
+            <FileVersion>$(GitSemVerMajor).$(GitSemVerMinor).$(GitSemVerPatch)</FileVersion>
+            <Version>$(GitSemVerMajor).$(GitSemVerMinor).$(GitSemVerPatch)-$(GitBranch)+$(GitCommit)</Version>
+            <PackageVersion>$(GitSemVerMajor).$(GitSemVerMinor).$(GitSemVerPatch)</PackageVersion>
+        </PropertyGroup>
+    </Target>
+    <Import Project="gitinfo\GitInfo.targets"/>
+</Project>

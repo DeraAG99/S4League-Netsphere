@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- edited with XMLSpy v2007 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<lobby_guides>
+	<lobby_guide x="710" y="355" key="ROOMSELECT_FIRST" next_guide_key="ROOMSELECT_FIRST2" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}안녕! 난 펌비! 만나서 반갑다비이~" />
+			<ger value="{A-L}{F-2002_12}Hi! Ich bin Fumbi, schön dich kennenzulernen." />
+			<eng value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<fre value="{A-L}{F-2002_12}Salut ! Je suis Fumbi ! Je suis très content de te voir." />
+			<spa value="{A-L}{F-2002_12}Hola! Soy Fumbi. Encantado de conocerte." />
+			<ita value="{A-L}{F-2002_12}Ciao! Sono Fumbi! Piacere di conoscerti." />
+			<rus value="{A-L}{F-2002_12}Привет! Я Фумби! Приятно познакомиться." />
+			<ame value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<cns value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<jap value="{A-L}{F-2002_12}ハロ～！僕はファンビ！会えてうれしいッピ！" />
+			<tur value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT_FIRST2" next_guide_key="ROOMSELECT" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음이라 뭘 해야 할지 모르겠삐?{N}펌비가 하나씩 친절하게 알려준다비!" />
+			<ger value="{A-L}{F-2002_12}Du hast gar keine Ahnung, was du eigentlich machen sollst?{N}Ich werde dir alles, eins nach dem anderen erklären." />
+			<eng value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<fre value="{A-L}{F-2002_12}Tu ne sais pas par quoi commencer ?{N}Je vais bien tout t&apos;expliquer." />
+			<spa value="{A-L}{F-2002_12}No sabes que hacer para comenzar, no?{N}Te explicaré una cosa por vez." />
+			<ita value="{A-L}{F-2002_12}Non sai come iniziare?{N}Ti dirò una cosa alla volta." />
+			<rus value="{A-L}{F-2002_12}Вы не знаете с чего начать?{N}Сейчас я расскажу все по порядку." />
+			<ame value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<cns value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<jap value="{A-L}{F-2002_12}なにをしたらいいのか分からないッピ？{N}ファンビが親切に教えてあげるッピ！" />
+			<tur value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT" next_guide_key="ROOMSELECT2" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}로비를 살펴볼까비?" />
+			<ger value="{A-L}{F-2002_12}Wollen wir uns mal in der Lobby umsehen?" />
+			<eng value="{A-L}{F-2002_12}Shall we look around the lobby?" />
+			<fre value="{A-L}{F-2002_12}Pouvons-nous jeter un œil au Lobby ?" />
+			<spa value="{A-L}{F-2002_12}¿Vamos a dar una vuelta por el lobby?" />
+			<ita value="{A-L}{F-2002_12}Diamo un&apos;occhiata alla lobby ?" />
+			<rus value="{A-L}{F-2002_12}Давайте осмотримся и изучим лобби." />
+			<ame value="{A-L}{F-2002_12}Shall we look around the lobby?" />
+			<cns value="{A-L}{F-2002_12}Shall we look around the lobby?" />
+			<jap value="{A-L}{F-2002_12}ロビーを見てみるッピ？" />
+			<tur value="{A-L}{F-2002_12}Shall we look around the lobby?" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT2" next_guide_key="ROOMSELECT3" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}먼저 제일 중요한 바로가기 알려준다비!{N}로비 아래쪽에 바로가기 버튼 보이지삐?" />
+			<ger value="{A-L}{F-2002_12}Erstmal das Wichtigste.{N}Siehst du den &apos;Quick Join&apos; Button unten auf deinem{N} Bildschirm?" />
+			<eng value="{A-L}{F-2002_12}First, I&apos;ll tell you the most important thing ~{N}Can you see the &apos;Quick Join&apos; button{N}at the bottom of the screen?" />
+			<fre value="{A-L}{F-2002_12}Tout d&apos;abord, je vais te parler des choses les plus importantes ~{N}Tu vois le bouton &apos;Partie Rapide&apos; en bas de l&apos;écran ?" />
+			<spa value="{A-L}{F-2002_12}Primero, te diré lo más importante ~{N}¿Puedes ver el botón de &apos;Ingreso Rápido&apos; en la parte inferior de la pantalla?" />
+			<ita value="{A-L}{F-2002_12}Prima di tutto, la cosa più importante.{N}Vedi il bottone &apos;Entra&apos; in basso?" />
+			<rus value="{A-L}{F-2002_12}Сперва, самое главное!{N}Видите кнопку &apos;Quick Join&apos;{N}внизу экрана?" />
+			<ame value="{A-L}{F-2002_12}First, I&apos;ll tell you the most important thing ~{N}Can you see the &apos;Quick Join&apos; button{N}at the bottom of the screen?" />
+			<cns value="{A-L}{F-2002_12}First, I&apos;ll tell you the most important thing ~{N}Can you see the &apos;Quick Join&apos; button{N}at the bottom of the screen?" />
+			<jap value="{A-L}{F-2002_12}一番大事な事を教えるビ！{N}ロビーの下に「クイックスタート」ボタンが見えるッピ？" />
+			<tur value="{A-L}{F-2002_12}First, I&apos;ll tell you the most important thing ~{N}Can you see the &apos;Quick Join&apos; button{N}at the bottom of the screen?" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT3" next_guide_key="ROOMSELECT4" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}팀 데스매치 바로 가기를 눌러봐라삐비~{N}양 팀이 킬 포인트를 놓고 싸우는 경기장{N}으로 바로 간다비." />
+			<ger value="{A-L}{F-2002_12}Klicke auf &apos;Quick Join Team Deathmatch&apos;.{N}Dann wirst du zum Stadion gebracht, wo zwei Teams um{N}Kill Points kämpfen." />
+			<eng value="{A-L}{F-2002_12}Press &apos;Quick Join Team Deathmatch&apos;{N}You will then go to the stadium where{N}both teams fight for Kill Points." />
+			<fre value="{A-L}{F-2002_12}Appuie sur &apos;Partie Rapide Team DeathMatch&apos;{N}Et tu iras directement dans le stadium où les équipes se battent pour les points de Kill." />
+			<spa value="{A-L}{F-2002_12}Presiona &apos;Ingreso Rápido Team Deathmatch&apos;{N}Luego irás al estadio donde ambos equipos pelearán por Kill Points." />
+			<ita value="{A-L}{F-2002_12}Premi &apos;Entra nel Team Deathmatch&apos;{N}per andare all&apos;arena i cui i team si scontrano per i Kill Point." />
+			<rus value="{A-L}{F-2002_12}Нажав &apos;Quick Join Team Deathmatch&apos;{N}Вы попадете на арену, где{N}две команды сражаются за очки." />
+			<ame value="{A-L}{F-2002_12}Press &apos;Quick Join Team Deathmatch&apos;{N}You will then go to the stadium where{N}both teams fight for Kill Points." />
+			<cns value="{A-L}{F-2002_12}Press &apos;Quick Join Team Deathmatch&apos;{N}You will then go to the stadium where{N}both teams fight for Kill Points." />
+			<jap value="{A-L}{F-2002_12}「チームデスマッチ」クイックスタートをクリックしてみるッピ～{N}二つのチームがキルポイントを競うゲームに{N}参加できるッピ。" />
+			<tur value="{A-L}{F-2002_12}Press &apos;Quick Join Team Deathmatch&apos;{N}You will then go to the stadium where{N}both teams fight for Kill Points." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT4" next_guide_key="ROOMSELECT5" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_06.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}그 옆의 터치다운 바로가기를 누르면삐~{N}볼을 상대방 골대에 집어넣는 경기장으로{N}바로 간다비!" />
+			<ger value="{A-L}{F-2002_12}Klickst du auf &apos;Quick Join Touchdown&apos;, gelangst du zum{N}Stadion, in dem du den Ball im Goalpost der Gegner{N}landen musst." />
+			<eng value="{A-L}{F-2002_12}If you press &apos;Quick Join Touchdown&apos;{N}You will go to the stadium{N}where you will take the ball to the opponents goalpost." />
+			<fre value="{A-L}{F-2002_12}Si tu appuie sur &apos;Partie Rapide TouchDown&apos;{N}Tu iras directement dans le stadium{N}où tu dois mettre la balle dans le but de l&apos;équipe adverse." />
+			<spa value="{A-L}{F-2002_12}Si presionas &apos;Ingreso Rápido Touchdown&apos;{N}Irás al estadio donde{N}tienes que colocar el balón en la meta del oponente." />
+			<ita value="{A-L}{F-2002_12}Se premi &apos;Entra nel Touchdown&apos;,{N}vai all&apos;arena{N}in cui portare la palla alla meta avversaria." />
+			<rus value="{A-L}{F-2002_12}Если Вы нажмете &apos;Quick Join Touchdown&apos;,{N}Вы попадете на арену,{N}где нужно забить мяч в ворота." />
+			<ame value="{A-L}{F-2002_12}If you press &apos;Quick Join Touchdown&apos;{N}You will go to the stadium{N}where you will take the ball to the opponents goalpost." />
+			<cns value="{A-L}{F-2002_12}If you press &apos;Quick Join Touchdown&apos;{N}You will go to the stadium{N}where you will take the ball to the opponents goalpost." />
+			<jap value="{A-L}{F-2002_12}隣の「タッチダウン」クイックスタートをクリックすると～{N}ボールを相手ゴールポストに入れるゲームに参加できるッピ！{N}すぐ行けるッピ！" />
+			<tur value="{A-L}{F-2002_12}If you press &apos;Quick Join Touchdown&apos;{N}You will go to the stadium{N}where you will take the ball to the opponents goalpost." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT5" next_guide_key="ROOMSELECT6" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_07.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}터치 다운에서는 펌비랑 놀 수 있다비!{N}나랑 놀면 잼있다비!" />
+			<ger value="{A-L}{F-2002_12}Beim Touch Down kannst du mit Fumbi spielen!{N}Ich spiele so gerne!" />
+			<eng value="{A-L}{F-2002_12}You can play with Fumbi in the Touch Down!{N}I&apos;m always fun to play with." />
+			<fre value="{A-L}{F-2002_12}Tu peux jouer avec Fumbi en TouchDown!{N}On s&apos;amuse toujours avec moi." />
+			<spa value="{A-L}{F-2002_12}Puedes jugar con Fumbi en Touch Down!{N}Siempre es divertido jugar conmigo." />
+			<ita value="{A-L}{F-2002_12}Puoi giocare con Fumbi nel Touchdown!{N}Mi diverto sempre." />
+			<rus value='{A-L}{F-2002_12}В Touchdown &quot;мяч&quot; - это Фумби!{N}Со мной всегда весело играть!' />
+			<ame value="{A-L}{F-2002_12}You can play with Fumbi in the Touch Down!{N}I&apos;m always fun to play with." />
+			<cns value="{A-L}{F-2002_12}You can play with Fumbi in the Touch Down!{N}I&apos;m always fun to play with." />
+			<jap value="{A-L}{F-2002_12}「タッチダウン」ではファンビと遊べるッピ！{N}私と遊べるッピ！楽しいッピ！" />
+			<tur value="{A-L}{F-2002_12}You can play with Fumbi in the Touch Down!{N}I&apos;m always fun to play with." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT6" next_guide_key="ROOMSELECT7" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}이제 로비 위쪽 메뉴를 알아 볼까비?" />
+			<ger value="{A-L}{F-2002_12}Lass uns nun das Menü oberhalb der Lobby etwas genauer{N}betrachten." />
+			<eng value="{A-L}{F-2002_12}Now let’s look at the menu above the lobby,{N}shall we?" />
+			<fre value="{A-L}{F-2002_12}Maintenant regardons le menu au dessus du Lobby, c&apos;est d&apos;accord ?" />
+			<spa value="{A-L}{F-2002_12}Ahora veamos el menú en la parte superior del lobby, si?" />
+			<ita value="{A-L}{F-2002_12}Vedi il menu sopra alla lobby?" />
+			<rus value="{A-L}{F-2002_12}Та-ак, теперь заберемся повыше,{N}в меню наверху экрана!" />
+			<ame value="{A-L}{F-2002_12}Now let’s look at the menu above the lobby,{N}shall we?" />
+			<cns value="{A-L}{F-2002_12}Now let’s look at the menu above the lobby,{N}shall we?" />
+			<jap value="{A-L}{F-2002_12}ロビー上のメニューを教えるッピ。" />
+			<tur value="{A-L}{F-2002_12}Now let’s look at the menu above the lobby,{N}shall we?" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT7" next_guide_key="ROOMSELECT8" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}맨 앞에 있는 메뉴는 인벤토리다비이.{N}갖고 있는 아이템들을 볼 수 있다비!" />
+			<ger value="{A-L}{F-2002_12}Das erste Menü ist das Inventar.{N}Dort siehst du alle Items, die du besitzt!" />
+			<eng value="{A-L}{F-2002_12}The front menu is the inventory.{N}You can see the items in your possession!" />
+			<fre value="{A-L}{F-2002_12}Le premier menu est l&apos;inventaire.{N}Tu peux y trouver les items que tu possèdes !" />
+			<spa value="{A-L}{F-2002_12}El menú central es el inventario .{N}Aquí puedes ver los items que posees !" />
+			<ita value="{A-L}{F-2002_12}Al centro c&apos;è l&apos;inventario.{N}Puoi vedere tutti i tuoi oggetti!" />
+			<rus value="{A-L}{F-2002_12}Первая кнопка - это инвентарь.{N}Там Вы сможете просмотреть что у Вас есть!" />
+			<ame value="{A-L}{F-2002_12}The front menu is the inventory.{N}You can see the items in your possession!" />
+			<cns value="{A-L}{F-2002_12}The front menu is the inventory.{N}You can see the items in your possession!" />
+			<jap value="{A-L}{F-2002_12}一番前のメニューは所持品だッピ。{N}持っている所持品を確認できるッピ！" />
+			<tur value="{A-L}{F-2002_12}The front menu is the inventory.{N}You can see the items in your possession!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT8" next_guide_key="ROOMSELECT9" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA0018" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}그 옆은 상점이다비!{N}아이템을 구입할 수 있는 곳이다삐리비!" />
+			<ger value="{A-L}{F-2002_12}Daneben ist der Shop!{N}Dort kannst du einkaufen gehen!" />
+			<eng value="{A-L}{F-2002_12}There&apos;s the shop next to it!{N}You can purchase items here!" />
+			<fre value="{A-L}{F-2002_12}C&apos;est le Shop !{N}Tu peux y acheter des items !" />
+			<spa value="{A-L}{F-2002_12}Al lado está el shop !{N}Aquí puedes comprar items !" />
+			<ita value="{A-L}{F-2002_12}C&apos;è anche un negozio!{N}Acquista degli oggetti!" />
+			<rus value="{A-L}{F-2002_12}Правее - магазин!{N}Он для покупки различных вещей." />
+			<ame value="{A-L}{F-2002_12}There&apos;s the shop next to it!{N}You can purchase items here!" />
+			<cns value="{A-L}{F-2002_12}There&apos;s the shop next to it!{N}You can purchase items here!" />
+			<jap value="{A-L}{F-2002_12}となりはショップだッピ！{N}アイテム買えるッピ！" />
+			<tur value="{A-L}{F-2002_12}There&apos;s the shop next to it!{N}You can purchase items here!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT9" next_guide_key="ROOMSELECT10" closing_guide_key="ROOMSELECT_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_06.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}마지막 메뉴는 캐릭터다비이~{N}나중에 캐릭터를 여러 개 만들면 이곳에{N}서 관리할 수 있다비이~" />
+			<ger value="{A-L}{F-2002_12}Zuletzt das Charaktermenü.{N}Wenn du später mal mehrere Charaktere erstellen kannst,{N}kannst du sie dort alle verwalten." />
+			<eng value="{A-L}{F-2002_12}The last menu is the character menu.{N}If you create several characters later,{N}you can manage them all here." />
+			<fre value="{A-L}{F-2002_12}Le dernier menu est celui des personnages.{N}Si tu as créé plusieurs personnages,{N}tu peux les organiser ici." />
+			<spa value="{A-L}{F-2002_12}El último menú es el menú del personaje.{N}Si más adelante creas varios personajes,{N}podrás manejarlos a todos desde aquí." />
+			<ita value="{A-L}{F-2002_12}L&apos;ultimo è il menu del personaggio.{N}Se hai intenzione di crearne molti,{N}potrai gestirli lì." />
+			<rus value="{A-L}{F-2002_12}Последнее меню - это Ваши персонажи.{N}В случае создания нескольких,{N}на этом экране бyдут отображены все!" />
+			<ame value="{A-L}{F-2002_12}The last menu is the character menu.{N}If you create several characters later,{N}you can manage them all here." />
+			<cns value="{A-L}{F-2002_12}The last menu is the character menu.{N}If you create several characters later,{N}you can manage them all here." />
+			<jap value="{A-L}{F-2002_12}最後のメニューはキャラクターだッピ～{N}あとでキャラクターが増えたらここで{N}色々管理できるッピ～" />
+			<tur value="{A-L}{F-2002_12}The last menu is the character menu.{N}If you create several characters later,{N}you can manage them all here." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT10" next_guide_key="ROOMSELECT11" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_07.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}중간에 방 리스트가 보이삐?{N}지금 만들어진 방들이다비." />
+			<ger value="{A-L}{F-2002_12}Siehst du die Raumliste in der Mitte?{N}Sie wurden alle gerade erst erstellt." />
+			<eng value="{A-L}{F-2002_12}Can you see the room list in the middle?{N}They have been just created." />
+			<fre value="{A-L}{F-2002_12}Peux-tu voir la liste de rooms au milieu ?{N}Elles viennent juste d&apos;être crées." />
+			<spa value="{A-L}{F-2002_12}¿Puedes ver la lista de salas en el centro ?{N}Se han creado recién ." />
+			<ita value="{A-L}{F-2002_12}Vedi l&apos;elenco delle stanze al centro?{N}Sono appena state create." />
+			<rus value="{A-L}{F-2002_12}Видите список комнат посерединке?{N}Это недавно созданные комнаты." />
+			<ame value="{A-L}{F-2002_12}Can you see the room list in the middle?{N}They have been just created." />
+			<cns value="{A-L}{F-2002_12}Can you see the room list in the middle?{N}They have been just created." />
+			<jap value="{A-L}{F-2002_12}ルームリストが見えるッピ？{N}今作られたルームだッピ。" />
+			<tur value="{A-L}{F-2002_12}Can you see the room list in the middle?{N}They have been just created." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT11" next_guide_key="ROOMSELECT12" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}마우스로 더블 클릭하면 들어갈 수 있다{N}삐리리이이~" />
+			<ger value="{A-L}{F-2002_12}Du betrittst einen Raum,{N}indem du ihn doppelklickst." />
+			<eng value="{A-L}{F-2002_12}You can enter a room{N}by double-clicking on it with the mouse." />
+			<fre value="{A-L}{F-2002_12}Tu peux entrer dans une room{N}en double-cliquant dessus avec la souris." />
+			<spa value="{A-L}{F-2002_12}Puedes ingresar a una{N}sala haciendo doble click con el mouse." />
+			<ita value="{A-L}{F-2002_12}Puoi entrare in una stanza{N}facendo doppio click col mouse." />
+			<rus value="{A-L}{F-2002_12}Вы можете зайти в комнату{N}дважды кликнув левой клавишей мыши." />
+			<ame value="{A-L}{F-2002_12}You can enter a room{N}by double-clicking on it with the mouse." />
+			<cns value="{A-L}{F-2002_12}You can enter a room{N}by double-clicking on it with the mouse." />
+			<jap value="{A-L}{F-2002_12}マウスでダブルクリックすると入れるッピ。{N}さっそく行くっピイ～～～！" />
+			<tur value="{A-L}{F-2002_12}You can enter a room{N}by double-clicking on it with the mouse." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT12" next_guide_key="ROOMSELECT2" closing_guide_key="ROOMSELECT_CLOSING" term="5000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}로비에 대해서 잘 알았어삐? 아직도 잘{N}모르겠으면 펌비가 계속 설명한다비이~" />
+			<ger value="{A-L}{F-2002_12}Kennst du dich nun in der Lobby aus?{N}Wenn es noch etwas gibt, das du nicht kennst, dann ist Fumbi{N}stets zur Stelle!" />
+			<eng value="{A-L}{F-2002_12}You know everything about the lobby now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you!" />
+			<fre value="{A-L}{F-2002_12}Tu sais tout du Lobby maintenant, n&apos;est-ce pas ?{N}Si il y a encore quelque chose que tu ne sais pas,{N}Fumbi est là pour toi." />
+			<spa value="{A-L}{F-2002_12}Ahora ya sabes todo acerca del lobby ¿no?{N}Si todavía hay algo que no sabes,{N}Fumbi está aquí para lo que necesites ~" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto sulla lobby?{N}In caso contrario,{N}chiedi a Fumbi." />
+			<rus value="{A-L}{F-2002_12}Похоже, Вы знаете все что необходимо{N}о Лобби. Если что-то станет непонятно,{N}Фумби всегда с вами ~" />
+			<ame value="{A-L}{F-2002_12}You know everything about the lobby now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you!" />
+			<cns value="{A-L}{F-2002_12}You know everything about the lobby now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you!" />
+			<jap value="{A-L}{F-2002_12}ロビーについてはもう十分分かってたッピ？{N}まだよく分からなかったらファンビが詳しく説明するッピ～" />
+			<tur value="{A-L}{F-2002_12}You know everything about the lobby now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="ROOMSELECT_CLOSING" next_guide_key="" closing_guide_key="" term="5000" fumbi_animation="AA016" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}로~비 다 알았다고 삐? 나중에 궁금한게{N}생기면 언제든 F1을 눌러줘삐!" />
+			<ger value="{A-L}{F-2002_12}Hast du alles in der Lobby verstanden?{N}Drücke F1, wenn du noch Fragen hast!" />
+			<eng value="{A-L}{F-2002_12}You got everything about the lobby?{N}Press F1 anytime if you have questions!" />
+			<fre value="{A-L}{F-2002_12}Si tu as d&apos;autres questions à propos du Lobby,{N}n&apos;hésite pas à appuyer sur F1 !" />
+			<spa value="{A-L}{F-2002_12}¿Entendiste todo acerca del lobby?{N}Presiona F1 en cualquier momento si tienes preguntas!" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto sulla lobby?{N}Premi F1 in caso di domande!" />
+			<rus value="{A-L}{F-2002_12}Уже изучили что необходимо знать?{N}Нажмите F1, если появятся вопросы!" />
+			<ame value="{A-L}{F-2002_12}You got everything about the lobby?{N}Press F1 anytime if you have questions!" />
+			<cns value="{A-L}{F-2002_12}You got everything about the lobby?{N}Press F1 anytime if you have questions!" />
+			<jap value="{A-L}{F-2002_12}全部分かったッピ？あとで分からなくなったらいつでも{N}F1を押すッピ！" />
+			<tur value="{A-L}{F-2002_12}You got everything about the lobby?{N}Press F1 anytime if you have questions!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY_FIRST" next_guide_key="INVENTORY_FIRST2" closing_guide_key="INVENTORY_CLOSING" term="4000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}안녕! 난 펌비! 만나서 반갑다비이~" />
+			<ger value="{A-L}{F-2002_12}Hi! Ich bin Fumbi, schön dich kennenzulernen." />
+			<eng value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<fre value="{A-L}{F-2002_12}Salut ! Je suis Fumbi ! Je suis très content de te voir." />
+			<spa value="{A-L}{F-2002_12}Hola! Soy Fumbi. Encantado de conocerte." />
+			<ita value="{A-L}{F-2002_12}Ciao! Sono Fumbi! Piacere di conoscerti." />
+			<rus value="{A-L}{F-2002_12}Привет! Я Фумби! Приятно познакомиться." />
+			<ame value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<cns value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<jap value="{A-L}{F-2002_12}ハロ～！僕はファンビ！会えてうれしいッピ！" />
+			<tur value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY_FIRST2" next_guide_key="INVENTORY" closing_guide_key="INVENTORY_CLOSING" term="4000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음이라 뭘 해야 할지 모르겠삐?{N}펌비가 하나씩 친절하게 알려준다비!" />
+			<ger value="{A-L}{F-2002_12}Du hast gar keine Ahnung, was du eigentlich machen sollst?{N}Ich werde dir alles, eins nach dem anderen erklären." />
+			<eng value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<fre value="{A-L}{F-2002_12}Tu ne sais pas par quoi commencer ?{N}Je vais bien tout t&apos;expliquer." />
+			<spa value="{A-L}{F-2002_12}No sabes que hacer para comenzar, no?{N}Te explicaré una cosa por vez." />
+			<ita value="{A-L}{F-2002_12}Non sai come iniziare?{N}Ti dirò una cosa alla volta." />
+			<rus value="{A-L}{F-2002_12}Вы не знаете с чего начать?{N}Сейчас я расскажу все по порядку." />
+			<ame value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<cns value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<jap value="{A-L}{F-2002_12}なにをしたらいいのか分からないッピ？{N}ファンビが親切に教えてあげるッピ！" />
+			<tur value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY" next_guide_key="INVENTORY2" closing_guide_key="INVENTORY_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}여기는 인벤토리비!{N}상점에서 구입한 아이템을 보관한다삐!" />
+			<ger value="{A-L}{F-2002_12}Dies ist das Inventar.{N}In ihm lagern die Items, die du im Shop gekauft hast." />
+			<eng value="{A-L}{F-2002_12}This is the inventory!{N}It stores the items you bought at the shop." />
+			<fre value="{A-L}{F-2002_12}C&apos;est l&apos;inventaire !{N}Tu y ranges les items que tu as acheté dans le shop." />
+			<spa value="{A-L}{F-2002_12}Este es el inventario!{N}Almacena los items que compraste en el shop" />
+			<ita value="{A-L}{F-2002_12}Questo è l&apos;inventario!{N}Ci sono tutti gli oggetti acquistati." />
+			<rus value="{A-L}{F-2002_12}Это инвентарь!{N}Здесь хранятся вещи, купленные в магазине." />
+			<ame value="{A-L}{F-2002_12}This is the inventory!{N}It stores the items you bought at the shop." />
+			<cns value="{A-L}{F-2002_12}This is the inventory!{N}It stores the items you bought at the shop." />
+			<jap value="{A-L}{F-2002_12}ハロ～！僕はファンビ！会えてうれしいッピ！" />
+			<tur value="{A-L}{F-2002_12}This is the inventory!{N}It stores the items you bought at the shop." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY2" next_guide_key="INVENTORY3" closing_guide_key="INVENTORY_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}무기 착용 해보자삐이?{N}무기 아이콘의 착용 버튼 누르면 착용할{N}무기슬롯을 선택할 수 있다비!" />
+			<ger value="{A-L}{F-2002_12}Lass uns eine Waffe ausrüsten!{N}Wenn du neben dem Bild einer Waffe auf &apos;Ausrüsten&apos;{N}klickst, kannst du einen Waffenslot aussuchen!" />
+			<eng value="{A-L}{F-2002_12}Let&apos;s take a weapon!{N}If you press the &apos;Wear&apos; button on a weapon icon,{N}you can select the weapon slot!" />
+			<fre value="{A-L}{F-2002_12}Prenons une arme !{N}Si tu appuies sur le bouton &apos;Porter&apos; d&apos;une arme,{N}tu peux sélectionner le slot sur lequel tu veux la mettre !" />
+			<spa value="{A-L}{F-2002_12}Tomemos un arma!{N}Si presionas el botón “Usar” de un icono de arma,{N}puedes seleccionar el slot del arma !" />
+			<ita value="{A-L}{F-2002_12}Prendiamo un&apos;arma!{N}Se premi il bottone &apos;Indossa&apos; sull&apos;icona dell&apos;arma,{N}puoi scegliere lo slot!" />
+			<rus value="{A-L}{F-2002_12}Экипируем оружие!{N}Нажмите кнопку &apos;Wear&apos; на оружии,{N}чтобы выбрать один из слотов!" />
+			<ame value="{A-L}{F-2002_12}Let&apos;s take a weapon!{N}If you press the &apos;Wear&apos; button on a weapon icon,{N}you can select the weapon slot!" />
+			<cns value="{A-L}{F-2002_12}Let&apos;s take a weapon!{N}If you press the &apos;Wear&apos; button on a weapon icon,{N}you can select the weapon slot!" />
+			<jap value="{A-L}{F-2002_12}なにをしたらいいのか分からないッピ？{N}ファンビが親切に教えてあげるッピ！" />
+			<tur value="{A-L}{F-2002_12}Let&apos;s take a weapon!{N}If you press the &apos;Wear&apos; button on a weapon icon,{N}you can select the weapon slot!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY3" next_guide_key="INVENTORY4" closing_guide_key="INVENTORY_CLOSING" term="4000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}S4 리그에서는 무기를 3개씩 쓴다비!" />
+			<ger value="{A-L}{F-2002_12}In S4 League kann man 3 Waffen benutzen." />
+			<eng value="{A-L}{F-2002_12}Players use 3 weapons at S4 League." />
+			<fre value="{A-L}{F-2002_12}Les joueurs peuvent utiliser jusqu&apos;à trois armes dans S4 League." />
+			<spa value="{A-L}{F-2002_12}Los jugadores usan 3 armas en S4 League ." />
+			<ita value="{A-L}{F-2002_12}Si usano 3 armi su S4 League ." />
+			<rus value="{A-L}{F-2002_12}Игроки могут использовать 3 оружия в S4 League ." />
+			<ame value="{A-L}{F-2002_12}Players use 3 weapons at S4 League." />
+			<cns value="{A-L}{F-2002_12}Players use 3 weapons at S4 League." />
+			<jap value="{A-L}{F-2002_12}ここは所持品だッピ！{N}ショップから交換したアイテムが保管されているッピ！" />
+			<tur value="{A-L}{F-2002_12}Players use 3 weapons at S4 League." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY4" next_guide_key="INVENTORY5" closing_guide_key="INVENTORY_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}무기는 많으면 많을수록 좋다비!{N}전략에 맞춰서 다양하게 써보라비!" />
+			<ger value="{A-L}{F-2002_12}Je mehr Waffen desto lustiger!{N}Setze sie strategisch ein!" />
+			<eng value="{{A-L}{F-2002_12}The more weapons, the better!{N}Use them all for different strategies!" />
+			<fre value="{A-L}{F-2002_12}Plus tu as d&apos;armes, mieux c&apos;est !{N}Utilises-les toutes pour tes stratégies !" />
+			<spa value="{A-L}{F-2002_12}Cuantas más armas, mejor !{N}Usalas bien a todas para las estrategias !" />
+			<ita value="{A-L}{F-2002_12}Più armi hai, meglio è!{N}Usale bene!" />
+			<rus value="{A-L}{F-2002_12}Чем больше оружия, тем лучше!{N}Широкий спектр стратегий!" />
+			<ame value="{{A-L}{F-2002_12}The more weapons, the better!{N}Use them all for different strategies!" />
+			<cns value="{{A-L}{F-2002_12}The more weapons, the better!{N}Use them all for different strategies!" />
+			<jap value="{A-L}{F-2002_12}武器を着用してみるッピ？{N}武器アイコンの着用ボタンをクリックすると{N}着用する武器スロットを選択できるッピ！" />
+			<tur value="{{A-L}{F-2002_12}The more weapons, the better!{N}Use them all for different strategies!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY5" next_guide_key="INVENTORY6" closing_guide_key="INVENTORY_CLOSING" term="5000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_06.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}게임에서는 1, 2, 3번 숫자 키로 바꿔가{N}면서 쓰면 된다비!" />
+			<ger value="{A-L}{F-2002_12}Mit den Tasten 1, 2 und 3 kannst du die Waffen{N}während eines Spiels wechseln!" />
+			<eng value="{A-L}{F-2002_12}You can change your weapons during the game{N}with the number keys 1, 2  3!" />
+			<fre value="{A-L}{F-2002_12}TU peux changer d&apos;arme en jouant{N}avec les touches numériques 1, 2 et 3 !" />
+			<spa value="{A-L}{F-2002_12}Puedes cambiar de arma durante el juego{N}con las teclas numéricas 1,2,3 !" />
+			<ita value="{A-L}{F-2002_12}Puoi cambiare arma durante i match{N}con i tasti 1,2,3!" />
+			<rus value="{A-L}{F-2002_12}Во время игры оружие можно сменить{N}кнопками 1, 2 и 3!" />
+			<ame value="{A-L}{F-2002_12}You can change your weapons during the game{N}with the number keys 1, 2  3!" />
+			<cns value="{A-L}{F-2002_12}You can change your weapons during the game{N}with the number keys 1, 2  3!" />
+			<jap value="{A-L}{F-2002_12}S4リーグでは最大同時に３つまで武器を使用できるッピ！" />
+			<tur value="{A-L}{F-2002_12}You can change your weapons during the game{N}with the number keys 1, 2  3!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY6" next_guide_key="INVENTORY7" closing_guide_key="INVENTORY_CLOSING" term="5000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_07.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}다음엔 &apos;스킬&apos; 버튼을 눌러보자비!{N}스킬은 하나만 장착할 수 있다비!" />
+			<ger value="{A-L}{F-2002_12}Drücke mal den &apos;Skill&apos;-Button.{N}Du kannst nur einen Skill einsetzen!" />
+			<eng value="{A-L}{F-2002_12}Now let&apos;s press the &apos;Skill&apos; button!{N}You can only have one skill!" />
+			<fre value="{A-L}{F-2002_12}Maintenant utilise le bouton &apos;Skill&apos; !{N}Tu ne peux avoir qu&apos;un seul skill !" />
+			<spa value="{A-L}{F-2002_12}Ahora presionemos el botón &apos;Skill&apos; !{N}Sólo puedes tener un skill !" />
+			<ita value="{A-L}{F-2002_12}Premi il bottone &apos;Skill&apos;!{N}Puoi averne una sola!" />
+			<rus value="{A-L}{F-2002_12}Теперь давайте откроем вкладку &apos;Skill&apos;!{N}Экипировать разрешено только один!" />
+			<ame value="{A-L}{F-2002_12}Now let&apos;s press the &apos;Skill&apos; button!{N}You can only have one skill!" />
+			<cns value="{A-L}{F-2002_12}Now let&apos;s press the &apos;Skill&apos; button!{N}You can only have one skill!" />
+			<jap value="{A-L}{F-2002_12}1、2、3番数字キーで武器の交換ができるッピ！" />
+			<tur value="{A-L}{F-2002_12}Now let&apos;s press the &apos;Skill&apos; button!{N}You can only have one skill!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY7" next_guide_key="INVENTORY8" closing_guide_key="INVENTORY_CLOSING" term="6000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}어떤 스킬을 사용하느냐에 따라 전략이{N}틀려진다비~ 잘 선택해서 장착해삐이~" />
+			<ger value="{A-L}{F-2002_12}Je nach Skill musst du auch deine Strategie ändern.{N}Also wähle mit Bedacht!" />
+			<eng value="{A-L}{F-2002_12}Your strategy will change depending on your skill!{N}So choose wisely." />
+			<fre value="{A-L}{F-2002_12}Ta stratégie peut changer en fonction du skill que tu utilises{N}Alors choisis-le bien !" />
+			<spa value="{A-L}{F-2002_12}Tu estrategia cambiará dePENdiendo de tu skill !{N}Así que elige sabiamente." />
+			<ita value="{A-L}{F-2002_12}La strategia cambia in base alla skill!{N}Sceglila bene." />
+			<rus value="{A-L}{F-2002_12}Тактика боя может значительно меняться,{N}в зависимости от выбранного навыка." />
+			<ame value="{A-L}{F-2002_12}Your strategy will change depending on your skill!{N}So choose wisely." />
+			<cns value="{A-L}{F-2002_12}Your strategy will change depending on your skill!{N}So choose wisely." />
+			<jap value="{A-L}{F-2002_12}どんな特殊能力を使用するかによって、戦略が変わるッピ！{N}よく考えて装着するッピ！" />
+			<tur value="{A-L}{F-2002_12}Your strategy will change depending on your skill!{N}So choose wisely." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY8" next_guide_key="INVENTORY9" closing_guide_key="INVENTORY_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}이제 복장 보자비!{N}복장은 총 6개 파트로 나눠져 있다비." />
+			<ger value="{A-L}{F-2002_12}Lass uns mal die Kleidung anschauen!{N}Es gibt 6 Arten." />
+			<eng value="{A-L}{F-2002_12}Let&apos;s have a look at the costumes!{N}It is divided into 6." />
+			<fre value="{A-L}{F-2002_12}Jetons un œil aux vêtements !{N} C&apos;est divisé en 6 parties." />
+			<spa value="{A-L}{F-2002_12}Veamos la vestimenta!{N}Se dividen en 6." />
+			<ita value="{A-L}{F-2002_12}Vediamo gli abiti!{N}Ci sono 6 sezioni." />
+			<rus value="{A-L}{F-2002_12}Давайте посмотрим на костюмы!{N}Они разделены на 6 частей." />
+			<ame value="{A-L}{F-2002_12}Let&apos;s have a look at the costumes!{N}It is divided into 6." />
+			<cns value="{A-L}{F-2002_12}Let&apos;s have a look at the costumes!{N}It is divided into 6." />
+			<jap value="{A-L}{F-2002_12}次は「服装」だッピ！{N}服装は全部で6つのパーツで構成されてるッピ！" />
+			<tur value="{A-L}{F-2002_12}Let&apos;s have a look at the costumes!{N}It is divided into 6." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY9" next_guide_key="INVENTORY10" closing_guide_key="INVENTORY_CLOSING" term="6000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음엔 기본 복장이지만{N}상점에서 상의 하의부터 사서 입으면{N}점점 멋쟁이가 된다삐이~" />
+			<ger value="{A-L}{F-2002_12}Zunächst trägst du Standardkleidung,{N}aber im Shop kannst du dir neue Klamotten kaufen{N}und so wahnsinig cool aussehen!" />
+			<eng value="{A-L}{F-2002_12}You have a basic costume at first,{N}go to a shop and buy other clothes{N}and you will look awesome." />
+			<fre value="{A-L}{F-2002_12}Tu as un costume de base au départ,{N}mais tu peux aller dans le shop et acheter d&apos;autres vêtements{N}et tu auras un look extraordinaire." />
+			<spa value="{A-L}{F-2002_12}Al principio tienes una vestimenta básica ,{N}pero ve al shop y compra otra ropa{N}y te verás genial." />
+			<ita value="{A-L}{F-2002_12}All&apos;inizio hai abiti di base,{N}ma comprane altri al negozio{N}per avere un tuo stile." />
+			<rus value="{A-L}{F-2002_12}Вначале у Вас есть только один,{N}но достаточно сходить в магазин{N}и, вуаля! Вы выглядите потрясающе!" />
+			<ame value="{A-L}{F-2002_12}You have a basic costume at first,{N}go to a shop and buy other clothes{N}and you will look awesome." />
+			<cns value="{A-L}{F-2002_12}You have a basic costume at first,{N}go to a shop and buy other clothes{N}and you will look awesome." />
+			<jap value="{A-L}{F-2002_12}最初は普通な服装だけど、{N}ショップとかで色んな服装を入手できるッピ。{N}どんどんスタイリッシュになるッピ～" />
+			<tur value="{A-L}{F-2002_12}You have a basic costume at first,{N}go to a shop and buy other clothes{N}and you will look awesome." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY10" next_guide_key="INVENTORY" closing_guide_key="INVENTORY_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}인벤토리에 대해서 잘 알았어삐? 아직도{N}잘 모르겠으면 펌비가 계속 설명한다삐!" />
+			<ger value="{A-L}{F-2002_12}Kennst du dich jetzt mit dem Inventar aus?{N}Wenn es noch etwas gibt, das du nicht kennst, dann ist Fumbi{N}stets zur Stelle!" />
+			<eng value="{A-L}{F-2002_12}You know the inventory well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<fre value="{A-L}{F-2002_12}Tu connais bien l&apos;inventaire maintenant ?{N}Si il y a encore quelque chose que tu ne sais pas,{N}Fumbi est là pour toi." />
+			<spa value="{A-L}{F-2002_12}Ahora ya sabes todo acerca del inventario ¿no?{N}Si todavía hay algo que no sabes,{N}Fumbi está aquí para lo que necesites ~" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto dell&apos;inventario?{N}In caso contrario,{N}chiedi a Fumbi." />
+			<rus value="{A-L}{F-2002_12}Ну, вот мы и познакомились с инвентарем.{N}Но если у Вас появятся вопросы,{N}спрашивайте - Фумби ответит на все!" />
+			<ame value="{A-L}{F-2002_12}You know the inventory well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<cns value="{A-L}{F-2002_12}You know the inventory well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<jap value="{A-L}{F-2002_12}所持品についてはもう分かったッピ？{N}まだ分からなかったら続けて説明するッピ！" />
+			<tur value="{A-L}{F-2002_12}You know the inventory well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="INVENTORY_CLOSING" next_guide_key="" closing_guide_key="" term="5000" fumbi_animation="AA016" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}인벤토리 다 알았다고 삐?{N}나중에 궁금한게 생기면 언제든지 F1을{N}꾹 눌러줘삐!" />
+			<ger value="{A-L}{F-2002_12}Hast du alles im Inventar verstanden?{N}Drücke F1, wenn du noch Fragen hast!" />
+			<eng value="{A-L}{F-2002_12}You got everything about the inventory?{N}Press F1 anytime if you have questions!" />
+			<fre value="{A-L}{F-2002_12}Tu as tout compris à propos de l&apos;inventaire ?{N}Appuie sur F1 si tu as des questions !" />
+			<spa value="{A-L}{F-2002_12}¿Entendiste todo acerca del inventario?{N}Presiona F1 en cualquier momento si tienes preguntas!" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto dell&apos;inventario?{N}Premi F1 in caso di domande!" />
+			<rus value="{A-L}{F-2002_12}Все изучили про Инвентарь?{N}Нажмите F1, если появятся вопросы!" />
+			<ame value="{A-L}{F-2002_12}You got everything about the inventory?{N}Press F1 anytime if you have questions!" />
+			<cns value="{A-L}{F-2002_12}You got everything about the inventory?{N}Press F1 anytime if you have questions!" />
+			<jap value="{A-L}{F-2002_12}所持品についてはもう大丈夫ッピ？{N}あとで聞きたい内容ができたらF1をクリックするッピ！" />
+			<tur value="{A-L}{F-2002_12}You got everything about the inventory?{N}Press F1 anytime if you have questions!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP_FIRST" next_guide_key="SHOP_FIRST2" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}안녕! 난 펌비! 만나서 반갑다비이~" />
+			<ger value="{A-L}{F-2002_12}Hi! Ich bin Fumbi, schön dich kennenzulernen." />
+			<eng value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<fre value="{A-L}{F-2002_12}Salut ! Je suis Fumbi ! Je suis très content de te voir." />
+			<spa value="{A-L}{F-2002_12}Hola! Soy Fumbi. Encantado de conocerte." />
+			<ita value="{A-L}{F-2002_12}Ciao! Sono Fumbi! Piacere di conoscerti." />
+			<rus value="{A-L}{F-2002_12}Привет! Я Фумби! Приятно познакомиться." />
+			<ame value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<cns value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<jap value="{A-L}{F-2002_12}ハロ～！僕はファンビ！会えてうれしいッピ！" />
+			<tur value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP_FIRST2" next_guide_key="SHOP" closing_guide_key="ROOMSELECT_CLOSING" term="4000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음이라 뭘 해야 할지 모르겠삐?{N}펌비가 하나씩 친절하게 알려준다비!" />
+			<ger value="{A-L}{F-2002_12}Du hast gar keine Ahnung, was du eigentlich machen sollst?{N}Ich werde dir alles, eins nach dem anderen erklären." />
+			<eng value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<fre value="{A-L}{F-2002_12}Tu ne sais pas par quoi commencer ?{N}Je vais bien tout t&apos;expliquer." />
+			<spa value="{A-L}{F-2002_12}No sabes que hacer para comenzar, no?{N}Te explicaré una cosa por vez." />
+			<ita value="{A-L}{F-2002_12}Non sai come iniziare?{N}Ti dirò una cosa alla volta." />
+			<rus value="{A-L}{F-2002_12}Вы не знаете с чего начать?{N}Сейчас я расскажу все по порядку." />
+			<ame value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<cns value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<jap value="{A-L}{F-2002_12}なにをしたらいいのか分からないッピ？{N}ファンビが親切に教えてあげるッピ！" />
+			<tur value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP" next_guide_key="SHOP2" closing_guide_key="SHOP_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}여기는 상점이다비!{N}아이템을 구입하는 곳이다비!" />
+			<ger value="{A-L}{F-2002_12}Dies ist der Shop!{N}Hier kannst du Items einkaufen!" />
+			<eng value="{A-L}{F-2002_12}This is the shop!{N}You can purchase items here!" />
+			<fre value="{A-L}{F-2002_12}C&apos;est le Shop !{N}Tu peux y acheter des items !" />
+			<spa value="{A-L}{F-2002_12}Este es el shop !{N}Aquí puedes comprar items !" />
+			<ita value="{A-L}{F-2002_12}Questo è il negozio!{N}Qui puoi acquistare oggetti!" />
+			<rus value="{A-L}{F-2002_12}Это магазин!{N}Здесь покупают все что угодно!" />
+			<ame value="{A-L}{F-2002_12}This is the shop!{N}You can purchase items here!" />
+			<cns value="{A-L}{F-2002_12}This is the shop!{N}You can purchase items here!" />
+			<jap value="{A-L}{F-2002_12}ここはショップだッピ！{N}アイテムを交換する場所だッピ！" />
+			<tur value="{A-L}{F-2002_12}This is the shop!{N}You can purchase items here!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP2" next_guide_key="SHOP3" closing_guide_key="SHOP_CLOSING" term="5000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}상점에서 아이템 사려면 &apos;펜&apos; 필요해삐!{N}펜은 S4 리그 전용 게임머니다비!" />
+			<ger value="{A-L}{F-2002_12}Um im Shop Items zu{N}kaufen benötigst du &apos;PEN&apos;!{N}Das ist die exklusive Währung für S4 League!" />
+			<eng value="{A-L}{F-2002_12}To purchase an item in the shop{N}you need &apos;PEN&apos;!{N}It&apos;s the exclusive in-game currency for S4 League!" />
+			<fre value="{A-L}{F-2002_12}Pour acheter un item dans le shop{N}tu dois avoir des &apos;PEN&apos; !{N}C&apos;est la monnaie exclusive dans S4 League !" />
+			<spa value="{A-L}{F-2002_12}Para comprar un item en el shop{N}necesitas &apos;PEN&apos; !{N}Es la moneda exclusiva para S4 League !" />
+			<ita value="{A-L}{F-2002_12}Per acquistare oggetti nel negozio{N}servono i &apos;PEN&apos;!{N}E&apos; la moneta di S4 League!" />
+			<rus value="{A-L}{F-2002_12}Чтобы приобрести товар{N}Вам понадобятся PEN!{N}Это уникальные деньги S4 League !" />
+			<ame value="{A-L}{F-2002_12}To purchase an item in the shop{N}you need &apos;PEN&apos;!{N}It&apos;s the exclusive in-game currency for S4 League!" />
+			<cns value="{A-L}{F-2002_12}To purchase an item in the shop{N}you need &apos;PEN&apos;!{N}It&apos;s the exclusive in-game currency for S4 League!" />
+			<jap value="{A-L}{F-2002_12}ショップからアイテムを買うためには「PEN」が必要だッピ！" />
+			<tur value="{A-L}{F-2002_12}To purchase an item in the shop{N}you need &apos;PEN&apos;!{N}It&apos;s the exclusive in-game currency for S4 League!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP3" next_guide_key="SHOP4" closing_guide_key="SHOP_CLOSING" term="5000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}경기 많이 하면 펜 많이 모을 수 있다삐.{N}등급이 올라도 돈 많이준다삐!" />
+			<ger value="{A-L}{F-2002_12}Je mehr du an Kämpfen teilnimmst,{N}desto mehr PEN kannst du verdienen.{N}Auch für Levelups bekommst du PEN!" />
+			<eng value="{A-L}{F-2002_12}The more you participate in matches,{N}the more PEN you can earn.{N}You can also earn PEN by leveling up!" />
+			<fre value="{A-L}{F-2002_12}Plus tu participes aux matchs,{N}plus tu peux gagner de Pen.{N}Tu peux aussi en gagner quand tu augmentes de level ! Bee !" />
+			<spa value="{A-L}{F-2002_12}Cuanto más participes en los partidos,{N}más PEN podrás ganar. {N}También puedes ganar PEN subiendo de nivel!" />
+			<ita value="{A-L}{F-2002_12}Più match fai,{N}più PEN ottieni.{N}Puoi anche riceverli al level up! Bip!" />
+			<rus value="{A-L}{F-2002_12}Чем больше матчей Вы сыграете,{N}тем больше PEN у вас будет!{N}Деньги также дают за новые уровни." />
+			<ame value="{A-L}{F-2002_12}The more you participate in matches,{N}the more PEN you can earn.{N}You can also earn PEN by leveling up!" />
+			<cns value="{A-L}{F-2002_12}The more you participate in matches,{N}the more PEN you can earn.{N}You can also earn PEN by leveling up!" />
+			<jap value="{A-L}{F-2002_12}ゲームをたくさんプレイすればするほどPENをもらえるッピ！{N}ランクが上がってももらえるッピ！" />
+			<tur value="{A-L}{F-2002_12}The more you participate in matches,{N}the more PEN you can earn.{N}You can also earn PEN by leveling up!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP4" next_guide_key="SHOP5" closing_guide_key="SHOP_CLOSING" term="6000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}아이템을 한번 살펴보자삐이~{N}무기, 스킬, 복장 버튼을 눌러봐라비이~" />
+			<ger value="{A-L}{F-2002_12}Schauen wir uns mal die Items an.{N}Drücke alle Buttons: Waffen, Skill, Kleidung" />
+			<eng value="{A-L}{F-2002_12}Let&apos;s have a look at the items.{N}Press the different buttons; Weapon, Skill, Costume." />
+			<fre value="{A-L}{F-2002_12}Regardons un peu les items.{N}Appuie sur tous les boutons: Armes, Skills, Vêtements." />
+			<spa value="{A-L}{F-2002_12}Veamos los items.{N}Presiona todos los botones: Arma, Skill, Vestimenta" />
+			<ita value="{A-L}{F-2002_12}Vediamo gli oggetti.{N}Premi tutti i bottoni: Arma, Skill, Abito." />
+			<rus value="{A-L}{F-2002_12}Давайте посмотрим что в продаже.{N}Загляните во все разделы." />
+			<ame value="{A-L}{F-2002_12}Let&apos;s have a look at the items.{N}Press the different buttons; Weapon, Skill, Costume." />
+			<cns value="{A-L}{F-2002_12}Let&apos;s have a look at the items.{N}Press the different buttons; Weapon, Skill, Costume." />
+			<jap value="{A-L}{F-2002_12}アイテムの種類を確認してみるッピ～{N}武器、特殊能力、服装ボタンを押してみるッピ～" />
+			<tur value="{A-L}{F-2002_12}Let&apos;s have a look at the items.{N}Press the different buttons; Weapon, Skill, Costume." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP5" next_guide_key="SHOP6" closing_guide_key="SHOP_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_06.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}구입 버튼을 누르면 바로 구입한다비.{N}아이템만 클릭하면 미리 볼 수 있다비이!" />
+			<ger value="{A-L}{F-2002_12}Wenn du auf &apos;Kaufen&apos; klickst kaufst du das Item.{N}Klickst du auf das Item, so kannst du es dir vorher{N}genauer anschauen!" />
+			<eng value="{A-L}{F-2002_12}If you press the &apos;Buy&apos; button,{N}you will purchase the item.{N}If you click the item, you can preview it!" />
+			<fre value="{A-L}{F-2002_12}Si tu appuies sur le bouton &apos;Acheter&apos;,{N}tu peux acheter l&apos;item.{N}Si tu cliques sur l&apos;item, tu peux avoir un aperçu !" />
+			<spa value="{A-L}{F-2002_12}Si presionas el botón &apos;Comprar&apos;,{N}comprarás el item .{N}Si presionas en el item, verás una vista previa !" />
+			<ita value="{A-L}{F-2002_12}Se premi &apos;Compra&apos;,{N}acquisti l&apos;oggetto.{N}Se clicchi l&apos;oggetto, puoi vederne l&apos;anteprima!" />
+			<rus value='{A-L}{F-2002_12}Если Вы нажмете &quot;Купить&quot;,{N}Вы сможете приобрести эту вещь.{N}Если нажать на нее, сможете померять!' />
+			<ame value="{A-L}{F-2002_12}If you press the &apos;Buy&apos; button,{N}you will purchase the item.{N}If you click the item, you can preview it!" />
+			<cns value="{A-L}{F-2002_12}If you press the &apos;Buy&apos; button,{N}you will purchase the item.{N}If you click the item, you can preview it!" />
+			<jap value="{A-L}{F-2002_12}交換ボタンを押すと交換できるッピ。{N}アイテムをクリックすると試着できるッピ！" />
+			<tur value="{A-L}{F-2002_12}If you press the &apos;Buy&apos; button,{N}you will purchase the item.{N}If you click the item, you can preview it!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP6" next_guide_key="SHOP7" closing_guide_key="SHOP_CLOSING" term="6000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_07.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}상점 아래 쪽에 전체구입이 보이삐?{N}미리 입혀본 복장 아이템들을 한번에{N}전부 구입할 수 있다비!" />
+			<ger value='{A-L}{F-2002_12}Siehst du den Button &quot;Alles kaufen&quot;{N}unten im Bildschirm?{N}Damit kaufst du alles, was du bisher anprobiert hast.' />
+			<eng value="{A-L}{F-2002_12}Can you see the sign &apos;Buy All&apos;{N}at the bottom of the screen?{N}You can buy everything you have tried on." />
+			<fre value="{A-L}{F-2002_12}Peux-tu voir le signe &apos;Tout acheter&apos;{N}en bas de l&apos;écran ?{N}Avec-lui tu peux acheter tout ce que tu as essayé." />
+			<spa value="{A-L}{F-2002_12}¿Puedes ver la señal &apos;Comprar Todo&apos;{N}en la parte inferior de la pantalla ?{N}Puedes comprar todo lo que te has probado ." />
+			<ita value="{A-L}{F-2002_12}Vedi &apos;Compra tutto&apos;{N}in basso?{N}Puoi acquistare tutto ciò che hai provato." />
+			<rus value="{A-L}{F-2002_12}Видите надпись &apos;Buy All&apos;{N}внизу экрана?{N}Нажав, можно купить все, что померяли." />
+			<ame value="{A-L}{F-2002_12}Can you see the sign &apos;Buy All&apos;{N}at the bottom of the screen?{N}You can buy everything you have tried on." />
+			<cns value="{A-L}{F-2002_12}Can you see the sign &apos;Buy All&apos;{N}at the bottom of the screen?{N}You can buy everything you have tried on." />
+			<jap value="{A-L}{F-2002_12}ショップの下に全体交換があるッピ。{N}試着アイテムを全部交換する事もできるッピ！" />
+			<tur value="{A-L}{F-2002_12}Can you see the sign &apos;Buy All&apos;{N}at the bottom of the screen?{N}You can buy everything you have tried on." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP7" next_guide_key="SHOP" closing_guide_key="SHOP_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}상점에 대해서 잘 알았어삐? 아직도 잘{N}모르겠으면 펌비가 계속 설명한다삐이~" />
+			<ger value="{A-L}{F-2002_12}Kennst du dich nun im Shop aus?{N}Wenn es noch etwas gibt, das du nicht kennst, dann ist Fumbi{N}stets zur Stelle!" />
+			<eng value="{A-L}{F-2002_12}You know the shop well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<fre value="{A-L}{F-2002_12}Tu connais bien le shop maintenant ?{N}Si il y a encore quelque chose que tu ne sais pas,{N}Fumbi est là pour toi." />
+			<spa value="{A-L}{F-2002_12}Ahora ya sabes todo acerca del shop ¿no?{N}Si todavía hay algo que no sabes,{N}Fumbi está aquí para lo que necesites ~" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto del negozio?{N}In caso contrario,{N}chiedi a Fumbi." />
+			<rus value="{A-L}{F-2002_12}Вам понравился магазин?{N}Если появятся вопросы,{N}Фумби всегда рядом!" />
+			<ame value="{A-L}{F-2002_12}You know the shop well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<cns value="{A-L}{F-2002_12}You know the shop well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<jap value="{A-L}{F-2002_12}ショップの説明はいいかッピ？{N}分からない部分があったらファンビが説明しなおすッピ～" />
+			<tur value="{A-L}{F-2002_12}You know the shop well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="SHOP_CLOSING" next_guide_key="" closing_guide_key="" term="5000" fumbi_animation="AA016" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}상점에서 마음대로 쇼핑하고 싶다고비이?{N}나중에 궁금한게 생기면 F1을 눌러줘삐!" />
+			<ger value="{A-L}{F-2002_12}Du magst ein wenig in Ruhe shoppen?{N}Drücke einfach F1, wenn du Fragen hast!" />
+			<eng value="{A-L}{F-2002_12}You want to shop freely in the shop?{N}Press F1 at any time if you have questions!" />
+			<fre value="{A-L}{F-2002_12}Tu veux aller faire du shopping librement ?{N}Appuie sur F1 si tu as des questions !" />
+			<spa value="{A-L}{F-2002_12}¿Quieres comprar libremente en el shop ?{N}Presiona F1 en cualquier momento si tienes preguntas !" />
+			<ita value="{A-L}{F-2002_12}Vuoi comprare qualcosa al negozio?{N}Premi F1 in caso di domande!" />
+			<rus value="{A-L}{F-2002_12}Запутались в магазине?{N}Нажмите F1, если есть вопросы!" />
+			<ame value="{A-L}{F-2002_12}You want to shop freely in the shop?{N}Press F1 at any time if you have questions!" />
+			<cns value="{A-L}{F-2002_12}You want to shop freely in the shop?{N}Press F1 at any time if you have questions!" />
+			<jap value="{A-L}{F-2002_12}説明はいいから、ショップで買い物したいッピ？{N}分かったッピ！あとで知りたい内容があったらF1を押すッピ！" />
+			<tur value="{A-L}{F-2002_12}You want to shop freely in the shop?{N}Press F1 at any time if you have questions!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER_FIRST" next_guide_key="CHARACTER_FIRST2" closing_guide_key="CHARACTER_CLOSING" term="4000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}안녕! 난 펌비! 만나서 반갑다비이~" />
+			<ger value="{A-L}{F-2002_12}Hi! Ich bin Fumbi, schön dich kennenzulernen." />
+			<eng value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<fre value="{A-L}{F-2002_12}Salut ! Je suis Fumbi ! Je suis très content de te voir." />
+			<spa value="{A-L}{F-2002_12}Hola! Soy Fumbi. Encantado de conocerte." />
+			<ita value="{A-L}{F-2002_12}Ciao! Sono Fumbi! Piacere di conoscerti." />
+			<rus value="{A-L}{F-2002_12}Привет! Я Фумби! Приятно познакомиться." />
+			<ame value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<cns value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+			<jap value="{A-L}{F-2002_12}ハロ～！僕はファンビ！会えてうれしいッピ！" />
+			<tur value="{A-L}{F-2002_12}Hi! I&apos;m Fumbi! Nice to meet you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER_FIRST2" next_guide_key="CHARACTER" closing_guide_key="CHARACTER_CLOSING" term="4000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음이라 뭘 해야 할지 모르겠삐?{N}펌비가 하나씩 친절하게 알려준다비!" />
+			<ger value="{A-L}{F-2002_12}Du hast gar keine Ahnung, was du eigentlich machen sollst?{N}Ich werde dir alles, eins nach dem anderen erklären." />
+			<eng value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<fre value="{A-L}{F-2002_12}Tu ne sais pas par quoi commencer ?{N}Je vais bien tout t&apos;expliquer." />
+			<spa value="{A-L}{F-2002_12}No sabes que hacer para comenzar, no?{N}Te explicaré una cosa por vez." />
+			<ita value="{A-L}{F-2002_12}Non sai come iniziare?{N}Ti dirò una cosa alla volta." />
+			<rus value="{A-L}{F-2002_12}Вы не знаете с чего начать?{N}Сейчас я расскажу все по порядку." />
+			<ame value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<cns value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+			<jap value="{A-L}{F-2002_12}なにをしたらいいのか分からないッピ？{N}ファンビが親切に教えてあげるッピ！" />
+			<tur value="{A-L}{F-2002_12}You don&apos;t know what to do to begin with?{N}I&apos;ll tell you one thing at a time." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER" next_guide_key="CHARACTER2" closing_guide_key="CHARACTER_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_01.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}캐릭터창이다삐!{N}전에 만든 캐릭터들은 모두 여기 있다삐!" />
+			<ger value="{A-L}{F-2002_12}Dies ist das Player Pad!{N}Hier kannst du alle Charaktere sehen,{N}die du bisher erstellt hast." />
+			<eng value="{A-L}{F-2002_12}This is the Player Pad!{N}You can view all of the{N}characters you have made." />
+			<fre value="{A-L}{F-2002_12}C&apos;est le Player Pad ! Tu peux voir tous les personnages{N}que tu as créé." />
+			<spa value="{A-L}{F-2002_12}Este es el Player Pad ! {N} Puedes ver a todos los jugadores{N}que has creado anteriormente." />
+			<ita value="{A-L}{F-2002_12}Questo è il Player Pad!{N}Puoi vedere tutti{N}i personaggi creati." />
+			<rus value="{A-L}{F-2002_12}Это страничка игроков!{N}Здесь отображаются все{N}Ваши персонажи." />
+			<ame value="{A-L}{F-2002_12}This is the Player Pad!{N}You can view all of the{N}characters you have made." />
+			<cns value="{A-L}{F-2002_12}This is the Player Pad!{N}You can view all of the{N}characters you have made." />
+			<jap value="{A-L}{F-2002_12}キャラクターウィンドウだッピ！{N}キャラクターは全部ここにいるッピ！" />
+			<tur value="{A-L}{F-2002_12}This is the Player Pad!{N}You can view all of the{N}characters you have made." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER2" next_guide_key="CHARACTER3" closing_guide_key="CHARACTER_CLOSING" term="5000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_02.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}처음 접속했을 때 만든 캐릭터가 1번{N}슬롯에 있는게 보이지삐?" />
+			<ger value="{A-L}{F-2002_12}Im ersten Slot siehst du deinen ersten Charakter,{N}stimmt&apos;s?" />
+			<eng value="{A-L}{F-2002_12}You see your first character in Slot 1,{N}Right?" />
+			<fre value="{A-L}{F-2002_12}Tu vois ton premier personnage dans le Slot 1,{N}n&apos;est-ce pas ?" />
+			<spa value="{A-L}{F-2002_12}¿Ves el primer jugador en el Slot 1,{N}no ?" />
+			<ita value="{A-L}{F-2002_12}Vedi il primo personaggio nello Slot 1,{N}vero?" />
+			<rus value="{A-L}{F-2002_12}Сейчас у вас один игрок{N}в первой ячейке, верно?" />
+			<ame value="{A-L}{F-2002_12}You see your first character in Slot 1,{N}Right?" />
+			<cns value="{A-L}{F-2002_12}You see your first character in Slot 1,{N}Right?" />
+			<jap value="{A-L}{F-2002_12}最初に作ったキャラクターが{N}1番スロットにいるのが見えるッピ？" />
+			<tur value="{A-L}{F-2002_12}You see your first character in Slot 1,{N}Right?" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER3" next_guide_key="CHARACTER4" closing_guide_key="CHARACTER_CLOSING" term="4000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_04.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12} 다음 캐릭터는 등급이 오르면 만들 수{N}있다비!" />
+			<ger value="{A-L}{F-2002_12}Du kannst einen neuen Charakter erstellen,{N}wenn dein Level hoch genug ist!" />
+			<eng value="{A-L}{F-2002_12}You can create a new character{N}when your level goes up!" />
+			<fre value="{A-L}{F-2002_12}Tu peux créer un nouveau personnage{N}quand ton level augmente !" />
+			<spa value="{A-L}{F-2002_12}Puedes crear un nuevo jugador{N}cuando suba tu nivel !" />
+			<ita value="{A-L}{F-2002_12}Puoi creare un nuovo personaggio{N}ad un livello più alto!" />
+			<rus value="{A-L}{F-2002_12}Вы сможете создать еще,{N}когда немножко подрастете!" />
+			<ame value="{A-L}{F-2002_12}You can create a new character{N}when your level goes up!" />
+			<cns value="{A-L}{F-2002_12}You can create a new character{N}when your level goes up!" />
+			<jap value="{A-L}{F-2002_12}次のキャラクターはランクが上がったら作れるッピ！" />
+			<tur value="{A-L}{F-2002_12}You can create a new character{N}when your level goes up!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER4" next_guide_key="CHARACTER5" closing_guide_key="CHARACTER_CLOSING" term="5000" fumbi_animation="AA018" sound_file="Resources/Sound/Interface/fumbi_05.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}캐릭터가 늘어나면 게임 중에 바꿔서 쓸{N}수 있다비!" />
+			<ger value="{A-L}{F-2002_12}Wenn du viele Charaktere hast, kannst du sie während{N}des Spiels nach Belieben auswechseln!" />
+			<eng value="{A-L}{F-2002_12}If you have many characters,{N}you can change from one to another{N}during the game!" />
+			<fre value="{A-L}{F-2002_12}Si tu as plusieurs personnages,{N}tu peux en changer{N}pendant la mi-temps !" />
+			<spa value="{A-L}{F-2002_12}Si tienes varios jugadores,{N}puedes cambiar de uno a otro{N}durante el juego !" />
+			<ita value="{A-L}{F-2002_12}Sei hai molti personaggi,{N}puoi passare da uno all&apos;altro{N}durante il gioco!" />
+			<rus value="{A-L}{F-2002_12}Если Вы создали несколько игроков,{N}Вы сможете менять их{N}во время перерыва в матче!" />
+			<ame value="{A-L}{F-2002_12}If you have many characters,{N}you can change from one to another{N}during the game!" />
+			<cns value="{A-L}{F-2002_12}If you have many characters,{N}you can change from one to another{N}during the game!" />
+			<jap value="{A-L}{F-2002_12}キャラクターが増えたら、ゲーム中に{N}変更することもできるッピ！" />
+			<tur value="{A-L}{F-2002_12}If you have many characters,{N}you can change from one to another{N}during the game!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER5" next_guide_key="CHARACTER6" closing_guide_key="CHARACTER_CLOSING" term="6000" fumbi_animation="AA019" sound_file="Resources/Sound/Interface/fumbi_06.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}다양한 캐릭터를 만들어서 상황에 따라{N}바꿔 쓰면 팀의 승리를 이끌 수 있다삐!" />
+			<ger value="{A-L}{F-2002_12}Wenn du je nach Situation den passenden Charakter{N}einsetzt, kannst du dein Team so zum Sieg führen!" />
+			<eng value="{A-L}{F-2002_12}If you use your characters for the right{N}situations, you can lead your team to victory!" />
+			<fre value="{A-L}{F-2002_12}Si tu utilises bien tes personnages en fonction des situations,{N}tu peux mener ta Team à la victoire !" />
+			<spa value="{A-L}{F-2002_12}Si usas bien todos tus jugadores de acuerdo a las{N}situaciones,puedes llevar tu equipo a la victoria !" />
+			<ita value="{A-L}{F-2002_12}Se userai i personaggi a seconda della situazione,{N}otterrai facilmente la vittoria!" />
+			<rus value="{A-L}{F-2002_12}Научившись использовать разных персонажей{N}по ситуации, Вы приведете команду к победе!" />
+			<ame value="{A-L}{F-2002_12}If you use your characters for the right{N}situations, you can lead your team to victory!" />
+			<cns value="{A-L}{F-2002_12}If you use your characters for the right{N}situations, you can lead your team to victory!" />
+			<jap value="{A-L}{F-2002_12}色んなキャラクターを作って、状況によって{N}使い分けたらチームの勝利に役立つッピ！" />
+			<tur value="{A-L}{F-2002_12}If you use your characters for the right{N}situations, you can lead your team to victory!" />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER6" next_guide_key="CHARACTER" closing_guide_key="CHARACTER_CLOSING" term="5000" fumbi_animation="AA020" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}캐릭터에 대해서 잘 알았어삐? 아직도 잘{N}모르겟으면 펌비가 계속 설명한다삐!" />
+			<ger value="{A-L}{F-2002_12}Kennst du dich nun mit den Charakteren aus?{N}Wenn es noch etwas gibt, das du nicht kennst,{N}dann ist Fumbi stets zur Stelle!" />
+			<eng value="{A-L}{F-2002_12}You know the characters well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<fre value="{A-L}{F-2002_12}Tu connais bien les personnages maintenant, n&apos;est-ce pas ?{N}Si il y a encore quelque chose que tu ne sais pas,{N}Fumbi est là pour toi." />
+			<spa value="{A-L}{F-2002_12}Ahora ya sabes todo acerca de los jugadores ¿no?{N}Si todavía hay algo que no sabes,{N}Fumbi está aquí para lo que necesites ~" />
+			<ita value="{A-L}{F-2002_12}Hai capito tutto dei personaggi?{N}In caso contrario,{N}chiedi a Fumbi." />
+			<rus value="{A-L}{F-2002_12}Познакомились с персонажами?{N}Если появятся вопросы,{N}Фумби поможет везде!" />
+			<ame value="{A-L}{F-2002_12}You know the characters well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<cns value="{A-L}{F-2002_12}You know the characters well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+			<jap value="{A-L}{F-2002_12}キャラクターの説明はもういいッピ？{N}分からない部分があったらファンビが説明しなおすッピ～" />
+			<tur value="{A-L}{F-2002_12}You know the characters well now?{N}If there&apos;s something you still don&apos;t know,{N}Fumbi is here for you." />
+		</message>
+	</lobby_guide>
+	<lobby_guide x="710" y="355" key="CHARACTER_CLOSING" next_guide_key="" closing_guide_key="" term="5000" fumbi_animation="AA016" sound_file="Resources/Sound/Interface/fumbi_03.ogg">
+		<message>
+			<kor value="{A-L}{F-2002_12}나중에 캐릭터 활용이 궁금하면{N}언제든 F1을 눌러줘삐!" />
+			<ger value="{A-L}{F-2002_12}Drücke einfach F1, wenn du{N}später noch Fragen über Charaktere hast!" />
+			<eng value="{A-L}{F-2002_12}If you have more questions later about your characters,{N}press F1!" />
+			<fre value="{A-L}{F-2002_12}Si tu as d&apos;autres questions à propos des personnages,{N}n&apos;hésite pas à appuyer sur F1 !" />
+			<spa value="{A-L}{F-2002_12}Si tienes más preguntas acerca de tus jugadores más adelante,{N}presiona F1 !" />
+			<ita value="{A-L}{F-2002_12}In caso di domande sui personaggi,{N}premi F1!" />
+			<rus value="{A-L}{F-2002_12}Если у Вас появятся вопросы о персонажах,{N}нажмите F1 !" />
+			<ame value="{A-L}{F-2002_12}If you have more questions later about your characters,{N}press F1!" />
+			<cns value="{A-L}{F-2002_12}If you have more questions later about your characters,{N}press F1!" />
+			<jap value="{A-L}{F-2002_12}あとでキャラクターについて知りたい内容があったら{N}F1を押すッピ！" />
+			<tur value="{A-L}{F-2002_12}If you have more questions later about your characters,{N}press F1!" />
+		</message>
+	</lobby_guide>
+</lobby_guides>

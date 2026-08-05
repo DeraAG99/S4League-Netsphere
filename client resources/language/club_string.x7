@@ -1,0 +1,1404 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<string_table>
+	<string key="CLUB_GENERAL_GRADE_MASTER">
+		<kor value="마스터" />
+		<jap value="マスター" />
+		<eng value="Master" />
+		<ger value="Master" />
+		<fre value="Chef" />
+		<spa value="Master" />
+		<ita value="Master" />
+		<rus value="Мастер" />
+		<tur value="Yönetici" />
+		<por value="Master" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_STEP">
+		<kor value="스텝" />
+		<jap value="補佐" />
+		<eng value="Staff" />
+		<ger value="Staff" />
+		<fre value="Staff" />
+		<spa value="Staff" />
+		<ita value="Staff" />
+		<rus value="Штатный" />
+		<tur value="Personel" />
+		<por value="Staff" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_SMASTER">
+		<kor value="임시 마스터" />
+		<jap value="臨時マスター" />
+		<eng value="Temporary Master" />
+		<ger value="Temporary Master" />
+		<fre value="Chef temporaire" />
+		<spa value="Master temporario" />
+		<ita value="Master temporaneo" />
+		<rus value="Заместитель" />
+		<tur value="Geçici Yönetici" />
+		<por value="Master temporario" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_SSTEP">
+		<kor value="스텝 타입" />
+		<jap value="スタッフ" />
+		<eng value="Staff" />
+		<ger value="Staff" />
+		<fre value="Staff" />
+		<spa value="Staff" />
+		<ita value="Staff" />
+		<rus value="Штатный" />
+		<tur value="Personel Türü" />
+		<por value="Staff" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_REGULAR">
+		<kor value="정회원" />
+		<jap value="正規" />
+		<eng value="Regular" />
+		<ger value="Regular" />
+		<fre value="loyal" />
+		<spa value="regular" />
+		<ita value="fisso" />
+		<rus value="Активный" />
+		<tur value="Tam Üye" />
+		<por value="regular" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_NORMAL">
+		<kor value="일반회원" />
+		<jap value="一般メンバー" />
+		<eng value="Normal" />
+		<ger value="Normal" />
+		<fre value="Membre" />
+		<spa value="normal" />
+		<ita value="normale" />
+		<rus value="Обычный" />
+		<tur value="Üye" />
+		<por value="normal" />
+	</string>
+	<string key="CLUB_GENERAL_GRADE_LIMITED">
+		<kor value="비매너회원" />
+		<jap value="非マナーメンバー" />
+		<eng value="Bad-Manner" />
+		<ger value="Bad-Manner" />
+		<fre value="déloyal" />
+		<spa value="maleducado" />
+		<ita value="maleducato" />
+		<rus value="с плохими" />
+		<tur value="Trol" />
+		<por value="mal educado" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_A">
+		<kor value="A Class" />
+		<jap value="A Class" />
+		<eng value="A Class" />
+		<ger value="Klasse A" />
+		<fre value="Classe A" />
+		<spa value="Clase A" />
+		<ita value="Classe A" />
+		<rus value="A класс" />
+		<tur value="A Sınıfı" />
+		<por value="Clase A" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_B">
+		<kor value="B Class" />
+		<jap value="B Class" />
+		<eng value="B Class" />
+		<ger value="Klasse B" />
+		<fre value="Classe B" />
+		<spa value="Clase B" />
+		<ita value="Classe B" />
+		<rus value="B класс" />
+		<tur value="B Sınıfı" />
+		<por value="Clase B" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_C">
+		<kor value="C Class" />
+		<jap value="C Class" />
+		<eng value="C Class" />
+		<ger value="Klasse C" />
+		<fre value="Classe C" />
+		<spa value="Clase C" />
+		<ita value="Classe C" />
+		<rus value="C класс" />
+		<tur value="C Sınıfı" />
+		<por value="Clase C" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_D">
+		<kor value="D Class" />
+		<jap value="D Class" />
+		<eng value="D Class" />
+		<ger value="Klasse D" />
+		<fre value="Classe D" />
+		<spa value="Clase D" />
+		<ita value="Classe D" />
+		<rus value="D класс" />
+		<tur value="D Sınıfı" />
+		<por value="Clase D" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_DEGRADE">
+		<kor value="강등권" />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Rütbe İndir" />
+		<por value="" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_PROMOTION">
+		<kor value="승급권" />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Rütbe Yükselt" />
+		<por value="" />
+	</string>
+	<string key="CLUB_GENERAL_CLASS_STABLE">
+		<kor value="안정권" />
+		<jap value="( %d / %d)" />
+		<eng value="( %d / %d)" />
+		<ger value="( %d / %d)" />
+		<fre value="( %d / %d)" />
+		<spa value="( %d / %d)" />
+		<ita value="( %d / %d)" />
+		<rus value="( %d / %d)" />
+		<tur value="( %d / %d)" />
+		<por value="( %d / %d)" />
+	</string>
+	<string key="CLUB_RANK_MEMBER_MY">
+		<kor value="( %d 위 / %d 명 중 )" />
+		<jap value="( %d / %d)" />
+		<eng value="( %d / %d)" />
+		<ger value="( %d / %d)" />
+		<fre value="( %d / %d)" />
+		<spa value="( %d / %d)" />
+		<ita value="( %d / %d)" />
+		<rus value="( %d / %d)" />
+		<tur value="( Yer:  %d/ %d Oyuncu)" />
+		<por value="( %d / %d)" />
+	</string>
+	<string key="CLUB_GENERAL_DROP_NORMAL">
+		<kor value="탈퇴" />
+		<jap value="脱退" />
+		<eng value="Leave Clan" />
+		<ger value="Clan verlassen" />
+		<fre value="Quitter le clan" />
+		<spa value="Abandonar" />
+		<ita value="Lascia il Clan" />
+		<rus value="Покинуть клан" />
+		<tur value="Klandan Ayrıl" />
+		<por value="Abandonar" />
+	</string>
+	<string key="CLUB_GENERAL_DROP_FORCIBLE">
+		<kor value="강제탈퇴" />
+		<jap value="強制追放" />
+		<eng value="Temp. Leave" />
+		<ger value="Sperre" />
+		<fre value="Abandon temp." />
+		<spa value="Temporal" />
+		<ita value="Kick temp." />
+		<rus value="Заблокиров." />
+		<tur value="At" />
+		<por value="Temporario" />
+	</string>
+	<string key="CLUB_GENERAL_DROP_ETERNAL">
+		<kor value="영구탈퇴" />
+		<jap value="永久追放" />
+		<eng value="Perm. Leave" />
+		<ger value="Kick" />
+		<fre value="Abandon perm." />
+		<spa value="Permanente" />
+		<ita value="Kick perm." />
+		<rus value="Выгнанные" />
+		<tur value="Engelle" />
+		<por value="Permanente" />
+	</string>
+	<string key="CLUB_NEWS_ALL_MARK">
+		<kor value="클럽마크가 변동되었습니다." />
+		<jap value="クランマークが変わりました。" />
+		<eng value="Clan mark is changed successfully" />
+		<ger value="Clan-Zeichen wurde erfolgreich geändert." />
+		<fre value="Emblème modifié" />
+		<spa value="El logo del Clan se ha cambiado con éxito" />
+		<ita value="Modifica del logo riuscita" />
+		<rus value="Изменена эмблема клана" />
+		<tur value="Klan işareti değiştirildi." />
+		<por value="O logo do Clan foi modificado com sucesso!" />
+	</string>
+	<string key="CLUB_NEWS_ALL_CHANGEINFO">
+		<kor value="클럽정보의 변동사항이 있습니다." />
+		<jap value="クラン情報が更新されました。" />
+		<eng value="Change made in Clan information" />
+		<ger value="Clan-Informationen wurden geändert" />
+		<fre value="Informations du clan modifiées" />
+		<spa value="Se han realizado cambios en la información del Clan" />
+		<ita value="Informazioni del Clan modificate" />
+		<rus value="Изменена информация о клане" />
+		<tur value="Klan Bilgisinde güncelleme yapıldı." />
+		<por value="Foram realizadas mudanças na informação do Clan" />
+	</string>
+	<string key="CLUB_NEWS_ALL_CHANGECLASS">
+		<kor value="클럽클래스가 변동되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Klan sınıfı değiştirildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_USEBUFF">
+		<kor value="새로운 클럽버프가 사용되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Yeni klan buff&apos;ı kullanıldı." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_NRANK">
+		<kor value="클럽전 누적랭킹이 변경되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Klan savaşının biriken sıralaması değiştirildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_UNION1">
+		<kor value="연합정보의 변동사항이 있습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="İttifak haberlerinde değişiklik yapıldı." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_LRANK">
+		<kor value="클럽의 리그순위가 변경되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Klanın lig sırası değiştirildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_UNION2">
+		<kor value="우리클럽이 연합에 참가하였습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Klanımız bir ittifaka katıldı." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_UNION3">
+		<kor value="연합 참가신청이 거절되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="İttifak başvurusu reddedildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_ALL_UNION4">
+		<kor value="연합이 리더의 탈퇴로 해체되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Lider çıktı. İttifak dağıldı." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_MY_GRADE">
+		<kor value="멤버등급이 변경되었습니다." />
+		<jap value="メンバー等級が変動しました。" />
+		<eng value="Member level has been changed." />
+		<ger value="Mitgliederlevel wurde geändert" />
+		<fre value="Le niveau du membre a été modifié." />
+		<spa value="Se ha cambiado el nivel del miembro" />
+		<ita value="Livello del membro modificato" />
+		<rus value="Изменен ранг участника." />
+		<tur value="Üye sırası değiştirildi." />
+		<por value="Foi modificado o nivel do membro" />
+	</string>
+	<string key="CLUB_NEWS_MY_REPRESENTATIVE">
+		<kor value="토너먼트 대표팀으로 선출되었습니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Takımın, turnuva için seçildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_MY_LRANK">
+		<kor value="오늘 클럽리그 포인트 순위는 %d위 입니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Bugünkü klan ligi puan sıralaması %d." />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_MY_CRANK">
+		<kor value="오늘 클럽기여도 포인트 순위는 %d위 입니다." />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Bugünkü klan katkısı puan sıralaması %d." />
+		<por value="" />
+	</string>
+	<string key="CLUB_BBS_INFUT_INFO1">
+		<kor value="새 글을 입력해주세요." />
+		<jap value="新しい内容を投稿して下さい。" />
+		<eng value="Register New Post." />
+		<ger value="Neuen Beitrag schreiben" />
+		<fre value="Nouveau message." />
+		<spa value="Crear nueva publicación" />
+		<ita value="Scrivi un messaggio." />
+		<rus value="Создать новое сообщение" />
+		<tur value="Yeni bir gönderi kaydet." />
+		<por value="Criar nova publicação" />
+	</string>
+	<string key="CLUB_BBS_INFUT_INFO2">
+		<kor value="수정 해주세요." />
+		<jap value="修正して下さい。" />
+		<eng value="Modify your post." />
+		<ger value="Beitrag bearbeiten" />
+		<fre value="Modifier le message." />
+		<spa value="Modificar tu publicación." />
+		<ita value="Modifica il messaggio." />
+		<rus value="Редактировать свое сообщение" />
+		<tur value="Düzenle." />
+		<por value="Modificar sua publicação" />
+	</string>
+	<string key="CLUB_BBS_INFUT_INFO3">
+		<kor value="덧글 입력 해주세요." />
+		<jap value="コメントを入力して下さい。" />
+		<eng value="Add your reply." />
+		<ger value="Antworten" />
+		<fre value="Répondre." />
+		<spa value="Agregar tu respuesta." />
+		<ita value="Scrivi una risposta." />
+		<rus value="Ответить" />
+		<tur value="Yanıtla." />
+		<por value="Adicionar resposta" />
+	</string>
+	<string key="CLUB_BBS_INFUT_INFO4">
+		<kor value="덧글 수정 해주세요." />
+		<jap value="コメントを修正して下さい。" />
+		<eng value="Modify your reply." />
+		<ger value="Antwort bearbeiten" />
+		<fre value="Modifier la réponse." />
+		<spa value="Modificar tu respuesta." />
+		<ita value="Modifica la risposta." />
+		<rus value="Редактировать свой ответ" />
+		<tur value="Yanıtı düzenle." />
+		<por value="Modificar resposta" />
+	</string>
+	<string key="CLUB_BBS_SEARCHING_INFO1">
+		<kor value="작성자 닉네임을 입력해 주세요." />
+		<jap value="作成者のニックネームを入力して下さい。" />
+		<eng value="Enter User Character Name." />
+		<ger value="Charakternamen eingeben" />
+		<fre value="Entrez le nom de l&apos;utilisateur." />
+		<spa value="Ingresar nombre del personaje del usuario" />
+		<ita value="Scrivi il nome del personaggio." />
+		<rus value="Введите никнейм персонажа." />
+		<tur value="Lakap gir." />
+		<por value="Ingressar nome do personagem do usuário" />
+	</string>
+	<string key="CLUB_BBS_SEARCHING_RESULT1">
+		<kor value="%s님이 작성한 게시글이 없습니다." />
+		<jap value="%s様が作成した投稿はありません。" />
+		<eng value="%s didn&apos;t register any post." />
+		<ger value="%s hat keinen Beitrag geschrieben." />
+		<fre value="%sn&apos;a posté aucun message." />
+		<spa value="%s no registró ninguna publicación." />
+		<ita value="%s non ha scritto messaggi." />
+		<rus value="%s не оставил сообщений." />
+		<tur value="%shiç gönderi kaydetmedi." />
+		<por value="%s não registrou nenhuma publicação." />
+	</string>
+	<string key="CLUB_BBS_SEARCHING_RESULT2">
+		<kor value="해당 게시글이 없습니다." />
+		<jap value="該当する投稿がありません。" />
+		<eng value="Cannot find any post." />
+		<ger value="Kann keine Beiträge finden." />
+		<fre value="Aucun message trouvé." />
+		<spa value="No se encuentra ninguna publicación." />
+		<ita value="Nessun messaggio trovato." />
+		<rus value="Сообщения не найдены." />
+		<tur value="Seçili gönderi bulunamıyor." />
+		<por value="Não foi encontrada nenhuma publicação." />
+	</string>
+	<string key="CLUB_GENERAL_CHOOSE_NONE">
+		<kor value="관계없음" />
+		<jap value="誰でも" />
+		<eng value="N/A" />
+		<ger value="N/A" />
+		<fre value="Indisponible" />
+		<spa value="N/A" />
+		<ita value="N/D" />
+		<rus value="N/A" />
+		<tur value="İlgili değil." />
+		<por value="N/A" />
+	</string>
+	<string key="CLUB_SEARCH_INFUT_INFO1">
+		<kor value="클럽멤버의 닉네임 일부를 입력해 주세요." />
+		<jap value="クランメンバーのニックネーム一部を入力して下さい。" />
+		<eng value="Enter Clan member&apos;s nickname" />
+		<ger value="Spitznamen des Clan-Mitglieds eingeben" />
+		<fre value="Entrez le nom du membre" />
+		<spa value="Ingresar nickname del miembro del Clan" />
+		<ita value="Scrivi il nome del membro del Clan" />
+		<rus value="Введите никнейм участника клана" />
+		<tur value="Klan üyesinin rumuzunu gir" />
+		<por value="Ingresse p nickname do membro do Clan" />
+	</string>
+	<string key="CLUB_GENERAL_MEMBER_NUM">
+		<kor value="클럽멤버 %d / %d" />
+		<jap value="メンバーニ %d / %d" />
+		<eng value="Member %d / %d" />
+		<ger value="Mitglied %d / %d" />
+		<fre value="membre %d / %d" />
+		<spa value="miembro %d / %d" />
+		<ita value="membro %d / %d" />
+		<rus value="член %d / %d" />
+		<tur value="Klan Üyesi %d / %d" />
+		<por value="membro %d / %d" />
+	</string>
+	<string key="CLUB_SEARCH_INFUT_INFO2">
+		<kor value="한글, 영문, 특문 입력이 가능합니다." />
+		<jap value="検索ワードを入力してください。" />
+		<eng value="[|] Symbol is not available." />
+		<ger value="[|] Zeichen ist nicht verfügbar." />
+		<fre value="Le symbole [|] n&apos;est pas disponible." />
+		<spa value="El símbolo [|] no está disponible." />
+		<ita value="Simbolo [|] non disponibile." />
+		<rus value="[|] символ не разрешен." />
+		<tur value="Korece, İngilizce ve özel karakterler girilebilir." />
+		<por value="O símbolo [|] não está disponivel." />
+	</string>
+	<string key="CLUB_SEARCH_SEARCHING_RESULT1">
+		<kor value="%s에 대한 검색결과가 없습니다." />
+		<jap value="%sに関する検索結果はありませんでした。" />
+		<eng value="No match found %s" />
+		<ger value="Keine Ergebnisse vorhanden %s" />
+		<fre value="Introuvable %s" />
+		<spa value="No se encontró coincidencia. %s" />
+		<ita value="Nessuna partita trovata %s" />
+		<rus value="Нет результатов %s" />
+		<tur value="Hiç eşleşme bulunamadı: %s" />
+		<por value="Não foram encontradas coincidência. %s" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_NAME">
+		<kor value="클럽이름" />
+		<jap value="クラン名" />
+		<eng value="Clan Name" />
+		<ger value="Clan-Name" />
+		<fre value="Nom du clan" />
+		<spa value="Nombre del Clan" />
+		<ita value="Nome del Clan" />
+		<rus value="Название клана" />
+		<tur value="Klan Adı" />
+		<por value="Nome do Clan" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_SCORE">
+		<kor value="클럽점수" />
+		<jap value="クラン点数" />
+		<eng value="Clan Point" />
+		<ger value="Clan-Punkte" />
+		<fre value="Points du clan" />
+		<spa value="Puntos del clan" />
+		<ita value="Punti del Clan" />
+		<rus value="Очки клана" />
+		<tur value="Klan Puanı" />
+		<por value="Pontos do clan" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_BORNDATE">
+		<kor value="생성일자" />
+		<jap value="結成日" />
+		<eng value="Creation Date" />
+		<ger value="Gründungsdatum" />
+		<fre value="Date de création" />
+		<spa value="Fecha de creación" />
+		<ita value="Data di creazione" />
+		<rus value="Дата создания" />
+		<tur value="Kurulma Tarihi" />
+		<por value="Data de criação" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_MEMBERNUM">
+		<kor value="맴버수" />
+		<jap value="メンバー数" />
+		<eng value="Number of Clan Members" />
+		<ger value="Anzahl der Clan-Mitglieder" />
+		<fre value="Nombre de membres" />
+		<spa value="Cantidad de miembros del Clan" />
+		<ita value="Numero di membri" />
+		<rus value="Количество участников" />
+		<tur value="Klanın Üye Sayısı" />
+		<por value="Quantidade de membros do Clan" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_AREA">
+		<kor value="활동지역" />
+		<jap value="活動地域" />
+		<eng value="Activity Area" />
+		<ger value="Aktivitätsbereich" />
+		<fre value="Zone d&apos;activité" />
+		<spa value="Área de actividad" />
+		<ita value="Area attività" />
+		<rus value="Сфера деятельности" />
+		<tur value="Etkinlik Bölgesi" />
+		<por value="Área de atividade" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_PURPOSE">
+		<kor value="활동목적" />
+		<jap value="活動目的" />
+		<eng value="Activity Purpose" />
+		<ger value="Aktivitätsziel" />
+		<fre value="But" />
+		<spa value="Propósito de la actividad" />
+		<ita value="Scopo attività" />
+		<rus value="Цель деятельности" />
+		<tur value="Etkinlik Hedefi" />
+		<por value="Propósito da atividade" />
+	</string>
+	<string key="CLUB_GENERAL_BASIC_GREET">
+		<kor value="클럽소개" />
+		<jap value="クラン紹介" />
+		<eng value="Clan Introduction" />
+		<ger value="Clan-Vorstellung" />
+		<fre value="Introduction du clan" />
+		<spa value="Presentación del Clan" />
+		<ita value="Presentazione" />
+		<rus value="Описание клана" />
+		<tur value="Klan Tanıtımı" />
+		<por value="Apresentação do Clan" />
+	</string>
+	<string key="CLUB_WEEK_STRING">
+		<kor value="주" />
+		<jap value="週" />
+		<eng value="Week" />
+		<ger value="Woche" />
+		<fre value="Semaine" />
+		<spa value="Semana" />
+		<ita value="Settimana" />
+		<rus value="Неделя" />
+		<tur value="Hafta" />
+		<por value="Semana" />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_1">
+		<kor value="/ 마스터 양도는 마스터 임시 공유와 마스터 변경으로 구분됩니다." />
+		<jap value="/ 1.マスター譲渡は、マスター権限一時譲渡と、マスター変更があります。" />
+		<eng value="1. There are two types of transfer of rights: Temporary Transfer and Permanent Transfer." />
+		<ger value="1. Es gibt 2 Arten der Rechteübertragung: Temporäre Übergabe und permanente Übergabe." />
+		<fre value="1. Il existe deux type de transfert : temporaire ou permanent." />
+		<spa value="1. Hay dos tipos de transferencia de derechos: Transferencia temporaria y Transferencia permanente" />
+		<ita value="1. Ci sono due modi per trasferire i diritti: temporaneo o permanente." />
+		<rus value="1. Есть два способа передачи прав Мастера:  Временная передача и бессрочная." />
+		<tur value="/Klan liderliğinin başkasına aktarılması, geçici paylaşım veya yönetici değişikliği olarak görülmektedir." />
+		<por value="1. Existem dois tipos de transferência de direitos: Transferência temporaria e Transferência permanente" />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_2">
+		<kor value="/ 마스터 임시 공유: 4주에서 최대 12주까지 마스터 권한을 스탭과 공유하여 마스터가 장기간 부재 중일 경우에 권한을 위임 받은 스탭이" />
+		<jap value="/ 2.マスター権限一時譲渡：4週間から最大12週間、マスター権限をスタッフと共有し、マスターの不在期間に、" />
+		<eng value="2. Temp. Transfer: Transfer of rights from 4 up to 12 weeks possible." />
+		<ger value="2. Temp. Übertragung: Übergabe der Rechte von 4 bis zu 12 Wochen möglich." />
+		<fre value="2. Transfert temp. : transfert des droits de 4 à 12 semaines." />
+		<spa value="2. Temp. Transferencia: Transferible desde 4 a 12 semanas." />
+		<ita value="2. Temporaneo: trasferisci i diritti per 4-12 settimane." />
+		<rus value="2. Временная передача: Передача прав сроком от 4-х до 12-ти недель." />
+		<tur value="/Geçici olarak paylaşılmış liderlik: Klan yöneticisinin otoritesi, maksimum 12 hafta olmak üzere 4 haftalığına personelle paylaşılır. Sonda otorite sahibi personel üyeleri, yönetici uzun süre ortada olmadığında klanı yönetir." />
+		<por value="2. Temp. Transferência: Transferível de 4 a 12 semanas." />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_3">
+		<kor value="임시 마스터로서 클럽을 운영하는 형태입니다. 정해진 기간 이후에는 스탭에게 주어진 마스터 권한은 모두 회수됩니다." />
+		<jap value="/  権限を委任されたスタッフが臨時マスターとしてクランを運営する形です。指定期間が終わると、付与されたマスター権限は回収されます。" />
+		<eng value="3. When the original Clan Master is absent for more than 90 days, the rights will be" />
+		<ger value="3. Bei Abwesenheit des Clan-Masters von mehr als 90 Tagen werden die Rechte an den zuletzt ernannten temp." />
+		<fre value="3. si le chef du clan n&apos;est pas là pendant plus de 90 jours," />
+		<spa value="3. Cuando el Clan Master esté ausente por más de 90," />
+		<ita value="3. Se il Master originale del Clan manca per più di 90 giorni," />
+		<rus value="3. Если изначальный Мастер неактивен на протяжении 90 дней," />
+		<tur value="Süre sonunda, yöneticinin otoritesi personelden alınır." />
+		<por value="3. Quando o Clan Master esta ausente por mais de 90," />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_4">
+		<kor value="/ 마스터 임시 양도 시한 이후 90일간 마스터가 클럽 홈에 접속하지 않을 경우 가장 마지막에 마스터 권한을 임시 양도한 스탭으로 마스터가 변경됩니다." />
+		<jap value="/ 3.マスター権限一時譲渡期限以後、90日間マスターがクランホームに接続しない場合、最後にマスター権限を一時譲渡されたスタッフがマスターになります。" />
+		<eng value="transferred completely to the current Clan Master." />
+		<ger value="Clan-Master vollständig übertragen." />
+		<fre value="les droits seront définitivement transférés au Chef temporaire." />
+		<spa value="los derechos serán transferidos completamente al Clan Master actual." />
+		<ita value="i diritti sono trasferiti definitivamente a quello corrente." />
+		<rus value="права будут переданы заместителю." />
+		<tur value="/Eğer klan yöneticisi, geçici liderlik paylaşımında bulunduktan sonra klan ana sayfasına 90 gün giriş yapmazsa en son klan yöneticisi otoritesi alan personel, klan yöneticisi olur." />
+		<por value="os direitos serã transferidos completamente ao Clan Master atual." />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_5">
+		<kor value="/ 마스터 변경: 더 이상 클럽을 운영할 수 없는 상황이라면 마스터 변경을 통해 클럽 마스터의 모든 관리 권한을 스탭에게 완전히 위임해 주세요." />
+		<jap value="/ 4.マスター変更：既存のマスターがこれ以上クランを運営することができない場合、マスター変更で、クランマスターの全ての管理権限をスタッフに完全委任して下さい。" />
+		<eng value="4. Permanent Transfer: Durable transfer of the Clan-Master rights to another Clan-Staff Member." />
+		<ger value="4. Permanente Übertragung: Dauerhafte Übergabe der Clan-Master Rechte an ein Clan-Staff Mitglied." />
+		<fre value="4. Transfert perm. : transfert permanent des droits de chef à un membre du clan." />
+		<spa value="4. Transferencia permanente: Transfiere en forma permanente los derechos del Clan Master a otro miembro del Clan Staff." />
+		<ita value="4. Permanente: trasferimento definitivo dei diritti di Master del Clan a un membro dello Staff." />
+		<rus value="4. Бессрочная передача прав: Передача прав Мастера другому штатному участнику клана." />
+		<tur value="/Yönetici değişikliği: Eğer bir kişi klan yöneticiliğine devam edemezse, tam otorite başka bir personele aktarılır." />
+		<por value="4. Transferência permanente: Transfere de forma permanente os direitos do Clan Master ao outro membro do Clan Staff." />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_6">
+		<kor value="/ 클럽원 중 스탭권한이 있는 클럽원에게 마스터를 위임할 수 있습니다." />
+		<jap value="/ 5.クランメンバーから、スタッフ権限を持っているクランメンバーにマスター委任ができます。" />
+		<eng value="5. This function is available to other Clan Staff Members." />
+		<ger value="5. Diese Funktion ist für andere Clan Staff Mitglieder verfügbar." />
+		<fre value="5. Cette fonction est disponible pour tous les membres Staff." />
+		<spa value="5. Esta función está disponible para otros miembros del Clan Staff." />
+		<ita value="5. Funziona solo verso i membri dello Staff." />
+		<rus value="5. Передача прав возможна любому участнику в клане." />
+		<tur value="/Personel durumundaki klan üyesi, yöneticinin otoritesini miras alabilir." />
+		<por value="5. Esta função está disponível para outros membros do Clan Staff." />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_7">
+		<kor value="/ 마스터 변경의 경우 마스터 권한은 즉시 위임됩니다." />
+		<jap value="/ 6.マスター変更の場合、マスター権限が直ちに移譲されます。" />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="/Yöneticinin hakkı, yönetici değişikliğiyle birlikte anında aktarılır." />
+		<por value="" />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_8">
+		<kor value="/ 마스터 임시 공유의 경우 정해진 기간 이전에는 마스터 권한 회수가 불가능 합니다." />
+		<jap value="/ 7.マスター権限一時譲渡後、設定期間が終わる前までは、マスター権限の回収は出来ません。" />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="/Yöneticinin hakkı paylaşıldığında, belirlenen süreden önce geri alınamaz." />
+		<por value="" />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_9">
+		<kor value="/ 마스터 임시 공유 기간 중 스탭이 클럽을 탈퇴하거나 회원탈퇴 했을 경우에는 마스터 권한 공유는 자동으로 취소됩니다." />
+		<jap value="/ 8.マスター権限一時譲渡期間中、スタッフがクランを脱退したり、会員脱退した場合、マスター権限共有は自動的に取り消されます。" />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="/Yöneticinin hakkı paylaşılırken bir personel kovulursa veya çıkarsa, paylaşılan hak otomatik olarak sona erer." />
+		<por value="" />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_10">
+		<kor />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_11">
+		<kor />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+	</string>
+	<string key="CLUB_MASTER_TRANSFER_12">
+		<kor />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur />
+	</string>
+	<string key="CLUB_COMMON_REJECT">
+		<kor value="거절" />
+		<jap value="拒否" />
+		<eng value="Reject" />
+		<ger value="Ablehnen" />
+		<fre value="Rejeter" />
+		<spa value="Rechazar" />
+		<ita value="Rifiuta" />
+		<rus value="Отказать" />
+		<tur value="Reddet" />
+		<por value="Rejeitar" />
+	</string>
+	<string key="CLUB_COMMON_ACCEPT">
+		<kor value="수락" />
+		<jap value="受諾" />
+		<eng value="Accept" />
+		<ger value="Akzeptieren" />
+		<fre value="acceptée" />
+		<spa value="Aceptar" />
+		<ita value="Accetta" />
+		<rus value="Принять" />
+		<tur value="Kabul Et" />
+		<por value="Aceitar" />
+	</string>
+	<string key="CLUB_MSG_CREATE_GREETING1">
+		<kor value="클럽 개설을 축하합니다." />
+		<jap value="クラン結成、おめでとうございます。" />
+		<eng value="Congratulation!" />
+		<ger value="Herzlichen Glückwunsch!" />
+		<fre value="Félicitations !" />
+		<spa value="¡Felicitaciones!" />
+		<ita value="Congratulazioni!" />
+		<rus value="Поздравляем!" />
+		<tur value="Kulübü kurduğun için tebrikler." />
+		<por value="Parabéns!" />
+	</string>
+	<string key="CLUB_MSG_CREATE_GREETING2">
+		<kor value="클럽 개설을 축하합니다." />
+		<jap value="クラン結成、おめでとうございます。" />
+		<eng value="Congratulation!" />
+		<ger value="Herzlichen Glückwunsch!" />
+		<fre value="Félicitations !" />
+		<spa value="¡Felicitaciones!" />
+		<ita value="Congratulazioni!" />
+		<rus value="Поздравляем!" />
+		<tur value="Kulübü kurduğun için tebrikler." />
+		<por value="Parabéns!" />
+	</string>
+	<string key="CLUB_MSG_INVITED">
+		<kor value="%s 클럽에서 초대를 하였습니다." />
+		<jap value="&quot;%s&quot;クランから招待がありました。" />
+		<eng value="Received invitation from clan: %s" />
+		<ger value="Einladung von Clan: [%s] erhalten." />
+		<fre value="Invitation reçue du clan : %s" />
+		<spa value="Invitación recibida del clan: %s" />
+		<ita value="Invito del Clan: %s" />
+		<rus value="Клановое приглашение от [%s]" />
+		<tur value="Klandan davet alındı: %s" />
+		<por value="Convite recebido do Clan: %s" />
+	</string>
+	<string key="CLUB_MSG_JOIN_SUGGEST_RECEIVED">
+		<kor value="%s님이 %s 클럽 가입권유를 하셨습니다. 수락 하시겠습니까?" />
+		<jap value="%s様がクランに %sクランの 招待しました受諾しますか？" />
+		<eng value="User %s of %s Clan has invited you to his Clan. Will you accept?" />
+		<ger value="User %s of Clan %s hat dich in seinen Clan eingeladen. Akzeptierst du?" />
+		<fre value="Le joueur %s du clan %s vous a invité à rejoindre son clan. Acceptez-vous ?" />
+		<spa value="El usuario %s en el Clan %s te ha invitado a su Clan. ¿Aceptas la invitación?" />
+		<ita value="L&apos;utente %s del Clan %s ti ha invitato nel suo Clan. Accetti?" />
+		<rus value="Пользователь %s из %s клана приглашает вас вступить в клан. Желаете вступить?" />
+		<tur value="%s%s Klanı bir klan daveti gönderdi. Kabul ediyor musun?" />
+		<por value="O usuário %s no Clan %s te convidou ao seu Clan. Você aceita o convite?" />
+	</string>
+	<string key="CLUB_MSG_INVITATION_ANSWER">
+		<kor value="%s님이 초대를 %s 하였습니다." />
+		<jap value="%s様が招待を%sしました。" />
+		<eng value="%s has %s on clan invitation" />
+		<ger value="%s hat auf die Clan-Einladung mit %s geantwortet." />
+		<fre value="%s a %s l&apos;invitation au clan" />
+		<spa value="%s ha %s a la invitación al Clan." />
+		<ita value="%s ha risposto %s all&apos;invito in Clan" />
+		<rus value="%s %s приглашение в клан" />
+		<tur value="%s%s bir klan daveti aldı" />
+		<por value="%s ha %s ao convite ao Clan." />
+	</string>
+	<string key="CLUB_MSG_JOIN_SUGGEST_ANSWERED">
+		<kor value="%s에 초대한 %s님이 가입권유를 %s하였습니다." />
+		<jap value="%sに招待した~様が招待を%sしました。" />
+		<eng value="On %s, inviated %s player has been %s" />
+		<ger value="%s m %s wurde der eingeladene Spieler %s" />
+		<fre value="Le %s, le joueur %s a %s l&apos;invitation." />
+		<spa value="El %s, el jugador %s invitado ha %s." />
+		<ita value="In data %s, il giocatore %s invitato ha risposto %s" />
+		<rus value="%s, приглашенный игрок %s %s" />
+		<tur value="%s kullanıcısının %s kullanıcısına daveti %s." />
+		<por value="O %s, o jogador %s convidado %s." />
+	</string>
+	<string key="CLUB_MSG_APPLICANT_EXISTS">
+		<kor value="클럽에 가입을 희망하는 유저가 있습니다." />
+		<jap value="クランに加入を希望する方がいます。" />
+		<eng value="There is a user who wants to join Clan." />
+		<ger value="Ein Spieler möchte dem Clan beitreten." />
+		<fre value="Un joueur souhaite rejoindre le clan." />
+		<spa value="Un usuario quier unirse al Clan." />
+		<ita value="Un giocatore vuole entrare in Clan." />
+		<rus value="Один пользователь желает вступить в ваш клан." />
+		<tur value="Klana katılmak isteyen bir kullanıcı var." />
+		<por value="Um usuário quer se unir ao clan." />
+	</string>
+	<string key="CLUB_MSG_JOIN_REQUEST_RECEIVED">
+		<kor value="%s가 클럽 가입을 요청하였습니다.클럽 홈에서 승인여부를 결정해주세요." />
+		<jap value="&quot;%s&quot;がクラン加入要請。クランホームから承認有無を決定できます。" />
+		<eng value="User %s wants to join Clan.You can decide whether to approve him at Clan Home." />
+		<ger value="User möchten dem Clan beitreten (%s).&#x0A;Im Clan Home kannst du sie zulassen oder ablehnen." />
+		<fre value="du clan %s vous a invité à rejoindre son clan. Acceptez-vous ?" />
+		<spa value="quiere unirse al Clan %s.&#x0A;Puedes decidir aceptarlo en la página del Clan." />
+		<ita value="vuole entrare nel Clan %s.&#x0A;Puoi scegliere se accettarlo nella pagina del Clan." />
+		<rus value="хочет вступить в %s клан.&#x0A;Вы можете одобрить заявку на главной странице клана." />
+		<tur value="%sklana katılmak için başvuruda bulundu. Klan ana sayfasından onayla." />
+		<por value="quer se unir ao Clan %s.&#x0A;Você pode decidir aceitá-lo na página do Clan." />
+	</string>
+	<string key="CLUB_MSG_JOIN_REQUEST_ANSWERED">
+		<kor value="%s 클럽 가입요청이 %s 되었습니다." />
+		<jap value="%sクラン加入要請が%sされました。" />
+		<eng value="%s Clan invitation has been %s" />
+		<ger value="Clan-Einladung des Clans %s wurde %s" />
+		<fre value="L&apos;invitation du clan %s a été %s" />
+		<spa value="La invitación al Clan %s ha sido %s." />
+		<ita value="La risposta all&apos;invio nel Clan %s è %s" />
+		<rus value="Приглашение от %s клана %s" />
+		<tur value="%s katılım başvurusu %s." />
+		<por value="O convite ao clan %s foi %s." />
+	</string>
+	<string key="CLUB_MSG_JOIN_REQUEST_EXECUTED">
+		<kor value="요청하신 %s 클럽의 가입요청이 %s 되었습니다." />
+		<jap value="%sクラン加入要請が%sされました。" />
+		<eng value="%s Clan invitation has been %s" />
+		<ger value="Clan-Einladung des Clans %s wurde %s" />
+		<fre value="L&apos;invitation du clan %s a été %s" />
+		<spa value="La invitación al Clan %s ha sido %s." />
+		<ita value="La risposta all&apos;invio nel Clan %s è %s" />
+		<rus value="Приглашение от %s клана %s" />
+		<tur value="%s Katılım başvurusu %s gönderildi." />
+		<por value="O convite ao clan %s foi %s." />
+	</string>
+	<string key="CLUB_MSG_CHANGED_MEMBER_GRADE">
+		<kor value="클럽맴버 등급이 변경되었습니다." />
+		<jap value="クランメンバー等級が変更されました。" />
+		<eng value="Clan member level has been changed." />
+		<ger value="Clan-Mitgliederlevel wurde geändert." />
+		<fre value="Le niveau d&apos;un membre du clan a changé." />
+		<spa value="Se ha cambiado el nivel del miembro del Clan." />
+		<ita value="La posizione del membro nel Clan è cambiata." />
+		<rus value="Изменен ранг участника клана." />
+		<tur value="Klan üyesi reytingi değiştirildi." />
+		<por value="" />
+	</string>
+	<string key="CLUB_MSG_CHANGED_MEMBER_GRADE_PARAMETERED">
+		<kor value="클럽맴버 %s 의 등급이 변경되었습니다.(&quot;%s&quot; → &quot;%s&quot;)" />
+		<jap value="クランメンバ%sー等級が変更されました。(%s → %s)" />
+		<eng value="Clan member %s level has been changed. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<ger value="Clan-Mitgliederlevel %s wurde geändert. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<fre value="Le niveau d&apos;un membre %s du clan a changé. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<spa value="Se ha cambiado el nivel del miembro %s del Clan. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<ita value="La posizione del membro %s nel Clan è cambiata. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<rus value="Изменен ранг %s участника клана. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<tur value="Klan üyesi %s tarafından sahip olunan reyting değiştirildi. (&quot;%s&quot; → &quot;%s&quot;)" />
+		<por value="O nível do membro do clan foi modificado." />
+	</string>
+	<string key="CLUB_MSG_WITHDRAW_EXISTS">
+		<kor value="클럽 탈퇴맴버가 있습니다." />
+		<jap value="クラン脱退メンバーがいます。" />
+		<eng value="There is a user who signed out of Clan." />
+		<ger value="Ein Spieler hat den Clan verlassen." />
+		<fre value="Un utilisateur a quitté le clan." />
+		<spa value="Un usuario abandonó el Clan." />
+		<ita value="Un utente ha lasciato il Clan." />
+		<rus value="Один участник вышел из клана." />
+		<tur value="Klandan çıkan bir üye var." />
+		<por value="Um usuário abandonou o clan." />
+	</string>
+	<string key="CLUB_MSG_COMMON_ACTION_MSG_PARAMETERED">
+		<kor value="%s에 %s님이 %s 하였습니다." />
+		<jap value="%sに&apos;%s様が&apos;%sしました。" />
+		<eng value="ON %s, %s has %s" />
+		<ger value="Am %s hat %s %s" />
+		<fre value="Le %s, %s a %s" />
+		<spa value="El %s, %s es %s." />
+		<ita value="In data %s, %s è uscito per %s" />
+		<rus value="%s, участник %s - %s" />
+		<tur value="%s için %s, %s sahibi oldu." />
+		<por value="O %s, %s é %s." />
+	</string>
+	<string key="CLUB_MSG_CLUB_CLOSED_PARAMETERED">
+		<kor value="%s 클럽이 폐쇄되었습니다." />
+		<jap value="%sが解散されました。" />
+		<eng value="%s is close down" />
+		<ger value="%s wurde geschlossen" />
+		<fre value="%s n&apos;existe plus" />
+		<spa value="Se cerró %s." />
+		<ita value="%s ora è chiuso" />
+		<rus value="%s закрыт" />
+		<tur value="%sklan kapatıldı." />
+		<por value="Fechou %s." />
+	</string>
+	<string key="CLUB_MSG_CLUB_CLOSED_PARAMETERED2">
+		<kor value="%s 클럽이 클럽 마스터 %s님의 요청으로 폐쇄되었습니다.7일 내 클럽의 복구가 1회 가능합니다." />
+		<jap value="%s&quot;クランは、クランマスター&quot;%s&quot;様の要請により解散されました。7日以内であれば、1回のみ復旧できます。" />
+		<eng value="A clan is closed according to Master B;s request. You can restore the clan once, within 7 days" />
+		<ger value="Clan %s wird auf Wunsch des Clan Masters %s geschlossen. Der Clan kann einmalig innerhalb von 7 Tagen wiederhergestellt werden." />
+		<fre value="Le clan %s a été fermé sous la demande de %s. Vous pourrez rouvrir le clan une seule fois, sous 7 jours" />
+		<spa value="El clan %s se cerrará de acuerdo a lo solicitado por el Master %s. Puedes recuperar el clan una vez, dentro de los 7 días." />
+		<ita value="Il Clan %s è stato sciolto per volere del master %s. Potrai ripristinarlo una volta entro 7 giorni." />
+		<rus value="%s клан закрыт по запросу Мастера %s. Вы можете восстановить клан в течение 7-ми дней." />
+		<tur value="%s%s tarafından gönderilen istek üzerine klan kapatıldı. Klan bir kereliğine 7 gün içinde geri alınabilir." />
+		<por value="O clan %s será fechado de acordo ao solicitado por o Master %s. Você poderá recurar o clan dentro de 7 dias." />
+	</string>
+	<string key="CLUB_CHAT_COMMON_ACTION_PARAMETERED">
+		<kor value="%s님 께서 %s 하셨습니다." />
+		<jap value="%s様が &apos;%sしました。" />
+		<eng value="%s has %s" />
+		<ger value="%s von %s" />
+		<fre value="%s s&apos;est %s" />
+		<spa value="%s ha %s." />
+		<ita value="%s: %s" />
+		<rus value="%s %s" />
+		<tur value="%s%s sahibi." />
+		<por value="%s é %s." />
+	</string>
+	<string key="CLUB_CHAT_MEMBER_LEVEL_UP_PARAMETERED">
+		<kor value="%s님 께서 %s 레벨로 상승하였습니다." />
+		<jap value="%s様が%s等級に昇進しました。" />
+		<eng value="%s&apos;s level has upgraded to Level %s" />
+		<ger value="%s hat Level %s erreicht." />
+		<fre value="Le niveau de %s est désormais %s." />
+		<spa value="El nivel de %s se ha actualizado a %s." />
+		<ita value="La posizione di %s è passata a %s." />
+		<rus value="Ранг %s изменен на ранг %s." />
+		<tur value="%sseviye atladı ve yeni seviyesi: %s" />
+		<por value="O nivel de %s foi atualizado a %s." />
+	</string>
+	<string key="CLUB_CHAT_MEMBER_ACQUIRED_ITEM_PARAMETERED">
+		<kor value="%s님 께서 %s 아이템을 획득하였습니다." />
+		<jap value="%s様が%sを獲得しました。" />
+		<eng value="%s has acquired %s" />
+		<ger value="%s hat %s erreicht." />
+		<fre value="%s a obtenu %s" />
+		<spa value="%s ha adquirido %s." />
+		<ita value="%s ha ottenuto l&apos;oggetto %s" />
+		<rus value="%s получил %s." />
+		<tur value="%s%s aldı." />
+		<por value="%s adquiriu %s." />
+	</string>
+	<string key="CLUB_CHAT_CLUB_GRADE_CHANGED_PARAMETERED">
+		<kor value="클럽의 등급이 %s 로 변경되었습니다." />
+		<jap value="クランの等級が&quot;%s&quot;に変わりました。" />
+		<eng value="Clan rank is upgraded to rank %s" />
+		<ger value="Der Clan hat den Rang %s erreicht." />
+		<fre value="Le rang du clan est désormais %s" />
+		<spa value="El rank del clan se actualizó a rank %s" />
+		<ita value="La posizione nel Clan è diventata %s" />
+		<rus value="Клан обновлен до ранга %s" />
+		<tur value="Klan reytingi değiştirildi ve %s oldu." />
+		<por value="O rank do clan foi atualizado a rank %s" />
+	</string>
+	<string key="CLUB_NEWS_ALL_MARK">
+		<kor value="클럽마크가 변경되었습니다." />
+		<jap value="クランマークが変わりました。" />
+		<eng value="Clan mark is changed successfully" />
+		<ger value="Clan-Zeichen wurde erfolgreich geändert." />
+		<fre value="Emblème modifié" />
+		<spa value="El logo del Clan se ha cambiado con éxito" />
+		<ita value="Modifica del logo riuscita" />
+		<rus value="Изменена эмблема клана" />
+		<tur value="Klan işareti değiştirildi." />
+		<por value="O logo do Clan foi modificado com sucesso!" />
+	</string>
+	<string key="CLUB_NEWS_ALL_CHANGEINFO">
+		<kor value="클럽 정보의 변동사항이 있습니다." />
+		<jap value="クラン情報が更新されました。" />
+		<eng value="Change made in Clan information" />
+		<ger value="Clan-Informationen wurden geändert" />
+		<fre value="Informations du clan modifiées" />
+		<spa value="Se han realizado cambios en la información del Clan" />
+		<ita value="Informazioni del Clan modificate" />
+		<rus value="Изменена информация о клане" />
+		<tur value="Klan bilgisinde değişiklik yapıldı." />
+		<por value="Foram realizadas mudanças na informação do Clan" />
+	</string>
+	<string key="CLUB_NEWS_ACCUMULATED_RANK_UPDATED_PARAMETERED">
+		<kor value="클럽 누적 랭킹이 변경되었습니다.;(&quot;%s&quot;→ &quot;%s&quot;)" />
+		<jap />
+		<eng />
+		<ger />
+		<fre />
+		<spa />
+		<ita />
+		<rus />
+		<tur value="Biriken klan sıralaması değiştirildi.(&quot;%s&quot;→ &quot;%s&quot;)" />
+		<por value="" />
+	</string>
+	<string key="CLUB_NEWS_GRADE_CHANGED_PARAMETERED">
+		<kor value="멤버등급이 변경되었습니다. (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<jap value="メンバー等級が変動しました。(%s→ %s)" />
+		<eng value="Member level has been changed.(&quot;%s&quot;→ &quot;%s&quot;)" />
+		<ger value="Mitgliederlevel wurde geändert (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<fre value="Le niveau du membre a été modifié. (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<spa value="Se ha cambiado el nivel del miembro (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<ita value="Livello del membro modificato (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<rus value="Изменен ранг участника. (&quot;%s&quot;→ &quot;%s&quot;)" />
+		<tur value="Klan üyesi reytingi değiştirildi.(&quot;%s&quot;→ &quot;%s&quot;)" />
+		<por value="" />
+	</string>
+	<string key="CLUB_ADMINISTOR">
+		<kor value="클럽관리자" />
+		<jap value="クラン管理者" />
+		<eng value="Clan Manager" />
+		<ger value="Clan Manager" />
+		<fre value="Administrateur du clan" />
+		<spa value="Clan Manager" />
+		<ita value="Gestione Clan" />
+		<rus value="Менеджер клана" />
+		<tur value="Klan Yöneticisi" />
+		<por value="Clan Manager" />
+	</string>
+	<string key="CLUB_MASSAGE_TITLE_REASULT">
+		<kor value="클럽가입요청이 %s되었습니다." />
+		<jap value="クラン加入要請が%sされました。" />
+		<eng value="Clan invitation has been %s" />
+		<ger value="Clan-Einladung des wurde %s" />
+		<fre value="L&apos;invitation du a été %s" />
+		<spa value="La invitación al ha sido %s." />
+		<ita value="La risposta all&apos;invio nel è %s" />
+		<rus value="Приглашение клана %s" />
+		<tur value="Klan daveti %s." />
+		<por value="O convite foi %s." />
+	</string>
+	<string key="CLUB_LOG_IN">
+		<kor value="로그인" />
+		<jap value="ログイン" />
+		<eng value="Log in" />
+		<ger value="Login" />
+		<fre value="Connecté" />
+		<spa value="Ingresar" />
+		<ita value="Accedi" />
+		<rus value="Войти" />
+		<tur value="Oturum Aç" />
+		<por value="Ingressar" />
+	</string>
+	<string key="CLUB_LOG_OUT">
+		<kor value="로그아웃" />
+		<jap value="ログアウト" />
+		<eng value="Log out" />
+		<ger value="Logout" />
+		<fre value="Déconnecté" />
+		<spa value="Salir" />
+		<ita value="Esci" />
+		<rus value="Выйти" />
+		<tur value="Oturumu Kapat" />
+		<por value="Sair" />
+	</string>
+	<string key="REGULAR_CLUB">
+		<kor value="정규 클럽" />
+		<jap value="正規" />
+		<eng value="Regular Clan" />
+		<ger value="Regular Clan" />
+		<fre value="Clan classique" />
+		<spa value="Clan regular" />
+		<ita value="Clan normale" />
+		<rus value="Обычный клан" />
+		<tur value="Normal Klan" />
+		<por value="Clan regular" />
+	</string>
+	<string key="NON_REGULAR_CLUB">
+		<kor value="비정규 클럽" />
+		<jap value="非正規" />
+		<eng value="Temporarly Can" />
+		<ger value="Temporary Clan" />
+		<fre value="Clan temporaire" />
+		<spa value="Clan temporario" />
+		<ita value="Clan temporaneo" />
+		<rus value="Временный клан" />
+		<tur value="Geçici Klan" />
+		<por value="Clan temporario" />
+	</string>
+	<string key="CLUB_SYSTEM_NOTE">
+		<kor value="클럽쪽지" />
+		<jap value="クランメッセージ" />
+		<eng value="Clan Message" />
+		<ger value="Clan-Nachricht" />
+		<fre value="Message du clan" />
+		<spa value="Mensaje del Clan" />
+		<ita value="Messaggio del Clan" />
+		<rus value="Сообщение клана" />
+		<tur value="Klan Mesajı" />
+		<por value="Mensagem do Clan" />
+	</string>
+	<string key="ACTION_JOIN">
+		<kor value="가입" />
+		<jap value="加入" />
+		<eng value="Registration" />
+		<ger value="Registrieren" />
+		<fre value="S&apos;inscrire" />
+		<spa value="Registro" />
+		<ita value="Iscriviti" />
+		<rus value="Вступить в клан" />
+		<tur value="Katıl" />
+		<por value="Registro" />
+	</string>
+	<string key="ACTION_DROP">
+		<kor value="탈퇴" />
+		<jap value="脱退" />
+		<eng value="Leave Clan" />
+		<ger value="Clan verlassen" />
+		<fre value="Quitter le clan" />
+		<spa value="Abandonar" />
+		<ita value="Lascia il Clan" />
+		<rus value="Покинуть клан" />
+		<tur value="Klandan Ayrıl" />
+		<por value="Abandonar" />
+	</string>
+	<string key="master_delegate text_key=&quot;1&quot;">
+		<kor value="4주" />
+		<jap value="4週" />
+		<eng value="4 Week" />
+		<ger value="4Woche" />
+		<fre value="4Semaine" />
+		<spa value="4Semana" />
+		<ita value="4Settimana" />
+		<rus value="4Неделя" />
+		<tur value="4 Hafta" />
+		<por value="4Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;2&quot;">
+		<kor value="5주" />
+		<jap value="5週" />
+		<eng value="5 Week" />
+		<ger value="5Woche" />
+		<fre value="5Semaine" />
+		<spa value="5Semana" />
+		<ita value="5Settimana" />
+		<rus value="5Неделя" />
+		<tur value="5 Hafta" />
+		<por value="5Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;3&quot;">
+		<kor value="6주" />
+		<jap value="6週" />
+		<eng value="6 Week" />
+		<ger value="6Woche" />
+		<fre value="6Semaine" />
+		<spa value="6Semana" />
+		<ita value="6Settimana" />
+		<rus value="6Неделя" />
+		<tur value="6 Hafta" />
+		<por value="6Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;4&quot;">
+		<kor value="7주" />
+		<jap value="7週" />
+		<eng value="7 Week" />
+		<ger value="7Woche" />
+		<fre value="7Semaine" />
+		<spa value="7Semana" />
+		<ita value="7Settimana" />
+		<rus value="7Неделя" />
+		<tur value="7 Hafta" />
+		<por value="7Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;5&quot;">
+		<kor value="8주" />
+		<jap value="8週" />
+		<eng value="8 Week" />
+		<ger value="8Woche" />
+		<fre value="8Semaine" />
+		<spa value="8Semana" />
+		<ita value="8Settimana" />
+		<rus value="8Неделя" />
+		<tur value="8 Hafta" />
+		<por value="8Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;6&quot;">
+		<kor value="9주" />
+		<jap value="9週" />
+		<eng value="9 Week" />
+		<ger value="9Woche" />
+		<fre value="9Semaine" />
+		<spa value="9Semana" />
+		<ita value="9Settimana" />
+		<rus value="9Неделя" />
+		<tur value="9 Hafta" />
+		<por value="9Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;7&quot;">
+		<kor value="10주" />
+		<jap value="10週" />
+		<eng value="10 Week" />
+		<ger value="10Woche" />
+		<fre value="10Semaine" />
+		<spa value="10Semana" />
+		<ita value="10Settimana" />
+		<rus value="10Неделя" />
+		<tur value="10 Hafta" />
+		<por value="10Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;8&quot;">
+		<kor value="11주" />
+		<jap value="11週" />
+		<eng value="11 Week" />
+		<ger value="11Woche" />
+		<fre value="11Semaine" />
+		<spa value="11Semana" />
+		<ita value="11Settimana" />
+		<rus value="11Неделя" />
+		<tur value="11 Hafta" />
+		<por value="11Semana" />
+	</string>
+	<string key="master_delegate text_key=&quot;9&quot;">
+		<kor value="12주" />
+		<jap value="12週" />
+		<eng value="12 Week" />
+		<ger value="12Woche" />
+		<fre value="12Semaine" />
+		<spa value="12Semana" />
+		<ita value="12Settimana" />
+		<rus value="12Неделя" />
+		<tur value="12 Hafta" />
+		<por value="12Semana" />
+	</string>
+	<string key="club_administor">
+		<kor value="클럽 관리자" />
+		<jap value="クラン管理者" />
+		<eng value="Clan Manager" />
+		<ger value="Clan Manager" />
+		<fre value="Administrateur du clan" />
+		<spa value="Clan Manager" />
+		<ita value="Gestione Clan" />
+		<rus value="Менеджер клана" />
+		<tur value="Klan Yöneticisi" />
+		<por value="Clan Manager" />
+	</string>
+	<string key="club_mail">
+		<kor value="클럽 단체쪽지" />
+		<jap value="団体メッセージ" />
+		<eng value="Group Message" />
+		<ger value="Gruppennachricht" />
+		<fre value="Message de groupe" />
+		<spa value="Mensaje de grupo" />
+		<ita value="Messaggio di gruppo" />
+		<rus value="Групповое сообщение" />
+		<tur value="Tüm klan arkadaşlarına mesaj gönder" />
+		<por value="Mensagem de grupo" />
+	</string>
+	<string key="club_error_text_input">
+		<kor value="텍스트 입력 후 사용해주세요." />
+		<jap value="メッセージ内容を入力" />
+		<eng value="Please Enter Text." />
+		<ger value="Bitte geben Sie Text." />
+		<fre value="S&apos;il vous plaît Entrez du texte." />
+		<spa value="Por favor, introduzca el texto." />
+		<ita value="Si prega di inserire il testo." />
+		<rus value="Пожалуйста, введите текст." />
+		<tur value="Kullanmak için metin gir." />
+		<por value="Por favor, introduza o texto." />
+	</string>
+	<string key="club_visit_ago">
+		<kor value="방문일 오래됨" />
+		<jap value="久しぶりに訪問" />
+		<eng value="Inactive" />
+		<ger value="Inaktiv" />
+		<fre value="Inactif" />
+		<spa value="Inactivo" />
+		<ita value="Inattivo" />
+		<rus value="Неактивные" />
+		<tur value="Pasif" />
+		<por value="Inativo" />
+	</string>
+	<string key="club_visit_yet">
+		<kor value="방문일 최근" />
+		<jap value="最近訪問" />
+		<eng value="Active" />
+		<ger value="Aktiv" />
+		<fre value="Actif" />
+		<spa value="Activo" />
+		<ita value="Attivo" />
+		<rus value="Активные" />
+		<tur value="Aktif" />
+		<por value="Ativo" />
+	</string>
+	<string key="club_text_classification">
+		<kor value="분류" />
+		<jap value="分類" />
+		<eng value="Sort" />
+		<ger value="Klassifizierung" />
+		<fre value="Classification" />
+		<spa value="Abandonar" />
+		<ita value="Classificazione" />
+		<rus value="Классификация" />
+		<tur value="Sırala" />
+		<por value="Abandonar" />
+	</string>
+	<string key="club_text_clubgrade">
+		<kor value="클럽 등급" />
+		<jap value="クラン等級" />
+		<eng value="Clan Level" />
+		<ger value="Clan-Level" />
+		<fre value="Niveau du clan" />
+		<spa value="Clase" />
+		<ita value="Lv Clan" />
+		<rus value="Уровень клана" />
+		<tur value="Klan Reytingi" />
+		<por value="Clase" />
+	</string>
+	<string key="club_text_clubpoint">
+		<kor />
+		<jap value="クランポイント" />
+		<eng value="Clan point" />
+		<ger value="Clan-Punkte" />
+		<fre value="Points du clan" />
+		<spa value="Puntos del clan" />
+		<ita value="Punti del Clan" />
+		<rus value="Очки клана" />
+		<tur value="Klan puanı" />
+		<por value="Pontos do clan" />
+	</string>
+	<string key="club_text_input_clubnotice">
+		<kor value="공지를 입력해 주세요." />
+		<jap value="告知を入力して下さい。" />
+		<eng value="Write Notice" />
+		<ger value="Ankündigung schreiben" />
+		<fre value="Écrire notice" />
+		<spa value="Escribir aviso" />
+		<ita value="Scrivi avviso" />
+		<rus value="Оставить уведомление" />
+		<tur value="Genel duyuru gir." />
+		<por value="Escrever aviso" />
+	</string>
+</string_table>

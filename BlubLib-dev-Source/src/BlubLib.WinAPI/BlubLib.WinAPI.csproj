@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net461</TargetFramework>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>wtfblub</Authors>
+        <PackageId>BlubLib.WinAPI</PackageId>
+    </PropertyGroup>
+    <Import Project="..\version.targets"/>
+</Project>

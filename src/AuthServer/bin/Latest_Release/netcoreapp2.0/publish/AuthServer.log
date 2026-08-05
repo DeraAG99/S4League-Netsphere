@@ -823,3 +823,182 @@ MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of 
 2025-06-09 23:07:39.592 +07:00 [INF] Login success for masterblad1
 2025-06-09 23:08:49.157 +07:00 [INF] Session login from 127.0.0.1
 2025-06-09 23:08:49.161 +07:00 [INF] Login success for masterblad1
+2026-07-24 17:52:26.630 +07:00 [INF] Initializing...
+2026-07-24 17:52:26.961 +07:00 [ERR] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Unknown database 's4casey' ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 's4casey'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 270
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 220
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-24 17:52:58.845 +07:00 [INF] Initializing...
+2026-07-24 17:52:59.153 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-24 17:55:11.627 +07:00 [INF] Initializing...
+2026-07-24 17:55:11.918 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-24 17:57:41.713 +07:00 [INF] Initializing...
+2026-07-24 17:57:42.003 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-24 17:58:19.853 +07:00 [INF] Initializing...
+2026-07-24 17:58:20.148 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-25 08:36:09.412 +07:00 [INF] Initializing...
+2026-07-25 08:36:10.165 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-25 08:44:46.860 +07:00 [INF] Initializing...
+2026-07-25 08:44:47.602 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-25 08:47:15.859 +07:00 [INF] Initializing...
+2026-07-25 08:47:16.257 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101
+2026-07-25 08:50:29.362 +07:00 [INF] Initializing...
+2026-07-25 08:50:29.703 +07:00 [ERR] UnhandledException
+System.NotSupportedException: Character set 'utf8mb3' is not supported by .Net Framework.
+   at MySql.Data.MySqlClient.CharSetMap.GetCharacterSet(DBVersion version, String charSetName)
+   at MySql.Data.MySqlClient.MySqlField.SetFieldEncoding()
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnData(MySqlField field)
+   at MySql.Data.MySqlClient.NativeDriver.GetColumnsData(MySqlField[] columns)
+   at MySql.Data.MySqlClient.Driver.GetColumns(Int32 count)
+   at MySql.Data.MySqlClient.ResultSet.LoadColumns(Int32 numCols)
+   at MySql.Data.MySqlClient.ResultSet..ctor(Driver d, Int32 statementId, Int32 numCols)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Dapper.SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 676
+   at NeoNetsphere.AuthDatabase.Initialize() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 222
+   at NeoNetsphere.Program.Main() in C:\Users\Kora\Desktop\s4emu\src\AuthServer\Program.cs:line 101

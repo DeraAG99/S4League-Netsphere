@@ -1,0 +1,41 @@
+image: wtfblub/dotnet-mono
+  
+variables:
+  FrameworkPathOverride: "/usr/lib/mono/4.6.1-api/"
+  
+stages:
+  - build
+  - test
+  - publish
+
+build:
+  stage: build
+  script:
+    - dotnet restore BlubLib.sln
+    - dotnet build BlubLib.sln -c Debug
+    - dotnet build BlubLib.sln -c Release
+    - shopt -s globstar
+    - mkdir artifacts
+    - mkdir artifacts/debug
+    - mkdir artifacts/release
+    - cp **/Debug/*.nupkg artifacts/debug/
+    - cp **/Release/*.nupkg artifacts/release/
+  artifacts: 
+    paths:
+      - artifacts/
+      
+test: 
+  stage: test 
+  script:
+    - dotnet restore BlubLib.sln
+    - dotnet test BlubLib.Tests.sln -c Debug 
+    - dotnet test BlubLib.Tests.sln -c Release 
+    
+publish:
+  stage: publish
+  only:
+    - dev
+  script:
+    - dotnet nuget push artifacts/release/*.nupkg -k $NUGET_API_KEY -s https://nuget.org
+  dependencies:
+    - build

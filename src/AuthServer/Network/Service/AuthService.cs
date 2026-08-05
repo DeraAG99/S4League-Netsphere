@@ -199,13 +199,6 @@
                 account.AuthToken = authsessionId;
                 account.newToken = newsessionId;
                 await db.UpdateAsync(account);
-
-                if (/*(account.LoginToken == "" && account.IsConnect == false || account.LoginToken != "") &&*/ account.IsServer == false && account.IsConnect == false)
-                {
-                    await session.SendAsync(new LoginEUAckMessage(AuthLoginResult.WrongIdorPw));
-                    Logger.Error("Wrong login for {ip}", ip);
-                    return;
-                }
             }
 
             await session.SendAsync(new LoginEUAckMessage(AuthLoginResult.OK, (ulong)account.Id, sessionId, authsessionId, newsessionId, datetime));

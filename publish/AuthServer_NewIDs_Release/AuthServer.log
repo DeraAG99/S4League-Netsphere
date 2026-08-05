@@ -1,0 +1,20 @@
+2026-07-25 12:08:59.712 +07:00 [INF] Initializing...
+2026-07-25 12:09:00.540 +07:00 [INF] Starting Server
+2026-07-25 12:09:00.549 +07:00 [INF] Cached xbnfile: XBN//ConstantInfo.xbn
+2026-07-25 12:09:00.554 +07:00 [INF] Cached xbnfile: XBN//Actions.xbn
+2026-07-25 12:09:00.562 +07:00 [INF] Cached xbnfile: XBN//Weapons.xbn
+2026-07-25 12:09:00.570 +07:00 [INF] Cached xbnfile: XBN//Effects.xbn
+2026-07-25 12:09:00.577 +07:00 [INF] Cached xbnfile: XBN//EffectMatch.xbn
+2026-07-25 12:09:00.579 +07:00 [INF] Cached xbnfile: XBN//EnchantData.xbn
+2026-07-25 12:09:00.584 +07:00 [INF] Cached xbnfile: XBN//EquipLimit.xbn
+2026-07-25 12:09:00.592 +07:00 [INF] Cached xbnfile: XBN//PveList.xbn
+2026-07-25 12:09:00.597 +07:00 [INF] Cached xbnfile: XBN//MonsterWaveList.xbn
+2026-07-25 12:09:00.598 +07:00 [INF] Cached xbnfile: XBN//EsperActionlist.xbn
+2026-07-25 12:09:00.599 +07:00 [INF] Cached xbnfile: XBN//WeaponTypeReloadInfo.xbn
+2026-07-25 12:09:00.600 +07:00 [INF] Cached xbnfile: XBN//RangeLimit.xbn
+2026-07-25 12:09:00.946 +07:00 [INF] Ready for connections!
+2026-07-25 12:09:00.947 +07:00 [WRN] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2026-07-25 12:09:01.766 +07:00 [INF] Added server with valid apikey: NeoNetsphere(1)
+2026-07-25 12:09:41.996 +07:00 [INF] Authentication login from [::ffff:127.0.0.1]:51035
+2026-07-25 12:09:42.102 +07:00 [INF] Authentication success for masterblad1
+2026-07-25 12:10:49.891 +07:00 [INF] Removed server NeoNetsphere(1)

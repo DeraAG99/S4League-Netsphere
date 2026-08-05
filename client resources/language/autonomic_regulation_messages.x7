@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<autonomic_regulation_messages>
+	<default_message>
+		<kor value="게임 접속 후 %d시간이 경과하였습니다. 건강을 위해 휴식을 취하시기 바랍니다." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen. Bitte mach deiner Gesundheit zuliebe eine kleine Pause." />
+		<eng value="%d hours have passed since you logged in to the game. Please take a break to keep your health." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu. Fais une pause pour ta santé." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego. Por favor, descansa un poco para cuidar tu salud." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare. Fai una pausa." />
+		<rus value="%d часов прошло с момента входа в игру. Пожалуйста, сделайте перерыв ради Вашего здоровья." />
+		<ame value="%d hours have passed since you logged in to the game. Please take a break to keep your health." />
+		<cns value="%d hours have passed since you logged in to the game. Please take a break to keep your health." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง อย่าหักโหมและดูแลสุขภาพด้วยนะคะ" />
+		<twn value="遊戲連線後，已超過%d小時。為了健康，請休息片刻。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game. Please take a break to keep your health." />
+	</default_message>
+	<hourly_message hour="1">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen." />
+		<eng value="%d hours have passed since you logged in to the game." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare." />
+		<rus value="%d часов прошло с момента входа в игру." />
+		<ame value="%d hours have passed since you logged in to the game." />
+		<cns value="%d hours have passed since you logged in to the game." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง" />
+		<twn value="遊戲連線後，已超過%d小時。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game." />
+	</hourly_message>
+	<hourly_message hour="2">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen." />
+		<eng value="%d hours have passed since you logged in to the game." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare." />
+		<rus value="%d часов прошло с момента входа в игру." />
+		<ame value="%d hours have passed since you logged in to the game." />
+		<cns value="%d hours have passed since you logged in to the game." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง" />
+		<twn value="遊戲連線後，已超過%d小時。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game." />
+	</hourly_message>
+	<hourly_message hour="3">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다. 더 재미있는 S4 리그를 즐기기 위해 잠시 가벼운 스트레칭을 해보세요." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen. Streck dich ein wenig, um S4 League noch besser genießen zu können." />
+		<eng value="%d hours have passed since you logged in to the game. Stretch yourself for a while to enjoy S4 League even more." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu. Fais une petite pause pour apprécier encore plus S4 League." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego. Estírate un poco para disfrutar S4 League aún más!" />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare. Rilassati un po&apos; e goditi ancora di più S4 League." />
+		<rus value="%d часов прошло с момента входа в игру. Сделайте зарядку, потянитесь и игра в S4 League доставит еще больше приятных моментов." />
+		<ame value="%d hours have passed since you logged in to the game. Stretch yourself for a while to enjoy S4 League even more." />
+		<cns value="%d hours have passed since you logged in to the game. Stretch yourself for a while to enjoy S4 League even more." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง อย่าลืมลุกขึ้นยืนเพื่อยืดเส้นยืดสายและกลับมาสนุกกับ S4League ต่อนะคะ" />
+		<twn value="遊戲連線後，已超過%d小時。在繼續體驗好玩的S4 League之前，請先伸展一下身體。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game. Stretch yourself for a while to enjoy S4 League even more." />
+	</hourly_message>
+	<hourly_message hour="4">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다. 잠시 휴식이 필요한 시간입니다." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen. Zeit für eine Pause." />
+		<eng value="%d hours have passed since you logged in to the game. It&apos;s time to take a break." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu. C&apos;est le moment de faire une pause." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego. Es tiempo de tomar un descanso." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare. E&apos; il momento di fare una pausa." />
+		<rus value="%d часов прошло с момента входа в игру. Время отдохнуть и выпить чашечку чая." />
+		<ame value="%d hours have passed since you logged in to the game. It&apos;s time to take a break." />
+		<cns value="%d hours have passed since you logged in to the game. It&apos;s time to take a break." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง ถึงเวลาพักสายตาแล้วนะคะ" />
+		<twn value="遊戲連線後，已超過%d小時。現在是需要休息的時間。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game. It&apos;s time to take a break." />
+	</hourly_message>
+	<hourly_message hour="5">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다. 더 높은 점수를 얻고 싶다면 잠시 휴식을 취해보세요." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen. Wenn du noch besser sein willst, solltest du nun eine Pause machen." />
+		<eng value="%d hours have passed since you logged in to the game. If you want to get higher scores, take a break." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu. Si tu veux améliorer tes scores, fais une pause." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego. Si quieres obtener puntajes más altos, toma un descanso." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare. Se vuoi migliorare il tuo punteggio, fai una pausa." />
+		<rus value="%d часов прошло с момента входа в игру. Как и в любом спорте, игрокам полагается регулярно делать перерыв для достижения бОльших результатов." />
+		<ame value="%d hours have passed since you logged in to the game. If you want to get higher scores, take a break." />
+		<cns value="%d hours have passed since you logged in to the game. If you want to get higher scores, take a break." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง ถ้าอยากยิ่งให้แม่นอย่าลืมพักบ้างนะคะ" />
+		<twn value="遊戲連線後，已超過%d小時。若想要得到更高的分數，請讓身體休息片刻。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game. If you want to get higher scores, take a break." />
+	</hourly_message>
+	<hourly_message hour="6">
+		<kor value="게임 접속 후 %d시간이 경과하였습니다. 훌륭한 운동선수는 적절하게 휴식을 취합니다. 잠시 휴식을 취하세요." />
+		<ger value="Seit deinem Login sind %d Stunden vergangen. Coole Spieler wissen, wann man lieber eine Pause machen sollte. Jetzt zum Beispiel." />
+		<eng value="%d hours have passed since you logged in to the game. Cool players know when to take a break. Take a break for a while." />
+		<fre value="%d heures ont passé depuis que tu t&apos;es connecté au jeu. Les joueurs cool savent quand il faut faire une pause. Repose-toi un peu." />
+		<spa value="Han pasado %d horas desde que iniciaste sesión en el juego. Los buenos jugadores saben cuando tomar un descanso. Descansa un poco." />
+		<ita value="Sono trascorse %d ore da quando hai iniziato a giocare. I giocatori migliori sanno quando fermarsi. Fai una pausa." />
+		<rus value="%d часов прошло с момента входа в игру. Как правило, самые лучшие игроки умеют соблюдать режим и знают когда пора отдохнуть. Сделайте небольшой перерыв." />
+		<ame value="%d hours have passed since you logged in to the game. Cool players know when to take a break. Take a break for a while." />
+		<cns value="%d hours have passed since you logged in to the game. Cool players know when to take a break. Take a break for a while." />
+		<tha value="คุณเล่นเกมมาแล้ว %d ชั่วโมง เล่นมากเก่งมากแต่อย่าลืมพักด้วยนะคะ" />
+		<twn value="遊戲連線後，已超過%d小時。傑出的運動選手需要適當的休息，請先休息片刻。" />
+		<jap value="ゲーム接続から%d時間が経過しました。" />
+		<tur value="%d hours have passed since you logged in to the game. Cool players know when to take a break. Take a break for a while." />
+	</hourly_message>
+</autonomic_regulation_messages>

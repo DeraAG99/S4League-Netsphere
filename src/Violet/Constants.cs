@@ -93,10 +93,10 @@
     NewShopUniqueItem = 8
   }
 
-  //    public enum RandomShopResourceType : byte
-  //    {
-  //        EUNewRandomShop = 31,
-  //    }
+  public enum RandomShopResourceType : byte
+  {
+    EUNewRandomShop = 31
+  }
 
   public enum CostumeSlot : byte
   {

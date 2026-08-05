@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>wtfblub</Authors>
+        <PackageId>BlubLib.DotNetty</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetty.Buffers" Version="0.4.6"/>
+        <PackageReference Include="DotNetty.Codecs" Version="0.4.6"/>
+        <PackageReference Include="DotNetty.Common" Version="0.4.6"/>
+        <PackageReference Include="DotNetty.Transport" Version="0.4.6"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BlubLib\BlubLib.csproj"/>
+    </ItemGroup>
+    <Import Project="..\version.targets"/>
+</Project>

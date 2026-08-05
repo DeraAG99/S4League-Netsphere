@@ -13,6 +13,7 @@
     MonsterWaveList = 9,
     EsperActionlist = 10,
     WeaponTypeReloadInfo = 11,
-    RangeLimit = 12
+    RangeLimit = 12,
+    RandomShop = 13
   }
 }

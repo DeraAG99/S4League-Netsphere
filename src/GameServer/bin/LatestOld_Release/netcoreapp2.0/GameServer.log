@@ -1,0 +1,165 @@
+2026-07-25 12:28:04.947 +07:00 [INF] ============================================
+2026-07-25 12:28:04.965 +07:00 [INF] Initializing GameServer build
+2026-07-25 12:28:04.966 +07:00 [INF] New IDS
+2026-07-25 12:28:04.966 +07:00 [INF] Latest S4
+2026-07-25 12:28:04.967 +07:00 [INF] ============================================
+2026-07-25 12:28:04.967 +07:00 [INF] Initializing Database
+2026-07-25 12:28:04.973 +07:00 [INF] Initializing...
+2026-07-25 12:28:05.292 +07:00 [ERR] MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'dera-' using method 'mysql_native_password' failed with message: Access denied for user 'dera-'@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'dera-'@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at NeoNetsphere.AuthDatabase.Open() in D:\Dera\Project\S4League-Netsphere\src\GameServer\Program.cs:line 811
+   at NeoNetsphere.AuthDatabase.Initialize() in D:\Dera\Project\S4League-Netsphere\src\GameServer\Program.cs:line 761
+   at NeoNetsphere.Program.Main() in D:\Dera\Project\S4League-Netsphere\src\GameServer\Program.cs:line 163
+2026-07-25 12:28:51.900 +07:00 [INF] ============================================
+2026-07-25 12:28:51.916 +07:00 [INF] Initializing GameServer build
+2026-07-25 12:28:51.917 +07:00 [INF] New IDS
+2026-07-25 12:28:51.917 +07:00 [INF] Latest S4
+2026-07-25 12:28:51.918 +07:00 [INF] ============================================
+2026-07-25 12:28:51.918 +07:00 [INF] Initializing Database
+2026-07-25 12:28:51.923 +07:00 [INF] Initializing...
+2026-07-25 12:28:52.253 +07:00 [INF] Initializing...
+2026-07-25 12:28:52.255 +07:00 [INF] Starting Server
+2026-07-25 12:28:52.256 +07:00 [INF] ____________________________________________
+2026-07-25 12:28:52.256 +07:00 [INF] ____________________________________________
+2026-07-25 12:28:52.257 +07:00 [INF] ============================================
+2026-07-25 12:28:52.257 +07:00 [INF] Starting Serverinstances and ResourceCache..
+2026-07-25 12:28:52.536 +07:00 [INF] Caching: Channels
+2026-07-25 12:28:52.536 +07:00 [INF] Caching...
+2026-07-25 12:28:52.549 +07:00 [INF] Caching: Clubs
+2026-07-25 12:28:52.549 +07:00 [INF] Caching...
+2026-07-25 12:28:52.620 +07:00 [INF] Caching: Effects
+2026-07-25 12:28:52.621 +07:00 [INF] Caching...
+2026-07-25 12:28:52.685 +07:00 [INF] Caching: Items
+2026-07-25 12:28:52.686 +07:00 [INF] Caching...
+2026-07-25 12:28:52.869 +07:00 [INF] Caching: DefaultItems
+2026-07-25 12:28:52.871 +07:00 [INF] Caching...
+2026-07-25 12:28:52.880 +07:00 [INF] Caching: Shop
+2026-07-25 12:28:52.881 +07:00 [INF] Caching...
+2026-07-25 12:28:52.967 +07:00 [INF] Caching: Experience
+2026-07-25 12:28:52.968 +07:00 [INF] Caching...
+2026-07-25 12:28:52.982 +07:00 [INF] Caching: Maps
+2026-07-25 12:28:52.983 +07:00 [INF] Caching...
+2026-07-25 12:28:53.007 +07:00 [INF] Caching: GameTempos
+2026-07-25 12:28:53.008 +07:00 [INF] Caching...
+2026-07-25 12:28:53.033 +07:00 [INF] Caching: Capsules
+2026-07-25 12:28:53.034 +07:00 [INF] Caching...
+2026-07-25 12:28:53.103 +07:00 [INF] Caching: RandomShop
+2026-07-25 12:28:53.104 +07:00 [INF] Caching...
+2026-07-25 12:28:53.121 +07:00 [INF] Caching: CardSystem
+2026-07-25 12:28:53.122 +07:00 [INF] Caching...
+2026-07-25 12:28:53.145 +07:00 [INF] Caching: ExperienceBonus
+2026-07-25 12:28:53.146 +07:00 [INF] Caching...
+2026-07-25 12:28:53.153 +07:00 [INF] Caching: PointBonus
+2026-07-25 12:28:53.154 +07:00 [INF] Caching...
+2026-07-25 12:28:53.164 +07:00 [INF] Caching: MasterExperience
+2026-07-25 12:28:53.164 +07:00 [INF] Caching...
+2026-07-25 12:28:53.170 +07:00 [INF] Caching: BurningTime
+2026-07-25 12:28:53.171 +07:00 [INF] Caching...
+2026-07-25 12:28:53.190 +07:00 [INF] Caching: BurningTimePve
+2026-07-25 12:28:53.191 +07:00 [INF] Caching...
+2026-07-25 12:28:53.198 +07:00 [INF] Caching: EquipLimit
+2026-07-25 12:28:53.199 +07:00 [INF] Caching...
+2026-07-25 12:28:53.215 +07:00 [INF] Caching: RoomOption
+2026-07-25 12:28:53.216 +07:00 [INF] Caching...
+2026-07-25 12:28:53.234 +07:00 [INF] Caching: EnchantData
+2026-07-25 12:28:53.235 +07:00 [INF] Caching...
+2026-07-25 12:28:53.252 +07:00 [INF] Caching: EnchantList
+2026-07-25 12:28:53.253 +07:00 [INF] Caching...
+2026-07-25 12:28:53.268 +07:00 [INF] Caching: EnchantExtractKey
+2026-07-25 12:28:53.269 +07:00 [INF] Caching...
+2026-07-25 12:28:53.275 +07:00 [INF] Caching: EsperEnchantPrice
+2026-07-25 12:28:53.276 +07:00 [INF] Caching...
+2026-07-25 12:28:53.282 +07:00 [INF] Caching: ItemGrade
+2026-07-25 12:28:53.283 +07:00 [INF] Caching...
+2026-07-25 12:28:53.295 +07:00 [INF] Caching: CombineElement
+2026-07-25 12:28:53.296 +07:00 [INF] Caching...
+2026-07-25 12:28:53.309 +07:00 [INF] Caching: DecompositionElement
+2026-07-25 12:28:53.310 +07:00 [INF] Caching...
+2026-07-25 12:28:53.315 +07:00 [INF] Caching: SeizeModeNewInfo
+2026-07-25 12:28:53.316 +07:00 [INF] Caching...
+2026-07-25 12:28:53.330 +07:00 [INF] Caching: StadiumInfo
+2026-07-25 12:28:53.331 +07:00 [INF] Caching...
+2026-07-25 12:28:53.339 +07:00 [INF] Caching: DecompositionInfo
+2026-07-25 12:28:53.339 +07:00 [INF] Caching...
+2026-07-25 12:28:53.359 +07:00 [INF] Caching: CombinationInfo
+2026-07-25 12:28:53.360 +07:00 [INF] Caching...
+2026-07-25 12:28:53.386 +07:00 [INF] Caching: MissionInfo
+2026-07-25 12:28:53.387 +07:00 [INF] Caching...
+2026-07-25 12:28:53.405 +07:00 [INF] Caching: ArcadeRewardInfo
+2026-07-25 12:28:53.406 +07:00 [INF] Caching...
+2026-07-25 12:28:53.420 +07:00 [INF] Caching: ArcadeItemInfo
+2026-07-25 12:28:53.421 +07:00 [INF] Caching...
+2026-07-25 12:28:53.434 +07:00 [INF] Caching: ChallengeArcadeInfo
+2026-07-25 12:28:53.435 +07:00 [INF] Caching...
+2026-07-25 12:28:53.453 +07:00 [INF] Caching: TaskListInfo
+2026-07-25 12:28:53.453 +07:00 [INF] Caching...
+2026-07-25 12:28:53.499 +07:00 [INF] Caching: PromotionInfo
+2026-07-25 12:28:53.500 +07:00 [INF] Caching...
+2026-07-25 12:28:53.565 +07:00 [INF] Caching: MakeCharacterInfo
+2026-07-25 12:28:53.566 +07:00 [INF] Caching...
+2026-07-25 12:28:53.608 +07:00 [INF] Caching: SupportItemInfo
+2026-07-25 12:28:53.608 +07:00 [INF] Caching...
+2026-07-25 12:28:53.625 +07:00 [INF] Starting Web Api
+2026-07-25 12:28:53.627 +07:00 [INF] Serverinstances successfully started, ready for connections!
+2026-07-25 12:28:53.627 +07:00 [INF] ____________________________________________________________
+2026-07-25 12:28:55.680 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:00.459 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:05.274 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:10.073 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:14.900 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:19.718 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:24.489 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:29.263 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:34.089 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:38.912 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:43.706 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:48.526 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:53.313 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:29:58.117 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:02.907 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:07.716 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:12.512 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:17.313 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:22.118 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:30:24.888 +07:00 [INF] Connected to authserver
+2026-07-25 12:30:25.142 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:29.692 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:34.494 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:39.289 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:44.086 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:48.893 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:53.700 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:30:58.498 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:03.300 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:08.093 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:12.886 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:17.689 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:22.562 +07:00 [WRN] Unable to register server - GameServer APIKey(empty-key) not accepted(Config not synced?)
+2026-07-25 12:31:22.573 +07:00 [WRN] Lost connection to authserver.
+2026-07-25 12:31:29.302 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:34.116 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:38.919 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:43.706 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:48.507 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:53.298 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:31:58.092 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:02.914 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:07.701 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:12.499 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:17.311 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:22.122 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:26.919 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:31.731 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.
+2026-07-25 12:32:36.522 +07:00 [ERR] Failed to connect authserver on endpoint 127.0.0.1:27000.

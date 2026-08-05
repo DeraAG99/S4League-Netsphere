@@ -1,0 +1,11 @@
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\LatestOld_Debug\netstandard2.0\Violet.Database.deps.json
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\LatestOld_Debug\netstandard2.0\Violet.Database.dll
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\bin\LatestOld_Debug\netstandard2.0\Violet.Database.pdb
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.csproj.AssemblyReference.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.AssemblyInfoInputs.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.AssemblyInfo.cs
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.csproj.CoreCompileInputs.cache
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.sourcelink.json
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.dll
+D:\Dera\Project\S4League-Netsphere\src\Violet.Database\obj\LatestOld_Debug\netstandard2.0\Violet.Database.pdb

@@ -135,33 +135,34 @@ namespace NeoNetsphere.Network.Services
 
       var allItems = pools.SelectMany(p => p.Items).ToList();
 
+      Logger.ForAccount(session)
+          .Information("RandomShop: pools={Pools} items={Items}", pools.Count, allItems.Count);
+
+      var dto = new RandomShopDto
+      {
+        ItemNumbers = allItems.Select(i => i.ItemNumber).ToArray(),
+        Effects = allItems.Select(i => i.Effect).ToArray(),
+        Colors = allItems.Select(i => (uint)i.Color).ToArray(),
+        PeriodTypes = allItems.Select(i => i.PeriodType).ToArray(),
+        Periods = allItems.Select(i => i.Period).ToArray(),
+        Unk6 = 0
+      };
+
       byte[] data;
       using (var w = new BinaryWriter(new MemoryStream()))
       {
-        w.Write(allItems.Count);
-        foreach (var item in allItems)
-        {
-          w.Write(item.ItemNumber);
-          w.Write((uint)item.PeriodType);
-          w.Write(item.Period);
-          w.Write(item.Effect);
-          w.Write(item.Color);
-          w.Write(item.Rate);
-        }
-
-        w.Write(pools.Count);
-        foreach (var pool in pools)
-        {
-          w.Write(pool.Id);
-          w.WriteEnum(pool.PriceType);
-          w.Write(pool.Price);
-          w.Write(pool.Items.Count);
-        }
-
-        data = ((MemoryStream)w.BaseStream).ToArray();
+        BlubLib.Serialization.Serializer.Serialize(w, dto);
+        data = w.ToArray();
       }
 
-      await session.SendAsync(new RandomShopUpdateInfoAckMessage(0, data, 0, 0, version));
+      await session.SendAsync(
+          new RandomShopUpdateInfoAckMessage(
+              (byte)RandomShopResourceType.EUNewRandomShop,
+              data,
+              data.Length,
+              0,
+              version),
+          SendOptions.ReliableSecureCompress);
     }
 
     [MessageHandler(typeof(RandomShopRollingStartReqMessage))]
