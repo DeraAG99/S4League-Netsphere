@@ -18,3 +18,23 @@ D:\Dera\Project\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netsta
 D:\Dera\Project\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.N.2093AC4B.Up2Date
 D:\Dera\Project\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.dll
 D:\Dera\Project\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\miniLzo_x64.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\miniLzo_x86.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\liblzo.so
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\Violet.Network.deps.json
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\Violet.Network.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\Violet.Network.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\SharpLzo.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\Violet.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\Violet.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.csproj.AssemblyReference.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.AssemblyInfoInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.AssemblyInfo.cs
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.csproj.CoreCompileInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.sourcelink.json
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.N.2093AC4B.Up2Date
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet.Network\obj\LatestOld_Debug\netstandard2.0\Violet.Network.pdb

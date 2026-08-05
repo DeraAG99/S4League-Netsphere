@@ -129,6 +129,7 @@ namespace NeoNetsphere.Network.Services
     {
       var version = DateTimeOffset.UtcNow.ToString("yyyyMMddHHmmss");
 
+      await session.SendAsync(new RandomShopUpdateRequestAckMessage());
       await session.SendAsync(new RandomShopUpdateCheckAckMessage(version));
 
       var pools = GameServer.Instance.ResourceCache.GetRandomShop();
@@ -140,12 +141,15 @@ namespace NeoNetsphere.Network.Services
 
       var dto = new RandomShopDto
       {
-        ItemNumbers = allItems.Select(i => i.ItemNumber).ToArray(),
-        Effects = allItems.Select(i => i.Effect).ToArray(),
-        Colors = allItems.Select(i => (uint)i.Color).ToArray(),
-        PeriodTypes = allItems.Select(i => i.PeriodType).ToArray(),
-        Periods = allItems.Select(i => i.Period).ToArray(),
-        Unk6 = 0
+        Items = allItems.Select(i => new RandomShopItemDto
+        {
+          Unk1 = (uint)i.ItemNumber,
+          Unk2 = (uint)i.PeriodType,
+          Unk3 = i.Period,
+          Unk4 = i.Effect,
+          Unk5 = i.Color,
+          Unk6 = (ushort)i.Rate
+        }).ToArray()
       };
 
       byte[] data;

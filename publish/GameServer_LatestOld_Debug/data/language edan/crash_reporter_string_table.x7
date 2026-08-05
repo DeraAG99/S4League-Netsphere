@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string key="TEXT1">
+		<kor value="S4리그의 마지막 실행이 비정상 종료되었습니다. 이 문제에 대해 (주)게임 온 스튜디오에게 전달하고자 하는 의견이 있으면 적어주세요. 이 오류 보고는 S4리그의 품질 향상에 큰 도움이 될 것입니다. 보내주신 내용은 기밀로 간주되며 익명으로 관리합니다.&#x0A;감사합니다." />
+		<ger value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<eng value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<fre value="La dernière exécution a été anormalement terminée. Si vous avez un avis à propos de ce problème à faire parvenir à GameOn, merci de nous le rapporter. Ce rapport d&apos;erreur sera très utile pour améliorer la qualité de S4 League. Le rapport sera consulté confidentiellement et nous le conserverons anonyme. Merci." />
+		<spa value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<ita value="L&apos;ultima esecuzione è stata interrotta in modo anomalo. Se conosci una possibile causa di questo problema da riferire a GameOn, faccela sapere. La tua segnalazione sarà utile per migliorare la qualità di S4 League. La segnalazione è strettamente confidenziale e rimarrà anonima. Grazie." />
+		<rus value="Последняя операция была прервана. Если у Вас есть идеи по поводу решения этой проблемы для GameOn, пожалуйста свяжитесь с нами. Данный репорт ошибки поможет улучшить качество S4 league. Репорт будет конфиденциален и мы обещаем анонимность. Спасибо." />
+		<ame value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<cns value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<tha value="ขออภัยในความไม่สะดวก ขณะนี้ระบบเกิดความผิดพลาดบางประการ คุณสามารถส่งบันทึกความผิดพลาดให้กับ Asiasoft เพื่อแก้ไขต่อไปและปรับปรุง S4 League ให้ดีขึ้น ขอบคุณคะ" />
+		<twn value="S4 League的最後一次執行是非正常結束，關於此問題，若想要提供意見給PENTAVISION，請寫在這裡，該錯誤報告將會幫助S4 League提升品質，所提供的內容將以機密及匿名方式管理。謝謝。" />
+		<jap value="ゲームが非正常的に終了しました。この問題について、開発や運営に伝えたいご意見がありましたら、ご記入をお願い致します。この報告はS4リーグの品質向上に大きく貢献されます。この報告内容は特定の機密情報として扱います。" />
+		<tur value="The last execution was terminated abnormally. If you have any opinion about this problem to deliver to GameOn, please report to us. This error report will be helpful to improve the S4 league&apos;s quality. The report will be regarded as confidential and we&apos;ll keep it anonymously.Thank you." />
+		<por value="A última execução foi fechada inesperadamente. Se você deseja informar esse problema à GameOn, por favor realize o reporte. Esse reporte pode ajudar a melhorar a qualidade de  S4 league&apos;s O reporte será relizado de maneira confidencial. Obrigado." />
+	</string>
+	<string key="BUTTON1">
+		<kor value="오류보고 보냄" />
+		<ger value="Send the error report" />
+		<eng value="Send the error report" />
+		<fre value="Envoyer le rapport d&apos;erreur" />
+		<spa value="Send the error report" />
+		<ita value="Invia la segnalazione" />
+		<rus value="Отправить заявку на ошибку" />
+		<ame value="Send the error report" />
+		<cns value="Send the error report" />
+		<tha value="ส่งบันทึกความผิดพลาด" />
+		<twn value="已傳送錯誤報告" />
+		<jap value="エラー報告" />
+		<tur value="Send the error report" />
+		<por value="Enviar esse reporte." />
+	</string>
+	<string key="BUTTON2">
+		<kor value="보내지 않음" />
+		<ger value="Do not send the error report" />
+		<eng value="Do not send the error report" />
+		<fre value="Ne pas envoyer le rapport d&apos;erreur" />
+		<spa value="Do not send the error report" />
+		<ita value="Non inviare la segnalazione" />
+		<rus value="Не отправлять заявку на ошибку." />
+		<ame value="Do not send the error report" />
+		<cns value="Do not send the error report" />
+		<tha value="ไม่ส่งบันทึกความผิดพลาด" />
+		<twn value="沒有傳送" />
+		<jap value="報告しない" />
+		<tur value="Do not send the error report" />
+		<por value="Não enviar esse reporte de erro." />
+	</string>
+</string_table>

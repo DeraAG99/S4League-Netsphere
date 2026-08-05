@@ -644,7 +644,19 @@
     AIAttackSnipe,
     SentryHP,
     SentryAtkDistance,
-    SentryBuildTime
+    SentryBuildTime,
+    AssultRifleAttack,
+    AssultRifleReload,
+    AssultRifleReloadAmmo,
+    IntergrationAttack,
+    KatanaAAttack,
+    RescueGunAttack,
+    RescueGunReload,
+    RescueGunReloadAmmo,
+    SigmaAttack,
+    TurretAttack,
+    TurretReload,
+    TurretReloadAmmo
   }
 
   public enum ChatType : uint

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string key="TXT_Exercise_01">
+		<kor value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}게임을 시작합니다!{N}{CB-0,255,0,255}센트리건을 찾아서 파괴하고 목표점수를 획득하세요!!" />
+		<ger value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Das Spiel beginnt!{N}{CB-0,255,0,255}Finde und zerstöre Sentry Guns und sammele auf diese Art Punkte!!" />
+		<eng value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Starting game!{N}{CB-0,255,0,255}Find and destroy Sentry Guns and aquire objective points!!" />
+		<fre value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}La partie commence !{N}{CB-0,255,0,255}Trouve et détruis les Sentry Guns pour obtenir des points d&apos;objectif !!" />
+		<spa value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Comenzando el juego!{N}{CB-0,255,0,255}Encuentra y destruye los Sentry Guns y gana puntos!!" />
+		<ita value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Il gioco inizia!{N}{CB-0,255,0,255}Trova e distruggi i Sentry Gun e ottieni dei punti!!" />
+		<rus value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Начинаем тренировку!{N}{CB-0,255,0,255}Найдите и уничтожьте Турели, получая очки!" />
+		<ame value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Starting game!{N}{CB-0,255,0,255}Find and destroy Sentry Guns and aquire objective points!!" />
+		<tur value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Oyun başlayacak!{N}{CB-0,255,0,255}Hedef puanı almak için Sentry Gun&apos;ları bul ve yok et!!" />
+		<cns value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Starting game!{N}{CB-0,255,0,255}Find and destroy Sentry Guns and aquire objective points!!" />
+		<tha value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}เริ่มเกม!{N}{CB-0,255,0,255}ค้นหาและทำลาย Sentry Guns พร้อมทั้งทำตามเป้าหมาย!!" />
+		<twn value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}遊戲開始！{N}{CB-0,255,0,255}擊破步哨警戒槍可獲得點數！！" />
+		<jap value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}ゲームを始めます！{N}{CB-0,255,0,255}セントリーガンを破壊し、目標スコアを狙いましょう！" />
+		<idn value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Mulai game!{N}{CB-0,255,0,255}Temukan dan hancurkan Sentry Gun!!" />
+	</string>
+	<string key="TXT_Exercise_02">
+		<kor value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}센트리건이 파괴되었습니다!" />
+		<ger value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun zerstört!" />
+		<eng value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun destroyed!" />
+		<fre value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun détruit !" />
+		<spa value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun destruido!" />
+		<ita value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun distrutto!" />
+		<rus value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Турель уничтожена!" />
+		<ame value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun destroyed!" />
+		<tur value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun yok edildi!" />
+		<cns value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun destroyed!" />
+		<tha value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun ถูกทำลายแล้ว!" />
+		<twn value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}成功擊破步哨警戒槍！！" />
+		<jap value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}セントリーガンが破壊されました！" />
+		<idn value="{F-2002_20}{A-L}{S-S}{CB-255,255,255,255}Sentry Gun telah hancur!" />
+	</string>
+</string_table>

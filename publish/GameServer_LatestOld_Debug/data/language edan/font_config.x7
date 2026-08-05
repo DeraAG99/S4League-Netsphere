@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<font>
+	<font name="default">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/msyh.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_8">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="7" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="7" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="7" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="7" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_9">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="8" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_10">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="9" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_11">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="10" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_12">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="11" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_13">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="12" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_14">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="13" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_15">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="14" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_16">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="15" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_17">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="16" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_18">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="17" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_19">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="18" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+	</font>
+	<font name="2002_20">
+		<kor type="freetype" file="resources/gui/2002.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<ger type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<eng type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<fre type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<spa type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<ita type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<rus type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<ame type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<cns type="freetype" file="resources/gui/simsun.ttc" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<tha type="default" file="resources/gui/tahoma.ttf" bold="false" italic="false" size="20" thickness="1" priority="normal" />
+		<twn type="freetype" file="resources/gui/MSJH.TTF" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<jap type="bitmap" file="resources/gui/mplus-1c-regular.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<idn type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+		<tur type="freetype" file="resources/gui/verdana.ttf" bold="false" italic="false" size="19" thickness="1" priority="normal" />
+	</font>
+</font>

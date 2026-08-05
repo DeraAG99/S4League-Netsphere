@@ -9,3 +9,14 @@ D:\Dera\Project\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstanda
 D:\Dera\Project\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.sourcelink.json
 D:\Dera\Project\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.dll
 D:\Dera\Project\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.pdb
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.deps.json
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.dll
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.pdb
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.csproj.AssemblyReference.cache
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.AssemblyInfoInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.AssemblyInfo.cs
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.csproj.CoreCompileInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.sourcelink.json
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.dll
+E:\Project\fix random\S4League-Netsphere\src\ProudNetSrc\obj\LatestOld_Debug\netstandard2.0\ProudNetSrc.pdb

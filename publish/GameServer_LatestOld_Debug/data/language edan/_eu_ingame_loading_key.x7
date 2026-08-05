@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<string_table>
+	<string key="common_" count_number="10" mode_key="-1" />
+	<string key="sword_" count_number="3" mode_key="-2" />
+	<string key="pra_" count_number="3" mode_key="4" />
+	<string key="dm_" count_number="4" mode_key="1" />
+	<string key="td_" count_number="4" mode_key="2" />
+	<string key="ac_" count_number="3" mode_key="7" />
+	<string key="ch_" count_number="3" mode_key="8" />
+	<string key="br_" count_number="3" mode_key="9" />
+	<string key="cp_" count_number="3" mode_key="10" />
+	<string key="sz_" count_number="8" mode_key="11" />
+	<string key="tu_" count_number="1" mode_key="5" />
+	<string key="wf_" count_number="1" mode_key="15" />
+</string_table>

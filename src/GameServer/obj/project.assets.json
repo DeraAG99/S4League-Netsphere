@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "netcoreapp2.0": {
+    ".NETCoreApp,Version=v2.0": {
       "BlubLib/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -8728,7 +8728,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "netcoreapp2.0": [
+    ".NETCoreApp,Version=v2.0": [
       "AuthServer.ServiceModel >= 1.0.0",
       "Expressmapper >= 1.9.1",
       "Hjson >= 3.0.0",
@@ -8748,20 +8748,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dera-\\.nuget\\packages\\": {}
+    "C:\\Users\\Niel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "2.1.0",
     "restore": {
-      "projectUniqueName": "D:\\Dera\\Project\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
+      "projectUniqueName": "E:\\Project\\fix random\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
       "projectName": "GameServer",
-      "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
-      "packagesPath": "C:\\Users\\dera-\\.nuget\\packages\\",
-      "outputPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\GameServer\\obj\\",
+      "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\GameServer\\GameServer.csproj",
+      "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\GameServer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "D:\\Dera\\Project\\S4League-Netsphere\\NuGet.Config",
-        "C:\\Users\\dera-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "E:\\Project\\fix random\\S4League-Netsphere\\NuGet.Config",
+        "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8769,28 +8774,27 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Dera\\Project\\S4League-Netsphere\\LocalPackages": {},
+        "E:\\Project\\fix random\\S4League-Netsphere\\LocalPackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "framework": "netcoreapp2.0",
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "D:\\Dera\\Project\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
-              "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj"
+            "E:\\Project\\fix random\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj": {
+              "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\AuthServer.ServiceModel\\AuthServer.ServiceModel.csproj"
             },
-            "D:\\Dera\\Project\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
-              "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj"
+            "E:\\Project\\fix random\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj": {
+              "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\ProudNetSrc\\ProudNetSrc.csproj"
             },
-            "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj": {
-              "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj"
+            "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj": {
+              "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet.Database\\Violet.Database.csproj"
             },
-            "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj": {
-              "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj"
+            "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj": {
+              "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet.Network\\Violet.Network.csproj"
             },
-            "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet\\Violet.csproj": {
-              "projectPath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet\\Violet.csproj"
+            "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet\\Violet.csproj": {
+              "projectPath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet\\Violet.csproj"
             }
           }
         }
@@ -8805,11 +8809,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "netcoreapp2.0": {
-        "framework": "netcoreapp2.0",
         "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "Expressmapper": {
@@ -8870,7 +8873,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -8882,7 +8885,7 @@
       "message": "AuthServer.ServiceModel depends on BlubLib.DotNetty.SimpleRmi (>= 5.0.0) but BlubLib.DotNetty.SimpleRmi 5.0.0 was not found. BlubLib.DotNetty.SimpleRmi 5.1.0 was resolved instead.",
       "libraryId": "BlubLib.DotNetty.SimpleRmi",
       "targetGraphs": [
-        "netcoreapp2.0"
+        ".NETCoreApp,Version=v2.0"
       ]
     },
     {
@@ -8892,7 +8895,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7mfr-774f-w5r9",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        "netcoreapp2.0"
+        ".NETCoreApp,Version=v2.0"
       ]
     },
     {
@@ -8902,7 +8905,7 @@
       "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
-        "netcoreapp2.0"
+        ".NETCoreApp,Version=v2.0"
       ]
     },
     {
@@ -8912,7 +8915,7 @@
       "message": "Package 'Expressmapper 1.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Expressmapper",
       "targetGraphs": [
-        "netcoreapp2.0"
+        ".NETCoreApp,Version=v2.0"
       ]
     }
   ]

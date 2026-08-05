@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<club_master_transfer_string>
+	<master_delegate>
+		<master_delegate text_key="1" value="4주" />
+		<master_delegate text_key="2" value="5주" />
+		<master_delegate text_key="3" value="6주" />
+		<master_delegate text_key="4" value="7주" />
+		<master_delegate text_key="5" value="8주" />
+		<master_delegate text_key="6" value="9주" />
+		<master_delegate text_key="7" value="10주" />
+		<master_delegate text_key="8" value="11주" />
+		<master_delegate text_key="9" value="12주" />
+	</master_delegate>
+	<master_transfer_clause>
+		<master_transfer_clause text_key="1" value="/ 마스터 양도는 마스터 임시 공유와 마스터 변경으로 구분됩니다. " />
+		<master_transfer_clause text_key="2" value="/ 마스터 임시 공유: 4주에서 최대 12주까지 마스터 권한을 스탭과 공유하여 마스터가 장기간 부재 중일 경우에" />
+		<master_transfer_clause text_key="3" value="  권한을 위임 받은 스탭이 임시 마스터로서 클럽을 운영하는 형태입니다." />
+		<master_transfer_clause text_key="4" value="  정해진 기간 이후에는 스탭에게 주어진 마스터 권한은 모두 회수됩니다." />
+		<master_transfer_clause text_key="5" value="/ 마스터 임시 양도 시한 이후 90일간 마스터가 클럽 홈에 접속하지 않을 경우 가장 마지막에 마스터 권한을 임시 양도한 스탭으로 마스터가 변경됩니다." />
+		<master_transfer_clause text_key="6" value="/ 마스터 변경: 더 이상 클럽을 운영할 수 없는 상황이라면 마스터 변경을 통해 클럽 마스터의 모든 관리 권한을 스탭에게 완전히 위임해 주세요. " />
+		<master_transfer_clause text_key="7" value="/ 클럽원 중 스탭권한이 있는 클럽원에게 마스터를 위임할 수 있습니다. " />
+		<master_transfer_clause text_key="8" value="/ 마스터 변경의 경우 마스터 권한은 즉시 위임됩니다. " />
+		<master_transfer_clause text_key="9" value="/ 마스터 임시 공유의 경우 정해진 기간 이전에는 마스터 권한 회수가 불가능 합니다." />
+		<master_transfer_clause text_key="10" value="/ 마스터 임시 공유 기간 중 스탭이 클럽을 탈퇴하거나 회원탈퇴 했을 경우에는 마스터 권한 공유는 자동으로 취소됩니다." />
+	</master_transfer_clause>
+</club_master_transfer_string>

@@ -14,7 +14,7 @@
 		</limit_player>
 	</game_mode>
 		<!-- GAMERULE_CHALLENGE 트레이닝 -->
-	<game_mode id="13" use="false" image="Resources/XUI/Image/Lobby/Mode_select/arcade_mission_mode.dds" tip_key="MODETIP_ARCADE" category="2">
+	<game_mode id="13" use="true" image="Resources/XUI/Image/Lobby/Mode_select/arcade_mission_mode.dds" tip_key="MODETIP_ARCADE" category="2">
 		<score_time select="0" >
 		<!-- 스코어는 쓰지않음 (아케이드와 같음)난이도만 설정 time="1" [보통], time="2" [어려움], time="3"[에스퍼]-->
 			<data score="0" score_string_key="" time="1" time_string_key="CHALLENGE_LEVEL_1" />
@@ -27,7 +27,7 @@
 		</limit_player>
 	</game_mode>
 	<!-- GAMERULE_ARCADE 시나리오 -->
-	<game_mode id="7" use="false" image="Resources/XUI/Image/Lobby/Mode_select/arcade_mode.tga" tip_key="MODETIP_ARCADE" category="2">
+	<game_mode id="7" use="true" image="Resources/XUI/Image/Lobby/Mode_select/arcade_mode.tga" tip_key="MODETIP_ARCADE" category="2">
 		<score_time select="0">
 			<!-- 아케이드의 경우 score는 이벤트 On/Off, time은 난이도 설정 -> score="0" [이벤트씬 끄기], score="1" [이벤트씬 켜기], time="1" [보통], time="2" [어려움], time="3"[에스퍼]-->
 			<data score="1" score_string_key="" time="1" time_string_key="ARCADE_1" />
@@ -64,7 +64,7 @@
 		<player_weapon_unlimit active="true" />
 	</game_mode>
 	<!-- GAMERULE_SEIZE 시즈모드 -->
-	<game_mode id="11" use="false" image="Resources/XUI/Image/Lobby/Mode_select/seize_mode.tga" tip_key="MODETIP_SEIZE" tag="off" category="1">
+	<game_mode id="11" use="true" image="Resources/XUI/Image/Lobby/Mode_select/seize_mode.tga" tip_key="MODETIP_SEIZE" tag="on" category="1">
 		<score_time select="1">
 			<data score="150" score_string_key="SCORE_150" time="5" time_string_key="TIME_5" />
 			<data score="200" score_string_key="SCORE_200" time="10" time_string_key="TIME_10" />
@@ -230,7 +230,7 @@
 	<game_rule touch_down_key="TOUCH_DOWN" death_match_key="DEATH_MATCH" survival_key="SURVIVAL" mission_key="MISSION" arcade_key="ARCADE" slaughter_key="SLAUGHTER" free_for_all_key="FREE_FOR_ALL" captain_key="CAPTAIN" seize_key="SEIZE"/>
 	
 	<!-- GAMERULE RANDOM 랜덤모드 -->
-	<game_mode id="14" use="false" image="Resources/XUI/Image/Lobby/Mode_select/random_mode.tga" tip_key="MODETIP_RD" tag="off" category="1">
+	<game_mode id="14" use="true" image="Resources/XUI/Image/Lobby/Mode_select/random_mode.tga" tip_key="MODETIP_RD" tag="on" category="1">
 		<score_time select="0">
 			<data score="" score_string_key="MAPNAME_999" time="" time_string_key="" />
 		</score_time>
@@ -241,7 +241,7 @@
 		<player_weapon_unlimit active="true" />
 	</game_mode>
 	<!-- GAMERULE WARFARE AOS 모드 -->
-	<game_mode id="15" use="false" image="Resources/XUI/Image/Lobby/Mode_select/warfa_mode.tga" tip_key="MODETIP_WF" tag="off" category="1">
+	<game_mode id="15" use="true" image="Resources/XUI/Image/Lobby/Mode_select/warfa_mode.tga" tip_key="MODETIP_WF" tag="on" category="1">
 		<score_time select="1">
 			<data score="4" score_string_key="SCORE_4" time="10" time_string_key="TIME_10" />
 			<data score="8" score_string_key="SCORE_8" time="20" time_string_key="TIME_20" />
@@ -293,7 +293,7 @@
 		<player_weapon_unlimit active="true" />
 	</game_mode>
 	<!-- GAMERULE_ARENA 아레나 모드 -->
-	<game_mode id="20" use="false" image="Resources/XUI/Image/Lobby/Mode_select/arena_mode.tga" tip_key="MODETIP_ARENA" tag="off" category="1">
+	<game_mode id="20" use="true" image="Resources/XUI/Image/Lobby/Mode_select/arena_mode.tga" tip_key="MODETIP_ARENA" tag="New" category="1">
 		<score_time select="0">
 			<data score="10" score_string_key="SCORE_10" time="60" time_string_key="TIME_60SEC" />
 			<data score="15" score_string_key="SCORE_15" time="60" time_string_key="TIME_60SEC" />

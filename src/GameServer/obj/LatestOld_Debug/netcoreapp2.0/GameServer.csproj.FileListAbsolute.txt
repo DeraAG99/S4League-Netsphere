@@ -27,3 +27,32 @@ D:\Dera\Project\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp
 D:\Dera\Project\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.dll
 D:\Dera\Project\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
 D:\Dera\Project\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.genruntimeconfig.cache
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\miniLzo_x64.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\miniLzo_x86.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\liblzo.so
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.deps.json
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.runtimeconfig.json
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.runtimeconfig.dev.json
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\AuthServer.ServiceModel.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\ProudNetSrc.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\SharpLzo.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Database.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Network.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\AuthServer.ServiceModel.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Database.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.Network.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\Violet.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\bin\LatestOld_Debug\netcoreapp2.0\ProudNetSrc.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.AssemblyReference.cache
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.AssemblyInfoInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.AssemblyInfo.cs
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.CoreCompileInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.sourcelink.json
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.csproj.Up2Date
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.dll
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.pdb
+E:\Project\fix random\S4League-Netsphere\src\GameServer\obj\LatestOld_Debug\netcoreapp2.0\GameServer.genruntimeconfig.cache

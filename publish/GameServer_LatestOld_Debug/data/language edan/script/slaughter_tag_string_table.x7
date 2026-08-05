@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string key="NAME_DEVIL">
+		<kor value="태그_사신" />
+		<ger value="Tag_Demon" />
+		<eng value="Tag_Demon" />
+		<fre value="Tag_Demon" />
+		<spa value="Tag_Demon" />
+		<ita value="Tag_Demon" />
+		<rus value="Tag_Demon" />
+		<ame value="Tag_Demon" />
+		<cns value="Tag_Demon" />
+		<tha value="Tag_Demon" />
+		<twn value="Tag_Demon" />
+		<jap value="タグ_死神" />
+		<tur value="Tag_Demon" />
+	</string>
+	<string key="NAME_PIERROT">
+		<kor value="태그_삐에로" />
+		<ger value="Tag_Pierrot" />
+		<eng value="Tag_Pierrot" />
+		<fre value="Tag_Pierrot" />
+		<spa value="Tag_Pierrot" />
+		<ita value="Tag_Pierrot" />
+		<rus value="Tag_Pierrot" />
+		<ame value="Tag_Pierrot" />
+		<cns value="Tag_Pierrot" />
+		<tha value="Tag_Pierrot" />
+		<twn value="Tag_Pierrot" />
+		<jap value="タグ_ピエロ" />
+		<tur value="Tag_Pierrot" />
+	</string>
+	<string key="NAME_ALICE">
+		<kor value="태그_앨리스" />
+		<ger value="Tag_Alice" />
+		<eng value="Tag_Alice" />
+		<fre value="Tag_Alice" />
+		<spa value="Tag_Alice" />
+		<ita value="Tag_Alice" />
+		<rus value="Tag_Alice" />
+		<ame value="Tag_Alice" />
+		<cns value="Tag_Alice" />
+		<tha value="Tag_Alice" />
+		<twn value="Tag_Alice" />
+		<jap value="タグ_アリス" />
+		<tur value="Tag_Alice" />
+	</string>
+	<string key="NAME_ASTEROID">
+		<kor value="태그_앨리스" />
+		<ger value="Tag_Alice" />
+		<eng value="Tag_Alice" />
+		<fre value="Tag_Alice" />
+		<spa value="Tag_Alice" />
+		<ita value="Tag_Alice" />
+		<rus value="Tag_Alice" />
+		<ame value="Tag_Alice" />
+		<cns value="Tag_Alice" />
+		<tha value="Tag_Alice" />
+		<twn value="Tag_Alice" />
+		<jap value="タグ_アリス" />
+		<tur value="Tag_Alice" />
+	</string>
+	<string key="NAME_OPHELIA">
+		<kor value="태그_오필리아" />
+		<ger value="Tag_Ophelia" />
+		<eng value="Tag_Ophelia" />
+		<fre value="Tag_Ophelia" />
+		<spa value="Tag_Ophelia" />
+		<ita value="Tag_Ophelia" />
+		<rus value="Tag_Ophelia" />
+		<ame value="Tag_Ophelia" />
+		<cns value="Tag_Ophelia" />
+		<tha value="Tag_Ophelia" />
+		<twn value="Tag_Ophelia" />
+		<jap value="タグ_オフィーリア" />
+		<tur value="Tag_Ophelia" />
+	</string>
+	<string key="NAME_LILIT">
+		<kor value="태그_앨리스" />
+		<ger value="Tag_Alice" />
+		<eng value="Tag_Alice" />
+		<fre value="Tag_Alice" />
+		<spa value="Tag_Alice" />
+		<ita value="Tag_Alice" />
+		<rus value="Tag_Alice" />
+		<ame value="Tag_Alice" />
+		<cns value="Tag_Alice" />
+		<tha value="Tag_Alice" />
+		<twn value="Tag_Alice" />
+		<jap value="タグ_アリス" />
+		<tur value="Tag_Alice" />
+	</string>
+</string_table>

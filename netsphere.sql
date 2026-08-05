@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : Asus Local
@@ -10989,3 +10989,33 @@ CREATE TABLE `start_items` (
 -- ----------------------------
 -- Records of start_items
 -- ----------------------------
+
+-- ============================================================
+-- Random Shop (data/xml/RandomShop.xml) support rows
+-- 1001001 (Idol hair) PEN price group so it is rollable in PEN pools
+-- ============================================================
+INSERT INTO `shop_price_groups` VALUES ('96', 'RShop-Package 1001001 PEN', '1');
+INSERT INTO `shop_prices` VALUES ('154', '96', '1', '0', '800', '1', '2400', '1');
+INSERT INTO `shop_iteminfos` VALUES ('4304', '1001001', '96', '1', '0', '0');
+
+-- Days (PeriodType 3) price rows for random shop pool items
+-- pg 96 (1001001 PEN)
+INSERT INTO `shop_prices` VALUES ('155', '96', '3', '1', '10', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('156', '96', '3', '3', '30', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('157', '96', '3', '7', '60', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('158', '96', '3', '15', '120', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('159', '96', '3', '30', '170', '1', '2400', '1');
+-- pg 11 (1020003, 1020008, 1030003)
+INSERT INTO `shop_prices` VALUES ('160', '11', '3', '1', '100', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('161', '11', '3', '3', '300', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('162', '11', '3', '7', '700', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('163', '11', '3', '15', '1000', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('164', '11', '3', '30', '1200', '1', '2400', '1');
+-- pg 10 (1040001, 1050001)
+INSERT INTO `shop_prices` VALUES ('165', '10', '3', '1', '100', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('166', '10', '3', '3', '300', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('167', '10', '3', '7', '700', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('168', '10', '3', '15', '1000', '1', '2400', '1');
+INSERT INTO `shop_prices` VALUES ('169', '10', '3', '30', '1200', '1', '2400', '1');
+-- pg 8 (1010006, 1060004) - only missing 3/3
+INSERT INTO `shop_prices` VALUES ('170', '8', '3', '3', '120', '1', '2400', '1');

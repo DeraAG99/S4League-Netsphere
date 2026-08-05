@@ -138,11 +138,8 @@
 			<require_Item Item_Id="2010055" /><!--버블 호밍(휴면이벤트)-->
 			<require_Item Item_Id="2010056" /><!--바르&마르바스-->
 			<require_Item Item_Id="2010057" /><!--AR-03-->
-			<require_Item Item_Id="2020045" /><!--제노사이더 (201709)-->
-			<require_Item Item_Id="2030010" /><!--저는 죠습니다 (201706)-->
-			<require_Item Item_Id="2010058" /><!--UMG-11 (201710)-->
-			<require_Item Item_Id="2010059" /><!--골든 UMG-11 (201710)-->
-			<require_Item Item_Id="2010045" /><!--할로윈 스매쉬 라이플 (미등록 추가)-->
+			<require_Item Item_Id="2020045" /><!--유니크 헤비머신건 (201706)-->
+			<require_Item Item_Id="2030010" /><!--장난감 상어 물총 (201706)-->
 		</limit>
 		<!-- WEAPON_LIMIT_RIFLE-->
 		<limit id="2" string_key="WEAPON_LIMIT_RIFLE" >
@@ -159,6 +156,7 @@
 			<require_Item Item_Id="2000011" />
 			<require_Item Item_Id="2000012" />
 			<require_Item Item_Id="2000013" />
+			<require_Item Item_Id="2000016" />
 			<require_Item Item_Id="2000014" /><!--게이트 브레이커-->
 			<require_Item Item_Id="2000015" /><!--기요틴 카운터 스워드-->
 			<require_Item Item_Id="2000016" /><!--연습용 스파이 대거-->
@@ -219,15 +217,8 @@
 			<require_Item Item_Id="2000076" /><!--마르스 카운터 스워드-->
 			<require_Item Item_Id="2000077" /><!--아이스 스파이 대거-->
 			<require_Item Item_Id="2000078" /><!--윈드 블레이드-->
-			<require_Item Item_Id="2000079" /><!--룰 브레이커 (201706)-->
-			<require_Item Item_Id="2000080" /><!--하푼 플라즈마 스워드 (201708)-->
-			<require_Item Item_Id="2000081" /><!--택티컬 나이프 (201710)-->
-			<require_Item Item_Id="2000082" /><!--선물 보따리 (201712)-->
-			<require_Item Item_Id="2000083" /><!--골든 택티컬 나이프 (201710)-->
-			<require_Item Item_Id="2000069" /><!--레드 크리스탈 플라즈마 스워드 (미등록 추가)-->
-			<require_Item Item_Id="2000070" /><!--레드 어쌔신 대거 (미등록 추가)-->
-			<require_Item Item_Id="2000060" /><!--플라즈마 스워드 8주년 (미등록 추가)-->
-			<require_Item Item_Id="2000061" /><!--블러디 스파이 대거 8주년 (미등록 추가)-->
+			<require_Item Item_Id="2000079" /><!--룰 브레이커 (201706)--->
+			<require_Item Item_Id="2000080" /><!--원주민 플라즈마 스워드 (201708)--->
 		</limit>
 		<!-- WEAPON_LIMIT_ARCADE-->
 		<limit id="3" string_key="WEAPON_LIMIT_ARCADE" >

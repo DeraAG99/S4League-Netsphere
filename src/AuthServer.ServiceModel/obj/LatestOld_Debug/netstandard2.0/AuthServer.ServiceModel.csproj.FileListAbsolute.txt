@@ -12,3 +12,17 @@ D:\Dera\Project\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Deb
 D:\Dera\Project\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServ.BAC6B421.Up2Date
 D:\Dera\Project\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.dll
 D:\Dera\Project\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.pdb
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\bin\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.deps.json
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\bin\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.dll
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\bin\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.pdb
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.dll
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\bin\LatestOld_Debug\netstandard2.0\ProudNetSrc.pdb
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.csproj.AssemblyReference.cache
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.AssemblyInfoInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.AssemblyInfo.cs
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.csproj.CoreCompileInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.sourcelink.json
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServ.BAC6B421.Up2Date
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.dll
+E:\Project\fix random\S4League-Netsphere\src\AuthServer.ServiceModel\obj\LatestOld_Debug\netstandard2.0\AuthServer.ServiceModel.pdb

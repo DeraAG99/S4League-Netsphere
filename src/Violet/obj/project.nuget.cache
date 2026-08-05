@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Kb9YyOLJUJU=",
+  "dgSpecHash": "e3DcRwhr4XY=",
   "success": true,
-  "projectFilePath": "D:\\Dera\\Project\\S4League-Netsphere\\src\\Violet\\Violet.csproj",
+  "projectFilePath": "E:\\Project\\fix random\\S4League-Netsphere\\src\\Violet\\Violet.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dera-\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\dera-\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Niel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Niel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

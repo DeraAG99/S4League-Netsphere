@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<string_table>
+	<string key="MALE" kor="남성" ger="[MALE]" eng="[MALE]" tur="[ERKEK]" fre="[MALE]" spa="[MALE]" ita="[MALE]" rus="[МУЖЧИНА]" ame="[MALE]" cns="[MALE]" jap="[男性]" idn="[LAKI-LAKI]"/>
+	<string key="FEMALE" kor="여성" ger="[FEMALE]" eng="[FEMALE]" tur="[KADIN]" fre="[FEMALE]" spa="[FEMALE]" ita="[FEMALE]" rus="[ЖЕНЩИНА]" ame="[FEMALE]" cns="[FEMALE]" jap="[女性]" idn="[PEREMPUAN]"/>
+</string_table>

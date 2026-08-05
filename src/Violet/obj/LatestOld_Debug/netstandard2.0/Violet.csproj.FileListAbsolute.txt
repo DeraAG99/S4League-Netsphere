@@ -9,3 +9,14 @@ D:\Dera\Project\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0
 D:\Dera\Project\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.sourcelink.json
 D:\Dera\Project\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.dll
 D:\Dera\Project\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet\bin\LatestOld_Debug\netstandard2.0\Violet.deps.json
+E:\Project\fix random\S4League-Netsphere\src\Violet\bin\LatestOld_Debug\netstandard2.0\Violet.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet\bin\LatestOld_Debug\netstandard2.0\Violet.pdb
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.csproj.AssemblyReference.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.AssemblyInfoInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.AssemblyInfo.cs
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.csproj.CoreCompileInputs.cache
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.sourcelink.json
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.dll
+E:\Project\fix random\S4League-Netsphere\src\Violet\obj\LatestOld_Debug\netstandard2.0\Violet.pdb

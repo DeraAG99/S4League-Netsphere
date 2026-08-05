@@ -1,43 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <RandomShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <!-- Random Shop Pool 1: Weapon Pool (AP) -->
-  <pool Id="1" PriceType="2" Price="100">
-    <item ItemNumber="2010001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="20" />
-    <item ItemNumber="2010007" PeriodType="1" Period="0" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="2000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="2000002" PeriodType="1" Period="0" Effect="0" Color="0" Rate="12" />
-    <item ItemNumber="2000003" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="2010008" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="2000004" PeriodType="1" Period="0" Effect="0" Color="0" Rate="8" />
-    <item ItemNumber="2000013" PeriodType="1" Period="0" Effect="0" Color="0" Rate="5" />
-    <item ItemNumber="2010010" PeriodType="1" Period="0" Effect="0" Color="0" Rate="5" />
+  <!-- TEST Pool 1: real + package (expected: create OK) -->
+  <pool Id="1" PriceType="1" Price="800">
+    <item ItemNumber="1001001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
+    <item ItemNumber="1000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
   </pool>
-
-  <!-- Random Shop Pool 2: Costume Pool (PEN) -->
-  <pool Id="2" PriceType="1" Price="5000">
-    <item ItemNumber="1000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="1000003" PeriodType="1" Period="0" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="1010001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="1010006" PeriodType="1" Period="0" Effect="0" Color="0" Rate="12" />
-    <item ItemNumber="1020003" PeriodType="1" Period="0" Effect="0" Color="0" Rate="12" />
-    <item ItemNumber="1020008" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="1030003" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="1040001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="6" />
-    <item ItemNumber="1050001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="5" />
+  <!-- TEST Pool 2: real, NOT package (expected: fail to create) -->
+  <pool Id="2" PriceType="1" Price="595">
+    <item ItemNumber="2000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
+    <item ItemNumber="2010001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
   </pool>
-
-  <!-- Random Shop Pool 3: Mixed Pool (AP) - Premium items -->
-  <pool Id="3" PriceType="2" Price="200">
-    <item ItemNumber="2000004" PeriodType="2" Period="7" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="2010008" PeriodType="2" Period="7" Effect="0" Color="0" Rate="15" />
-    <item ItemNumber="2000013" PeriodType="2" Period="7" Effect="0" Color="0" Rate="12" />
-    <item ItemNumber="1060004" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="1060005" PeriodType="1" Period="0" Effect="0" Color="0" Rate="10" />
-    <item ItemNumber="2000002" PeriodType="2" Period="30" Effect="0" Color="0" Rate="8" />
-    <item ItemNumber="2010001" PeriodType="2" Period="30" Effect="0" Color="0" Rate="8" />
-    <item ItemNumber="2000001" PeriodType="4" Period="1" Effect="0" Color="0" Rate="7" />
-    <item ItemNumber="2010007" PeriodType="4" Period="1" Effect="0" Color="0" Rate="5" />
-    <item ItemNumber="2000003" PeriodType="4" Period="1" Effect="0" Color="0" Rate="5" />
-    <item ItemNumber="2010010" PeriodType="4" Period="1" Effect="0" Color="0" Rate="5" />
+  <!-- TEST Pool 3: real + package (expected: create OK) -->
+  <pool Id="3" PriceType="1" Price="2695">
+    <item ItemNumber="3000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
+    <item ItemNumber="3000002" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
   </pool>
 </RandomShop>

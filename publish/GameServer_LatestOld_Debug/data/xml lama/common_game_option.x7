@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <!-- 클라이언트 / 서버 공통 설정 되는 설정에 사용 -->
+ <!-- 하드코딩 제거를 위한 데이터 -->
+<info_table>
+	<CollectBook_ItemRegist_Limit_Size value="20"/> 									 <!--Type int CollectBook_ItemRegist_Req 요청시 컬렉팅 북 등록 아이템 최대 사이즈-->
+	<killComboCheckTA value="20000"/>													 <!-- 콤보킬 시간 제한 (트레이닝 모드는 제외)-->
+	
+	<!-- 터치다운 정보 -->
+	<FootballPassPower value="4500"/> <!-- 터치다운 패스모드의 볼 패스 힘-->
+	<PassModeBallScnPath value="Resources/Model/Etc/ball_pass.scn"/>					 <!-- 터치다운 패스모드의 볼 모델 경로-->
+	<FootballModeBallScnPath value="Resources/Model/Etc/ball.scn"/>				 <!-- 터치다운 모드의 볼 모델 경로 -->
+	<BallBumpSeqPath value="Resources/Effects/grenade_bump.seq"/>						 <!-- 터치다운 볼 충돌 이펙트 경로 -->
+	<PassModeBallBumpSeqPath value="Resources/Effects/ball_pass_eff.seq"/>				 <!-- 터치다운 패스모드 볼 충돌 이펙트 경로 -->
+	<PassModeBallTrackingEffectPah value="Resources/uieffect/td_pass_target.scn"/> 	 	 <!-- 터치다운 패스모드 아군 트레킹 경로 -->
+	<PassModeBallTrailTexturePah value="Resources/effects/line1.dds" />					 <!-- 터치다운 패스모드 트레일 텍스쳐 경로 -->
+	<BallPassSoundPath value="Resources/Sound/earthbomber_shot.ogg" />					  <!-- 터치다운 볼 패스 사운드 경로 -->
+	
+</info_table>
