@@ -119,11 +119,34 @@ namespace NeoNetsphere
             }
         }
 
-        public long ExpireDate => PeriodType == ItemPeriodType.Days ? Expire() : -1;
+        public long ExpireDate
+        {
+            get
+            {
+                switch (PeriodType)
+                {
+                    case ItemPeriodType.Days:
+                    case ItemPeriodType.Hours:
+                        return Expire();
+                    case ItemPeriodType.None:
+                        return uint.MaxValue;
+                    default:
+                        return -1;
+                }
+            }
+        }
 
         public DateTimeOffset CalculateExpireTime()
         {
-            return PeriodType == ItemPeriodType.Days ? PurchaseDate.AddDays(DaysLeft) : DateTimeOffset.MinValue;
+            switch (PeriodType)
+            {
+                case ItemPeriodType.Days:
+                    return PurchaseDate.AddDays(DaysLeft);
+                case ItemPeriodType.Hours:
+                    return PurchaseDate.AddHours(Period);
+                default:
+                    return DateTimeOffset.MinValue;
+            }
         }
 
         private long Expire()
@@ -139,6 +162,15 @@ namespace NeoNetsphere
                     var left = expireAt - DateTimeOffset.UtcNow;
                     if (left.TotalDays > 0)
                         return (long)Math.Ceiling(left.TotalDays);
+                }
+                    return 0;
+
+                case ItemPeriodType.Hours:
+                {
+                    var expireAt = PurchaseDate.AddHours(Period);
+                    var left = expireAt - DateTimeOffset.UtcNow;
+                    if (left.TotalHours > 0)
+                        return (long)Math.Ceiling(left.TotalHours);
                 }
                     return 0;
             }

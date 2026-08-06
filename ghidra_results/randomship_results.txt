@@ -1,0 +1,21 @@
+=== S4CB RandomShop RE ===
+Program: S4CB.exe
+
+### 1. Opcode constants (dword + word) and referencing functions ###
+const DWORD 0x432 : NOT FOUND
+const DWORD 0x433 : NOT FOUND
+const DWORD 0x434 : 1 byte-match(es)
+   (no code references)
+const DWORD 0x435 : 2 byte-match(es)
+   (no code references)
+const WORD 0x432 : 167 byte-match(es)
+   (no code references)
+const WORD 0x433 : 209 byte-match(es)
+   (no code references)
+const WORD 0x434 : 171 byte-match(es)
+   (no code references)
+const WORD 0x435 : 191 byte-match(es)
+   (no code references)
+
+### 2. Random-shop related strings ###
+(no randomshop/fumbi strings found - client may obfuscate strings)

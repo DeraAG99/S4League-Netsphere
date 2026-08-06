@@ -1,18 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RandomShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <!-- TEST Pool 1: real + package (expected: create OK) -->
+  <!--
+    Official-like Random Shop (Plan B)
+    - 2 machines: Id 1 = costume (800 PEN), Id 2 = weapon (3000 PEN)
+    - Periods mirror new_random_shop.x7: NONE=4, 10h=3, 7h=7, 5h=15, 3h=170, 1h=800
+    - ItemNumber = package shown in machine (must exist in randomshop_package.x7)
+    - RewardNumber = real item granted (must have a matching price row in the shop DB)
+  -->
   <pool Id="1" PriceType="1" Price="800">
-    <item ItemNumber="1001001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
-    <item ItemNumber="1000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
+    <periods>
+      <period PeriodType="1" Period="0" Rate="4" />
+      <period PeriodType="2" Period="10" Rate="3" />
+      <period PeriodType="2" Period="7" Rate="7" />
+      <period PeriodType="2" Period="5" Rate="15" />
+      <period PeriodType="2" Period="3" Rate="170" />
+      <period PeriodType="2" Period="1" Rate="800" />
+    </periods>
+    <item ItemNumber="4010001" RewardNumber="4010001" PeriodType="0" Period="0" Effect="0" Color="0" Rate="30" />
+    <item ItemNumber="4020001" RewardNumber="4020001" PeriodType="0" Period="0" Effect="0" Color="0" Rate="40" />
+    <item ItemNumber="4020002" RewardNumber="4020002" PeriodType="0" Period="0" Effect="0" Color="0" Rate="30" />
   </pool>
-  <!-- TEST Pool 2: real, NOT package (expected: fail to create) -->
-  <pool Id="2" PriceType="1" Price="595">
-    <item ItemNumber="2000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
-    <item ItemNumber="2010001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
-  </pool>
-  <!-- TEST Pool 3: real + package (expected: create OK) -->
-  <pool Id="3" PriceType="1" Price="2695">
-    <item ItemNumber="3000001" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
-    <item ItemNumber="3000002" PeriodType="1" Period="0" Effect="0" Color="0" Rate="50" />
+  <pool Id="2" PriceType="1" Price="3000">
+    <periods>
+      <period PeriodType="1" Period="0" Rate="4" />
+      <period PeriodType="2" Period="10" Rate="3" />
+      <period PeriodType="2" Period="7" Rate="7" />
+      <period PeriodType="2" Period="5" Rate="15" />
+      <period PeriodType="2" Period="3" Rate="170" />
+      <period PeriodType="2" Period="1" Rate="800" />
+    </periods>
+    <item ItemNumber="1001001" RewardNumber="2000001" PeriodType="0" Period="0" Effect="0" Color="0" Rate="30" />
+    <item ItemNumber="1000001" RewardNumber="2010001" PeriodType="0" Period="0" Effect="0" Color="0" Rate="30" />
+    <item ItemNumber="3000001" RewardNumber="3000001" PeriodType="0" Period="0" Effect="0" Color="0" Rate="20" />
+    <item ItemNumber="3000002" RewardNumber="3000002" PeriodType="0" Period="0" Effect="0" Color="0" Rate="20" />
   </pool>
 </RandomShop>

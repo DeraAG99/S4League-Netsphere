@@ -1,6 +1,6 @@
 # Random Shop (Fumbishop) — TODO & Plan
 
-> Status: in progress. Server-side roll sudah jalan, display machine client masih blocker.
+> Status: in progress. Plan B (official-like server-side) selesai. Display machine client masih blocker.
 
 ## Status Saat Ini
 
@@ -13,10 +13,32 @@
 - DB: price row Days (1/3/7/15/30) untuk item pool + `1001001` PEN group
 - `netsphere.sql` sync (Days rows + hapus 63 package display-only)
 
+### Plan B — Official-like server-side (selesai) ✅
+- 2 mesin: costume **800 PEN** / weapon **3000 PEN** (sesuai `new_random_shop.x7`)
+- Roll 2 tahap: period tier prob official (`NONE=4, 10h=3, 7h=7, 5h=15, 3h=170, 1h=800`) → item by Rate
+- **True HOURS** support: `PlayerItem.Expire/ExpireDate/CalculateExpireTime` handle `ItemPeriodType.Hours`
+- `RewardNumber` di `RandomShop.xml`: `ItemNumber` = package (display), `RewardNumber` = item real (grant)
+- Roll handler: resolve reward+price dulu → potong PEN → grant → ack 1077 bawa **package** + period
+- 1076 (UpdateInfoAck): kirim package ID (target fix slot kosong)
+- DB `shop_prices` Hours rows (171-197) utk pg 6/7/17/26/32 (disabled, nggak muncul di shop UI)
+- `RandomShop.xml` final: 2 pool, period official, package yang aman di client
+
+### RE Client (Ghidra) — S4ClientLocal/Xero 0.8.32 ✅
+- Client punya 2 client unlock: `Game\S4ClientLocal.exe` & `Xero\xerogame.exe` (versi 0.8.32.92531, kode identik; versi lo BattleEye = 0.8.45)
+- Struktur class: `CRandomShopConnector` (UpdatePackageList/UpdateItemList/RefreshPackageButton/Price), `CRandomShopViewConnector` (OnUpdatePrizeItem/BonusItem), `CRandomShopProcessor`, `CRandomShopInfo`
+- Machine → Package → Item (10 slot/machine); result = **2 item (prize + bonus)**
+- Toast `LOBBY_RANDOMSHOP_MAKE_ITEM_FAIL` = "fail to create item"
+- **`RandomShopItemDto` = 28-byte native-aligned struct**: `uint,int,uint,byte,pad3,int,byte,pad3,uint`
+  - field0 = name key, field1+2 = effect, field3 = color, field4 = item number (image/period), field7 = rate
+- 1077 = `int result` + `int count` + array 28-byte; 1076 wrapper `byte+blob+int+int+string` (struktur server udah bener)
+- ✅ DTO server diubah ke layout 28-byte (`RandomShopItemDto.cs` + `ShopService`)
+- Hasil file: `C:\Users\dera-\AppData\Local\Temp\opencode\ghidra_results\randomship_*.txt`, `msghandlers_*.txt`, `decompile_*.txt`
+
 ### Belum Jalan ❌ (blocker)
-- Machine client: **slot item kosong** (pool nggak ke-render)
+- Machine client: **slot item kosong** (pool nggak ke-render) — harap cek setelah Plan B
 - Toast **"fail to create item"** pas roll (animasi hasil kosong)
 - **Nama item di machine kosong** (client cuma render nama dari package list-nya)
+- Verify HOURS expiry di client (item hilang setelah jam lewat)
 
 ## Akar Masalah
 
@@ -48,12 +70,14 @@
 - [ ] Restart & test
 - [ ] Terima tradeoff: machine kosong + toast "fail to create item" (kosmetik, item tetap masuk)
 
-### B. Official-like server-side (tanpa RE client)
-- [ ] Tambah field `RewardNumber` di `RandomShop.xml` (package buat display + item real buat grant)
-- [ ] Roll logic: grant **reward item** (bukan package)
-- [ ] Period/rate ikut `new_random_shop.x7` (HOURS prob: 1h=800, 3h=170, 5h=15, 7h=7, 10h=3, NONE=4)
-- [ ] Harga mesin: costume 800 PEN / weapon 3000 PEN
-- [ ] Config mapping package→item real (bisa dari XML atau DB)
+### B. Official-like server-side (tanpa RE client) ✅
+- [x] Tambah field `RewardNumber` di `RandomShop.xml` (package buat display + item real buat grant)
+- [x] Roll logic: grant **reward item** (bukan package)
+- [x] Period/rate ikut `new_random_shop.x7` (HOURS prob: 1h=800, 3h=170, 5h=15, 7h=7, 10h=3, NONE=4)
+- [x] Harga mesin: costume 800 PEN / weapon 3000 PEN
+- [x] Config mapping package→item real (via `RewardNumber` di XML)
+- [ ] Validasi: slot machine client render + toast hilang (butuh test client)
+- [ ] Validasi: item HOURS expire benar di client
 
 ### C. Fix display client (definitif — butuh RE client)
 - [ ] Identifikasi packer `E:\S4 League\Client_Release.exe` (tanpa string = packed)

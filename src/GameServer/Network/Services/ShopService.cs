@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -144,11 +144,12 @@ namespace NeoNetsphere.Network.Services
         Items = allItems.Select(i => new RandomShopItemDto
         {
           Unk1 = (uint)i.ItemNumber,
-          Unk2 = (uint)i.PeriodType,
-          Unk3 = i.Period,
-          Unk4 = i.Effect,
-          Unk5 = i.Color,
-          Unk6 = (ushort)i.Rate
+          Unk2 = (int)i.Effect,
+          Unk3 = 0,
+          Unk4 = i.Color,
+          Unk5 = (int)i.ItemNumber.Id,
+          Unk6 = 0,
+          Unk7 = i.Rate
         }).ToArray()
       };
 
@@ -186,9 +187,38 @@ namespace NeoNetsphere.Network.Services
         var poolIndex = message.Unk % pools.Count;
         var pool = pools[poolIndex];
 
+        if (pool.Items.Count == 0)
+        {
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
+          return;
+        }
+
         if (plr.PEN < pool.Price && pool.PriceType == ItemPriceType.PEN ||
             plr.AP < pool.Price && pool.PriceType == ItemPriceType.AP)
         {
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
+          return;
+        }
+
+        var rolledItem = pool.Roll();
+        var periodTier = pool.RollPeriod();
+
+        // Package id is only used for client display; grant the real reward item
+        var rewardNumber = rolledItem.RewardNumber != 0 ? rolledItem.RewardNumber : rolledItem.ItemNumber;
+
+        var priceInfo = GameServer.Instance.ResourceCache.GetShop().GetFirstItemInfo(rewardNumber);
+        if (priceInfo == null)
+        {
+          Logger.ForAccount(session).Error("RandomShop: No shop entry for {item}", rewardNumber);
+          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
+          return;
+        }
+
+        var price = priceInfo.PriceGroup.GetPrice(periodTier.PeriodType, periodTier.Period);
+        if (price == null)
+        {
+          Logger.ForAccount(session).Error("RandomShop: No price for {item} periodType={pt} period={p}",
+              rewardNumber, periodTier.PeriodType, periodTier.Period);
           await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
           return;
         }
@@ -203,31 +233,9 @@ namespace NeoNetsphere.Network.Services
             break;
         }
 
-        var rolledItem = pool.Roll();
-
         var itemEffects = new List<EffectNumber> { (EffectNumber)rolledItem.Effect };
-        var period = rolledItem.PeriodType == ItemPeriodType.None ? (ushort)0 : rolledItem.Period;
-        var priceInfo = GameServer.Instance.ResourceCache.GetShop().GetItemInfo(rolledItem.ItemNumber, pool.PriceType);
-
-        if (priceInfo == null)
-        {
-          Logger.ForAccount(session).Error("RandomShop: No shop entry for {item}", rolledItem.ItemNumber);
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
-          return;
-        }
-
-        var price = priceInfo.PriceGroup.GetPrice(rolledItem.PeriodType, period);
-        if (price == null)
-        {
-          Logger.ForAccount(session).Error("RandomShop: No price for {item} periodType={pt} period={p}",
-              rolledItem.ItemNumber, rolledItem.PeriodType, period);
-          await session.SendAsync(new RandomShopRollingStartAckMessage { Unk1 = 1, Unk2 = Array.Empty<RandomShopItemDto>() });
-          return;
-        }
-
         var plrItem = plr.Inventory.Create(priceInfo, price, rolledItem.Color,
-            itemEffects.ToArray(),
-            (uint)(price.PeriodType == ItemPeriodType.Units ? price.Period : 0));
+            itemEffects.ToArray(), 0);
 
         await session.SendAsync(new RandomShopRollingStartAckMessage
         {
@@ -237,18 +245,19 @@ namespace NeoNetsphere.Network.Services
             new RandomShopItemDto
             {
               Unk1 = (uint)rolledItem.ItemNumber,
-              Unk2 = (uint)rolledItem.PeriodType,
-              Unk3 = rolledItem.Period,
-              Unk4 = rolledItem.Effect,
-              Unk5 = rolledItem.Color,
-              Unk6 = 0
+              Unk2 = (int)rolledItem.Effect,
+              Unk3 = 0,
+              Unk4 = rolledItem.Color,
+              Unk5 = (int)rolledItem.ItemNumber.Id,
+              Unk6 = 0,
+              Unk7 = 0
             }
           }
         });
         await session.SendAsync(new MoneyRefreshCashInfoAckMessage(plr.PEN, plr.AP));
 
-        Logger.ForAccount(session).Information("RandomShop: Rolled {item} from pool {pool}",
-            rolledItem.ItemNumber, pool.Id);
+        Logger.ForAccount(session).Information("RandomShop: Rolled {reward} (pkg {pkg}) from pool {pool} period={pt}/{p}",
+            rewardNumber, rolledItem.ItemNumber, pool.Id, periodTier.PeriodType, periodTier.Period);
       }
       catch (Exception ex)
       {
@@ -358,7 +367,7 @@ namespace NeoNetsphere.Network.Services
         Logger.ForAccount(session).Information("CardGamble: Got card {card} ({name})",
             selectedCard.ItemId, selectedCard.ItemId);
 
-        // Check if all cards collected â€” auto-reward
+        // Check if all cards collected — auto-reward
         if (season.Reward != null)
         {
           var hasAllCards = season.Cards.All(c =>
@@ -376,7 +385,7 @@ namespace NeoNetsphere.Network.Services
 
               if (existing == null)
               {
-                // First completion â€” give reward and record it
+                // First completion — give reward and record it
                 var rewardShopItem = shop.GetItemInfo(season.Reward.ItemId, ItemPriceType.PEN);
                 if (rewardShopItem != null)
                 {

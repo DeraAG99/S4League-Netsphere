@@ -18,13 +18,34 @@ namespace NeoNetsphere.Resource.xml
 
     [XmlAttribute] public uint Price { get; set; }
 
+    [XmlElement("periods")]
+    public RandomShopPeriodsDto Periods { get; set; }
+
     [XmlElement("item")] public RandomShopItemPoolDto[] Items { get; set; }
+  }
+
+  [XmlType(AnonymousType = true)]
+  public class RandomShopPeriodsDto
+  {
+    [XmlElement("period")] public RandomShopPeriodDto[] Periods { get; set; }
+  }
+
+  [XmlType(AnonymousType = true)]
+  public class RandomShopPeriodDto
+  {
+    [XmlAttribute] public uint PeriodType { get; set; }
+
+    [XmlAttribute] public uint Period { get; set; }
+
+    [XmlAttribute] public uint Rate { get; set; }
   }
 
   [XmlType(AnonymousType = true)]
   public class RandomShopItemPoolDto
   {
     [XmlAttribute] public uint ItemNumber { get; set; }
+
+    [XmlAttribute] public uint RewardNumber { get; set; }
 
     [XmlAttribute] public uint PeriodType { get; set; }
 

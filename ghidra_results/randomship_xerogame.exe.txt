@@ -1,0 +1,2647 @@
+=== S4 RandomShop RE ===
+Program: xerogame.exe
+
+### 1. Opcode constants (dword + word) and referencing functions ###
+const DWORD 0x432 : 18 byte-match(es)
+   (no code references)
+const DWORD 0x433 : 20 byte-match(es)
+   referenced-by functions: 1
+     - FUN_00fe6050 @ 00fe6050
+
+=== Decompiled functions referencing dword 0x433 ===
+
+----- FUNCTION FUN_00fe6050 @ 00fe6050 -----
+
+/* WARNING: Removing unreachable block (ram,0x00fe6098) */
+/* WARNING: Removing unreachable block (ram,0x00fe60a6) */
+/* WARNING: Removing unreachable block (ram,0x00fe60df) */
+/* WARNING: Removing unreachable block (ram,0x00fe60ed) */
+/* WARNING: Removing unreachable block (ram,0x00fe60f7) */
+/* WARNING: Removing unreachable block (ram,0x00fe6107) */
+
+ulonglong FUN_00fe6050(void)
+
+{
+  double dVar1;
+  float in_XMM0_Da;
+  ulonglong in_XMM0_Qb;
+  int iVar2;
+  ulonglong uVar3;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
+  undefined1 auVar6 [16];
+  longlong lVar7;
+  ulonglong uVar8;
+  undefined1 auVar9 [16];
+  
+  if ((((uint)ABS(in_XMM0_Da) < 0x7f800000) && (dVar1 = (double)in_XMM0_Da, dVar1 < DAT_01472988))
+     && (DAT_01472980 <= dVar1)) {
+    auVar4._0_8_ = ABS(dVar1);
+    auVar4._8_8_ = in_XMM0_Qb & 0x7fffffffffffffff;
+    uVar3 = 0;
+    if (auVar4._0_8_ != 0.0) {
+      auVar6._8_8_ = 0;
+      auVar6._0_8_ = DAT_01472960;
+      auVar5._8_8_ = 0;
+      auVar5._0_8_ = DAT_01472968;
+      auVar5 = auVar4 & auVar6 | auVar5;
+      lVar7 = (ulonglong)DAT_014729c0 - ((ulonglong)auVar4._0_8_ >> 0x34);
+      uVar8 = auVar5._0_8_ >> lVar7;
+      iVar2 = -(uint)((int)DAT_014729c0 < (int)(uint)((ulonglong)((longlong)dVar1 << 1) >> 0x35));
+      uVar3 = CONCAT44(iVar2,iVar2);
+      uVar3 = ~uVar3 & uVar8 |
+              auVar5._0_8_ << ((ulonglong)auVar4._0_8_ >> 0x34) - (ulonglong)DAT_014729c0 & uVar3;
+      uVar3 = ~-(ulonglong)(dVar1 == auVar4._0_8_) & -uVar3 |
+              uVar3 & -(ulonglong)(dVar1 == auVar4._0_8_);
+      if ((0 < (int)lVar7) &&
+         (auVar9._0_8_ = uVar8 << lVar7, auVar9._8_8_ = (auVar5._8_8_ >> lVar7) << lVar7,
+         SUB164(auVar5 ^ auVar9,0) != 0 || SUB164(auVar5 ^ auVar9,4) != 0)) {
+        FUN_00fe61ed();
+      }
+    }
+    return uVar3;
+  }
+  FUN_00fe61ed();
+  return 0x8000000000000000;
+}
+
+
+const DWORD 0x434 : 23 byte-match(es)
+   (no code references)
+const DWORD 0x435 : 214 byte-match(es)
+   (no code references)
+const WORD 0x432 : 322 byte-match(es)
+   referenced-by functions: 1
+     - FUN_00d20410 @ 00d20410
+
+=== Decompiled functions referencing word 0x432 ===
+
+----- FUNCTION FUN_00d20410 @ 00d20410 -----
+
+undefined4 __fastcall FUN_00d20410(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  switch(*(undefined4 *)(param_1 + 0x18)) {
+  case 0:
+    uVar1 = 0;
+    break;
+  case 1:
+    uVar1 = 2;
+    break;
+  case 2:
+    uVar1 = 4;
+    break;
+  case 3:
+    uVar1 = 0;
+    break;
+  default:
+    uVar1 = 0;
+  }
+  return uVar1;
+}
+
+
+const WORD 0x433 : 486 byte-match(es)
+   referenced-by functions: 1
+     - FUN_00fe6050 @ 00fe6050
+
+=== Decompiled functions referencing word 0x433 ===
+
+----- FUNCTION FUN_00fe6050 @ 00fe6050 -----
+
+/* WARNING: Removing unreachable block (ram,0x00fe6098) */
+/* WARNING: Removing unreachable block (ram,0x00fe60a6) */
+/* WARNING: Removing unreachable block (ram,0x00fe60df) */
+/* WARNING: Removing unreachable block (ram,0x00fe60ed) */
+/* WARNING: Removing unreachable block (ram,0x00fe60f7) */
+/* WARNING: Removing unreachable block (ram,0x00fe6107) */
+
+ulonglong FUN_00fe6050(void)
+
+{
+  double dVar1;
+  float in_XMM0_Da;
+  ulonglong in_XMM0_Qb;
+  int iVar2;
+  ulonglong uVar3;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
+  undefined1 auVar6 [16];
+  longlong lVar7;
+  ulonglong uVar8;
+  undefined1 auVar9 [16];
+  
+  if ((((uint)ABS(in_XMM0_Da) < 0x7f800000) && (dVar1 = (double)in_XMM0_Da, dVar1 < DAT_01472988))
+     && (DAT_01472980 <= dVar1)) {
+    auVar4._0_8_ = ABS(dVar1);
+    auVar4._8_8_ = in_XMM0_Qb & 0x7fffffffffffffff;
+    uVar3 = 0;
+    if (auVar4._0_8_ != 0.0) {
+      auVar6._8_8_ = 0;
+      auVar6._0_8_ = DAT_01472960;
+      auVar5._8_8_ = 0;
+      auVar5._0_8_ = DAT_01472968;
+      auVar5 = auVar4 & auVar6 | auVar5;
+      lVar7 = (ulonglong)DAT_014729c0 - ((ulonglong)auVar4._0_8_ >> 0x34);
+      uVar8 = auVar5._0_8_ >> lVar7;
+      iVar2 = -(uint)((int)DAT_014729c0 < (int)(uint)((ulonglong)((longlong)dVar1 << 1) >> 0x35));
+      uVar3 = CONCAT44(iVar2,iVar2);
+      uVar3 = ~uVar3 & uVar8 |
+              auVar5._0_8_ << ((ulonglong)auVar4._0_8_ >> 0x34) - (ulonglong)DAT_014729c0 & uVar3;
+      uVar3 = ~-(ulonglong)(dVar1 == auVar4._0_8_) & -uVar3 |
+              uVar3 & -(ulonglong)(dVar1 == auVar4._0_8_);
+      if ((0 < (int)lVar7) &&
+         (auVar9._0_8_ = uVar8 << lVar7, auVar9._8_8_ = (auVar5._8_8_ >> lVar7) << lVar7,
+         SUB164(auVar5 ^ auVar9,0) != 0 || SUB164(auVar5 ^ auVar9,4) != 0)) {
+        FUN_00fe61ed();
+      }
+    }
+    return uVar3;
+  }
+  FUN_00fe61ed();
+  return 0x8000000000000000;
+}
+
+
+const WORD 0x434 : 357 byte-match(es)
+   referenced-by functions: 2
+     - FUN_00eb27e0 @ 00eb27e0
+     - FUN_00eb28b0 @ 00eb28b0
+
+=== Decompiled functions referencing word 0x434 ===
+
+----- FUNCTION FUN_00eb27e0 @ 00eb27e0 -----
+
+undefined1
+FUN_00eb27e0(undefined4 param_1,undefined4 param_2,undefined4 *param_3,undefined4 param_4)
+
+{
+  uint uVar1;
+  int *unaff_FS_OFFSET;
+  undefined1 local_40 [28];
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  int *local_18;
+  undefined1 local_11;
+  int local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_0134bc79;
+  local_10 = *unaff_FS_OFFSET;
+  uVar1 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  FUN_00fa2e10(uVar1);
+  local_8 = 0;
+  FUN_00fa4240();
+  local_1c = 0xbc7;
+  FUN_00e030c0(0xbc7);
+  local_24 = *param_3;
+  local_20 = param_3[1];
+  FUN_00f17570(local_24,local_20);
+  FUN_00f006a0(local_40,param_4);
+  local_11 = (**(code **)(*local_18 + 0xc))(&param_1,1,param_2,local_40,DAT_015f5b0c,0xbc7);
+  local_8 = 0xffffffff;
+  FUN_00e01400();
+  *unaff_FS_OFFSET = local_10;
+  return local_11;
+}
+
+
+
+----- FUNCTION FUN_00eb28b0 @ 00eb28b0 -----
+
+undefined1
+FUN_00eb28b0(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 *param_4,
+            undefined4 param_5)
+
+{
+  uint uVar1;
+  int *unaff_FS_OFFSET;
+  undefined1 local_40 [28];
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  int *local_18;
+  undefined1 local_11;
+  int local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_0134bc9c;
+  local_10 = *unaff_FS_OFFSET;
+  uVar1 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  FUN_00fa2e10(uVar1);
+  local_8 = 0;
+  FUN_00fa4240();
+  local_1c = 0xbc7;
+  FUN_00e030c0(0xbc7);
+  local_24 = *param_4;
+  local_20 = param_4[1];
+  FUN_00f17570(local_24,local_20);
+  FUN_00f006a0(local_40,param_5);
+  local_11 = (**(code **)(*local_18 + 0xc))(param_1,param_2,param_3,local_40,DAT_015f5b0c,0xbc7);
+  local_8 = 0xffffffff;
+  FUN_00e01400();
+  *unaff_FS_OFFSET = local_10;
+  return local_11;
+}
+
+
+const WORD 0x435 : 550 byte-match(es)
+   referenced-by functions: 8
+     - FUN_004a3ac0 @ 004a3ac0
+     - FUN_004b1250 @ 004b1250
+     - FUN_004b31f0 @ 004b31f0
+     - FUN_004b5400 @ 004b5400
+     - FUN_006b6500 @ 006b6500
+     - FUN_006b6aa0 @ 006b6aa0
+     - FUN_006b6d80 @ 006b6d80
+     - FUN_00a0a580 @ 00a0a580
+
+=== Decompiled functions referencing word 0x435 ===
+
+----- FUNCTION FUN_004a3ac0 @ 004a3ac0 -----
+
+void FUN_004a3ac0(undefined4 *param_1,int param_2,
+                 basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_3,
+                 basic_streambuf<char,std::char_traits<char>_> *param_4,undefined4 param_5)
+
+{
+  ulonglong uVar1;
+  char cVar2;
+  char cVar3;
+  uint uVar4;
+  char *pcVar5;
+  char *pcVar6;
+  uint uVar7;
+  int *unaff_FS_OFFSET;
+  __int64 _Var8;
+  dateorder dVar9;
+  int local_178 [4];
+  basic_ios<char,std::char_traits<char>_> local_168 [76];
+  undefined4 local_11c;
+  int local_110 [4];
+  basic_ios<char,std::char_traits<char>_> local_100 [72];
+  int local_b8;
+  int local_b4;
+  uint local_b0;
+  uint *local_ac;
+  uint *local_a8;
+  uint local_a4;
+  uint *local_a0;
+  ulonglong local_9c;
+  int *local_94;
+  int *local_90;
+  int local_8c;
+  uint local_88;
+  int *local_84;
+  uint local_80;
+  uint *local_7c;
+  int *local_78;
+  uint local_74;
+  int *local_70;
+  int *local_6c;
+  uint *local_68;
+  int local_64;
+  uint local_60;
+  dateorder local_5c;
+  uint *local_58;
+  uint local_54;
+  uint local_50;
+  int *local_4c;
+  uint local_48;
+  int local_44;
+  char *local_40;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_3c;
+  char *local_38;
+  uint local_34;
+  char *local_30;
+  undefined8 local_2c;
+  char local_22;
+  char local_21;
+  uint local_20;
+  uint local_1c;
+  undefined1 local_15;
+  char local_14;
+  undefined1 local_13;
+  byte local_12;
+  byte local_11;
+  int local_10;
+  undefined1 *puStack_c;
+  uint local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_012a97f6;
+  local_10 = *unaff_FS_OFFSET;
+  uVar4 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  local_11c = 0;
+  FUN_004a5900(param_4,1);
+  local_8 = 0;
+  if (&stack0x00000000 == (undefined1 *)0x118) {
+    local_8c = 0;
+  }
+  else {
+    local_8c = (int)local_110 + *(int *)(local_110[0] + 4);
+  }
+  FUN_004b0cf0(local_8c,param_5);
+  if (&stack0x00000000 == (undefined1 *)0x118) {
+    local_70 = (int *)0x0;
+  }
+  else {
+    local_70 = local_110;
+  }
+  (*(code *)param_1[1])(local_70,*param_1,uVar4);
+  local_5c = std::time_get<char,std::istreambuf_iterator<char,std::char_traits<char>_>_>::
+             do_date_order((time_get<char,std::istreambuf_iterator<char,std::char_traits<char>_>_> *
+                           )((int)local_110 + *(int *)(local_110[0] + 4)));
+  local_21 = (local_5c & 0x100) != 0;
+  local_13 = local_21;
+  _Var8 = std::ios_base::width((ios_base *)((int)local_110 + *(int *)(local_110[0] + 4)));
+  if (local_21 == '\0') {
+LAB_004a3be7:
+    local_14 = '\0';
+  }
+  else {
+    local_2c._0_4_ = (uint)_Var8;
+    local_2c._4_4_ = (int)((ulonglong)_Var8 >> 0x20);
+    if ((uint)local_2c == 0 && local_2c._4_4_ == 0) goto LAB_004a3be7;
+    local_14 = '\x01';
+  }
+  local_22 = local_14;
+  local_2c = _Var8;
+  std::basic_string<char,std::char_traits<char>,std::allocator<char>_>::resize(param_3,0,'\0');
+  if (local_22 == '\0') {
+    if ((-1 < local_2c) && ((0 < local_2c._4_4_ || ((uint)local_2c != 0)))) {
+      std::ios_base::width((ios_base *)((int)local_110 + *(int *)(local_110[0] + 4)),0);
+    }
+    if (&stack0x00000000 == (undefined1 *)0x118) {
+      local_4c = (int *)0x0;
+    }
+    else {
+      local_4c = local_110;
+    }
+    (*(code *)param_1[2])(local_4c,*param_1);
+    local_40 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    local_12 = 0;
+    if ((*(uint *)(param_2 + 0x68) & 2) != 0) {
+      pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+      pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+      if ((pcVar6 == pcVar5) ||
+         ((cVar3 = *local_40,
+          cVar2 = std::basic_ios<char,std::char_traits<char>_>::widen
+                            ((basic_ios<char,std::char_traits<char>_> *)
+                             ((int)local_110 + *(int *)(local_110[0] + 4)),'+'), cVar3 != cVar2 &&
+          (cVar3 = *local_40,
+          cVar2 = std::basic_ios<char,std::char_traits<char>_>::widen
+                            ((basic_ios<char,std::char_traits<char>_> *)
+                             ((int)local_110 + *(int *)(local_110[0] + 4)),'-'), cVar3 != cVar2))))
+      {
+        local_12 = std::basic_ios<char,std::char_traits<char>_>::widen
+                             ((basic_ios<char,std::char_traits<char>_> *)
+                              ((int)local_110 + *(int *)(local_110[0] + 4)),' ');
+      }
+    }
+    pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+    local_74 = (int)pcVar6 - (int)pcVar5;
+    local_9c = (ulonglong)(local_12 != 0);
+    uVar1 = local_9c;
+    local_9c._0_4_ = (uint)(local_12 != 0);
+    local_54 = *(int *)(param_2 + 0x60) - (uint)local_9c;
+    if (local_74 < local_54) {
+      local_7c = &local_74;
+    }
+    else {
+      local_7c = &local_54;
+    }
+    local_a0 = local_7c;
+    local_a4 = *local_7c;
+    local_15 = (*(uint *)(param_2 + 0x68) & 4) != 0;
+    uVar4 = (uint)(byte)local_15;
+    uVar7 = (uint)local_12;
+    dVar9 = local_5c;
+    local_9c = uVar1;
+    cVar3 = std::basic_ios<char,std::char_traits<char>_>::fill
+                      ((basic_ios<char,std::char_traits<char>_> *)
+                       ((int)local_110 + *(int *)(local_110[0] + 4)));
+    FUN_004a27c0(param_3,local_40,local_a4,(uint)local_2c,local_2c._4_4_,cVar3,dVar9,uVar7,uVar4);
+  }
+  else {
+    if (&stack0x00000000 == (undefined1 *)0x118) {
+      local_84 = (int *)0x0;
+    }
+    else {
+      local_84 = local_110;
+    }
+    (*(code *)param_1[2])(local_84,*param_1);
+    local_30 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+    local_34 = (int)pcVar6 - (int)pcVar5;
+    local_11 = 0;
+    if ((*(uint *)(param_2 + 0x68) & 2) != 0) {
+      pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+      pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+      if ((pcVar6 == pcVar5) ||
+         ((cVar3 = *local_30,
+          cVar2 = std::basic_ios<char,std::char_traits<char>_>::widen
+                            ((basic_ios<char,std::char_traits<char>_> *)
+                             ((int)local_110 + *(int *)(local_110[0] + 4)),'+'), cVar3 != cVar2 &&
+          (cVar3 = *local_30,
+          cVar2 = std::basic_ios<char,std::char_traits<char>_>::widen
+                            ((basic_ios<char,std::char_traits<char>_> *)
+                             ((int)local_110 + *(int *)(local_110[0] + 4)),'-'), cVar3 != cVar2))))
+      {
+        local_11 = 1;
+      }
+    }
+    if (local_34 == (uint)local_2c) {
+      local_64 = param_2;
+      if ((local_2c._4_4_ <= *(int *)(param_2 + 100)) &&
+         (((local_2c._4_4_ < *(int *)(param_2 + 100) ||
+           ((uint)local_2c <= *(uint *)(param_2 + 0x60))) && (local_11 == 0)))) {
+        FUN_004b0f40(local_30,local_34);
+        goto LAB_004a427a;
+      }
+    }
+    FUN_004b0f40(local_30,local_34);
+    local_30 = (char *)0x0;
+    FUN_004b1250();
+    FUN_004a5900(param_4,1);
+    local_8 = CONCAT31(local_8._1_3_,1);
+    if (&stack0x00000000 == (undefined1 *)0x180) {
+      local_44 = 0;
+    }
+    else {
+      local_44 = (int)local_178 + *(int *)(local_178[0] + 4);
+    }
+    FUN_004b0cf0(local_44,param_5);
+    if (&stack0x00000000 == (undefined1 *)0x180) {
+      local_94 = (int *)0x0;
+    }
+    else {
+      local_94 = local_178;
+    }
+    (*(code *)param_1[1])(local_94,*param_1);
+    std::ios_base::width((ios_base *)((int)local_178 + *(int *)(local_178[0] + 4)),0);
+    if (local_11 != 0) {
+      if (&stack0x00000000 == (undefined1 *)0x180) {
+        local_6c = (int *)0x0;
+      }
+      else {
+        local_6c = local_178;
+      }
+      FUN_0049ec40(local_6c,0x20);
+    }
+    if (&stack0x00000000 == (undefined1 *)0x180) {
+      local_90 = (int *)0x0;
+    }
+    else {
+      local_90 = local_178;
+    }
+    (*(code *)param_1[2])(local_90,*param_1);
+    pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+    if ((pcVar6 == pcVar5) && ((*(uint *)(param_2 + 0x68) & 2) != 0)) {
+      local_11 = 1;
+      if (&stack0x00000000 == (undefined1 *)0x180) {
+        local_78 = (int *)0x0;
+      }
+      else {
+        local_78 = local_178;
+      }
+      FUN_0049ec40(local_78,0x20);
+    }
+    local_38 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_4);
+    pcVar6 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_4);
+    local_88 = (int)pcVar6 - (int)pcVar5;
+    local_80 = *(uint *)(param_2 + 0x60);
+    if (local_88 < local_80) {
+      local_68 = &local_88;
+    }
+    else {
+      local_68 = &local_80;
+    }
+    local_ac = local_68;
+    local_20 = *local_68;
+    if (local_20 < (uint)local_2c) {
+      local_48 = (uint)(local_11 != 0);
+      local_50 = local_34 + local_48;
+      if (local_20 < local_50) {
+        local_58 = &local_20;
+      }
+      else {
+        local_58 = &local_50;
+      }
+      local_a8 = local_58;
+      local_b0 = *local_58;
+      for (local_1c = (uint)local_11; local_1c < local_b0; local_1c = local_1c + 1) {
+        local_60 = (uint)(local_11 != 0);
+        if (*(uint *)(param_3 + 0x14) < 0x10) {
+          local_3c = param_3;
+        }
+        else {
+          local_3c = *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)param_3;
+        }
+        if (*(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+             (local_38 + local_1c) != local_3c[local_1c - local_60]) break;
+      }
+      if (local_20 <= local_1c) {
+        local_1c = (uint)local_11;
+      }
+      FUN_004b0f40(local_38,local_1c);
+      local_b8 = (uint)local_2c - local_20;
+      local_b4 = local_2c._4_4_ - (uint)((uint)local_2c < local_20);
+      cVar3 = std::basic_ios<char,std::char_traits<char>_>::fill
+                        ((basic_ios<char,std::char_traits<char>_> *)
+                         ((int)local_178 + *(int *)(local_178[0] + 4)));
+      FUN_004b0ad0(local_b8,cVar3);
+      FUN_004b0b50(local_38 + local_1c,local_20 - local_1c);
+    }
+    else {
+      FUN_004b0f40(local_38,local_20);
+    }
+    local_8 = local_8 & 0xffffff00;
+    FUN_004a89f0();
+    std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+              (local_168);
+  }
+LAB_004a427a:
+  FUN_004b1250();
+  local_8 = 0xffffffff;
+  FUN_004a89f0();
+  std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>(local_100);
+  *unaff_FS_OFFSET = local_10;
+  return;
+}
+
+
+
+----- FUNCTION FUN_004b1250 @ 004b1250 -----
+
+void __fastcall FUN_004b1250(basic_streambuf<char,std::char_traits<char>_> *param_1)
+
+{
+  undefined4 local_64;
+  undefined4 local_60;
+  undefined4 local_5c;
+  undefined4 local_58;
+  undefined4 local_54;
+  undefined4 uStack_4c;
+  undefined1 local_48 [24];
+  undefined1 local_30 [24];
+  undefined1 *local_18;
+  char *local_14;
+  undefined1 *local_10;
+  char *local_c;
+  basic_streambuf<char,std::char_traits<char>_> *local_8;
+  
+  uStack_4c = 0x4b1262;
+  local_8 = param_1;
+  local_c = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+  uStack_4c = 0x4b126e;
+  local_14 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(local_8);
+  if ((local_c != (char *)0x0) && (local_c != local_14)) {
+    uStack_4c = 2;
+    local_10 = (undefined1 *)&local_64;
+    local_64 = 0;
+    local_60 = 0;
+    local_5c = 0;
+    local_58 = 0;
+    local_54 = 0;
+    (**(code **)(*(int *)local_8 + 0x2c))(local_30);
+  }
+  uStack_4c = 0x4b12cc;
+  local_c = std::basic_streambuf<char,std::char_traits<char>_>::gptr(local_8);
+  uStack_4c = 0x4b12d8;
+  local_14 = std::basic_streambuf<char,std::char_traits<char>_>::eback(local_8);
+  if ((local_c != (char *)0x0) && (local_c != local_14)) {
+    uStack_4c = 1;
+    local_18 = (undefined1 *)&local_64;
+    local_64 = 0;
+    local_60 = 0;
+    local_5c = 0;
+    local_58 = 0;
+    local_54 = 0;
+    (**(code **)(*(int *)local_8 + 0x2c))(local_48);
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_004b31f0 @ 004b31f0 -----
+
+/* WARNING: Removing unreachable block (ram,0x004b3234) */
+/* WARNING: Removing unreachable block (ram,0x004b3227) */
+
+int __thiscall FUN_004b31f0(basic_streambuf<char,std::char_traits<char>_> *param_1,int param_2)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  char *pcVar4;
+  char *pcVar5;
+  char *pcVar6;
+  char *pcVar7;
+  _Concurrent_queue_base_v4 *this;
+  uint local_30;
+  int local_2c;
+  char *local_20;
+  uint local_14;
+  uint local_10;
+  char *local_c;
+  
+  if (param_2 == -1) {
+    local_2c = 0;
+  }
+  else {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+    if (pcVar1 != (char *)0x0) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+      if (pcVar1 < pcVar2) {
+        std::basic_streambuf<char,std::char_traits<char>_>::sputc(param_1,(char)param_2);
+        return param_2;
+      }
+    }
+    if ((*(uint *)(param_1 + 0x40) & 2) == 0) {
+      local_2c = -1;
+    }
+    else {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      if (pcVar1 == (char *)0x0) {
+        local_30 = 0;
+      }
+      else {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        local_30 = (int)pcVar1 - (int)pcVar2;
+      }
+      local_10 = local_30;
+      local_14 = local_30 >> 1;
+      if (local_14 < 0x100) {
+        local_14 = 0x100;
+      }
+      local_c = (char *)0x0;
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      for (; (local_14 != 0 && (-local_14 - 1 < local_30)); local_14 = local_14 >> 1) {
+      }
+      if (local_14 != 0) {
+        local_10 = local_30 + local_14;
+        local_20 = (char *)0x0;
+        if ((local_10 != 0) && (local_20 = operator_new(local_10), local_20 == (char *)0x0)) {
+          Concurrency::details::_Concurrent_queue_base_v4::_Internal_throw_exception(this);
+        }
+        local_c = local_20;
+      }
+      if ((local_30 != 0) && (local_30 != 0)) {
+        memcpy(local_c,pcVar1,local_30);
+      }
+      if (param_1[0x3c] != (basic_streambuf<char,std::char_traits<char>_>)0x0) {
+        operator_delete(pcVar1);
+      }
+      param_1[0x3c] = (basic_streambuf<char,std::char_traits<char>_>)0x1;
+      if (local_30 == 0) {
+        *(char **)(param_1 + 0x38) = local_c;
+        std::basic_streambuf<char,std::char_traits<char>_>::setp(param_1,local_c,local_c + local_10)
+        ;
+        if ((*(uint *)(param_1 + 0x40) & 1) == 0) {
+          std::basic_streambuf<char,std::char_traits<char>_>::setg
+                    (param_1,local_c,(char *)0x0,local_c);
+        }
+        else {
+          std::basic_streambuf<char,std::char_traits<char>_>::setg
+                    (param_1,local_c,local_c,local_c + 1);
+        }
+      }
+      else {
+        *(char **)(param_1 + 0x38) = local_c + (*(int *)(param_1 + 0x38) - (int)pcVar1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+        pcVar4 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+        pcVar5 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        pcVar6 = local_c + local_10;
+        pcVar7 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+        std::basic_streambuf<char,std::char_traits<char>_>::setp
+                  (param_1,local_c + ((int)pcVar7 - (int)pcVar1),pcVar6);
+        std::basic_streambuf<char,std::char_traits<char>_>::pbump(param_1,(int)pcVar2 - (int)pcVar3)
+        ;
+        if ((*(uint *)(param_1 + 0x40) & 1) == 0) {
+          std::basic_streambuf<char,std::char_traits<char>_>::setg
+                    (param_1,local_c,(char *)0x0,local_c);
+        }
+        else {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+          std::basic_streambuf<char,std::char_traits<char>_>::setg
+                    (param_1,local_c,local_c + ((int)pcVar4 - (int)pcVar5),pcVar1 + 1);
+        }
+      }
+      std::basic_streambuf<char,std::char_traits<char>_>::sputc(param_1,(char)param_2);
+      local_2c = param_2;
+    }
+  }
+  return local_2c;
+}
+
+
+
+----- FUNCTION FUN_004b5400 @ 004b5400 -----
+
+uint * __thiscall
+FUN_004b5400(basic_streambuf<char,std::char_traits<char>_> *param_1,uint *param_2,uint param_3,
+            uint param_4,int param_5,uint param_6)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  uint uVar3;
+  bool bVar4;
+  
+  pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+  if ((pcVar1 != (char *)0x0) &&
+     (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+     *(char **)(param_1 + 0x38) < pcVar1)) {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+    *(char **)(param_1 + 0x38) = pcVar1;
+  }
+  if (((param_6 & 1) == 0) ||
+     (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1),
+     pcVar1 == (char *)0x0)) {
+    if (((param_6 & 2) == 0) ||
+       (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+       pcVar1 == (char *)0x0)) {
+      param_3 = 0xffffffff;
+      param_4 = 0xffffffff;
+    }
+    else {
+      if (param_5 == 2) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        uVar3 = *(int *)(param_1 + 0x38) - (int)pcVar1;
+        bVar4 = CARRY4(uVar3,param_3);
+        param_3 = uVar3 + param_3;
+        param_4 = ((int)uVar3 >> 0x1f) + param_4 + (uint)bVar4;
+      }
+      else if (param_5 == 0) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        uVar3 = (int)pcVar1 - (int)pcVar2;
+        bVar4 = CARRY4(uVar3,param_3);
+        param_3 = uVar3 + param_3;
+        param_4 = ((int)uVar3 >> 0x1f) + param_4 + (uint)bVar4;
+      }
+      else if (param_5 != 0) {
+        *param_2 = 0xffffffff;
+        param_2[1] = 0xffffffff;
+        param_2[2] = 0;
+        param_2[3] = 0;
+        param_2[4] = 0;
+        return param_2;
+      }
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      if ((pcVar2 + param_3 < pcVar1) ||
+         (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+         *(char **)(param_1 + 0x38) < pcVar1 + param_3)) {
+        param_3 = 0xffffffff;
+        param_4 = 0xffffffff;
+      }
+      else {
+        std::basic_streambuf<char,std::char_traits<char>_>::pbump(param_1,param_3);
+      }
+    }
+  }
+  else {
+    if (param_5 == 2) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+      uVar3 = *(int *)(param_1 + 0x38) - (int)pcVar1;
+      bVar4 = CARRY4(uVar3,param_3);
+      param_3 = uVar3 + param_3;
+      param_4 = ((int)uVar3 >> 0x1f) + param_4 + (uint)bVar4;
+    }
+    else if (param_5 == 0) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+      uVar3 = (int)pcVar1 - (int)pcVar2;
+      bVar4 = CARRY4(uVar3,param_3);
+      param_3 = uVar3 + param_3;
+      param_4 = ((int)uVar3 >> 0x1f) + param_4 + (uint)bVar4;
+    }
+    else if ((param_5 != 1) || ((param_6 & 2) != 0)) {
+      *param_2 = 0xffffffff;
+      param_2[1] = 0xffffffff;
+      param_2[2] = 0;
+      param_2[3] = 0;
+      param_2[4] = 0;
+      return param_2;
+    }
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+    pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+    if ((pcVar2 + param_3 < pcVar1) ||
+       (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1),
+       *(char **)(param_1 + 0x38) < pcVar1 + param_3)) {
+      param_3 = 0xffffffff;
+      param_4 = 0xffffffff;
+    }
+    else {
+      std::basic_streambuf<char,std::char_traits<char>_>::gbump(param_1,param_3);
+      if (((param_6 & 2) != 0) &&
+         (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+         pcVar1 != (char *)0x0)) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        std::basic_streambuf<char,std::char_traits<char>_>::pbump(param_1,(int)pcVar1 - (int)pcVar2)
+        ;
+      }
+    }
+  }
+  *param_2 = param_3;
+  param_2[1] = param_4;
+  param_2[2] = 0;
+  param_2[3] = 0;
+  param_2[4] = 0;
+  return param_2;
+}
+
+
+
+----- FUNCTION FUN_006b6500 @ 006b6500 -----
+
+/* WARNING: Removing unreachable block (ram,0x006b6559) */
+/* WARNING: Removing unreachable block (ram,0x006b654c) */
+
+int __thiscall FUN_006b6500(basic_streambuf<char,std::char_traits<char>_> *param_1,int param_2)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  _Concurrent_queue_base_v4 *this;
+  char *pcVar4;
+  uint local_38;
+  uint local_34;
+  int local_30;
+  char *local_24;
+  uint local_18;
+  
+  if ((*(uint *)(param_1 + 0x3c) & 2) == 0) {
+    if (param_2 == -1) {
+      local_30 = 0;
+    }
+    else {
+      if ((((*(uint *)(param_1 + 0x3c) & 8) != 0) &&
+          (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+          pcVar1 != (char *)0x0)) &&
+         (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+         pcVar1 < *(char **)(param_1 + 0x38))) {
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+        pcVar1 = *(char **)(param_1 + 0x38);
+        pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+        std::basic_streambuf<char,std::char_traits<char>_>::setp(param_1,pcVar3,pcVar1,pcVar2);
+      }
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      if (pcVar1 != (char *)0x0) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+        if (pcVar1 < pcVar2) {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::_Pninc(param_1);
+          *pcVar1 = (char)param_2;
+          return param_2;
+        }
+      }
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      if (pcVar1 == (char *)0x0) {
+        local_34 = 0;
+      }
+      else {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        local_34 = (int)pcVar1 - (int)pcVar2;
+      }
+      if (local_34 >> 1 < 0x20) {
+        local_38 = 0x20;
+      }
+      else {
+        local_38 = local_34 >> 1;
+      }
+      for (local_18 = local_38; (local_18 != 0 && (0x7fffffff - local_18 < local_34));
+          local_18 = local_18 >> 1) {
+      }
+      if (local_18 == 0) {
+        local_30 = -1;
+      }
+      else {
+        local_18 = local_34 + local_18;
+        local_24 = (char *)0x0;
+        if ((local_18 != 0) && (local_24 = operator_new(local_18), local_24 == (char *)0x0)) {
+          Concurrency::details::_Concurrent_queue_base_v4::_Internal_throw_exception(this);
+        }
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        if ((local_34 != 0) && (local_34 != 0)) {
+          memcpy(local_24,pcVar1,local_34);
+        }
+        if (local_34 == 0) {
+          *(char **)(param_1 + 0x38) = local_24;
+          std::basic_streambuf<char,std::char_traits<char>_>::setp
+                    (param_1,local_24,local_24 + local_18);
+          if ((*(uint *)(param_1 + 0x3c) & 4) == 0) {
+            std::basic_streambuf<char,std::char_traits<char>_>::setg
+                      (param_1,local_24,local_24,local_24 + 1);
+          }
+          else {
+            std::basic_streambuf<char,std::char_traits<char>_>::setg
+                      (param_1,local_24,(char *)0x0,local_24);
+          }
+        }
+        else {
+          *(char **)(param_1 + 0x38) = local_24 + (*(int *)(param_1 + 0x38) - (int)pcVar1);
+          pcVar4 = local_24 + local_18;
+          pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+          pcVar2 = local_24 + ((int)pcVar2 - (int)pcVar1);
+          pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+          std::basic_streambuf<char,std::char_traits<char>_>::setp
+                    (param_1,local_24 + ((int)pcVar3 - (int)pcVar1),pcVar2,pcVar4);
+          if ((*(uint *)(param_1 + 0x3c) & 4) == 0) {
+            pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+            pcVar2 = pcVar2 + 1;
+            pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+            std::basic_streambuf<char,std::char_traits<char>_>::setg
+                      (param_1,local_24,local_24 + ((int)pcVar3 - (int)pcVar1),pcVar2);
+          }
+          else {
+            std::basic_streambuf<char,std::char_traits<char>_>::setg
+                      (param_1,local_24,(char *)0x0,local_24);
+          }
+        }
+        if ((*(uint *)(param_1 + 0x3c) & 1) != 0) {
+          operator_delete(pcVar1);
+        }
+        *(uint *)(param_1 + 0x3c) = *(uint *)(param_1 + 0x3c) | 1;
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::_Pninc(param_1);
+        *pcVar1 = (char)param_2;
+        local_30 = param_2;
+      }
+    }
+  }
+  else {
+    local_30 = -1;
+  }
+  return local_30;
+}
+
+
+
+----- FUNCTION FUN_006b6aa0 @ 006b6aa0 -----
+
+uint * __thiscall
+FUN_006b6aa0(basic_streambuf<char,std::char_traits<char>_> *param_1,uint *param_2,uint param_3,
+            uint param_4,int param_5,uint param_6)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  uint uVar4;
+  int iVar5;
+  bool bVar6;
+  
+  pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+  if ((pcVar1 != (char *)0x0) &&
+     (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+     *(char **)(param_1 + 0x38) < pcVar1)) {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+    *(char **)(param_1 + 0x38) = pcVar1;
+  }
+  if (((param_6 & 1) == 0) ||
+     (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1),
+     pcVar1 == (char *)0x0)) {
+    if (((param_6 & 2) == 0) ||
+       (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+       pcVar1 == (char *)0x0)) {
+      if (param_3 != 0 || param_4 != 0) {
+        param_3 = *(uint *)_BADOFF_exref;
+        param_4 = *(uint *)(_BADOFF_exref + 4);
+      }
+    }
+    else {
+      if (param_5 == 2) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        uVar4 = *(int *)(param_1 + 0x38) - (int)pcVar1;
+        bVar6 = CARRY4(uVar4,param_3);
+        param_3 = uVar4 + param_3;
+        param_4 = ((int)uVar4 >> 0x1f) + param_4 + (uint)bVar6;
+      }
+      else if (param_5 == 1) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        uVar4 = (int)pcVar1 - (int)pcVar2;
+        bVar6 = CARRY4(uVar4,param_3);
+        param_3 = uVar4 + param_3;
+        param_4 = ((int)uVar4 >> 0x1f) + param_4 + (uint)bVar6;
+      }
+      else if (param_5 != 0) {
+        param_3 = *(uint *)_BADOFF_exref;
+        param_4 = *(uint *)(_BADOFF_exref + 4);
+      }
+      if (-1 < (int)param_4) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        iVar5 = *(int *)(param_1 + 0x38) - (int)pcVar1 >> 0x1f;
+        if (((int)param_4 <= iVar5) &&
+           (((int)param_4 < iVar5 || (param_3 <= (uint)(*(int *)(param_1 + 0x38) - (int)pcVar1)))))
+        {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+          pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+          std::basic_streambuf<char,std::char_traits<char>_>::pbump
+                    (param_1,(int)(pcVar1 + (param_3 - (int)pcVar2)));
+          goto LAB_006b6d3e;
+        }
+      }
+      param_3 = *(uint *)_BADOFF_exref;
+      param_4 = *(uint *)(_BADOFF_exref + 4);
+    }
+  }
+  else {
+    if (param_5 == 2) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      uVar4 = *(int *)(param_1 + 0x38) - (int)pcVar1;
+      bVar6 = CARRY4(uVar4,param_3);
+      param_3 = uVar4 + param_3;
+      param_4 = ((int)uVar4 >> 0x1f) + param_4 + (uint)bVar6;
+    }
+    else if ((param_5 == 1) && ((param_6 & 2) == 0)) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      uVar4 = (int)pcVar1 - (int)pcVar2;
+      bVar6 = CARRY4(uVar4,param_3);
+      param_3 = uVar4 + param_3;
+      param_4 = ((int)uVar4 >> 0x1f) + param_4 + (uint)bVar6;
+    }
+    else if (param_5 != 0) {
+      param_3 = *(uint *)_BADOFF_exref;
+      param_4 = *(uint *)(_BADOFF_exref + 4);
+    }
+    if (-1 < (int)param_4) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      iVar5 = *(int *)(param_1 + 0x38) - (int)pcVar1 >> 0x1f;
+      if (((int)param_4 <= iVar5) &&
+         (((int)param_4 < iVar5 || (param_3 <= (uint)(*(int *)(param_1 + 0x38) - (int)pcVar1))))) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+        std::basic_streambuf<char,std::char_traits<char>_>::gbump
+                  (param_1,(int)(pcVar1 + (param_3 - (int)pcVar2)));
+        if (((param_6 & 2) != 0) &&
+           (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+           pcVar1 != (char *)0x0)) {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+          pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+          pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+          std::basic_streambuf<char,std::char_traits<char>_>::setp(param_1,pcVar3,pcVar2,pcVar1);
+        }
+        goto LAB_006b6d3e;
+      }
+    }
+    param_3 = *(uint *)_BADOFF_exref;
+    param_4 = *(uint *)(_BADOFF_exref + 4);
+  }
+LAB_006b6d3e:
+  *param_2 = param_3;
+  param_2[1] = param_4;
+  param_2[2] = 0;
+  param_2[3] = 0;
+  param_2[4] = 0;
+  return param_2;
+}
+
+
+
+----- FUNCTION FUN_006b6d80 @ 006b6d80 -----
+
+uint * __thiscall
+FUN_006b6d80(basic_streambuf<char,std::char_traits<char>_> *param_1,uint *param_2,uint param_3,
+            int param_4,uint param_5,int param_6,undefined4 param_7,undefined4 param_8,uint param_9)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  int iVar4;
+  uint local_14;
+  uint local_10;
+  
+  local_14 = param_3 + param_5;
+  local_10 = param_4 + param_6 + (uint)CARRY4(param_3,param_5);
+  pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+  if ((pcVar1 != (char *)0x0) &&
+     (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+     *(char **)(param_1 + 0x38) < pcVar1)) {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+    *(char **)(param_1 + 0x38) = pcVar1;
+  }
+  if ((local_14 != *(uint *)_BADOFF_exref) || (local_10 != *(uint *)(_BADOFF_exref + 4))) {
+    if (((param_9 & 1) == 0) ||
+       (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1),
+       pcVar1 == (char *)0x0)) {
+      if (((param_9 & 2) == 0) ||
+         (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+         pcVar1 == (char *)0x0)) {
+        local_14 = *(uint *)_BADOFF_exref;
+        local_10 = *(uint *)(_BADOFF_exref + 4);
+      }
+      else {
+        if (-1 < (int)local_10) {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+          iVar4 = *(int *)(param_1 + 0x38) - (int)pcVar1 >> 0x1f;
+          if (((int)local_10 <= iVar4) &&
+             (((int)local_10 < iVar4 || (local_14 <= (uint)(*(int *)(param_1 + 0x38) - (int)pcVar1))
+              ))) {
+            pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+            pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+            std::basic_streambuf<char,std::char_traits<char>_>::pbump
+                      (param_1,(int)(pcVar1 + (local_14 - (int)pcVar2)));
+            goto LAB_006b6f6a;
+          }
+        }
+        local_14 = *(uint *)_BADOFF_exref;
+        local_10 = *(uint *)(_BADOFF_exref + 4);
+      }
+    }
+    else {
+      if (-1 < (int)local_10) {
+        pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+        iVar4 = *(int *)(param_1 + 0x38) - (int)pcVar1 >> 0x1f;
+        if (((int)local_10 <= iVar4) &&
+           (((int)local_10 < iVar4 || (local_14 <= (uint)(*(int *)(param_1 + 0x38) - (int)pcVar1))))
+           ) {
+          pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+          pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+          std::basic_streambuf<char,std::char_traits<char>_>::gbump
+                    (param_1,(int)(pcVar1 + (local_14 - (int)pcVar2)));
+          if (((param_9 & 2) != 0) &&
+             (pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1),
+             pcVar1 != (char *)0x0)) {
+            pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::epptr(param_1);
+            pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+            pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+            std::basic_streambuf<char,std::char_traits<char>_>::setp(param_1,pcVar3,pcVar2,pcVar1);
+          }
+          goto LAB_006b6f6a;
+        }
+      }
+      local_14 = *(uint *)_BADOFF_exref;
+      local_10 = *(uint *)(_BADOFF_exref + 4);
+    }
+  }
+LAB_006b6f6a:
+  *param_2 = local_14;
+  param_2[1] = local_10;
+  param_2[2] = 0;
+  param_2[3] = 0;
+  param_2[4] = 0;
+  return param_2;
+}
+
+
+
+----- FUNCTION FUN_00a0a580 @ 00a0a580 -----
+
+void __thiscall FUN_00a0a580(basic_streambuf<char,std::char_traits<char>_> *param_1,int param_2)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  char *local_5c;
+  undefined1 local_50 [16];
+  undefined4 local_40;
+  undefined4 local_3c;
+  undefined1 local_38 [16];
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined1 local_20 [16];
+  undefined4 local_10;
+  undefined4 local_c;
+  uint local_8;
+  
+  local_8 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  if ((*(uint *)(param_1 + 0x3c) & 2) == 0) {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+    if (pcVar1 != (char *)0x0) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      if (*(char **)(param_1 + 0x38) < pcVar1) {
+        local_5c = std::basic_streambuf<char,std::char_traits<char>_>::pptr(param_1);
+      }
+      else {
+        local_5c = *(char **)(param_1 + 0x38);
+      }
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::pbase(param_1);
+      local_10 = 0;
+      local_c = 0;
+      FUN_004b0340(0,0);
+      FUN_004b0f40(pcVar2,(int)local_5c - (int)pcVar1);
+      *(undefined4 *)(param_2 + 0x10) = 0;
+      *(undefined4 *)(param_2 + 0x14) = 0;
+      FUN_004b0340(0,0);
+      FUN_004aebf0(local_20);
+      FUN_004b0340(1,0);
+      goto LAB_00a0a78d;
+    }
+  }
+  if ((*(uint *)(param_1 + 0x3c) & 4) == 0) {
+    pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::gptr(param_1);
+    if (pcVar1 != (char *)0x0) {
+      pcVar1 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      pcVar2 = std::basic_streambuf<char,std::char_traits<char>_>::egptr(param_1);
+      pcVar3 = std::basic_streambuf<char,std::char_traits<char>_>::eback(param_1);
+      local_28 = 0;
+      local_24 = 0;
+      FUN_004b0340(0,0);
+      FUN_004b0f40(pcVar3,(int)pcVar2 - (int)pcVar1);
+      *(undefined4 *)(param_2 + 0x10) = 0;
+      *(undefined4 *)(param_2 + 0x14) = 0;
+      FUN_004b0340(0,0);
+      FUN_004aebf0(local_38);
+      FUN_004b0340(1,0);
+      goto LAB_00a0a78d;
+    }
+  }
+  local_40 = 0;
+  local_3c = 0;
+  FUN_004b0340(0,0);
+  *(undefined4 *)(param_2 + 0x10) = 0;
+  *(undefined4 *)(param_2 + 0x14) = 0;
+  FUN_004b0340(0,0);
+  FUN_004aebf0(local_50);
+  FUN_004b0340(1,0);
+LAB_00a0a78d:
+  FUN_00fe5a84();
+  return;
+}
+
+
+
+### 2. Random-shop related strings ###
+String @013a41f8 : LOBBY_RANDOMSHOP_NOT_SEX
+   ref from 004e3a6d in FUN_004e3390@004e3390
+String @013a4214 : LOBBY_RANDOMSHOP_NOT_ITEMINFO
+   ref from 004e3a7c in FUN_004e3390@004e3390
+String @013a4234 : LOBBY_RANDOMSHOP_SLOTHOLD_ERROR
+   ref from 004e3a8b in FUN_004e3390@004e3390
+String @013a4254 : LOBBY_RANDOMSHOP_SLOTCHANCE_ERROR
+   ref from 004e3a9a in FUN_004e3390@004e3390
+String @013a4278 : LOBBY_RANDOMSHOP_CHANCEGAUGE_NOTENOUGH
+   ref from 004e3aa9 in FUN_004e3390@004e3390
+String @013a42a0 : LOBBY_RANDOMSHOP_INVENTORY_OVERFLOW
+   ref from 004e3ab8 in FUN_004e3390@004e3390
+String @013a42c4 : LOBBY_RANDOMSHOP_NOT_ENOUGH_MONEY
+   ref from 004e3ac7 in FUN_004e3390@004e3390
+String @013a42e8 : LOBBY_RANDOMSHOP_MAKE_ITEM_FAIL
+   ref from 004e3ad6 in FUN_004e3390@004e3390
+String @013a4308 : LOBBY_RANDOMSHOP_NOT_EXIST_PACKAGE
+   ref from 004e3ae5 in FUN_004e3390@004e3390
+String @013a432c : LOBBY_RANDOMSHOP_NEED_MONEY
+   ref from 004e3af4 in FUN_004e3390@004e3390
+String @013a53d4 : SHOP_CAN_NOT_BUY_FUMBICAPSULE_WITH_OTHER_ITEMS
+   ref from 004e4472 in FUN_004e3390@004e3390
+String @013a54dc : SHOP_ERROR_FIRST_RANDOMSHOP
+   ref from 004e4502 in FUN_004e3390@004e3390
+String @014289f4 : Game::CRandomShopConnector::RefreshPackageButton
+   ref from 00c75544 in FUN_00c754c0@00c754c0
+String @01428a3c : Game::CRandomShopConnector::RefreshPackagePrice
+   ref from 00c755f5 in FUN_00c755d0@00c755d0
+String @01428a78 : Game::CRandomShopConnector::RefreshPackagePrice
+   ref from 00c75617 in FUN_00c755d0@00c755d0
+String @01428ab8 : CRandomShopConnector
+   ref from 00477458 in FUN_00477450@00477450
+String @01428ad0 : Game::CRandomShopConnector::RefreshPackagePrice
+   ref from 00c75639 in FUN_00c755d0@00c755d0
+String @01428b0c : Game::CRandomShopConnector::RefreshPackagePrice
+   ref from 00c7565b in FUN_00c755d0@00c755d0
+String @01428b4c : CRandomShopConnector
+   ref from 00c72faf in FUN_00c72f20@00c72f20
+String @01428b64 : Resources/XUI/UI/Shop_Fumbi.xui
+   ref from 00c732d2 in FUN_00c732a0@00c732a0
+String @01428b84 : Game::CRandomShopConnector::Create
+   ref from 00c732f9 in FUN_00c732a0@00c732a0
+String @01428ba8 : Shop_Fumbi_Window
+   ref from 00c732fe in FUN_00c732a0@00c732a0
+String @01428bbc : Game::CRandomShopConnector::Create
+   ref from 00c73330 in FUN_00c732a0@00c732a0
+String @01428bec : Game::CRandomShopConnector::Create
+   ref from 00c73367 in FUN_00c732a0@00c732a0
+String @01428c20 : Game::CRandomShopConnector::Create
+   ref from 00c7339e in FUN_00c732a0@00c732a0
+String @01428c44 : Shop_Fumbi_GroupBox
+   ref from 00c733a3 in FUN_00c732a0@00c732a0
+String @01428c58 : Game::CRandomShopConnector::Create
+   ref from 00c733d5 in FUN_00c732a0@00c732a0
+String @01428c90 : Game::CRandomShopConnector::Create
+   ref from 00c7340c in FUN_00c732a0@00c732a0
+String @01428d1c : Game::CRandomShopConnector::Create
+   ref from 00c734e3 in FUN_00c732a0@00c732a0
+String @01428d50 : Game::CRandomShopConnector::Create
+   ref from 00c7351a in FUN_00c732a0@00c732a0
+String @01428d84 : Game::CRandomShopConnector::Create
+   ref from 00c73539 in FUN_00c732a0@00c732a0
+String @01428db8 : Game::CRandomShopConnector::Create
+   ref from 00c73570 in FUN_00c732a0@00c732a0
+String @01428dec : Game::CRandomShopConnector::Create
+   ref from 00c7358f in FUN_00c732a0@00c732a0
+String @01428e34 : Game::CRandomShopConnector::Create
+   ref from 00c736bb in FUN_00c732a0@00c732a0
+String @01428e58 : Game::CRandomShopConnector::Create
+   ref from 00c7399a in FUN_00c732a0@00c732a0
+String @01428e8c : Game::CRandomShopConnector::Create
+   ref from 00c739d1 in FUN_00c732a0@00c732a0
+String @01428ec4 : Game::CRandomShopConnector::Create
+   ref from 00c739f9 in FUN_00c732a0@00c732a0
+String @01428f00 : Game::CRandomShopConnector::Create
+   ref from 00c73a18 in FUN_00c732a0@00c732a0
+String @01428f3c : Game::CRandomShopConnector::Create
+   ref from 00c73a46 in FUN_00c732a0@00c732a0
+String @01428f70 : Game::CRandomShopConnector::Create
+   ref from 00c73a65 in FUN_00c732a0@00c732a0
+String @01428fa8 : Game::CRandomShopConnector::CreateGUICategory
+   ref from 00c750a8 in FUN_00c75080@00c75080
+String @01428fd8 : Game::CRandomShopConnector::UpdatePackageList
+   ref from 00c75291 in FUN_00c75210@00c75210
+String @0142901c : Game::CRandomShopConnector::UpdatePackageList
+   ref from 00c752aa in FUN_00c75210@00c75210
+String @0142905c : Game::CRandomShopConnector::UpdateItemList
+   ref from 00c75401 in FUN_00c75380@00c75380
+String @014290cc : Game::CRandomShopViewConnector::Create
+   ref from 00c762d3 in FUN_00c76080@00c76080
+String @01429170 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+   ref from 00c76d05 in FUN_00c76ce0@00c76ce0
+String @014291b8 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+   ref from 00c76d27 in FUN_00c76ce0@00c76ce0
+String @01429200 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+   ref from 00c76d49 in FUN_00c76ce0@00c76ce0
+String @01429248 : Game::CRandomShopViewConnector::OnUpdateBonusItem
+   ref from 00c76e28 in FUN_00c76df0@00c76df0
+String @0142928c : Game::CRandomShopViewConnector::OnUpdateBonusItem
+   ref from 00c76e4a in FUN_00c76df0@00c76df0
+String @014292d4 : Game::CRandomShopViewConnector::OnUpdateBonusItem
+   ref from 00c76e6c in FUN_00c76df0@00c76df0
+String @0142931c : CRandomShopViewConnector
+   ref from 004774a8 in FUN_004774a0@004774a0
+String @01429338 : CRandomShopViewConnector
+   ref from 00c75e1f in FUN_00c75d90@00c75d90
+String @01429354 : Resources/XUI/UI/Shop_Fumbi_Scn.xui
+   ref from 00c760ac in FUN_00c76080@00c76080
+String @01429378 : Game::CRandomShopViewConnector::Create
+   ref from 00c760ca in FUN_00c76080@00c76080
+String @014293ac : Game::CRandomShopViewConnector::Create
+   ref from 00c760fb in FUN_00c76080@00c76080
+String @014293d4 : Fumbi_Scn_GroupBox
+   ref from 00c76100 in FUN_00c76080@00c76080
+String @014293e8 : Game::CRandomShopViewConnector::Create
+   ref from 00c7612c in FUN_00c76080@00c76080
+String @01429410 : Fumbi_back_GroupBox
+   ref from 00c76131 in FUN_00c76080@00c76080
+String @01429424 : Game::CRandomShopViewConnector::Create
+   ref from 00c7615a in FUN_00c76080@00c76080
+
+### 3. Functions referencing CRandomShop* strings (decompiled) ###
+String @014289f4 : Game::CRandomShopConnector::RefreshPackageButton
+String @01428a3c : Game::CRandomShopConnector::RefreshPackagePrice
+String @01428a78 : Game::CRandomShopConnector::RefreshPackagePrice
+String @01428ab8 : CRandomShopConnector
+String @01428ad0 : Game::CRandomShopConnector::RefreshPackagePrice
+String @01428b0c : Game::CRandomShopConnector::RefreshPackagePrice
+String @01428b4c : CRandomShopConnector
+String @01428b84 : Game::CRandomShopConnector::Create
+String @01428bbc : Game::CRandomShopConnector::Create
+String @01428bec : Game::CRandomShopConnector::Create
+String @01428c20 : Game::CRandomShopConnector::Create
+String @01428c58 : Game::CRandomShopConnector::Create
+String @01428c90 : Game::CRandomShopConnector::Create
+String @01428d1c : Game::CRandomShopConnector::Create
+String @01428d50 : Game::CRandomShopConnector::Create
+String @01428d84 : Game::CRandomShopConnector::Create
+String @01428db8 : Game::CRandomShopConnector::Create
+String @01428dec : Game::CRandomShopConnector::Create
+String @01428e34 : Game::CRandomShopConnector::Create
+String @01428e58 : Game::CRandomShopConnector::Create
+String @01428e8c : Game::CRandomShopConnector::Create
+String @01428ec4 : Game::CRandomShopConnector::Create
+String @01428f00 : Game::CRandomShopConnector::Create
+String @01428f3c : Game::CRandomShopConnector::Create
+String @01428f70 : Game::CRandomShopConnector::Create
+String @01428fa8 : Game::CRandomShopConnector::CreateGUICategory
+String @01428fd8 : Game::CRandomShopConnector::UpdatePackageList
+String @0142901c : Game::CRandomShopConnector::UpdatePackageList
+String @0142905c : Game::CRandomShopConnector::UpdateItemList
+String @014290cc : Game::CRandomShopViewConnector::Create
+String @01429170 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+String @014291b8 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+String @01429200 : Game::CRandomShopViewConnector::OnUpdatePrizeItem
+String @01429248 : Game::CRandomShopViewConnector::OnUpdateBonusItem
+String @0142928c : Game::CRandomShopViewConnector::OnUpdateBonusItem
+String @014292d4 : Game::CRandomShopViewConnector::OnUpdateBonusItem
+String @0142931c : CRandomShopViewConnector
+String @01429338 : CRandomShopViewConnector
+String @01429378 : Game::CRandomShopViewConnector::Create
+String @014293ac : Game::CRandomShopViewConnector::Create
+String @014293e8 : Game::CRandomShopViewConnector::Create
+String @01429424 : Game::CRandomShopViewConnector::Create
+String @0142945c : Game::CRandomShopViewConnector::Create
+String @014294a0 : Game::CRandomShopViewConnector::Create
+String @014294e8 : Game::CRandomShopViewConnector::Create
+String @01429520 : Game::CRandomShopViewConnector::Create
+String @01429558 : Game::CRandomShopViewConnector::Create
+String @01429590 : Game::CRandomShopViewConnector::Create
+String @014295c8 : Game::CRandomShopViewConnector::Create
+String @014400e8 : CRandomShopProcessor
+String @014401d4 : CRandomShopProcessor
+referencing functions: 15
+
+=== Decompiled functions referencing CRandomShop strings ===
+
+----- FUNCTION FUN_00c754c0 @ 00c754c0 -----
+
+void __fastcall FUN_00c754c0(int param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  int *piVar3;
+  int *piVar4;
+  longlong lVar5;
+  int local_c;
+  
+  iVar1 = FUN_00ba22a0();
+  if (iVar1 != 0) {
+    for (local_c = 0; iVar2 = (**(code **)(**(int **)(param_1 + 0x30) + 0xb0))(), local_c < iVar2;
+        local_c = local_c + 1) {
+      piVar3 = (int *)(**(code **)(**(int **)(param_1 + 0x30) + 0xe0))(local_c);
+      if (piVar3 != (int *)0x0) {
+        piVar4 = (int *)FUN_008a7020(piVar3,s_Machine_RadioButton_01428a28,
+                                     s_Game__CRandomShopConnector__Refr_014289f4);
+        iVar2 = *(int *)(iVar1 + 8);
+        lVar5 = (**(code **)(*piVar3 + 0x114))();
+        (**(code **)(*piVar4 + 0x2f8))(lVar5 == iVar2,1);
+      }
+    }
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c755d0 @ 00c755d0 -----
+
+void __fastcall FUN_00c755d0(int param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  int *piVar3;
+  int *piVar4;
+  int *piVar5;
+  undefined4 uVar6;
+  
+  iVar1 = FUN_00ba22a0();
+  if (iVar1 != 0) {
+    piVar2 = (int *)FUN_005395c0(*(undefined4 *)(param_1 + 0xc),s_pen_Image_01428a6c,
+                                 s_Game__CRandomShopConnector__Refr_01428a3c);
+    piVar3 = (int *)FUN_005395c0(*(undefined4 *)(param_1 + 0xc),s_coupon_Image_01428aa8,
+                                 s_Game__CRandomShopConnector__Refr_01428a78);
+    piVar4 = (int *)FUN_005395c0(*(undefined4 *)(param_1 + 0xc),s_Event_Image_01428b00,
+                                 s_Game__CRandomShopConnector__Refr_01428ad0);
+    piVar5 = (int *)FUN_008a4600(*(undefined4 *)(param_1 + 0xc),s_Amount_Label_01428b3c,
+                                 s_Game__CRandomShopConnector__Refr_01428b0c);
+    iVar1 = FUN_00d776d0();
+    if (iVar1 == 1) {
+      uVar6 = FUN_00d77510();
+      (**(code **)(*piVar5 + 0x70))(uVar6);
+    }
+    else if (iVar1 == 2) {
+      uVar6 = FUN_00d77510();
+      (**(code **)(*piVar5 + 0x70))(uVar6);
+    }
+    else if (iVar1 == 3) {
+      uVar6 = FUN_00d77510();
+      (**(code **)(*piVar5 + 0x70))(uVar6);
+    }
+    else {
+      (**(code **)(*piVar5 + 0x70))(&DAT_01428a25);
+    }
+    (**(code **)(*piVar2 + 0x1b4))(iVar1 == 1);
+    (**(code **)(*piVar3 + 0x1b4))(iVar1 == 2);
+    (**(code **)(*piVar4 + 0x1b4))(iVar1 == 3);
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_00477450 @ 00477450 -----
+
+void FUN_00477450(void)
+
+{
+  FUN_00fe6de0(s_CRandomShopConnector_01428ab8,&DAT_0166cf88);
+  FUN_00fe5d0d(FUN_01392cf0);
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c72f20 @ 00c72f20 -----
+
+undefined4 FUN_00c72f20(void)
+
+{
+  char cVar1;
+  int *unaff_FS_OFFSET;
+  char *pcVar2;
+  undefined4 local_44 [2];
+  undefined1 auStack_3c [24];
+  uint uStack_24;
+  undefined4 *local_20;
+  undefined1 *local_1c;
+  undefined *local_18;
+  undefined4 *local_14;
+  int local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_013224be;
+  local_10 = *unaff_FS_OFFSET;
+  uStack_24 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  local_1c = (undefined1 *)local_44;
+  local_14 = local_44;
+  local_44[0] = 0;
+  cVar1 = FUN_00ba2390(FID_conflict_CreateObject,auStack_3c);
+  if (cVar1 == '\0') {
+    *local_14 = 0;
+  }
+  else {
+    local_18 = &DAT_014028f5;
+    *local_14 = &DAT_014028f5;
+  }
+  local_20 = local_14;
+  local_8 = 0;
+  pcVar2 = s_CRandomShopConnector_01428b4c;
+  FID_conflict__Immortalize<std::_Generic_error_category>(s_CRandomShopConnector_01428b4c);
+  local_8 = 0xffffffff;
+  FUN_00cd0630(pcVar2);
+  *unaff_FS_OFFSET = local_10;
+  return 1;
+}
+
+
+
+----- FUNCTION FUN_00c732a0 @ 00c732a0 -----
+
+void __fastcall FUN_00c732a0(int *param_1)
+
+{
+  undefined4 *puVar1;
+  int *unaff_FS_OFFSET;
+  undefined4 uVar2;
+  int *piStack_3cc;
+  undefined1 *puStack_3c8;
+  code *pcStack_3c4;
+  int *piStack_3c0;
+  undefined1 *puStack_3bc;
+  code *pcStack_3b8;
+  int *piStack_3b4;
+  undefined1 *puStack_3b0;
+  code *pcStack_3ac;
+  int *piStack_3a8;
+  int *piStack_39c;
+  undefined4 uStack_390;
+  undefined4 uStack_384;
+  undefined1 local_350 [32];
+  undefined1 local_330 [8];
+  undefined1 local_328 [8];
+  undefined1 local_320 [16];
+  undefined1 local_310 [16];
+  undefined1 local_300 [16];
+  undefined1 local_2f0 [8];
+  undefined1 local_2e8 [8];
+  undefined1 local_2e0 [8];
+  undefined1 local_2d8 [20];
+  undefined4 local_2c4;
+  undefined4 local_2bc;
+  undefined1 *local_2b8;
+  undefined4 local_2b4;
+  undefined1 *local_2b0;
+  undefined4 local_2ac;
+  undefined4 local_2a4;
+  undefined1 *local_2a0;
+  undefined1 *local_29c;
+  undefined4 local_298;
+  undefined1 *local_294;
+  undefined1 *local_28c;
+  undefined1 *local_288;
+  undefined1 *local_284;
+  undefined1 *local_280;
+  undefined1 *local_27c;
+  undefined1 *local_278;
+  undefined4 local_274;
+  undefined1 *local_268;
+  undefined1 *local_264;
+  undefined4 local_25c;
+  undefined4 local_258;
+  undefined1 *local_250;
+  undefined4 local_24c;
+  undefined1 *local_248;
+  int *local_244;
+  code *local_240;
+  code *local_23c;
+  int local_238;
+  int local_234;
+  int local_230;
+  undefined4 *local_22c;
+  int local_228;
+  undefined4 local_224;
+  undefined4 local_220;
+  int local_21c;
+  int *local_218;
+  undefined4 local_214;
+  int local_210;
+  undefined4 local_20c;
+  undefined4 local_208;
+  int local_204;
+  int local_200;
+  undefined4 local_1fc;
+  undefined4 local_1f8;
+  undefined4 local_1f4;
+  undefined4 local_1f0;
+  undefined4 local_1ec;
+  undefined4 local_1e8;
+  int local_1e4;
+  undefined4 local_1e0;
+  int local_1dc;
+  undefined4 local_1d8;
+  int local_1d4;
+  int *local_1d0;
+  undefined4 local_1cc;
+  int *local_1c8;
+  int local_1c4;
+  int *local_1c0;
+  int local_1bc;
+  int *local_1b8;
+  undefined4 local_1b4;
+  undefined4 local_1b0;
+  undefined4 *local_1ac;
+  undefined4 local_1a8;
+  undefined4 local_1a4;
+  undefined4 local_1a0;
+  undefined4 local_19c;
+  undefined4 local_198;
+  undefined4 local_194;
+  int local_190;
+  int local_18c;
+  undefined4 local_188;
+  int local_184;
+  undefined4 local_180;
+  int local_17c;
+  undefined4 local_178;
+  int local_174;
+  int local_170;
+  undefined4 local_16c;
+  void *local_168;
+  undefined1 *local_164;
+  undefined1 *local_160;
+  undefined4 local_15c;
+  undefined4 *local_158;
+  undefined4 local_154;
+  int *local_150;
+  undefined4 local_14c;
+  int *local_148;
+  undefined1 *local_144;
+  void *local_140;
+  void *local_13c;
+  int *local_138;
+  void *local_134;
+  int *local_130;
+  void *local_12c;
+  void *local_128;
+  undefined4 local_124;
+  undefined4 local_120;
+  undefined4 local_11c;
+  void *local_118;
+  void *local_114;
+  undefined4 **local_110;
+  int *local_10c;
+  int *local_108;
+  int *local_104;
+  int *local_100;
+  int *local_fc;
+  int *local_f8;
+  int *local_f4;
+  int *local_f0;
+  undefined4 local_ec;
+  undefined4 *local_e8;
+  uint local_e4;
+  int *local_e0;
+  undefined4 **local_2c [5];
+  uint local_18;
+  uint local_14;
+  int local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_0132272e;
+  local_10 = *unaff_FS_OFFSET;
+  local_14 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  local_e0 = param_1;
+  (**(code **)(*param_1 + 8))();
+  local_190 = local_e0[1];
+  FUN_0089a690();
+  FUN_00891cc0();
+  local_238 = local_e0[1];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_234 = local_e0[1];
+  FUN_0089a690();
+  FUN_00891cc0();
+  local_174 = local_e0[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_200 = local_e0[3];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_1d4 = local_e0[0x1a];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_17c = local_e0[3];
+  FUN_00c75080();
+  local_204 = local_e0[3];
+  FUN_00c75080();
+  local_184 = local_e0[3];
+  FUN_00c75080();
+  local_1dc = local_e0[3];
+  FUN_00c75080();
+  local_18c = local_e0[3];
+  FUN_0089e3c0();
+  FUN_00891cc0();
+  local_228 = local_e0[3];
+  local_194 = FUN_0089f060();
+  FUN_008a69d0();
+  FUN_00891cc0();
+  local_1e4 = local_e0[3];
+  local_ec = FUN_0089f060();
+  FUN_008a4600();
+  FUN_00891cc0();
+  for (local_e4 = 0; local_e4 < 10; local_e4 = local_e4 + 1) {
+    local_210 = local_e4 + 1;
+    FUN_004a5a70();
+    local_8 = 0;
+    local_1a4 = FUN_004ac030();
+    local_8._0_1_ = 1;
+    local_244 = &local_210;
+    local_240 = std::_Destroy_range<std::_Wrap_alloc<std::allocator<unsigned_char>_>_>;
+    local_23c = FUN_004b7220;
+    local_19c = local_1a4;
+    local_1ec = FUN_004a2700();
+    FUN_004b5a10();
+    local_8._0_1_ = 3;
+    FUN_004a8920();
+    local_8._0_1_ = 4;
+    FUN_004b0340();
+    if (local_18 < 0x10) {
+      local_110 = local_2c;
+    }
+    else {
+      local_110 = local_2c[0];
+    }
+    FUN_00538f70();
+    FUN_00891cc0();
+    local_100 = (int *)local_e0[local_e4 + 0xd];
+    (**(code **)(*local_100 + 0x110))();
+    local_e8 = operator_new(0x28);
+    local_8._0_1_ = 5;
+    if (local_e8 == (undefined4 *)0x0) {
+      local_158 = (undefined4 *)0x0;
+    }
+    else {
+      puVar1 = (undefined4 *)FUN_00bdc4d0();
+      local_20c = *puVar1;
+      local_208 = puVar1[1];
+      local_144 = local_350;
+      FUN_00c75990();
+      local_268 = local_144;
+      local_8._0_1_ = 6;
+      FUN_00ba2490();
+      local_8._0_1_ = 7;
+      *local_e8 = &DAT_014028b8;
+      CTempBuffer<>();
+      local_8._0_1_ = 5;
+      FUN_00ba2670();
+      local_1ac = local_e8;
+      local_158 = local_e8;
+    }
+    local_22c = local_158;
+    local_8._0_1_ = 4;
+    local_108 = (int *)local_e0[local_e4 + 0xd];
+    (**(code **)(*local_108 + 0x50))();
+    local_168 = operator_new(0x28);
+    local_8._0_1_ = 8;
+    if (local_168 == (void *)0x0) {
+      local_11c = 0;
+    }
+    else {
+      uStack_384 = 0xc738ae;
+      puVar1 = (undefined4 *)FUN_00bdc4d0();
+      piStack_39c = (int *)*puVar1;
+      local_214 = puVar1[1];
+      local_2b8 = (undefined1 *)&uStack_390;
+      local_160 = (undefined1 *)&uStack_390;
+      local_218 = piStack_39c;
+      FUN_00c75990();
+      local_248 = local_160;
+      local_1b4 = FUN_00bac9b0();
+      local_11c = local_1b4;
+    }
+    local_1f4 = local_11c;
+    local_8 = CONCAT31(local_8._1_3_,4);
+    local_f0 = (int *)local_e0[local_e4 + 0xd];
+    (**(code **)(*local_f0 + 0x50))();
+    local_8 = 0xffffffff;
+    FUN_004b0340();
+  }
+  local_1bc = local_e0[3];
+  FUN_00925720();
+  FUN_00891cc0();
+  local_21c = local_e0[3];
+  FUN_00925720();
+  FUN_00891cc0();
+  local_138 = (int *)FUN_0089e3c0();
+  local_150 = (int *)FUN_0089e3c0();
+  local_1c4 = local_e0[3];
+  local_104 = (int *)FUN_00538f70();
+  local_1cc = FUN_0089ea10();
+  local_114 = operator_new(0x2c0);
+  local_8 = 9;
+  if (local_114 == (void *)0x0) {
+    local_124 = 0;
+  }
+  else {
+    local_124 = FUN_00cce400();
+  }
+  local_1fc = local_124;
+  local_8 = 0xffffffff;
+  FUN_00891cc0();
+  local_230 = local_e0[0x1c];
+  FUN_00cceac0();
+  local_170 = local_e0[0x1c];
+  (**(code **)(*local_104 + 0xa0))();
+  local_12c = operator_new(0x28);
+  local_8 = 10;
+  if (local_12c == (void *)0x0) {
+    local_14c = 0;
+  }
+  else {
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    uStack_390 = *puVar1;
+    local_220 = puVar1[1];
+    local_27c = (undefined1 *)&uStack_384;
+    local_164 = (undefined1 *)&uStack_384;
+    local_224 = uStack_390;
+    FUN_00c75990();
+    local_280 = local_164;
+    local_178 = FUN_00ba23f0();
+    local_14c = local_178;
+  }
+  local_180 = local_14c;
+  local_8 = 0xffffffff;
+  local_fc = (int *)local_e0[0xc];
+  (**(code **)(*local_fc + 0x50))();
+  local_134 = operator_new(0x28);
+  local_8 = 0xb;
+  if (local_134 == (void *)0x0) {
+    local_15c = 0;
+  }
+  else {
+    local_288 = (undefined1 *)&uStack_390;
+    piStack_39c = local_e0;
+    piStack_3a8 = (int *)0xc73c96;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    piStack_39c = (int *)*puVar1;
+    local_25c = FUN_00c75990();
+    local_188 = FUN_00ba23f0();
+    local_15c = local_188;
+  }
+  local_16c = local_15c;
+  local_8 = 0xffffffff;
+  local_10c = (int *)local_e0[0x18];
+  (**(code **)(*local_10c + 0x50))();
+  uStack_384 = 0xc73d29;
+  local_13c = operator_new(0x28);
+  local_8 = 0xc;
+  if (local_13c == (void *)0x0) {
+    local_154 = 0;
+  }
+  else {
+    local_264 = (undefined1 *)&piStack_39c;
+    piStack_3a8 = local_e0;
+    pcStack_3ac = FUN_00c74860;
+    puStack_3b0 = local_328;
+    piStack_3b4 = (int *)0xc73d6f;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    piStack_3a8 = (int *)*puVar1;
+    pcStack_3ac = (code *)0xc73d80;
+    local_298 = FUN_00c75990();
+    local_198 = FUN_00ba23f0();
+    local_154 = local_198;
+  }
+  local_1a0 = local_154;
+  local_8 = 0xffffffff;
+  local_f4 = (int *)local_e0[0x19];
+  uStack_384 = local_154;
+  (**(code **)(*local_f4 + 0x50))();
+  uStack_390 = 0xc73e02;
+  local_118 = operator_new(0x28);
+  local_8 = 0xd;
+  if (local_118 == (void *)0x0) {
+    local_120 = 0;
+  }
+  else {
+    local_2a0 = (undefined1 *)&piStack_3a8;
+    pcStack_3ac = (code *)0x0;
+    puStack_3b0 = (undefined1 *)(uint)DAT_0166d1f1;
+    piStack_3b4 = local_e0;
+    pcStack_3b8 = FUN_00c74c90;
+    puStack_3bc = local_2e0;
+    piStack_3c0 = (int *)0xc73e48;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    puStack_3b0 = (undefined1 *)puVar1[1];
+    piStack_3b4 = (int *)*puVar1;
+    pcStack_3b8 = (code *)0xc73e59;
+    local_274 = FUN_00c75990();
+    pcStack_3ac = (code *)0xc73e6a;
+    local_1a8 = FUN_00ba23f0();
+    local_120 = local_1a8;
+  }
+  local_1b0 = local_120;
+  local_8 = 0xffffffff;
+  local_f8 = (int *)local_e0[0x1b];
+  uStack_390 = local_120;
+  (**(code **)(*local_f8 + 0x50))();
+  piStack_39c = (int *)0xc73edb;
+  local_128 = operator_new(0x28);
+  local_8 = 0xe;
+  if (local_128 == (void *)0x0) {
+    local_130 = (int *)0x0;
+  }
+  else {
+    local_2b0 = (undefined1 *)&piStack_3b4;
+    pcStack_3b8 = (code *)0x0;
+    puStack_3bc = (undefined1 *)(uint)DAT_0166d1f1;
+    piStack_3c0 = local_e0;
+    pcStack_3c4 = FUN_00c74bf0;
+    puStack_3c8 = local_310;
+    piStack_3cc = (int *)0xc73f21;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    puStack_3bc = (undefined1 *)puVar1[1];
+    piStack_3c0 = (int *)*puVar1;
+    pcStack_3c4 = (code *)0xc73f32;
+    local_2a4 = FUN_00c75990();
+    pcStack_3b8 = (code *)0xc73f43;
+    local_1b8 = (int *)FUN_00ba23f0();
+    local_130 = local_1b8;
+  }
+  local_1c0 = local_130;
+  local_8 = 0xffffffff;
+  piStack_39c = local_130;
+  (**(code **)(*local_138 + 0x50))();
+  piStack_3a8 = (int *)0xc73f99;
+  local_140 = operator_new(0x28);
+  local_8 = 0xf;
+  if (local_140 == (void *)0x0) {
+    local_148 = (int *)0x0;
+  }
+  else {
+    local_284 = (undefined1 *)&piStack_3c0;
+    pcStack_3c4 = (code *)0x0;
+    puStack_3c8 = (undefined1 *)(uint)DAT_0166d1f1;
+    piStack_3cc = local_e0;
+    puVar1 = (undefined4 *)FUN_00bdc4d0(local_2f0,FUN_00c74b50);
+    puStack_3c8 = (undefined1 *)puVar1[1];
+    piStack_3cc = (int *)*puVar1;
+    local_2c4 = FUN_00c75990();
+    pcStack_3c4 = (code *)0xc74001;
+    local_1c8 = (int *)FUN_00ba23f0();
+    local_148 = local_1c8;
+  }
+  local_1d0 = local_148;
+  local_8 = 0xffffffff;
+  piStack_3a8 = local_148;
+  pcStack_3ac = (code *)0x4;
+  puStack_3b0 = (undefined1 *)0xc74050;
+  (**(code **)(*local_150 + 0x50))();
+  local_28c = (undefined1 *)&piStack_3cc;
+  uVar2 = 0;
+  puVar1 = (undefined4 *)FUN_00bdc4d0(local_330,FUN_00c74490,local_e0,0);
+  local_2ac = FUN_00c75920(*puVar1,puVar1[1],uVar2);
+  local_1d8 = DAT_01642e00;
+  FUN_00f73de0(99,local_e0);
+  local_294 = (undefined1 *)&piStack_3cc;
+  uVar2 = 0;
+  puVar1 = (undefined4 *)FUN_00bdc4d0(local_300,FUN_00c744b0,local_e0,0);
+  local_2bc = FUN_00c75920(*puVar1,puVar1[1],uVar2);
+  local_1e0 = DAT_01642e00;
+  FUN_00f73de0(100,local_e0);
+  local_29c = (undefined1 *)&piStack_3cc;
+  uVar2 = 0;
+  puVar1 = (undefined4 *)FUN_00bdc4d0(local_320,FUN_00c74540,local_e0,0);
+  local_2b4 = FUN_00c75920(*puVar1,puVar1[1],uVar2);
+  local_1e8 = DAT_01642e00;
+  FUN_00f73de0(0x65,local_e0);
+  local_278 = (undefined1 *)&piStack_3cc;
+  uVar2 = 0;
+  puVar1 = (undefined4 *)FUN_00bdc4d0(local_2d8,FUN_00c745d0,local_e0,0);
+  local_24c = FUN_00c75920(*puVar1,puVar1[1],uVar2);
+  local_1f0 = DAT_01642e00;
+  FUN_00f73de0(0x26,local_e0);
+  local_250 = (undefined1 *)&piStack_3cc;
+  uVar2 = 0;
+  puVar1 = (undefined4 *)FUN_00bdc4d0(local_2e8,FUN_00c758c0,local_e0,0);
+  local_258 = FUN_00c75920(*puVar1,puVar1[1],uVar2);
+  local_1f8 = DAT_01642e00;
+  FUN_00f73de0(0x6a,local_e0);
+  *unaff_FS_OFFSET = local_10;
+  piStack_3a8 = (int *)0xc7422d;
+  FUN_00fe5a84();
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c75080 @ 00c75080 -----
+
+void FUN_00c75080(int param_1,undefined4 param_2,undefined4 param_3)
+
+{
+  uint uVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  int *unaff_FS_OFFSET;
+  undefined4 local_6c [8];
+  undefined1 local_4c [8];
+  undefined4 local_44;
+  undefined4 local_40;
+  undefined4 *local_34;
+  undefined4 *local_30;
+  undefined4 *local_2c;
+  undefined4 *local_28;
+  int *local_24;
+  int *local_20;
+  undefined4 *local_1c;
+  int local_18;
+  undefined4 *local_14;
+  int local_10;
+  undefined1 *puStack_c;
+  int local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_01322889;
+  local_10 = *unaff_FS_OFFSET;
+  uVar1 = DAT_015f67b0 ^ (uint)&stack0xfffffffc;
+  *unaff_FS_OFFSET = (int)&local_10;
+  uVar2 = FUN_008a7020(param_2,param_3,s_Game__CRandomShopConnector__Crea_01428fa8,uVar1);
+  FUN_00891cc0(uVar2);
+  local_14 = operator_new(0x28);
+  local_8 = 0;
+  if (local_14 == (undefined4 *)0x0) {
+    local_28 = (undefined4 *)0x0;
+  }
+  else {
+    puVar3 = (undefined4 *)FUN_00bdc4d0(local_4c,FUN_00c74660,local_18,DAT_0166d1f1);
+    local_44 = *puVar3;
+    local_40 = puVar3[1];
+    local_1c = local_6c;
+    local_6c[0] = 0;
+    FUN_00c75a00(local_44,local_40);
+    local_34 = local_1c;
+    local_8._1_3_ = (uint3)((uint)local_8 >> 8);
+    *local_14 = &DAT_0139fd60;
+    local_14[1] = 0;
+    *local_14 = &DAT_014028a0;
+    local_8._0_1_ = 2;
+    *local_14 = &DAT_014028b8;
+    CTempBuffer<>(local_6c);
+    local_8 = (uint)local_8._1_3_ << 8;
+    FUN_00ba2670();
+    local_2c = local_14;
+    local_28 = local_14;
+  }
+  local_30 = local_28;
+  local_8 = 0xffffffff;
+  local_20 = *(int **)(local_18 + 0x20 + param_1 * 4);
+  (**(code **)(*local_20 + 0x50))(4,local_28,0);
+  local_24 = *(int **)(local_18 + 0x20 + param_1 * 4);
+  (**(code **)(*local_24 + 0x110))(param_1,0);
+  *unaff_FS_OFFSET = local_10;
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c75210 @ 00c75210 -----
+
+void __fastcall FUN_00c75210(int param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  int *piVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  uint local_8;
+  
+  iVar1 = FUN_00ba22a0();
+  if (iVar1 != 0) {
+    (**(code **)(**(int **)(param_1 + 0x30) + 0xac))();
+    for (local_8 = 0; local_8 < (uint)(*(int *)(iVar1 + 0x1c) - *(int *)(iVar1 + 0x18) >> 2);
+        local_8 = local_8 + 1) {
+      piVar2 = (int *)FUN_0113c820();
+      piVar3 = (int *)FUN_008a7020(piVar2,s_Machine_RadioButton_01429008,
+                                   s_Game__CRandomShopConnector__Upda_01428fd8);
+      uVar4 = FUN_005395c0(piVar2,s_ItemTag_Image_0142904c,
+                           s_Game__CRandomShopConnector__Upda_0142901c);
+      uVar6 = 0;
+      uVar5 = FUN_00d77090(local_8);
+      FUN_00dc5760(uVar4,uVar5,uVar6);
+      uVar4 = FUN_00d76d30(local_8);
+      (**(code **)(*piVar3 + 0x70))(uVar4);
+      uVar4 = FUN_00d76ee0(local_8);
+      (**(code **)(*piVar3 + 0x124))(uVar4);
+      (**(code **)(*piVar2 + 0x110))(local_8,0);
+      (**(code **)(**(int **)(param_1 + 0x30) + 0xa0))(piVar2,0);
+    }
+    FUN_00c754c0();
+    FUN_00c755d0();
+    FUN_00c75380();
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c75380 @ 00c75380 -----
+
+void __fastcall FUN_00c75380(int param_1)
+
+{
+  int *piVar1;
+  int iVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  uint local_8;
+  
+  iVar2 = FUN_00ba22a0();
+  if (iVar2 != 0) {
+    for (local_8 = 0; local_8 < 10; local_8 = local_8 + 1) {
+      iVar2 = FUN_00d77780(local_8);
+      if (iVar2 == -1) {
+        (**(code **)(**(int **)(param_1 + 0x34 + local_8 * 4) + 0x1b4))(0);
+      }
+      else {
+        uVar3 = FUN_005395c0(*(undefined4 *)(param_1 + 0x34 + local_8 * 4),s_Item_Image_01429088,
+                             s_Game__CRandomShopConnector__Upda_0142905c);
+        uVar5 = 0;
+        uVar4 = FUN_00d777c0(iVar2);
+        FUN_00dc5760(uVar3,uVar4,uVar5);
+        (**(code **)(**(int **)(param_1 + 0x34 + local_8 * 4) + 0x1b4))(1);
+      }
+    }
+    piVar1 = *(int **)(param_1 + 0x5c);
+    uVar3 = FUN_00d77cd0();
+    (**(code **)(*piVar1 + 0x70))(uVar3);
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c76080 @ 00c76080 -----
+
+void __fastcall FUN_00c76080(int *param_1)
+
+{
+  undefined4 *puVar1;
+  int *unaff_FS_OFFSET;
+  undefined4 uVar2;
+  int *piStack_1f4;
+  undefined1 *puStack_1f0;
+  code *pcStack_1ec;
+  int *piStack_1e8;
+  undefined1 *puStack_1e4;
+  code *pcStack_1e0;
+  int *piStack_1dc;
+  undefined4 uStack_1d0;
+  undefined1 local_1a4 [16];
+  undefined1 local_194 [16];
+  undefined1 local_184 [16];
+  undefined1 local_174 [36];
+  undefined1 *local_150;
+  undefined1 *local_14c;
+  undefined4 local_148;
+  undefined4 local_144;
+  undefined1 *local_140;
+  undefined1 *local_138;
+  undefined1 *local_134;
+  undefined4 local_130;
+  undefined1 *local_12c;
+  undefined1 *local_124;
+  undefined1 *local_120;
+  undefined1 *local_11c;
+  undefined4 local_118;
+  undefined1 *local_114;
+  undefined1 *local_110;
+  undefined1 *local_10c;
+  undefined1 *local_108;
+  undefined1 *local_104;
+  undefined1 *local_100;
+  undefined1 *local_f8;
+  int *local_f4;
+  undefined4 local_f0;
+  undefined4 local_ec;
+  int *local_e8;
+  undefined4 local_e4;
+  int local_e0;
+  int *local_dc;
+  undefined4 local_d8;
+  int local_d4;
+  int *local_d0;
+  undefined4 local_cc;
+  int local_c8;
+  int *local_c4;
+  undefined4 local_c0;
+  undefined4 local_bc;
+  int local_b8;
+  int local_b4;
+  int *local_b0;
+  int local_ac;
+  int *local_a8;
+  undefined4 local_a4;
+  int local_a0;
+  undefined4 local_9c;
+  undefined4 local_98;
+  int local_94;
+  undefined4 local_90;
+  int local_8c;
+  undefined4 local_88;
+  int local_84;
+  undefined4 local_80;
+  int local_7c;
+  undefined4 local_78;
+  int local_74;
+  undefined4 local_70;
+  int *local_6c;
+  undefined4 local_68;
+  undefined4 local_64;
+  undefined4 local_60;
+  int *local_5c;
+  undefined1 *local_58;
+  void *local_54;
+  void *local_50;
+  undefined4 local_4c;
+  undefined1 *local_48;
+  void *local_44;
+  undefined1 *local_40;
+  undefined4 local_3c;
+  undefined1 *local_38;
+  void *local_34;
+  undefined1 *local_30;
+  undefined4 local_2c;
+  undefined1 *local_28;
+  int *local_24;
+  int *local_20;
+  int *local_1c;
+  int *local_18;
+  int *local_14;
+  int local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_01322a5d;
+  local_10 = *unaff_FS_OFFSET;
+  *unaff_FS_OFFSET = (int)&local_10;
+  local_14 = param_1;
+  (**(code **)(*param_1 + 8))();
+  local_a0 = local_14[1];
+  FUN_0089a690();
+  FUN_00891cc0();
+  local_b8 = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_c8 = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_74 = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_ac = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_7c = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_e0 = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_84 = local_14[2];
+  FUN_00538f70();
+  FUN_00891cc0();
+  local_b4 = local_14[2];
+  FUN_0089e3c0();
+  FUN_00891cc0();
+  local_8c = local_14[2];
+  FUN_0089e3c0();
+  FUN_00891cc0();
+  local_d4 = local_14[2];
+  FUN_0089e3c0();
+  FUN_00891cc0();
+  local_94 = local_14[2];
+  FUN_0089e3c0();
+  FUN_00891cc0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_c0 = puVar1[1];
+  local_100 = (undefined1 *)&uStack_1d0;
+  local_58 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc76347;
+  local_c4 = piStack_1dc;
+  FUN_00c77970();
+  local_104 = local_58;
+  local_bc = DAT_01642e00;
+  piStack_1dc = (int *)0xc7636d;
+  FUN_00f73de0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_cc = puVar1[1];
+  local_10c = (undefined1 *)&uStack_1d0;
+  local_30 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc763bc;
+  local_d0 = piStack_1dc;
+  FUN_00c77970();
+  local_114 = local_30;
+  local_9c = DAT_01642e00;
+  piStack_1dc = (int *)0xc763e2;
+  FUN_00f73de0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_d8 = puVar1[1];
+  local_11c = (undefined1 *)&uStack_1d0;
+  local_48 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc76431;
+  local_dc = piStack_1dc;
+  FUN_00c77970();
+  local_124 = local_48;
+  local_ec = DAT_01642e00;
+  piStack_1dc = (int *)0xc76457;
+  FUN_00f73de0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_e4 = puVar1[1];
+  local_12c = (undefined1 *)&uStack_1d0;
+  local_38 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc764a6;
+  local_e8 = piStack_1dc;
+  FUN_00c77970();
+  local_f8 = local_38;
+  local_a4 = DAT_01642e00;
+  piStack_1dc = (int *)0xc764cc;
+  FUN_00f73de0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_f0 = puVar1[1];
+  local_140 = (undefined1 *)&uStack_1d0;
+  local_28 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc7651b;
+  local_f4 = piStack_1dc;
+  FUN_00c77970();
+  local_108 = local_28;
+  local_64 = DAT_01642e00;
+  piStack_1dc = (int *)0xc7653b;
+  FUN_00f73de0();
+  puVar1 = (undefined4 *)FUN_00bdc4d0();
+  piStack_1dc = (int *)*puVar1;
+  local_68 = puVar1[1];
+  local_150 = (undefined1 *)&uStack_1d0;
+  local_40 = (undefined1 *)&uStack_1d0;
+  pcStack_1e0 = (code *)0xc7657e;
+  local_6c = piStack_1dc;
+  FUN_00c77970();
+  local_110 = local_40;
+  local_70 = DAT_01642e00;
+  piStack_1dc = (int *)0xc7659e;
+  FUN_00f73de0();
+  local_50 = operator_new(0x28);
+  local_8 = 0;
+  if (local_50 == (void *)0x0) {
+    local_2c = 0;
+  }
+  else {
+    local_134 = (undefined1 *)&uStack_1d0;
+    piStack_1dc = local_14;
+    pcStack_1e0 = FUN_00c77040;
+    puStack_1e4 = local_174;
+    piStack_1e8 = (int *)0xc765e2;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    piStack_1dc = (int *)*puVar1;
+    pcStack_1e0 = (code *)0xc765f3;
+    local_118 = FUN_00c779e0();
+    local_78 = FUN_00ba23f0();
+    local_2c = local_78;
+  }
+  local_80 = local_2c;
+  local_8 = 0xffffffff;
+  local_20 = (int *)local_14[10];
+  (**(code **)(*local_20 + 0x50))();
+  local_34 = operator_new(0x28);
+  local_8 = 1;
+  if (local_34 == (void *)0x0) {
+    local_3c = 0;
+  }
+  else {
+    local_120 = (undefined1 *)&piStack_1dc;
+    pcStack_1e0 = (code *)0x0;
+    puStack_1e4 = (undefined1 *)(uint)DAT_0166d20d;
+    piStack_1e8 = local_14;
+    pcStack_1ec = FUN_00c770e0;
+    puStack_1f0 = local_184;
+    piStack_1f4 = (int *)0xc7668b;
+    puVar1 = (undefined4 *)FUN_00bdc4d0();
+    puStack_1e4 = (undefined1 *)puVar1[1];
+    piStack_1e8 = (int *)*puVar1;
+    pcStack_1ec = (code *)0xc7669c;
+    local_144 = FUN_00c779e0();
+    pcStack_1e0 = (code *)0xc766aa;
+    local_88 = FUN_00ba23f0();
+    local_3c = local_88;
+  }
+  local_90 = local_3c;
+  local_8 = 0xffffffff;
+  local_18 = (int *)local_14[0xb];
+  (**(code **)(*local_18 + 0x50))();
+  uStack_1d0 = 0xc76703;
+  local_44 = operator_new(0x28);
+  local_8 = 2;
+  if (local_44 == (void *)0x0) {
+    local_4c = 0;
+  }
+  else {
+    local_14c = (undefined1 *)&piStack_1e8;
+    pcStack_1ec = (code *)0x0;
+    puStack_1f0 = (undefined1 *)(uint)DAT_0166d20d;
+    piStack_1f4 = local_14;
+    puVar1 = (undefined4 *)FUN_00bdc4d0(local_194,FUN_00c77280);
+    puStack_1f0 = (undefined1 *)puVar1[1];
+    piStack_1f4 = (int *)*puVar1;
+    local_130 = FUN_00c779e0();
+    pcStack_1ec = (code *)0xc7675f;
+    local_98 = FUN_00ba23f0();
+    local_4c = local_98;
+  }
+  local_60 = local_4c;
+  local_8 = 0xffffffff;
+  local_1c = (int *)local_14[0xd];
+  uStack_1d0 = local_4c;
+  (**(code **)(*local_1c + 0x50))();
+  piStack_1dc = (int *)0xc767b2;
+  local_54 = operator_new(0x28);
+  local_8 = 3;
+  if (local_54 == (void *)0x0) {
+    local_5c = (int *)0x0;
+  }
+  else {
+    local_138 = (undefined1 *)&piStack_1f4;
+    uVar2 = 0;
+    puVar1 = (undefined4 *)FUN_00bdc4d0(local_1a4,FUN_00c77160,local_14,DAT_0166d20d,0);
+    local_148 = FUN_00c779e0(*puVar1,puVar1[1],uVar2);
+    local_a8 = (int *)FUN_00ba23f0();
+    local_5c = local_a8;
+  }
+  local_b0 = local_5c;
+  local_8 = 0xffffffff;
+  local_24 = (int *)local_14[0xc];
+  piStack_1dc = local_5c;
+  pcStack_1e0 = (code *)0x4;
+  puStack_1e4 = (undefined1 *)0xc76860;
+  (**(code **)(*local_24 + 0x50))();
+  *unaff_FS_OFFSET = local_10;
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c76ce0 @ 00c76ce0 -----
+
+void FUN_00c76ce0(void)
+
+{
+  undefined4 uVar1;
+  undefined1 local_3c [20];
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  int *local_1c;
+  int *local_18;
+  int *local_14;
+  int local_10;
+  int *local_c;
+  int local_8;
+  
+  local_8 = FUN_00ba22a0();
+  if (local_8 != 0) {
+    local_20 = *(undefined4 *)(local_10 + 0x20);
+    local_c = (int *)FUN_008a4600(local_20,s_Resultname_Label_014291a4,
+                                  s_Game__CRandomShopViewConnector___01429170);
+    local_24 = *(undefined4 *)(local_10 + 0x20);
+    local_18 = (int *)FUN_008a4600(local_24,s_ResultEffect_Label_014291ec,
+                                   s_Game__CRandomShopViewConnector___014291b8);
+    local_28 = *(undefined4 *)(local_10 + 0x20);
+    local_1c = (int *)FUN_008a4600(local_28,s_ResultPeriod_Label_01429234,
+                                   s_Game__CRandomShopViewConnector___01429200);
+    uVar1 = FUN_00d78390(0);
+    (**(code **)(*local_c + 0x70))(uVar1);
+    uVar1 = FUN_00d78400(0);
+    (**(code **)(*local_18 + 0x70))(uVar1);
+    uVar1 = FUN_00d783c0(0);
+    (**(code **)(*local_1c + 0x70))(uVar1);
+    uVar1 = FUN_00d78510(local_3c,0);
+    (**(code **)(*local_c + 0x2c8))(0,uVar1);
+    local_14 = *(int **)(local_10 + 0x20);
+    (**(code **)(*local_14 + 0x1b4))(1);
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_00c76df0 @ 00c76df0 -----
+
+void __fastcall FUN_00c76df0(int param_1)
+
+{
+  char cVar1;
+  int iVar2;
+  int *piVar3;
+  int *piVar4;
+  int *piVar5;
+  undefined4 uVar6;
+  
+  iVar2 = FUN_00ba22a0();
+  if (iVar2 != 0) {
+    cVar1 = FUN_00d78160();
+    if (cVar1 == '\0') {
+      (**(code **)(**(int **)(param_1 + 0x24) + 0x1b4))(0);
+    }
+    else {
+      piVar3 = (int *)FUN_008a4600(*(undefined4 *)(param_1 + 0x24),s_Bonusname_Label_0142927c,
+                                   s_Game__CRandomShopViewConnector___01429248);
+      piVar4 = (int *)FUN_008a4600(*(undefined4 *)(param_1 + 0x24),s_BonusEffect_Label_014292c0,
+                                   s_Game__CRandomShopViewConnector___0142928c);
+      piVar5 = (int *)FUN_008a4600(*(undefined4 *)(param_1 + 0x24),s_BonusPeriod_Label_01429308,
+                                   s_Game__CRandomShopViewConnector___014292d4);
+      uVar6 = FUN_00d78390(1);
+      (**(code **)(*piVar3 + 0x70))(uVar6);
+      uVar6 = FUN_00d78400(1);
+      (**(code **)(*piVar4 + 0x70))(uVar6);
+      uVar6 = FUN_00d783c0(1);
+      (**(code **)(*piVar5 + 0x70))(uVar6);
+      (**(code **)(**(int **)(param_1 + 0x24) + 0x1b4))(1);
+    }
+  }
+  return;
+}
+
+
+
+----- FUNCTION FUN_004774a0 @ 004774a0 -----
+
+void FUN_004774a0(void)
+
+{
+  FUN_00fe6de0(s_CRandomShopViewConnector_0142931c,&DAT_0166cf88);
+  FUN_00fe5d0d(FUN_01392d00);
+  return;
+}
+
+
+... (capped at 12 functions)

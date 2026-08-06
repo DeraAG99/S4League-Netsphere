@@ -10920,7 +10920,7 @@ INSERT INTO `shop_prices` VALUES ('79', '32', '4', '1', '2000', '0', '0', '1');
 DROP TABLE IF EXISTS `shop_price_groups`;
 CREATE TABLE `shop_price_groups` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `Name` varchar(20) DEFAULT '',
+  `Name` varchar(40) DEFAULT '',
   `PriceType` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
@@ -11019,3 +11019,42 @@ INSERT INTO `shop_prices` VALUES ('168', '10', '3', '15', '1000', '1', '2400', '
 INSERT INTO `shop_prices` VALUES ('169', '10', '3', '30', '1200', '1', '2400', '1');
 -- pg 8 (1010006, 1060004) - only missing 3/3
 INSERT INTO `shop_prices` VALUES ('170', '8', '3', '3', '120', '1', '2400', '1');
+
+-- ============================================================
+-- Random Shop official (Plan B): HOURS (PeriodType 2) price rows
+-- for reward item price groups. Disabled (IsEnabled=0) so they do
+-- not surface in the regular shop UI; random shop grants ignore it.
+-- PeriodType 1 = permanent (None), 2 = Hours
+-- ============================================================
+-- pg 6 (weapons, PEN)
+INSERT INTO `shop_prices` VALUES ('171', '6', '2', '1', '10', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('172', '6', '2', '3', '30', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('173', '6', '2', '5', '60', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('174', '6', '2', '7', '100', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('175', '6', '2', '10', '120', '1', '2400', '0');
+-- pg 7 (skills, PEN)
+INSERT INTO `shop_prices` VALUES ('176', '7', '2', '1', '30', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('177', '7', '2', '3', '60', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('178', '7', '2', '5', '120', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('179', '7', '2', '7', '180', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('180', '7', '2', '10', '200', '1', '2400', '0');
+-- pg 17 (functional, AP)
+INSERT INTO `shop_prices` VALUES ('181', '17', '2', '1', '50', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('182', '17', '2', '3', '100', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('183', '17', '2', '5', '200', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('184', '17', '2', '7', '300', '1', '2400', '0');
+INSERT INTO `shop_prices` VALUES ('185', '17', '2', '10', '400', '1', '2400', '0');
+-- pg 26 (capsules, AP) - no permanent row yet
+INSERT INTO `shop_prices` VALUES ('186', '26', '1', '0', '200', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('187', '26', '2', '1', '10', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('188', '26', '2', '3', '30', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('189', '26', '2', '5', '50', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('190', '26', '2', '7', '80', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('191', '26', '2', '10', '100', '1', '0', '0');
+-- pg 32 (functional, AP) - no permanent row yet
+INSERT INTO `shop_prices` VALUES ('192', '32', '1', '0', '2000', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('193', '32', '2', '1', '50', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('194', '32', '2', '3', '100', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('195', '32', '2', '5', '200', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('196', '32', '2', '7', '300', '1', '0', '0');
+INSERT INTO `shop_prices` VALUES ('197', '32', '2', '10', '400', '1', '0', '0');

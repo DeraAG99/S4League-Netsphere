@@ -1328,6 +1328,19 @@ namespace NeoNetsphere.Resource
           Price = poolDto.Price
         };
 
+        if (poolDto.Periods?.Periods != null)
+        {
+          foreach (var periodDto in poolDto.Periods.Periods)
+          {
+            pool.Periods.Add(new RandomShopPeriodTier
+            {
+              PeriodType = (ItemPeriodType)periodDto.PeriodType,
+              Period = (ushort)periodDto.Period,
+              Rate = periodDto.Rate
+            });
+          }
+        }
+
         if (poolDto.Items != null)
         {
           foreach (var itemDto in poolDto.Items)
@@ -1335,6 +1348,7 @@ namespace NeoNetsphere.Resource
             pool.Items.Add(new RandomShopItem
             {
               ItemNumber = itemDto.ItemNumber,
+              RewardNumber = itemDto.RewardNumber,
               PeriodType = (ItemPeriodType)itemDto.PeriodType,
               Period = (ushort)itemDto.Period,
               Effect = itemDto.Effect,
